@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:wjz-p:gemini-skill:skill:gemini-skill",
+  "displayName": "gemini-skill",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/WJZ-P/gemini-skill/9dbfd22adfb0a815bc9905eef78d569f7c86347b/SKILL.md",
+  "description": "通过 Gemini 官网（gemini.google.com）执行生图、对话等操作。用户提到\"生图/画图/绘图/nano banana/nanobanana/生成图片\"等关键词时触发。操作方式分三级优先级：首选 MCP 工具 → 次选 Skill 脚本 → 最次连接 Skill 浏览器手动操作（需用户授权）。禁止自行启动外部浏览器访问 Gemini。",
+  "tags": [
+    "gemini",
+    "model",
+    "assistant",
+    "workflow"
+  ],
+  "capabilities": [
+    "model.invoke",
+    "ai.assist",
+    "prompt.process"
+  ],
+  "representativeQueries": [
+    "use Gemini for an assistant workflow",
+    "run a model-specific skill from an agent",
+    "process a prompt using a Gemini skill"
+  ],
+  "updatedAt": "2026-06-24T03:03:20.874Z"
+}

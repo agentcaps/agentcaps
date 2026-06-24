@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:zakirkun:guardian-cli:skill:guardian-cli",
+  "displayName": "guardian-cli",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/zakirkun/guardian-cli/68f79f80023ecbda97a42559a07db234776203de/SKILL.md",
+  "description": "An enterprise-grade, AI-powered penetration testing automation CLI tool. Orchestrates multiple specialized AI agents (Planner, ToolAgent, Analyst, Reporter) backed by 4 AI providers (OpenAI, Claude, Gemini, OpenRouter) and 19 integrated security tools through YAML-defined workflows. Produces professional Markdown, HTML, or JSON security reports with full evidence capture and traceability.",
+  "tags": [
+    "security",
+    "cli",
+    "guardrails",
+    "review"
+  ],
+  "capabilities": [
+    "security.review",
+    "cli.guard",
+    "policy.check"
+  ],
+  "representativeQueries": [
+    "review a command line workflow for safety issues",
+    "add guardrails around a CLI task",
+    "check whether an agent action needs review"
+  ],
+  "updatedAt": "2026-06-24T03:02:58.650Z"
+}

@@ -1,0 +1,46 @@
+slug: gemini-skill
+entryId: gemini-skill
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: gemini-skill
+  type: git_repository
+  url: https://github.com/WJZ-P/gemini-skill
+  path: SKILL.md
+  curation:
+    category: model
+    reason: Model-specific skill candidate for Gemini-assisted workflows.
+    seoKeywords:
+      - gemini skill
+      - model assistant skill
+      - ai model workflow
+    catalogEntry:
+      tags:
+        - gemini
+        - model
+        - assistant
+        - workflow
+      capabilities:
+        - model.invoke
+        - ai.assist
+        - prompt.process
+      representativeQueries:
+        - use Gemini for an assistant workflow
+        - run a model-specific skill from an agent
+        - process a prompt using a Gemini skill
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/WJZ-P/gemini-skill
+  sourceRepositoryUrl: https://github.com/WJZ-P/gemini-skill
+  sourceWebUrl: https://github.com/WJZ-P/gemini-skill/blob/9dbfd22adfb0a815bc9905eef78d569f7c86347b/SKILL.md
+  sourceCommit: 9dbfd22adfb0a815bc9905eef78d569f7c86347b
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/WJZ-P/gemini-skill/blob/9dbfd22adfb0a815bc9905eef78d569f7c86347b/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/WJZ-P/gemini-skill/9dbfd22adfb0a815bc9905eef78d569f7c86347b/SKILL.md
+  sourceDigest: sha256:b4c6806def478de8d0190e97239c6a0c0d01685b1000fe7eb3d82809507fdbca
+  fetchedAt: 2026-06-24T03:03:20.874Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.923Z

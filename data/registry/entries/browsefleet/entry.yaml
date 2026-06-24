@@ -1,0 +1,46 @@
+slug: browsefleet
+entryId: browsefleet
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: browsefleet
+  type: git_repository
+  url: https://github.com/theRJMurray/browsefleet
+  path: skill.md
+  curation:
+    category: browser
+    reason: Browser fleet skill candidate for web automation and browsing workflows.
+    seoKeywords:
+      - browser fleet
+      - browser automation skill
+      - web agent
+    catalogEntry:
+      tags:
+        - browser
+        - automation
+        - web
+        - fleet
+      capabilities:
+        - browser.automate
+        - web.navigate
+        - page.inspect
+      representativeQueries:
+        - automate multiple browser sessions for a web task
+        - inspect pages across a browsing workflow
+        - run browser automation from an agent
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/theRJMurray/browsefleet
+  sourceRepositoryUrl: https://github.com/theRJMurray/browsefleet
+  sourceWebUrl: https://github.com/theRJMurray/browsefleet/blob/2118d13cfa07e825d6cc28eb205fc3152f271248/skill.md
+  sourceCommit: 2118d13cfa07e825d6cc28eb205fc3152f271248
+  trackingRef: HEAD
+  artifactPath: skill.md
+  pinnedArtifactUrl: https://github.com/theRJMurray/browsefleet/blob/2118d13cfa07e825d6cc28eb205fc3152f271248/skill.md
+  rawArtifactUrl: https://raw.githubusercontent.com/theRJMurray/browsefleet/2118d13cfa07e825d6cc28eb205fc3152f271248/skill.md
+  sourceDigest: sha256:d7a9eeccc1462ca71db77513186eeaab955eadde60932a4f98df8d7601f4ee1d
+  fetchedAt: 2026-06-24T03:03:16.569Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.915Z

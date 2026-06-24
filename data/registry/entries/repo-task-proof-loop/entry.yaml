@@ -1,0 +1,46 @@
+slug: repo-task-proof-loop
+entryId: repo-task-proof-loop
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: repo-task-proof-loop
+  type: git_repository
+  url: https://github.com/DenisSergeevitch/repo-task-proof-loop
+  path: SKILL.md
+  curation:
+    category: development
+    reason: Repository task workflow skill around proof loops and coding-agent work.
+    seoKeywords:
+      - repo task skill
+      - coding agent workflow
+      - proof loop
+    catalogEntry:
+      tags:
+        - development
+        - repository
+        - workflow
+        - proof
+      capabilities:
+        - repo.inspect
+        - task.execute
+        - proof.collect
+      representativeQueries:
+        - run a repository task with a proof loop
+        - collect evidence for a coding agent change
+        - inspect a repo and complete a development task
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/DenisSergeevitch/repo-task-proof-loop
+  sourceRepositoryUrl: https://github.com/DenisSergeevitch/repo-task-proof-loop
+  sourceWebUrl: https://github.com/DenisSergeevitch/repo-task-proof-loop/blob/853622144588798dc1b3babc81ed9499328321bf/SKILL.md
+  sourceCommit: 853622144588798dc1b3babc81ed9499328321bf
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/DenisSergeevitch/repo-task-proof-loop/blob/853622144588798dc1b3babc81ed9499328321bf/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/DenisSergeevitch/repo-task-proof-loop/853622144588798dc1b3babc81ed9499328321bf/SKILL.md
+  sourceDigest: sha256:35349432b693066c9eb051afe69a900d987754bb701b1133dd970d221375519c
+  fetchedAt: 2026-06-24T03:03:28.629Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.928Z

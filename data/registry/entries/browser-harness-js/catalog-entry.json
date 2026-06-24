@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:browser-use:browser-harness-js:skill:cdp",
+  "displayName": "cdp",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/browser-use/browser-harness-js/95b7a22a923714c45d2f7234b2bfa8fa6322c2eb/SKILL.md",
+  "description": "Drive Chrome via the DevTools Protocol from JavaScript. Run JS snippets through the `browser-harness-js` CLI — it auto-spawns a long-lived bun HTTP server holding a fully-typed CDP `Session`, and every call (`browser-harness-js 'await session.Page.navigate(...)'`) executes against the same persistent connection. Session, active target, and globals survive across calls. Use when the user wants to automate, script, or inspect a Chrome browser via CDP — single tab or multi-tab, attach to existing Chrome or to a new one launched with --remote-debugging-port.",
+  "tags": [
+    "browser",
+    "harness",
+    "automation",
+    "javascript"
+  ],
+  "capabilities": [
+    "browser.control",
+    "web.automate",
+    "harness.run"
+  ],
+  "representativeQueries": [
+    "run a browser harness for an agent task",
+    "automate web interactions from JavaScript",
+    "control a browser for testing or research"
+  ],
+  "updatedAt": "2026-06-24T03:03:26.551Z"
+}

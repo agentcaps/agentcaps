@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:sigterm-015:mealie-cli:skill:mealie-cli-skill-for-ai-agents",
+  "displayName": "Mealie CLI Skill for AI Agents",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/SIGTERM-015/mealie-cli/a4cbbc73ec4fe2c3776cc0c9b39ff0125d77272d/Skill.md",
+  "description": "Welcome, Agent. This document provides instructions on how to use the `mealie-cli` to interact with a user's Mealie instance.",
+  "tags": [
+    "recipes",
+    "meal-planning",
+    "cli",
+    "productivity"
+  ],
+  "capabilities": [
+    "recipes.manage",
+    "meals.plan",
+    "cli.automate"
+  ],
+  "representativeQueries": [
+    "manage recipes from a command line assistant",
+    "plan meals using a Mealie workflow",
+    "automate recipe lookup and meal planning"
+  ],
+  "updatedAt": "2026-06-24T03:03:00.763Z"
+}

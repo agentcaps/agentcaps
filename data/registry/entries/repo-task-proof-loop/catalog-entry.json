@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:denissergeevitch:repo-task-proof-loop:skill:repo-task-proof-loop",
+  "displayName": "repo-task-proof-loop",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/DenisSergeevitch/repo-task-proof-loop/853622144588798dc1b3babc81ed9499328321bf/SKILL.md",
+  "description": "Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md plus the repo's Claude guide file with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.",
+  "tags": [
+    "development",
+    "repository",
+    "workflow",
+    "proof"
+  ],
+  "capabilities": [
+    "repo.inspect",
+    "task.execute",
+    "proof.collect"
+  ],
+  "representativeQueries": [
+    "run a repository task with a proof loop",
+    "collect evidence for a coding agent change",
+    "inspect a repo and complete a development task"
+  ],
+  "updatedAt": "2026-06-24T03:03:28.629Z"
+}

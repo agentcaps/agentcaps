@@ -1,0 +1,25 @@
+{
+  "identifier": "urn:air:github.com:comeonzhj:auto-redbook-skills:skill:xhs-note-creator",
+  "displayName": "xhs-note-creator",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/comeonzhj/Auto-Redbook-Skills/6f06770f3662624760a0c885bca6230f40c8b7ad/SKILL.md",
+  "description": "小红书笔记素材创作技能。当用户需要创建小红书笔记素材时使用这个技能。技能包含：根据用户的需求和提供的资料，撰写小红书笔记内容（标题+正文），生成图片卡片（封面+正文卡片），以及发布小红书笔记。支持 8 种精美排版主题和 4 种智能分页模式。",
+  "tags": [
+    "social",
+    "content",
+    "automation",
+    "redbook",
+    "xiaohongshu"
+  ],
+  "capabilities": [
+    "content.create",
+    "social.automate",
+    "post.prepare"
+  ],
+  "representativeQueries": [
+    "prepare social content for Xiaohongshu",
+    "automate a Redbook content workflow",
+    "generate post ideas and drafts for social media"
+  ],
+  "updatedAt": "2026-06-24T03:03:10.566Z"
+}

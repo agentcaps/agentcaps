@@ -1,0 +1,181 @@
+sources:
+  - slug: web-access
+    type: git_repository
+    url: https://github.com/eze-is/web-access
+    path: SKILL.md
+    curation:
+      category: browser
+      reason: Public web access skill with a clear agent browsing use case.
+      seoKeywords: [web access skill, browser agent skill, coding agent browser]
+      catalogEntry:
+        tags: [web, browser, research, coding-agent]
+        capabilities: [web.fetch, browser.inspect, web.research]
+        representativeQueries:
+          - browse a public website from a coding agent
+          - fetch web content for analysis
+          - inspect a web page with an agent
+  - slug: frontend-slides
+    type: git_repository
+    url: https://github.com/zarazhangrui/frontend-slides
+    path: SKILL.md
+    curation:
+      category: presentation
+      reason: Presentation generation skill for turning ideas or PPT files into HTML slides.
+      seoKeywords: [frontend slides, html presentation skill, pptx to web slides]
+      catalogEntry:
+        tags: [slides, presentation, html, frontend, design, pptx]
+        capabilities: [slides.create, slides.convert, presentation.design, html.generate, pptx.convert]
+        representativeQueries:
+          - create an animated HTML presentation for a product pitch
+          - convert a PowerPoint deck into a web-based slide deck
+          - turn markdown or notes into a polished slide deck
+  - slug: guardian-cli
+    type: git_repository
+    url: https://github.com/zakirkun/guardian-cli
+    path: SKILL.md
+    curation:
+      category: security
+      reason: CLI-oriented guardrail and review workflow skill.
+      seoKeywords: [guardian cli, agent guardrail skill, security review skill]
+      catalogEntry:
+        tags: [security, cli, guardrails, review]
+        capabilities: [security.review, cli.guard, policy.check]
+        representativeQueries:
+          - review a command line workflow for safety issues
+          - add guardrails around a CLI task
+          - check whether an agent action needs review
+  - slug: mealie-cli
+    type: git_repository
+    url: https://github.com/SIGTERM-015/mealie-cli
+    path: Skill.md
+    curation:
+      category: productivity
+      reason: Skill-like CLI project around Mealie recipe and meal planning workflows.
+      seoKeywords: [mealie cli, meal planning skill, recipe automation]
+      catalogEntry:
+        tags: [recipes, meal-planning, cli, productivity]
+        capabilities: [recipes.manage, meals.plan, cli.automate]
+        representativeQueries:
+          - manage recipes from a command line assistant
+          - plan meals using a Mealie workflow
+          - automate recipe lookup and meal planning
+  - slug: bazi-skill
+    type: git_repository
+    url: https://github.com/jinchenma94/bazi-skill
+    path: SKILL.md
+    curation:
+      category: analysis
+      reason: Domain-specific interpretive skill with a clear named task.
+      seoKeywords: [bazi skill, astrology analysis skill, domain expert skill]
+      catalogEntry:
+        tags: [analysis, domain-expert, bazi, interpretation]
+        capabilities: [domain.analyze, report.generate, interpretation.provide]
+        representativeQueries:
+          - analyze a bazi chart and explain the result
+          - generate a structured domain interpretation report
+          - answer questions using a specialized analysis skill
+  - slug: auto-redbook-skills
+    type: git_repository
+    url: https://github.com/comeonzhj/Auto-Redbook-Skills
+    path: SKILL.md
+    curation:
+      category: social
+      reason: Automation-oriented skill around Redbook/Xiaohongshu content workflows.
+      seoKeywords: [redbook automation skill, xiaohongshu agent skill, social content automation]
+      catalogEntry:
+        tags: [social, content, automation, redbook, xiaohongshu]
+        capabilities: [content.create, social.automate, post.prepare]
+        representativeQueries:
+          - prepare social content for Xiaohongshu
+          - automate a Redbook content workflow
+          - generate post ideas and drafts for social media
+  - slug: total-recall
+    type: git_repository
+    url: https://github.com/gavdalf/total-recall
+    path: SKILL.md
+    curation:
+      category: memory
+      reason: Memory and recall-oriented skill useful for agent context workflows.
+      seoKeywords: [agent memory skill, total recall skill, context recall]
+      catalogEntry:
+        tags: [memory, recall, context, knowledge]
+        capabilities: [memory.search, context.recall, notes.retrieve]
+        representativeQueries:
+          - recall relevant notes for the current task
+          - search memory for previous project context
+          - retrieve stored context for an agent workflow
+  - slug: browsefleet
+    type: git_repository
+    url: https://github.com/theRJMurray/browsefleet
+    path: skill.md
+    curation:
+      category: browser
+      reason: Browser fleet skill candidate for web automation and browsing workflows.
+      seoKeywords: [browser fleet, browser automation skill, web agent]
+      catalogEntry:
+        tags: [browser, automation, web, fleet]
+        capabilities: [browser.automate, web.navigate, page.inspect]
+        representativeQueries:
+          - automate multiple browser sessions for a web task
+          - inspect pages across a browsing workflow
+          - run browser automation from an agent
+  - slug: gemini-skill
+    type: git_repository
+    url: https://github.com/WJZ-P/gemini-skill
+    path: SKILL.md
+    curation:
+      category: model
+      reason: Model-specific skill candidate for Gemini-assisted workflows.
+      seoKeywords: [gemini skill, model assistant skill, ai model workflow]
+      catalogEntry:
+        tags: [gemini, model, assistant, workflow]
+        capabilities: [model.invoke, ai.assist, prompt.process]
+        representativeQueries:
+          - use Gemini for an assistant workflow
+          - run a model-specific skill from an agent
+          - process a prompt using a Gemini skill
+  - slug: cass-memory-system
+    type: git_repository
+    url: https://github.com/Dicklesworthstone/cass_memory_system
+    path: SKILL.md
+    curation:
+      category: memory
+      reason: Memory system project with a skill entry point and context-management use case.
+      seoKeywords: [agent memory system, CASS memory, context memory skill]
+      catalogEntry:
+        tags: [memory, context, retrieval, agent]
+        capabilities: [memory.store, memory.retrieve, context.manage]
+        representativeQueries:
+          - store and retrieve agent memory
+          - manage long-running context for an agent
+          - search a memory system for relevant information
+  - slug: browser-harness-js
+    type: git_repository
+    url: https://github.com/browser-use/browser-harness-js
+    path: SKILL.md
+    curation:
+      category: browser
+      reason: Browser-use ecosystem project for browser harness automation.
+      seoKeywords: [browser harness, browser-use skill, web automation harness]
+      catalogEntry:
+        tags: [browser, harness, automation, javascript]
+        capabilities: [browser.control, web.automate, harness.run]
+        representativeQueries:
+          - run a browser harness for an agent task
+          - automate web interactions from JavaScript
+          - control a browser for testing or research
+  - slug: repo-task-proof-loop
+    type: git_repository
+    url: https://github.com/DenisSergeevitch/repo-task-proof-loop
+    path: SKILL.md
+    curation:
+      category: development
+      reason: Repository task workflow skill around proof loops and coding-agent work.
+      seoKeywords: [repo task skill, coding agent workflow, proof loop]
+      catalogEntry:
+        tags: [development, repository, workflow, proof]
+        capabilities: [repo.inspect, task.execute, proof.collect]
+        representativeQueries:
+          - run a repository task with a proof loop
+          - collect evidence for a coding agent change
+          - inspect a repo and complete a development task

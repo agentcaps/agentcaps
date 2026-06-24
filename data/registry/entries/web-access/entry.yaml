@@ -1,0 +1,46 @@
+slug: web-access
+entryId: web-access
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: web-access
+  type: git_repository
+  url: https://github.com/eze-is/web-access
+  path: SKILL.md
+  curation:
+    category: browser
+    reason: Public web access skill with a clear agent browsing use case.
+    seoKeywords:
+      - web access skill
+      - browser agent skill
+      - coding agent browser
+    catalogEntry:
+      tags:
+        - web
+        - browser
+        - research
+        - coding-agent
+      capabilities:
+        - web.fetch
+        - browser.inspect
+        - web.research
+      representativeQueries:
+        - browse a public website from a coding agent
+        - fetch web content for analysis
+        - inspect a web page with an agent
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/eze-is/web-access
+  sourceRepositoryUrl: https://github.com/eze-is/web-access
+  sourceWebUrl: https://github.com/eze-is/web-access/blob/7af34af6a25940d917905f0e5f2a7ef056952971/SKILL.md
+  sourceCommit: 7af34af6a25940d917905f0e5f2a7ef056952971
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/eze-is/web-access/blob/7af34af6a25940d917905f0e5f2a7ef056952971/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/eze-is/web-access/7af34af6a25940d917905f0e5f2a7ef056952971/SKILL.md
+  sourceDigest: sha256:3c8ec65ec6785c75eb37e3d0e207f2bc110b1f19af4a47431a24543c3a170c50
+  fetchedAt: 2026-06-24T03:02:53.410Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.933Z

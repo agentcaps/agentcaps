@@ -1,0 +1,86 @@
+---
+import '../../styles/global.css';
+import { getListings } from '../../lib/registry';
+
+export function getStaticPaths() {
+  return getListings().map((listing) => ({ params: { slug: listing.slug }, props: { listing } }));
+}
+
+const { listing } = Astro.props;
+const entry = listing.catalogEntry;
+const catalogJson = JSON.stringify(entry, null, 2);
+const findings = [...listing.validation.errors, ...listing.validation.warnings, ...listing.validation.info];
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{entry.displayName} - AgentCaps</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">AgentCaps</a>
+      <nav>
+        <a href="/explore">Explore</a>
+        <a href="/.well-known/ai-catalog.json">Download ai-catalog.json</a>
+        <a href="https://github.com/agentcaps/registry/issues/new?template=catalog-entry-feedback.yml">Mapping feedback</a>
+      </nav>
+    </header>
+    <main>
+      <section style="padding: 42px 0;">
+        <div class="eyebrow">Indexed from public GitHub</div>
+        <h1>{entry.displayName}</h1>
+        <p class="lede">{entry.description}</p>
+        <div class="actions">
+          <button class="button primary" id="copy">Copy CatalogEntry</button>
+          <a class="button" href={listing.source.url}>Open GitHub</a>
+          <a class="button" href="/.well-known/ai-catalog.json">Download ai-catalog.json</a>
+        </div>
+        <p class="notice">Not publisher verified. Validation score is metadata quality, not a safety or trust score.</p>
+      </section>
+      <section class="two-col">
+        <div>
+          <h2>CatalogEntry</h2>
+          <pre id="catalog-json"><code>{catalogJson}</code></pre>
+          <h2>Validation Report</h2>
+          <div class="list">
+            {findings.map((finding) => (
+              <article class="card">
+                <strong>{finding.severity}: {finding.code}</strong>
+                <p>{finding.message}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+        <aside class="panel">
+          <div class="score">{listing.validation.score}/100</div>
+          <p>Validation score measures ARD metadata completeness, not safety, trust, or publisher verification.</p>
+          <h3>Tags</h3>
+          <div class="tags">{(entry.tags ?? []).map((tag) => <span class="tag">{tag}</span>)}</div>
+          <h3 style="margin-top: 22px;">Capabilities</h3>
+          <div class="tags">{(entry.capabilities ?? []).map((capability) => <span class="tag">{capability}</span>)}</div>
+          <h3 style="margin-top: 22px;">Representative Queries</h3>
+          <ul>{(entry.representativeQueries ?? []).map((query) => <li>{query}</li>)}</ul>
+          <details>
+            <summary>Technical source snapshot</summary>
+            <div class="kv" style="margin-top: 14px;">
+              <div><span>Path</span><code>{listing.snapshot.artifactPath}</code></div>
+              <div><span>Commit</span><code>{listing.snapshot.sourceCommit}</code></div>
+              <div><span>Digest</span><code>{listing.snapshot.sourceDigest}</code></div>
+              <div><span>Indexed</span><code>{listing.snapshot.fetchedAt}</code></div>
+            </div>
+            <p><a href={listing.snapshot.sourceWebUrl}>Pinned source</a></p>
+            <p><a href={listing.snapshot.rawArtifactUrl}>Raw artifact</a></p>
+          </details>
+        </aside>
+      </section>
+    </main>
+    <footer>Source digest is shown for reproducibility only.</footer>
+    <script define:vars={{ catalogJson }}>
+      document.querySelector('#copy')?.addEventListener('click', async () => {
+        await navigator.clipboard.writeText(catalogJson);
+        document.querySelector('#copy').textContent = 'Copied';
+      });
+    </script>
+  </body>
+</html>

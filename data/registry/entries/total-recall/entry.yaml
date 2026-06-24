@@ -1,0 +1,46 @@
+slug: total-recall
+entryId: total-recall
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: total-recall
+  type: git_repository
+  url: https://github.com/gavdalf/total-recall
+  path: SKILL.md
+  curation:
+    category: memory
+    reason: Memory and recall-oriented skill useful for agent context workflows.
+    seoKeywords:
+      - agent memory skill
+      - total recall skill
+      - context recall
+    catalogEntry:
+      tags:
+        - memory
+        - recall
+        - context
+        - knowledge
+      capabilities:
+        - memory.search
+        - context.recall
+        - notes.retrieve
+      representativeQueries:
+        - recall relevant notes for the current task
+        - search memory for previous project context
+        - retrieve stored context for an agent workflow
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/gavdalf/total-recall
+  sourceRepositoryUrl: https://github.com/gavdalf/total-recall
+  sourceWebUrl: https://github.com/gavdalf/total-recall/blob/437ab3656ecdf52c7ed0c3ee63a3cdae68d5b90f/SKILL.md
+  sourceCommit: 437ab3656ecdf52c7ed0c3ee63a3cdae68d5b90f
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/gavdalf/total-recall/blob/437ab3656ecdf52c7ed0c3ee63a3cdae68d5b90f/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/gavdalf/total-recall/437ab3656ecdf52c7ed0c3ee63a3cdae68d5b90f/SKILL.md
+  sourceDigest: sha256:701330845597016598cdd7084b234237ddf718c47c84e37bdd355f1d532ea549
+  fetchedAt: 2026-06-24T03:03:13.325Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.932Z

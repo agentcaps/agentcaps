@@ -1,0 +1,38 @@
+{
+  "name": "@agentcaps/agentcaps",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public curated registry and website for agent capabilities powered by AgentCaps Registry.",
+  "type": "module",
+  "scripts": {
+    "registry:import": "agentcaps-registry --root data/registry import --all",
+    "registry:publish": "agentcaps-registry --root data/registry publish --all --by agentcaps.dev-curator --note public-curated-registry",
+    "registry:build": "agentcaps-registry --root data/registry build",
+    "registry:refresh": "pnpm registry:import && pnpm registry:publish && pnpm registry:build",
+    "build": "pnpm registry:build && pnpm registry:sync-public && astro build",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "registry:sync-public": "node scripts/sync-public-registry.mjs"
+  },
+  "dependencies": {
+    "@agentcaps/registry": "^0.1.2",
+    "@astrojs/cloudflare": "^12.6.8",
+    "astro": "^5.16.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.30.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentcaps/agentcaps.git"
+  },
+  "homepage": "https://agentcaps.dev",
+  "bugs": {
+    "url": "https://github.com/agentcaps/agentcaps/issues"
+  }
+}

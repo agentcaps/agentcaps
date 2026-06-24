@@ -1,0 +1,46 @@
+slug: browser-harness-js
+entryId: browser-harness-js
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: browser-harness-js
+  type: git_repository
+  url: https://github.com/browser-use/browser-harness-js
+  path: SKILL.md
+  curation:
+    category: browser
+    reason: Browser-use ecosystem project for browser harness automation.
+    seoKeywords:
+      - browser harness
+      - browser-use skill
+      - web automation harness
+    catalogEntry:
+      tags:
+        - browser
+        - harness
+        - automation
+        - javascript
+      capabilities:
+        - browser.control
+        - web.automate
+        - harness.run
+      representativeQueries:
+        - run a browser harness for an agent task
+        - automate web interactions from JavaScript
+        - control a browser for testing or research
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/browser-use/browser-harness-js
+  sourceRepositoryUrl: https://github.com/browser-use/browser-harness-js
+  sourceWebUrl: https://github.com/browser-use/browser-harness-js/blob/95b7a22a923714c45d2f7234b2bfa8fa6322c2eb/SKILL.md
+  sourceCommit: 95b7a22a923714c45d2f7234b2bfa8fa6322c2eb
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/browser-use/browser-harness-js/blob/95b7a22a923714c45d2f7234b2bfa8fa6322c2eb/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/browser-use/browser-harness-js/95b7a22a923714c45d2f7234b2bfa8fa6322c2eb/SKILL.md
+  sourceDigest: sha256:c39f3e0a2e0095680c6eafbd2654318a788844950f1ef8638e53d8afef03b8f2
+  fetchedAt: 2026-06-24T03:03:26.551Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.917Z

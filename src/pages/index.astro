@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+import { getListings, getCatalog } from '../lib/registry';
+const listings = getListings();
+const catalog = getCatalog();
+const tagCount = new Set(listings.flatMap((l) => l.catalogEntry.tags ?? [])).size;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AgentCaps - Public agent capability registry</title>
+    <meta name="description" content="Explore GitHub SKILL.md projects as ARD CatalogEntries, powered by AgentCaps Registry." />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">AgentCaps</a>
+      <nav>
+        <a href="/explore">Explore</a>
+        <a href="/.well-known/ai-catalog.json">ai-catalog.json</a>
+        <a href="https://github.com/agentcaps/registry">Registry Engine</a>
+        <a href="https://github.com/agentcaps/registry/issues/new?template=submit-skill.yml">Submit SKILL.md</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Public curated registry</div>
+          <h1>Explore GitHub skills as ARD CatalogEntries.</h1>
+          <p class="lede">AgentCaps indexes curated GitHub-hosted <code>SKILL.md</code> projects, generates ARD metadata, and exposes a searchable public registry powered by AgentCaps Registry.</p>
+          <div class="actions">
+            <a class="button primary" href="/explore">Explore Registry</a>
+            <a class="button" href="https://www.npmjs.com/package/@agentcaps/registry">Install Registry CLI</a>
+            <a class="button" href="https://github.com/agentcaps/registry/issues/new?template=submit-skill.yml">Submit SKILL.md</a>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="eyebrow">Current catalog</div>
+          <h2>{catalog.entries.length} published entries</h2>
+          <p>{tagCount} tags across curated GitHub skill sources. Validation score is metadata quality, not safety or trust.</p>
+          <pre><code>{`GET /.well-known/ai-catalog.json
+POST /search
+npm install -g @agentcaps/registry`}</code></pre>
+        </div>
+      </section>
+      <section>
+        <h2>What this reference registry shows</h2>
+        <div class="grid">
+          <article class="card"><h3>Import</h3><p>Start from public GitHub repositories or direct SKILL.md URLs.</p></article>
+          <article class="card"><h3>Review</h3><p>Generate CatalogEntries, fill reviewed tags and queries, and validate metadata completeness.</p></article>
+          <article class="card"><h3>Publish</h3><p>Export pinned snapshots to ai-catalog.json and search without turning the site into an open marketplace.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer>AgentCaps is a public reference deployment. Not publisher verified. Not a safety score.</footer>
+  </body>
+</html>

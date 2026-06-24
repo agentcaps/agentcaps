@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:gavdalf:total-recall:skill:total-recall",
+  "displayName": "total-recall",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/gavdalf/total-recall/437ab3656ecdf52c7ed0c3ee63a3cdae68d5b90f/SKILL.md",
+  "description": "The only memory skill that watches on its own. No database. No vectors. No manual saves. Just an LLM observer that compresses your conversations into prioritised notes, consolidates when they grow, and recovers anything missed. Five layers of redundancy, zero maintenance. ~$0.00/month (using free-tier models). While other memory skills ask you to remember to remember, this one just pays attention.",
+  "tags": [
+    "memory",
+    "recall",
+    "context",
+    "knowledge"
+  ],
+  "capabilities": [
+    "memory.search",
+    "context.recall",
+    "notes.retrieve"
+  ],
+  "representativeQueries": [
+    "recall relevant notes for the current task",
+    "search memory for previous project context",
+    "retrieve stored context for an agent workflow"
+  ],
+  "updatedAt": "2026-06-24T03:03:13.325Z"
+}

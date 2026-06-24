@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:therjmurray:browsefleet:skill:working-in-browsefleet-with-a-coding-agent",
+  "displayName": "Working in browsefleet with a coding agent",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/theRJMurray/browsefleet/2118d13cfa07e825d6cc28eb205fc3152f271248/skill.md",
+  "description": "This file is read by AI coding agents that land in this repo (Claude Code, Cursor, Aider, etc.). It contains the exact setup, run, test, and contribution steps. Read it once at the start of any session; refer back to it on errors. The README points here from its AI Agent banner.",
+  "tags": [
+    "browser",
+    "automation",
+    "web",
+    "fleet"
+  ],
+  "capabilities": [
+    "browser.automate",
+    "web.navigate",
+    "page.inspect"
+  ],
+  "representativeQueries": [
+    "automate multiple browser sessions for a web task",
+    "inspect pages across a browsing workflow",
+    "run browser automation from an agent"
+  ],
+  "updatedAt": "2026-06-24T03:03:16.569Z"
+}

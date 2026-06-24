@@ -1,0 +1,46 @@
+slug: mealie-cli
+entryId: mealie-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: mealie-cli
+  type: git_repository
+  url: https://github.com/SIGTERM-015/mealie-cli
+  path: Skill.md
+  curation:
+    category: productivity
+    reason: Skill-like CLI project around Mealie recipe and meal planning workflows.
+    seoKeywords:
+      - mealie cli
+      - meal planning skill
+      - recipe automation
+    catalogEntry:
+      tags:
+        - recipes
+        - meal-planning
+        - cli
+        - productivity
+      capabilities:
+        - recipes.manage
+        - meals.plan
+        - cli.automate
+      representativeQueries:
+        - manage recipes from a command line assistant
+        - plan meals using a Mealie workflow
+        - automate recipe lookup and meal planning
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/SIGTERM-015/mealie-cli
+  sourceRepositoryUrl: https://github.com/SIGTERM-015/mealie-cli
+  sourceWebUrl: https://github.com/SIGTERM-015/mealie-cli/blob/a4cbbc73ec4fe2c3776cc0c9b39ff0125d77272d/Skill.md
+  sourceCommit: a4cbbc73ec4fe2c3776cc0c9b39ff0125d77272d
+  trackingRef: HEAD
+  artifactPath: Skill.md
+  pinnedArtifactUrl: https://github.com/SIGTERM-015/mealie-cli/blob/a4cbbc73ec4fe2c3776cc0c9b39ff0125d77272d/Skill.md
+  rawArtifactUrl: https://raw.githubusercontent.com/SIGTERM-015/mealie-cli/a4cbbc73ec4fe2c3776cc0c9b39ff0125d77272d/Skill.md
+  sourceDigest: sha256:ba2967afe815954accc09179b3b3713628edc026318d0eb88feb6e3f38fc7dd6
+  fetchedAt: 2026-06-24T03:03:00.763Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.926Z

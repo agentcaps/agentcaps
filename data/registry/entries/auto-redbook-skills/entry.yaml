@@ -1,0 +1,47 @@
+slug: auto-redbook-skills
+entryId: auto-redbook-skills
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: auto-redbook-skills
+  type: git_repository
+  url: https://github.com/comeonzhj/Auto-Redbook-Skills
+  path: SKILL.md
+  curation:
+    category: social
+    reason: Automation-oriented skill around Redbook/Xiaohongshu content workflows.
+    seoKeywords:
+      - redbook automation skill
+      - xiaohongshu agent skill
+      - social content automation
+    catalogEntry:
+      tags:
+        - social
+        - content
+        - automation
+        - redbook
+        - xiaohongshu
+      capabilities:
+        - content.create
+        - social.automate
+        - post.prepare
+      representativeQueries:
+        - prepare social content for Xiaohongshu
+        - automate a Redbook content workflow
+        - generate post ideas and drafts for social media
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/comeonzhj/Auto-Redbook-Skills
+  sourceRepositoryUrl: https://github.com/comeonzhj/Auto-Redbook-Skills
+  sourceWebUrl: https://github.com/comeonzhj/Auto-Redbook-Skills/blob/6f06770f3662624760a0c885bca6230f40c8b7ad/SKILL.md
+  sourceCommit: 6f06770f3662624760a0c885bca6230f40c8b7ad
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/comeonzhj/Auto-Redbook-Skills/blob/6f06770f3662624760a0c885bca6230f40c8b7ad/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/comeonzhj/Auto-Redbook-Skills/6f06770f3662624760a0c885bca6230f40c8b7ad/SKILL.md
+  sourceDigest: sha256:155e7d2307ee250d4b22f41de79af46feaf68c8bb8095cecaae05948f1a033b7
+  fetchedAt: 2026-06-24T03:03:10.566Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.910Z

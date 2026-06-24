@@ -1,0 +1,6 @@
+name: AgentCaps Public Registry
+identifier: urn:air:agentcaps.dev:registry:public
+baseUrl: https://agentcaps.dev
+documentationUrl: https://github.com/agentcaps/registry#readme
+skillMediaType: application/ai-skill
+excludeDriftedFromCatalog: false

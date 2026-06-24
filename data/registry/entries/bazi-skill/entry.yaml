@@ -1,0 +1,46 @@
+slug: bazi-skill
+entryId: bazi-skill
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: bazi-skill
+  type: git_repository
+  url: https://github.com/jinchenma94/bazi-skill
+  path: SKILL.md
+  curation:
+    category: analysis
+    reason: Domain-specific interpretive skill with a clear named task.
+    seoKeywords:
+      - bazi skill
+      - astrology analysis skill
+      - domain expert skill
+    catalogEntry:
+      tags:
+        - analysis
+        - domain-expert
+        - bazi
+        - interpretation
+      capabilities:
+        - domain.analyze
+        - report.generate
+        - interpretation.provide
+      representativeQueries:
+        - analyze a bazi chart and explain the result
+        - generate a structured domain interpretation report
+        - answer questions using a specialized analysis skill
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/jinchenma94/bazi-skill
+  sourceRepositoryUrl: https://github.com/jinchenma94/bazi-skill
+  sourceWebUrl: https://github.com/jinchenma94/bazi-skill/blob/bdd7f863d4450bf0e2fac84579ad6b45cfdfa25c/SKILL.md
+  sourceCommit: bdd7f863d4450bf0e2fac84579ad6b45cfdfa25c
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/jinchenma94/bazi-skill/blob/bdd7f863d4450bf0e2fac84579ad6b45cfdfa25c/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/jinchenma94/bazi-skill/bdd7f863d4450bf0e2fac84579ad6b45cfdfa25c/SKILL.md
+  sourceDigest: sha256:ee9f48acda7cd237b4d04789ea2815cf37a14849cd300b4ad529739928017386
+  fetchedAt: 2026-06-24T03:03:03.064Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.914Z

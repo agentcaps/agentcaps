@@ -1,0 +1,46 @@
+slug: guardian-cli
+entryId: guardian-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: guardian-cli
+  type: git_repository
+  url: https://github.com/zakirkun/guardian-cli
+  path: SKILL.md
+  curation:
+    category: security
+    reason: CLI-oriented guardrail and review workflow skill.
+    seoKeywords:
+      - guardian cli
+      - agent guardrail skill
+      - security review skill
+    catalogEntry:
+      tags:
+        - security
+        - cli
+        - guardrails
+        - review
+      capabilities:
+        - security.review
+        - cli.guard
+        - policy.check
+      representativeQueries:
+        - review a command line workflow for safety issues
+        - add guardrails around a CLI task
+        - check whether an agent action needs review
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/zakirkun/guardian-cli
+  sourceRepositoryUrl: https://github.com/zakirkun/guardian-cli
+  sourceWebUrl: https://github.com/zakirkun/guardian-cli/blob/68f79f80023ecbda97a42559a07db234776203de/SKILL.md
+  sourceCommit: 68f79f80023ecbda97a42559a07db234776203de
+  trackingRef: HEAD
+  artifactPath: SKILL.md
+  pinnedArtifactUrl: https://github.com/zakirkun/guardian-cli/blob/68f79f80023ecbda97a42559a07db234776203de/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/zakirkun/guardian-cli/68f79f80023ecbda97a42559a07db234776203de/SKILL.md
+  sourceDigest: sha256:f9f7e277083946dcf4275cf265920b58b6ad036e82909f9a6ffcceebff35dc0c
+  fetchedAt: 2026-06-24T03:02:58.650Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T03:03:28.924Z

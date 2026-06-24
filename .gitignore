@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Astro / build output
+dist/
+.astro/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local files
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Generated public registry assets copied during build
+public/.well-known/ai-catalog.json
+public/search-index.json
+public/listings.json

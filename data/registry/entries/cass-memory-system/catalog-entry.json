@@ -1,0 +1,24 @@
+{
+  "identifier": "urn:air:github.com:dicklesworthstone:cass_memory_system:skill:cm",
+  "displayName": "cm",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/Dicklesworthstone/cass_memory_system/86f02a539616854756b1f6e88fa10e7e2ab33a1b/SKILL.md",
+  "description": "CASS Memory System - procedural memory for AI coding agents. Three-layer cognitive architecture with confidence decay, anti-pattern learning, cross-agent knowledge transfer, trauma guard safety system. Bun/TypeScript CLI.",
+  "tags": [
+    "memory",
+    "context",
+    "retrieval",
+    "agent"
+  ],
+  "capabilities": [
+    "memory.store",
+    "memory.retrieve",
+    "context.manage"
+  ],
+  "representativeQueries": [
+    "store and retrieve agent memory",
+    "manage long-running context for an agent",
+    "search a memory system for relevant information"
+  ],
+  "updatedAt": "2026-06-24T03:03:24.187Z"
+}

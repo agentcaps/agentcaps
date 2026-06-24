@@ -1,0 +1,62 @@
+---
+import '../styles/global.css';
+import { getListings } from '../lib/registry';
+const listings = getListings();
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Explore AgentCaps Registry</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">AgentCaps</a>
+      <nav>
+        <a href="/explore">Explore</a>
+        <a href="/.well-known/ai-catalog.json">Download ai-catalog.json</a>
+        <a href="https://github.com/agentcaps/registry/issues/new?template=submit-skill.yml">Submit SKILL.md</a>
+      </nav>
+    </header>
+    <main>
+      <section style="padding: 42px 0 18px;">
+        <div class="eyebrow">Explore</div>
+        <h1>Search curated agent capabilities.</h1>
+        <p class="lede">Search uses generated metadata from curated GitHub SKILL.md projects. Scores mean relevance only.</p>
+        <input id="search" class="search-box" placeholder="Try: browser automation, memory recall, pptx slides" />
+      </section>
+      <section class="list" id="listings">
+        {listings.map((listing) => {
+          const entry = listing.catalogEntry;
+          const haystack = [entry.displayName, entry.description, ...(entry.tags ?? []), ...(entry.capabilities ?? []), ...(entry.representativeQueries ?? [])].join(' ').toLowerCase();
+          return (
+            <article class="card list-card" data-search={haystack}>
+              <div>
+                <div class="eyebrow">{listing.source.curation?.category ?? 'capability'}</div>
+                <h3><a href={`/skills/${listing.slug}`}>{entry.displayName}</a></h3>
+                <p>{entry.description}</p>
+                <div class="tags">{(entry.tags ?? []).slice(0, 8).map((tag) => <span class="tag">{tag}</span>)}</div>
+              </div>
+              <div>
+                <div class="score">{listing.validation.score}/100</div>
+                <p>metadata quality</p>
+                <a class="button" href={listing.source.url}>Open GitHub</a>
+              </div>
+            </article>
+          );
+        })}
+      </section>
+    </main>
+    <footer>Validation score is metadata quality, not safety, trust, or publisher verification.</footer>
+    <script>
+      const input = document.querySelector('#search');
+      const cards = [...document.querySelectorAll('[data-search]')];
+      input?.addEventListener('input', () => {
+        const query = input.value.toLowerCase().trim();
+        for (const card of cards) {
+          card.style.display = !query || card.dataset.search.includes(query) ? '' : 'none';
+        }
+      });
+    </script>
+  </body>
+</html>
