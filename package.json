@@ -15,7 +15,7 @@
     "registry:sync-public": "node scripts/sync-public-registry.mjs"
   },
   "dependencies": {
-    "@agentcaps/registry": "github:agentcaps/registry#v0.1.3",
+    "@agentcaps/registry": "^0.1.3",
     "@astrojs/cloudflare": "^12.6.8",
     "astro": "^5.16.5"
   },
@@ -34,10 +34,5 @@
   "homepage": "https://agentcaps.dev",
   "bugs": {
     "url": "https://github.com/agentcaps/agentcaps/issues"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@agentcaps/registry"
-    ]
   }
 }

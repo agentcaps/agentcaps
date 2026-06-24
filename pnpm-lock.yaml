@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@agentcaps/registry':
-        specifier: github:agentcaps/registry#v0.1.3
+        specifier: ^0.1.3
         version: https://codeload.github.com/agentcaps/registry/tar.gz/3a76a1785fdda78f713a37a8202b9d2720ee1102
       '@astrojs/cloudflare':
         specifier: ^12.6.8
