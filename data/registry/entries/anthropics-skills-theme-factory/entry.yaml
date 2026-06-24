@@ -1,0 +1,32 @@
+slug: anthropics-skills-theme-factory
+entryId: anthropics-skills-theme-factory
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: anthropics-skills-theme-factory
+  type: git_repository
+  url: https://github.com/anthropics/skills
+  path: skills/theme-factory/SKILL.md
+  curation:
+    category: productivity
+    reason: Official public repository containing multiple Agent Skills.
+    seoKeywords:
+      - anthropic skills
+      - agent skills collection
+      - claude skills
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/anthropics/skills
+  sourceRepositoryUrl: https://github.com/anthropics/skills
+  sourceWebUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/theme-factory/SKILL.md
+  sourceCommit: 57546260929473d4e0d1c1bb75297be2fdfa1949
+  trackingRef: HEAD
+  artifactPath: skills/theme-factory/SKILL.md
+  pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/theme-factory/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/theme-factory/SKILL.md
+  sourceDigest: sha256:c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552
+  fetchedAt: 2026-06-24T08:07:15.035Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T08:08:29.332Z

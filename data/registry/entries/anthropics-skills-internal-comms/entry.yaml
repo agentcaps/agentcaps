@@ -1,0 +1,32 @@
+slug: anthropics-skills-internal-comms
+entryId: anthropics-skills-internal-comms
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: anthropics-skills-internal-comms
+  type: git_repository
+  url: https://github.com/anthropics/skills
+  path: skills/internal-comms/SKILL.md
+  curation:
+    category: productivity
+    reason: Official public repository containing multiple Agent Skills.
+    seoKeywords:
+      - anthropic skills
+      - agent skills collection
+      - claude skills
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/anthropics/skills
+  sourceRepositoryUrl: https://github.com/anthropics/skills
+  sourceWebUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/internal-comms/SKILL.md
+  sourceCommit: 57546260929473d4e0d1c1bb75297be2fdfa1949
+  trackingRef: HEAD
+  artifactPath: skills/internal-comms/SKILL.md
+  pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/internal-comms/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/internal-comms/SKILL.md
+  sourceDigest: sha256:067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475
+  fetchedAt: 2026-06-24T08:07:15.034Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T08:08:29.326Z

@@ -1,0 +1,32 @@
+slug: anthropics-skills-skill-creator
+entryId: anthropics-skills-skill-creator
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: anthropics-skills-skill-creator
+  type: git_repository
+  url: https://github.com/anthropics/skills
+  path: skills/skill-creator/SKILL.md
+  curation:
+    category: productivity
+    reason: Official public repository containing multiple Agent Skills.
+    seoKeywords:
+      - anthropic skills
+      - agent skills collection
+      - claude skills
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/anthropics/skills
+  sourceRepositoryUrl: https://github.com/anthropics/skills
+  sourceWebUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/skill-creator/SKILL.md
+  sourceCommit: 57546260929473d4e0d1c1bb75297be2fdfa1949
+  trackingRef: HEAD
+  artifactPath: skills/skill-creator/SKILL.md
+  pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/skill-creator/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/skill-creator/SKILL.md
+  sourceDigest: sha256:dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf
+  fetchedAt: 2026-06-24T08:07:15.035Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T08:08:29.331Z

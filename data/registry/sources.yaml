@@ -1,4 +1,13 @@
 sources:
+  - slug: anthropics-skills
+    type: git_repository_collection
+    url: https://github.com/anthropics/skills
+    include:
+      - skills/*/SKILL.md
+    curation:
+      category: productivity
+      reason: Official public repository containing multiple Agent Skills.
+      seoKeywords: [anthropic skills, agent skills collection, claude skills]
   - slug: web-access
     type: git_repository
     url: https://github.com/eze-is/web-access

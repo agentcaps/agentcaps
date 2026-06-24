@@ -39,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/gavdalf/total-recall/blob/437ab3656ecdf52c7ed0c3ee63a3cdae68d5b90f/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/gavdalf/total-recall/437ab3656ecdf52c7ed0c3ee63a3cdae68d5b90f/SKILL.md
   sourceDigest: sha256:701330845597016598cdd7084b234237ddf718c47c84e37bdd355f1d532ea549
-  fetchedAt: 2026-06-24T03:03:13.325Z
+  fetchedAt: 2026-06-24T08:07:51.766Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T03:03:28.932Z
+  publishedAt: 2026-06-24T08:08:29.346Z

@@ -1,0 +1,8 @@
+{
+  "identifier": "urn:air:github.com:anthropics:skills:skill:algorithmic-art",
+  "displayName": "algorithmic-art",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/algorithmic-art/SKILL.md",
+  "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+  "updatedAt": "2026-06-24T08:07:15.033Z"
+}

@@ -1,0 +1,32 @@
+slug: anthropics-skills-pdf
+entryId: anthropics-skills-pdf
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: anthropics-skills-pdf
+  type: git_repository
+  url: https://github.com/anthropics/skills
+  path: skills/pdf/SKILL.md
+  curation:
+    category: productivity
+    reason: Official public repository containing multiple Agent Skills.
+    seoKeywords:
+      - anthropic skills
+      - agent skills collection
+      - claude skills
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/anthropics/skills
+  sourceRepositoryUrl: https://github.com/anthropics/skills
+  sourceWebUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/pdf/SKILL.md
+  sourceCommit: 57546260929473d4e0d1c1bb75297be2fdfa1949
+  trackingRef: HEAD
+  artifactPath: skills/pdf/SKILL.md
+  pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/pdf/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/pdf/SKILL.md
+  sourceDigest: sha256:9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c
+  fetchedAt: 2026-06-24T08:07:15.035Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T08:08:29.329Z

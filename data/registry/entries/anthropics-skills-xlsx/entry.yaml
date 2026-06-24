@@ -1,0 +1,32 @@
+slug: anthropics-skills-xlsx
+entryId: anthropics-skills-xlsx
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: anthropics-skills-xlsx
+  type: git_repository
+  url: https://github.com/anthropics/skills
+  path: skills/xlsx/SKILL.md
+  curation:
+    category: productivity
+    reason: Official public repository containing multiple Agent Skills.
+    seoKeywords:
+      - anthropic skills
+      - agent skills collection
+      - claude skills
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/anthropics/skills
+  sourceRepositoryUrl: https://github.com/anthropics/skills
+  sourceWebUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/xlsx/SKILL.md
+  sourceCommit: 57546260929473d4e0d1c1bb75297be2fdfa1949
+  trackingRef: HEAD
+  artifactPath: skills/xlsx/SKILL.md
+  pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/xlsx/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/xlsx/SKILL.md
+  sourceDigest: sha256:dd316db7785a6be12966c2a2d848931fbf5f518b3cdb0a66fa62ee835ead1cfc
+  fetchedAt: 2026-06-24T08:07:15.035Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-24T08:08:29.335Z

@@ -21,3 +21,4 @@ dist/
 public/.well-known/ai-catalog.json
 public/search-index.json
 public/listings.json
+public/@*/

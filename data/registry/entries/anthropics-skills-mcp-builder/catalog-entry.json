@@ -1,0 +1,8 @@
+{
+  "identifier": "urn:air:github.com:anthropics:skills:skill:mcp-builder",
+  "displayName": "mcp-builder",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/mcp-builder/SKILL.md",
+  "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+  "updatedAt": "2026-06-24T08:07:15.034Z"
+}

@@ -1,0 +1,8 @@
+{
+  "identifier": "urn:air:github.com:anthropics:skills:skill:web-artifacts-builder",
+  "displayName": "web-artifacts-builder",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/web-artifacts-builder/SKILL.md",
+  "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+  "updatedAt": "2026-06-24T08:07:15.035Z"
+}

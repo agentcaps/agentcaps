@@ -39,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/eze-is/web-access/blob/7af34af6a25940d917905f0e5f2a7ef056952971/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/eze-is/web-access/7af34af6a25940d917905f0e5f2a7ef056952971/SKILL.md
   sourceDigest: sha256:3c8ec65ec6785c75eb37e3d0e207f2bc110b1f19af4a47431a24543c3a170c50
-  fetchedAt: 2026-06-24T03:02:53.410Z
+  fetchedAt: 2026-06-24T08:07:19.515Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T03:03:28.933Z
+  publishedAt: 2026-06-24T08:08:29.347Z

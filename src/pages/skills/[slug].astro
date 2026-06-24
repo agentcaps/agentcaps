@@ -1,6 +1,6 @@
 ---
 import '../../styles/global.css';
-import { getListings } from '../../lib/registry';
+import { getListings, hostedCatalogPath } from '../../lib/registry';
 
 export function getStaticPaths() {
   return getListings().map((listing) => ({ params: { slug: listing.slug }, props: { listing } }));
@@ -10,6 +10,7 @@ const { listing } = Astro.props;
 const entry = listing.catalogEntry;
 const catalogJson = JSON.stringify(entry, null, 2);
 const findings = [...listing.validation.errors, ...listing.validation.warnings, ...listing.validation.info];
+const hostedCatalog = hostedCatalogPath(listing.source.url);
 ---
 <html lang="en">
   <head>
@@ -34,6 +35,7 @@ const findings = [...listing.validation.errors, ...listing.validation.warnings, 
         <div class="actions">
           <button class="button primary" id="copy">Copy CatalogEntry</button>
           <a class="button" href={listing.source.url}>Open GitHub</a>
+          {hostedCatalog && <a class="button" href={hostedCatalog}>Hosted ai-catalog.json</a>}
           <a class="button" href="/.well-known/ai-catalog.json">Download ai-catalog.json</a>
         </div>
         <p class="notice">Not publisher verified. Validation score is metadata quality, not a safety or trust score.</p>

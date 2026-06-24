@@ -1,16 +1,17 @@
 ---
 import '../styles/global.css';
-import { getListings, getCatalog } from '../lib/registry';
+import { getListings, getCatalog, hostedCatalogPath } from '../lib/registry';
 const listings = getListings();
 const catalog = getCatalog();
 const tagCount = new Set(listings.flatMap((l) => l.catalogEntry.tags ?? [])).size;
+const featured = listings.slice(0, 9);
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AgentCaps - Public agent capability registry</title>
-    <meta name="description" content="Explore GitHub SKILL.md projects as ARD CatalogEntries, powered by AgentCaps Registry." />
+    <title>AgentCaps - Search agent capabilities</title>
+    <meta name="description" content="Search hosted ARD metadata for GitHub SKILL.md projects, powered by AgentCaps Registry." />
   </head>
   <body>
     <header>
@@ -18,40 +19,80 @@ const tagCount = new Set(listings.flatMap((l) => l.catalogEntry.tags ?? [])).siz
       <nav>
         <a href="/explore">Explore</a>
         <a href="/.well-known/ai-catalog.json">ai-catalog.json</a>
-        <a href="https://github.com/agentcaps/registry">Registry Engine</a>
+        <a href="https://github.com/agentcaps/agentcaps">Public Registry</a>
         <a href="https://github.com/agentcaps/registry/issues/new?template=submit-skill.yml">Submit SKILL.md</a>
       </nav>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero search-hero">
         <div>
-          <div class="eyebrow">Public curated registry</div>
-          <h1>Explore GitHub skills as ARD CatalogEntries.</h1>
-          <p class="lede">AgentCaps indexes curated GitHub-hosted <code>SKILL.md</code> projects, generates ARD metadata, and exposes a searchable public registry powered by AgentCaps Registry.</p>
+          <div class="eyebrow">Search-first ARD registry</div>
+          <h1>Find agent skills by what they can do.</h1>
+          <p class="lede">AgentCaps hosts searchable ARD CatalogEntries for curated GitHub <code>SKILL.md</code> projects, including single-skill repos and collection repos such as <code>anthropics/skills</code>.</p>
+          <input id="home-search" class="search-box hero-search" placeholder="Try: pdf, browser automation, frontend design, slides" autofocus />
           <div class="actions">
-            <a class="button primary" href="/explore">Explore Registry</a>
-            <a class="button" href="https://www.npmjs.com/package/@agentcaps/registry">Install Registry CLI</a>
-            <a class="button" href="https://github.com/agentcaps/registry/issues/new?template=submit-skill.yml">Submit SKILL.md</a>
+            <a class="button primary" href="/explore">Browse all capabilities</a>
+            <a class="button" href="https://github.com/agentcaps/registry/issues/new?template=submit-skill.yml">Generate / host my ARD</a>
           </div>
         </div>
         <div class="panel">
-          <div class="eyebrow">Current catalog</div>
-          <h2>{catalog.entries.length} published entries</h2>
-          <p>{tagCount} tags across curated GitHub skill sources. Validation score is metadata quality, not safety or trust.</p>
-          <pre><code>{`GET /.well-known/ai-catalog.json
-POST /search
-npm install -g @agentcaps/registry`}</code></pre>
+          <div class="eyebrow">Hosted catalogs</div>
+          <h2>{catalog.entries.length} entries</h2>
+          <p>{tagCount} tags across curated GitHub sources. Producers get stable catalog URLs such as:</p>
+          <pre><code>{`https://agentcaps.dev/@anthropics/skills/ai-catalog.json
+https://agentcaps.dev/@zarazhangrui/frontend-slides/ai-catalog.json
+POST /search`}</code></pre>
         </div>
       </section>
+
       <section>
-        <h2>What this reference registry shows</h2>
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">Live index</div>
+            <h2>Featured capabilities</h2>
+          </div>
+          <a class="button" href="/explore">Open full search</a>
+        </div>
+        <div class="grid result-grid" id="home-results">
+          {featured.map((listing) => {
+            const entry = listing.catalogEntry;
+            const hosted = hostedCatalogPath(listing.source.url);
+            const haystack = [entry.displayName, entry.description, ...(entry.tags ?? []), ...(entry.capabilities ?? []), ...(entry.representativeQueries ?? [])].join(' ').toLowerCase();
+            return (
+              <article class="card" data-search={haystack}>
+                <div class="eyebrow">{listing.source.curation?.category ?? 'capability'}</div>
+                <h3><a href={`/skills/${listing.slug}`}>{entry.displayName}</a></h3>
+                <p>{entry.description}</p>
+                <div class="tags">{(entry.tags ?? []).slice(0, 5).map((tag) => <span class="tag">{tag}</span>)}</div>
+                <div class="mini-actions">
+                  <a href={`/skills/${listing.slug}`}>View</a>
+                  {hosted && <a href={hosted}>Hosted ARD</a>}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
+      <section>
+        <h2>Producer flow</h2>
         <div class="grid">
-          <article class="card"><h3>Import</h3><p>Start from public GitHub repositories or direct SKILL.md URLs.</p></article>
-          <article class="card"><h3>Review</h3><p>Generate CatalogEntries, fill reviewed tags and queries, and validate metadata completeness.</p></article>
-          <article class="card"><h3>Publish</h3><p>Export pinned snapshots to ai-catalog.json and search without turning the site into an open marketplace.</p></article>
+          <article class="card"><h3>1. Point to SKILL.md</h3><p>Use a single GitHub repo, a direct SKILL.md URL, or a collection pattern like <code>skills/*/SKILL.md</code>.</p></article>
+          <article class="card"><h3>2. Generate ARD</h3><p>AgentCaps Registry converts each source into a standard CatalogEntry and validation report.</p></article>
+          <article class="card"><h3>3. Host for discovery</h3><p>The public registry exposes both the global catalog and repo-scoped URLs under <code>/@owner/repo/ai-catalog.json</code>.</p></article>
         </div>
       </section>
     </main>
-    <footer>AgentCaps is a public reference deployment. Not publisher verified. Not a safety score.</footer>
+    <footer>AgentCaps is a public reference deployment. Not publisher verified. Validation score is metadata quality, not safety.</footer>
+    <script>
+      const input = document.querySelector('#home-search');
+      const cards = [...document.querySelectorAll('[data-search]')];
+      input?.addEventListener('input', () => {
+        const query = input.value.toLowerCase().trim();
+        for (const card of cards) {
+          card.style.display = !query || card.dataset.search.includes(query) ? '' : 'none';
+        }
+      });
+    </script>
   </body>
 </html>

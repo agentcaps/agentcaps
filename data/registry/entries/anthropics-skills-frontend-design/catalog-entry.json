@@ -1,0 +1,8 @@
+{
+  "identifier": "urn:air:github.com:anthropics:skills:skill:frontend-design",
+  "displayName": "frontend-design",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/frontend-design/SKILL.md",
+  "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+  "updatedAt": "2026-06-24T08:07:15.034Z"
+}

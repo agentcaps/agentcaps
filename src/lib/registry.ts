@@ -61,3 +61,9 @@ export function getListing(slug: string): PublicListing | undefined {
 export function getCatalog() {
   return JSON.parse(readFileSync(join(process.cwd(), 'data/registry/dist/ai-catalog.json'), 'utf8'));
 }
+
+export function hostedCatalogPath(sourceUrl: string): string | undefined {
+  const match = sourceUrl.replace(/\.git$/, '').match(/^https?:\/\/github\.com\/([^/]+)\/([^/#?]+)(?:[/#?].*)?$/);
+  if (!match) return undefined;
+  return `/@${match[1]}/${match[2]}/ai-catalog.json`;
+}
