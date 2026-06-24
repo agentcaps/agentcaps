@@ -1,0 +1,62 @@
+name: Submit SKILL.md to agentcaps.dev
+description: Suggest a GitHub-hosted SKILL.md or SKILL.md collection for the public AgentCaps registry.
+title: "Submit SKILL.md: <owner/repo or URL>"
+labels: [submit-skill, public-registry]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a capability source for agentcaps.dev. V0 supports public GitHub repositories with `SKILL.md`, direct `SKILL.md` URLs, and GitHub repositories that contain multiple `SKILL.md` files.
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - git_repository
+        - git_repository_collection
+        - direct_url
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Source URL
+      description: GitHub repository URL or direct SKILL.md URL.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: SKILL.md path or include glob
+      description: Use `SKILL.md` for a single repo or `skills/*/SKILL.md` for a collection repo.
+      placeholder: SKILL.md
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be listed?
+      description: What capability does it expose, and who would search for it?
+      placeholder: This skill helps agents ...
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_metadata
+    attributes:
+      label: Suggested search metadata
+      description: Optional tags, capabilities, or representative queries that would help discovery.
+      placeholder: |
+        tags: [...]
+        capabilities: [...]
+        representativeQueries:
+          - ...
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The source is public and can be fetched without credentials.
+          required: true
+        - label: I understand listing is curated and not automatic.
+          required: true

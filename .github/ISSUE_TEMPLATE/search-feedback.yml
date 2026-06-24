@@ -1,0 +1,24 @@
+name: Search result feedback
+description: Report a poor search result or missing capability on agentcaps.dev.
+title: "Search feedback: <query>"
+labels: [search, feedback]
+body:
+  - type: input
+    id: query
+    attributes:
+      label: Search query
+      placeholder: pdf files
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      placeholder: I expected ... to appear above ...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      placeholder: The current ranking shows ...

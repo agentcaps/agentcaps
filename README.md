@@ -105,7 +105,7 @@ data/registry/sources.yaml
 For V0, submissions go through GitHub issues instead of in-product login or open publishing:
 
 ```text
-https://github.com/agentcaps/registry/issues/new?template=submit-skill.yml
+https://github.com/agentcaps/agentcaps/issues/new?template=submit-skill.yml
 ```
 
 ## License

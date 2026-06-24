@@ -1,0 +1,28 @@
+name: CatalogEntry mapping feedback
+description: Report incorrect or incomplete CatalogEntry metadata on agentcaps.dev.
+title: "CatalogEntry feedback: <listing slug>"
+labels: [catalog-entry, feedback]
+body:
+  - type: input
+    id: listing
+    attributes:
+      label: Listing URL or slug
+      placeholder: https://agentcaps.dev/skills/frontend-slides
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      placeholder: The tags/capabilities/description should be changed because ...
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested CatalogEntry fields
+      placeholder: |
+        tags: [...]
+        capabilities: [...]
+        representativeQueries:
+          - ...
