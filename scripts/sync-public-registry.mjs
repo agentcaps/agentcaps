@@ -16,18 +16,34 @@ function catalogForEntries(entries) {
   return {
     specVersion: '1.0',
     host: {
-      displayName: 'AgentCaps',
+      displayName: 'AgentCaps Public Registry',
       identifier: 'urn:air:agentcaps.dev:registry:public',
-      documentationUrl: 'https://agentcaps.dev'
+      documentationUrl: 'https://agentcaps.dev',
+      description:
+        'AgentCaps is a public ARD (Agent Resource Description) registry. ' +
+        'It imports GitHub SKILL.md projects, generates standard ARD CatalogEntry objects, ' +
+        'and exposes them via ai-catalog.json for agent discovery.',
+      keywords: ['ARD', 'Agent Resource Description', 'ai-catalog', 'SKILL.md', 'agent capabilities', 'CatalogEntry'],
     },
     entries
   };
 }
 
 await mkdir(join(publicDir, '.well-known'), { recursive: true });
+
+// Inject ARD discovery metadata into the catalog host object
+const catalogRaw = JSON.parse(await readFile(join(distDir, 'ai-catalog.json'), 'utf8'));
+catalogRaw.host = {
+  ...catalogRaw.host,
+  description:
+    'AgentCaps is a public ARD (Agent Resource Description) registry. ' +
+    'It imports GitHub SKILL.md projects, generates standard ARD CatalogEntry objects, ' +
+    'and exposes them via ai-catalog.json for agent discovery.',
+  keywords: ['ARD', 'Agent Resource Description', 'ai-catalog', 'SKILL.md', 'agent capabilities', 'CatalogEntry'],
+};
 await writeFile(
   join(publicDir, '.well-known/ai-catalog.json'),
-  await readFile(join(distDir, 'ai-catalog.json'), 'utf8')
+  `${JSON.stringify(catalogRaw, null, 2)}\n`
 );
 await writeFile(
   join(publicDir, 'search-index.json'),
