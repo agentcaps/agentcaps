@@ -1,20 +1,17 @@
 ---
 import Base from '../layouts/Base.astro';
-import SearchField from '../components/SearchField.tsx';
-import CapabilityResults from '../components/CapabilityResults.tsx';
-import type { CapItem } from '../components/CapabilityResults.tsx';
+import ExploreApp from '../components/ExploreApp.tsx';
+import type { ExploreItem } from '../components/ExploreApp.tsx';
 import { getListings, hostedCatalogPath } from '../lib/registry';
 
-const listings = getListings();
-
-const items: CapItem[] = listings.map((listing) => {
+const items: ExploreItem[] = getListings().map((listing) => {
   const entry = listing.catalogEntry;
   return {
     slug: listing.slug,
     name: entry.displayName,
     href: `/skills/${listing.slug}`,
     description: entry.description,
-    category: listing.source.curation?.category ?? 'capability',
+    category: listing.source.curation?.category ?? 'general',
     score: listing.validation.score,
     tags: entry.tags ?? [],
     githubUrl: listing.source.url,
@@ -22,39 +19,76 @@ const items: CapItem[] = listings.map((listing) => {
     haystack: [
       entry.displayName,
       entry.description,
+      listing.source.curation?.category,
       ...(entry.tags ?? []),
       ...(entry.capabilities ?? []),
       ...(entry.representativeQueries ?? [])
-    ].join(' ').toLowerCase()
+    ].filter(Boolean).join(' ').toLowerCase()
   };
 });
 ---
 <Base
   title="Explore — AgentCaps Registry"
-  description="Search the full index of curated agent capabilities. Scores measure ARD metadata quality and search relevance only."
+  description="Search-first index of curated agent capabilities. Scores measure ARD metadata quality and search relevance only."
   active="explore"
 >
-  <section class="section section--flush">
-    <h1>Explore the registry.</h1>
-    <p class="prose lede">
-      Search across generated metadata from curated GitHub <code>SKILL.md</code> projects and
-      collection repos. Scores measure metadata quality, not safety or trust.
-    </p>
-    <SearchField
-      client:load
-      class="explore-search"
-      autofocus
-      placeholder="browser automation, memory recall, pptx slides…"
-    />
-  </section>
+  <ExploreApp client:load items={items} />
 
-  <section class="section">
-    <CapabilityResults client:load items={items} layout="list" showCount countNoun="capabilities" />
-  </section>
+  <style is:global>
+    /* Explore layout glue (built from @agentcaps/ui tokens). */
+    .ex-hero {
+      display: grid; justify-items: center; text-align: center;
+      padding: clamp(48px, 8vw, 104px) 0 clamp(30px, 4vw, 48px);
+      width: var(--shell); margin: 0 auto;
+    }
+    .ex-eyebrow { color: var(--muted); letter-spacing: 0.04em; font-size: 0.8125rem; }
+    .ex-hero h1 { max-width: 14ch; margin: 14px 0 0; }
+    .ex-sub { font-size: 1.125rem; color: var(--ink-2); max-width: 56ch; margin: 18px 0 0; }
+    .hero-search { width: 100%; max-width: 660px; margin: 30px 0 0; }
+    .hero-search .search input { font-size: 1.25rem; padding: 22px 16px 22px 12px; }
+    .hero-search .search-glyph { font-size: 1.2rem; }
+    .examples { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 18px; }
+    .ex-try { color: var(--muted); font-size: 0.75rem; margin-right: 2px; }
+    .ex-chip {
+      white-space: nowrap; cursor: pointer; font: 500 0.8125rem/1 var(--font-mono);
+      color: var(--ink-2); background: var(--surface); border: 1px solid var(--line);
+      border-radius: 999px; padding: 7px 12px;
+      transition: border-color 0.15s var(--ease), color 0.15s var(--ease);
+    }
+    .ex-chip:hover { border-color: var(--ink); color: var(--ink); }
 
-  <style>
-    .explore-search { margin-top: 26px; max-width: 680px; }
-    .results-count { margin-bottom: 18px; }
-    .lede { font-size: clamp(1.0625rem, 1rem + 0.5vw, 1.375rem); margin-top: 16px; }
+    .controls {
+      position: sticky; top: 64px; z-index: 10;
+      width: var(--shell); margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px;
+      padding: 16px 0; border-top: 1px solid var(--line);
+      background: color-mix(in oklch, var(--bg) 90%, transparent); backdrop-filter: blur(8px);
+    }
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill {
+      cursor: pointer; font: 500 0.8125rem/1 var(--font-sans); color: var(--ink-2);
+      background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+      padding: 8px 13px; text-transform: capitalize;
+      transition: border-color 0.15s var(--ease), color 0.15s var(--ease);
+    }
+    .pill:hover { border-color: var(--ink); color: var(--ink); }
+    .pill--active { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .pill .n { font-family: var(--font-mono); font-size: 0.75rem; opacity: 0.7; margin-left: 4px; }
+    .controls-right { display: flex; align-items: center; gap: 14px; }
+    .result-count { color: var(--muted); font-size: 0.8125rem; white-space: nowrap; }
+    .result-count b { color: var(--ink); font-weight: 600; }
+    .view-toggle { display: inline-flex; border: 1px solid var(--line-2); border-radius: 4px; overflow: hidden; }
+    .view-btn {
+      cursor: pointer; font: 600 0.8125rem/1 var(--font-sans); color: var(--ink-2);
+      background: var(--surface); border: 0; padding: 8px 12px;
+    }
+    .view-btn + .view-btn { border-left: 1px solid var(--line-2); }
+    .view-btn--active { background: var(--ink); color: #fff; }
+
+    .ex-results { width: var(--shell); margin: 0 auto; padding: 30px 0 80px; }
+
+    @media (max-width: 640px) {
+      .controls { position: static; }
+    }
   </style>
 </Base>

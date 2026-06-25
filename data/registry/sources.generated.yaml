@@ -1,0 +1,1975 @@
+# Generated from skills.sh all-time leaderboard. Do not hand-edit.
+sources:
+  - slug: microsoft-azure-skills
+    type: git_repository_collection
+    url: https://github.com/microsoft/azure-skills
+    include:
+      - "**/microsoft-foundry/SKILL.md"
+      - "**/azure-ai/SKILL.md"
+      - "**/azure-deploy/SKILL.md"
+      - "**/azure-diagnostics/SKILL.md"
+      - "**/azure-prepare/SKILL.md"
+      - "**/azure-storage/SKILL.md"
+      - "**/azure-validate/SKILL.md"
+      - "**/entra-app-registration/SKILL.md"
+      - "**/appinsights-instrumentation/SKILL.md"
+      - "**/azure-compliance/SKILL.md"
+      - "**/azure-resource-lookup/SKILL.md"
+      - "**/azure-rbac/SKILL.md"
+      - "**/azure-aigateway/SKILL.md"
+      - "**/azure-kusto/SKILL.md"
+      - "**/azure-resource-visualizer/SKILL.md"
+      - "**/azure-messaging/SKILL.md"
+      - "**/azure-hosted-copilot-sdk/SKILL.md"
+      - "**/azure-compute/SKILL.md"
+      - "**/azure-cloud-migrate/SKILL.md"
+      - "**/azure-quotas/SKILL.md"
+      - "**/azure-upgrade/SKILL.md"
+      - "**/azure-enterprise-infra-planner/SKILL.md"
+      - "**/azure-kubernetes/SKILL.md"
+      - "**/azure-cost/SKILL.md"
+      - "**/azure-cost-optimization/SKILL.md"
+      - "**/airunway-aks-setup/SKILL.md"
+      - "**/entra-agent-id/SKILL.md"
+      - "**/azure-observability/SKILL.md"
+      - "**/azure-reliability/SKILL.md"
+      - "**/azure-postgres/SKILL.md"
+      - "**/python-appservice-deploy/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: agentspace-so-runcomfy-agent-skills
+    type: git_repository_collection
+    url: https://github.com/agentspace-so/runcomfy-agent-skills
+    include:
+      - "**/video-edit/SKILL.md"
+      - "**/image-to-video/SKILL.md"
+      - "**/image-edit/SKILL.md"
+      - "**/flux-kontext/SKILL.md"
+      - "**/nano-banana-edit/SKILL.md"
+      - "**/nano-banana-2/SKILL.md"
+      - "**/wan-2-7/SKILL.md"
+      - "**/gpt-image-edit/SKILL.md"
+      - "**/happyhorse-1-0/SKILL.md"
+      - "**/seedance-v2/SKILL.md"
+      - "**/flux-2-klein/SKILL.md"
+      - "**/kling-3-0/SKILL.md"
+      - "**/codex-pet/SKILL.md"
+      - "**/ai-video-generation/SKILL.md"
+      - "**/ai-image-generation/SKILL.md"
+      - "**/runcomfy-cli/SKILL.md"
+      - "**/ai-avatar-video/SKILL.md"
+      - "**/face-swap/SKILL.md"
+      - "**/video-inpainting/SKILL.md"
+      - "**/controlnet-pose/SKILL.md"
+      - "**/image-inpainting/SKILL.md"
+      - "**/video-extend/SKILL.md"
+      - "**/lipsync/SKILL.md"
+      - "**/image-outpainting/SKILL.md"
+      - "**/relight/SKILL.md"
+      - "**/elevenlabs-music-generation/SKILL.md"
+      - "**/video-outpainting/SKILL.md"
+      - "**/ai-music/SKILL.md"
+      - "**/ace-step/SKILL.md"
+      - "**/gpt-image-2/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: runcomfy-com-skills
+    type: git_repository_collection
+    url: https://github.com/runcomfy-com/skills
+    include:
+      - "**/ai-image-generation/SKILL.md"
+      - "**/codex-pet/SKILL.md"
+      - "**/seedance-v2/SKILL.md"
+      - "**/gpt-image-2/SKILL.md"
+      - "**/ai-avatar-video/SKILL.md"
+      - "**/flux-2-klein/SKILL.md"
+      - "**/image-inpainting/SKILL.md"
+      - "**/face-swap/SKILL.md"
+      - "**/elevenlabs-music-generation/SKILL.md"
+      - "**/image-to-video/SKILL.md"
+      - "**/video-edit/SKILL.md"
+      - "**/ai-video-generation/SKILL.md"
+      - "**/ai-music/SKILL.md"
+      - "**/video-inpainting/SKILL.md"
+      - "**/controlnet-pose/SKILL.md"
+      - "**/lipsync/SKILL.md"
+      - "**/happyhorse-1-0/SKILL.md"
+      - "**/gpt-image-edit/SKILL.md"
+      - "**/runcomfy-cli/SKILL.md"
+      - "**/relight/SKILL.md"
+      - "**/image-edit/SKILL.md"
+      - "**/video-outpainting/SKILL.md"
+      - "**/kling-3-0/SKILL.md"
+      - "**/image-outpainting/SKILL.md"
+      - "**/wan-2-7/SKILL.md"
+      - "**/video-extend/SKILL.md"
+      - "**/flux-kontext/SKILL.md"
+      - "**/ace-step/SKILL.md"
+      - "**/nano-banana-2/SKILL.md"
+      - "**/nano-banana-edit/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: doany-ai-skills
+    type: git_repository_collection
+    url: https://github.com/doany-ai/skills
+    include:
+      - "**/controlnet-pose/SKILL.md"
+      - "**/image-outpainting/SKILL.md"
+      - "**/runcomfy-cli/SKILL.md"
+      - "**/nano-banana-2/SKILL.md"
+      - "**/face-swap/SKILL.md"
+      - "**/relight/SKILL.md"
+      - "**/nano-banana-edit/SKILL.md"
+      - "**/video-outpainting/SKILL.md"
+      - "**/flux-2-klein/SKILL.md"
+      - "**/seedance-v2/SKILL.md"
+      - "**/video-extend/SKILL.md"
+      - "**/gpt-image-edit/SKILL.md"
+      - "**/gpt-image-2/SKILL.md"
+      - "**/ai-avatar-video/SKILL.md"
+      - "**/image-edit/SKILL.md"
+      - "**/image-inpainting/SKILL.md"
+      - "**/happyhorse-1-0/SKILL.md"
+      - "**/ace-step/SKILL.md"
+      - "**/ai-image-generation/SKILL.md"
+      - "**/lipsync/SKILL.md"
+      - "**/elevenlabs-music-generation/SKILL.md"
+      - "**/image-to-video/SKILL.md"
+      - "**/flux-kontext/SKILL.md"
+      - "**/kling-3-0/SKILL.md"
+      - "**/ai-video-generation/SKILL.md"
+      - "**/ai-music/SKILL.md"
+      - "**/video-inpainting/SKILL.md"
+      - "**/video-edit/SKILL.md"
+      - "**/wan-2-7/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: mattpocock-skills
+    type: git_repository_collection
+    url: https://github.com/mattpocock/skills
+    include:
+      - "**/grill-me/SKILL.md"
+      - "**/improve-codebase-architecture/SKILL.md"
+      - "**/grill-with-docs/SKILL.md"
+      - "**/tdd/SKILL.md"
+      - "**/to-prd/SKILL.md"
+      - "**/to-issues/SKILL.md"
+      - "**/setup-matt-pocock-skills/SKILL.md"
+      - "**/triage/SKILL.md"
+      - "**/diagnose/SKILL.md"
+      - "**/handoff/SKILL.md"
+      - "**/write-a-skill/SKILL.md"
+      - "**/zoom-out/SKILL.md"
+      - "**/prototype/SKILL.md"
+      - "**/caveman/SKILL.md"
+      - "**/teach/SKILL.md"
+      - "**/design-an-interface/SKILL.md"
+      - "**/request-refactor-plan/SKILL.md"
+      - "**/ubiquitous-language/SKILL.md"
+      - "**/review/SKILL.md"
+      - "**/qa/SKILL.md"
+      - "**/git-guardrails-claude-code/SKILL.md"
+      - "**/obsidian-vault/SKILL.md"
+      - "**/edit-article/SKILL.md"
+      - "**/setup-pre-commit/SKILL.md"
+      - "**/scaffold-exercises/SKILL.md"
+      - "**/migrate-to-shoehorn/SKILL.md"
+      - "**/writing-shape/SKILL.md"
+      - "**/writing-fragments/SKILL.md"
+      - "**/writing-beats/SKILL.md"
+      - "**/grilling/SKILL.md"
+      - "**/domain-modeling/SKILL.md"
+      - "**/codebase-design/SKILL.md"
+      - "**/diagnosing-bugs/SKILL.md"
+      - "**/writing-great-skills/SKILL.md"
+      - "**/ask-matt/SKILL.md"
+      - "**/implement/SKILL.md"
+      - "**/decision-mapping/SKILL.md"
+      - "**/resolving-merge-conflicts/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: coreyhaines31-marketingskills
+    type: git_repository_collection
+    url: https://github.com/coreyhaines31/marketingskills
+    include:
+      - "**/seo-audit/SKILL.md"
+      - "**/copywriting/SKILL.md"
+      - "**/marketing-psychology/SKILL.md"
+      - "**/content-strategy/SKILL.md"
+      - "**/programmatic-seo/SKILL.md"
+      - "**/marketing-ideas/SKILL.md"
+      - "**/copy-editing/SKILL.md"
+      - "**/ai-seo/SKILL.md"
+      - "**/ad-creative/SKILL.md"
+      - "**/cold-email/SKILL.md"
+      - "**/site-architecture/SKILL.md"
+      - "**/churn-prevention/SKILL.md"
+      - "**/social-content/SKILL.md"
+      - "**/sales-enablement/SKILL.md"
+      - "**/revops/SKILL.md"
+      - "**/product-marketing-context/SKILL.md"
+      - "**/pricing-strategy/SKILL.md"
+      - "**/lead-magnets/SKILL.md"
+      - "**/analytics-tracking/SKILL.md"
+      - "**/page-cro/SKILL.md"
+      - "**/launch-strategy/SKILL.md"
+      - "**/schema-markup/SKILL.md"
+      - "**/email-sequence/SKILL.md"
+      - "**/paid-ads/SKILL.md"
+      - "**/competitor-alternatives/SKILL.md"
+      - "**/customer-research/SKILL.md"
+      - "**/onboarding-cro/SKILL.md"
+      - "**/form-cro/SKILL.md"
+      - "**/free-tool-strategy/SKILL.md"
+      - "**/referral-program/SKILL.md"
+      - "**/ab-test-setup/SKILL.md"
+      - "**/signup-flow-cro/SKILL.md"
+      - "**/paywall-upgrade-cro/SKILL.md"
+      - "**/popup-cro/SKILL.md"
+      - "**/competitor-profiling/SKILL.md"
+      - "**/community-marketing/SKILL.md"
+      - "**/directory-submissions/SKILL.md"
+      - "**/image/SKILL.md"
+      - "**/video/SKILL.md"
+      - "**/co-marketing/SKILL.md"
+      - "**/cro/SKILL.md"
+      - "**/social/SKILL.md"
+      - "**/product-marketing/SKILL.md"
+      - "**/analytics/SKILL.md"
+      - "**/pricing/SKILL.md"
+      - "**/ads/SKILL.md"
+      - "**/emails/SKILL.md"
+      - "**/launch/SKILL.md"
+      - "**/competitors/SKILL.md"
+      - "**/schema/SKILL.md"
+      - "**/onboarding/SKILL.md"
+      - "**/ab-testing/SKILL.md"
+      - "**/free-tools/SKILL.md"
+      - "**/signup/SKILL.md"
+      - "**/referrals/SKILL.md"
+      - "**/popups/SKILL.md"
+      - "**/paywalls/SKILL.md"
+      - "**/aso/SKILL.md"
+      - "**/aso-audit/SKILL.md"
+      - "**/sms/SKILL.md"
+      - "**/prospecting/SKILL.md"
+      - "**/marketing-plan/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: xixu-me-skills
+    type: git_repository_collection
+    url: https://github.com/xixu-me/skills
+    include:
+      - "**/github-actions-docs/SKILL.md"
+      - "**/openclaw-secure-linux-cloud/SKILL.md"
+      - "**/secure-linux-web-hosting/SKILL.md"
+      - "**/skills-cli/SKILL.md"
+      - "**/running-claude-code-via-litellm-copilot/SKILL.md"
+      - "**/opensource-guide-coach/SKILL.md"
+      - "**/readme-i18n/SKILL.md"
+      - "**/use-my-browser/SKILL.md"
+      - "**/xget/SKILL.md"
+      - "**/tzst/SKILL.md"
+      - "**/xdrop/SKILL.md"
+      - "**/develop-userscripts/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: anthropics-skills
+    type: git_repository_collection
+    url: https://github.com/anthropics/skills
+    include:
+      - "**/frontend-design/SKILL.md"
+      - "**/skill-creator/SKILL.md"
+      - "**/pptx/SKILL.md"
+      - "**/pdf/SKILL.md"
+      - "**/docx/SKILL.md"
+      - "**/xlsx/SKILL.md"
+      - "**/webapp-testing/SKILL.md"
+      - "**/mcp-builder/SKILL.md"
+      - "**/canvas-design/SKILL.md"
+      - "**/web-artifacts-builder/SKILL.md"
+      - "**/theme-factory/SKILL.md"
+      - "**/doc-coauthoring/SKILL.md"
+      - "**/algorithmic-art/SKILL.md"
+      - "**/brand-guidelines/SKILL.md"
+      - "**/internal-comms/SKILL.md"
+      - "**/slack-gif-creator/SKILL.md"
+      - "**/template-skill/SKILL.md"
+      - "**/claude-api/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: vercel-labs-skills
+    type: git_repository_collection
+    url: https://github.com/vercel-labs/skills
+    include:
+      - "**/find-skills/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: obra-superpowers
+    type: git_repository_collection
+    url: https://github.com/obra/superpowers
+    include:
+      - "**/brainstorming/SKILL.md"
+      - "**/systematic-debugging/SKILL.md"
+      - "**/writing-plans/SKILL.md"
+      - "**/using-superpowers/SKILL.md"
+      - "**/requesting-code-review/SKILL.md"
+      - "**/test-driven-development/SKILL.md"
+      - "**/executing-plans/SKILL.md"
+      - "**/subagent-driven-development/SKILL.md"
+      - "**/verification-before-completion/SKILL.md"
+      - "**/receiving-code-review/SKILL.md"
+      - "**/writing-skills/SKILL.md"
+      - "**/dispatching-parallel-agents/SKILL.md"
+      - "**/using-git-worktrees/SKILL.md"
+      - "**/finishing-a-development-branch/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: pbakaus-impeccable
+    type: git_repository_collection
+    url: https://github.com/pbakaus/impeccable
+    include:
+      - "**/impeccable/SKILL.md"
+      - "**/polish/SKILL.md"
+      - "**/critique/SKILL.md"
+      - "**/audit/SKILL.md"
+      - "**/animate/SKILL.md"
+      - "**/adapt/SKILL.md"
+      - "**/clarify/SKILL.md"
+      - "**/optimize/SKILL.md"
+      - "**/colorize/SKILL.md"
+      - "**/bolder/SKILL.md"
+      - "**/delight/SKILL.md"
+      - "**/distill/SKILL.md"
+      - "**/quieter/SKILL.md"
+      - "**/typeset/SKILL.md"
+      - "**/overdrive/SKILL.md"
+      - "**/normalize/SKILL.md"
+      - "**/extract/SKILL.md"
+      - "**/onboard/SKILL.md"
+      - "**/frontend-design/SKILL.md"
+      - "**/harden/SKILL.md"
+      - "**/teach-impeccable/SKILL.md"
+      - "**/arrange/SKILL.md"
+      - "**/shape/SKILL.md"
+      - "**/layout/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: leonxlnx-taste-skill
+    type: git_repository_collection
+    url: https://github.com/leonxlnx/taste-skill
+    include:
+      - "**/design-taste-frontend/SKILL.md"
+      - "**/high-end-visual-design/SKILL.md"
+      - "**/redesign-existing-projects/SKILL.md"
+      - "**/minimalist-ui/SKILL.md"
+      - "**/full-output-enforcement/SKILL.md"
+      - "**/industrial-brutalist-ui/SKILL.md"
+      - "**/stitch-design-taste/SKILL.md"
+      - "**/gpt-taste/SKILL.md"
+      - "**/brandkit/SKILL.md"
+      - "**/image-to-code/SKILL.md"
+      - "**/imagegen-frontend-web/SKILL.md"
+      - "**/imagegen-frontend-mobile/SKILL.md"
+      - "**/design-taste-frontend-v1/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: heygen-com-hyperframes
+    type: git_repository_collection
+    url: https://github.com/heygen-com/hyperframes
+    include:
+      - "**/hyperframes/SKILL.md"
+      - "**/hyperframes-cli/SKILL.md"
+      - "**/hyperframes-registry/SKILL.md"
+      - "**/remotion-to-hyperframes/SKILL.md"
+      - "**/hyperframes-media/SKILL.md"
+      - "**/gsap/SKILL.md"
+      - "**/website-to-hyperframes/SKILL.md"
+      - "**/css-animations/SKILL.md"
+      - "**/tailwind/SKILL.md"
+      - "**/animejs/SKILL.md"
+      - "**/three/SKILL.md"
+      - "**/lottie/SKILL.md"
+      - "**/waapi/SKILL.md"
+      - "**/contribute-catalog/SKILL.md"
+      - "**/typegpu/SKILL.md"
+      - "**/hyperframes-animation/SKILL.md"
+      - "**/hyperframes-core/SKILL.md"
+      - "**/motion-graphics/SKILL.md"
+      - "**/hyperframes-creative/SKILL.md"
+      - "**/general-video/SKILL.md"
+      - "**/website-to-video/SKILL.md"
+      - "**/graphic-overlays/SKILL.md"
+      - "**/product-launch-video/SKILL.md"
+      - "**/embedded-captions/SKILL.md"
+      - "**/faceless-explainer/SKILL.md"
+      - "**/pr-to-video/SKILL.md"
+      - "**/slideshow/SKILL.md"
+      - "**/music-to-video/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: vercel-labs-agent-skills
+    type: git_repository_collection
+    url: https://github.com/vercel-labs/agent-skills
+    include:
+      - "**/vercel-react-best-practices/SKILL.md"
+      - "**/web-design-guidelines/SKILL.md"
+      - "**/vercel-composition-patterns/SKILL.md"
+      - "**/vercel-react-native-skills/SKILL.md"
+      - "**/deploy-to-vercel/SKILL.md"
+      - "**/vercel-react-view-transitions/SKILL.md"
+      - "**/vercel-cli-with-tokens/SKILL.md"
+      - "**/vercel-optimize/SKILL.md"
+      - "**/writing-guidelines/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: juliusbrussee-caveman
+    type: git_repository_collection
+    url: https://github.com/juliusbrussee/caveman
+    include:
+      - "**/caveman/SKILL.md"
+      - "**/caveman-commit/SKILL.md"
+      - "**/caveman-review/SKILL.md"
+      - "**/caveman-compress/SKILL.md"
+      - "**/caveman-help/SKILL.md"
+      - "**/cavecrew/SKILL.md"
+      - "**/caveman-stats/SKILL.md"
+      - "**/compress/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: samber-cc-skills-golang
+    type: git_repository_collection
+    url: https://github.com/samber/cc-skills-golang
+    include:
+      - "**/golang-code-style/SKILL.md"
+      - "**/golang-error-handling/SKILL.md"
+      - "**/golang-performance/SKILL.md"
+      - "**/golang-design-patterns/SKILL.md"
+      - "**/golang-testing/SKILL.md"
+      - "**/golang-security/SKILL.md"
+      - "**/golang-concurrency/SKILL.md"
+      - "**/golang-naming/SKILL.md"
+      - "**/golang-context/SKILL.md"
+      - "**/golang-data-structures/SKILL.md"
+      - "**/golang-database/SKILL.md"
+      - "**/golang-documentation/SKILL.md"
+      - "**/golang-safety/SKILL.md"
+      - "**/golang-modernize/SKILL.md"
+      - "**/golang-project-layout/SKILL.md"
+      - "**/golang-popular-libraries/SKILL.md"
+      - "**/golang-lint/SKILL.md"
+      - "**/golang-troubleshooting/SKILL.md"
+      - "**/golang-dependency-management/SKILL.md"
+      - "**/golang-observability/SKILL.md"
+      - "**/golang-structs-interfaces/SKILL.md"
+      - "**/golang-cli/SKILL.md"
+      - "**/golang-dependency-injection/SKILL.md"
+      - "**/golang-grpc/SKILL.md"
+      - "**/golang-benchmark/SKILL.md"
+      - "**/golang-continuous-integration/SKILL.md"
+      - "**/golang-stretchr-testify/SKILL.md"
+      - "**/golang-stay-updated/SKILL.md"
+      - "**/golang-samber-lo/SKILL.md"
+      - "**/golang-samber-do/SKILL.md"
+      - "**/golang-samber-oops/SKILL.md"
+      - "**/golang-samber-slog/SKILL.md"
+      - "**/golang-samber-mo/SKILL.md"
+      - "**/golang-samber-ro/SKILL.md"
+      - "**/golang-samber-hot/SKILL.md"
+      - "**/golang-swagger/SKILL.md"
+      - "**/golang-graphql/SKILL.md"
+      - "**/golang-spf13-cobra/SKILL.md"
+      - "**/golang-uber-fx/SKILL.md"
+      - "**/golang-spf13-viper/SKILL.md"
+      - "**/golang-uber-dig/SKILL.md"
+      - "**/golang-google-wire/SKILL.md"
+      - "**/golang-how-to/SKILL.md"
+      - "**/golang-linter/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: firebase-agent-skills
+    type: git_repository_collection
+    url: https://github.com/firebase/agent-skills
+    include:
+      - "**/firebase-basics/SKILL.md"
+      - "**/firebase-auth-basics/SKILL.md"
+      - "**/firebase-hosting-basics/SKILL.md"
+      - "**/firebase-app-hosting-basics/SKILL.md"
+      - "**/firebase-data-connect/SKILL.md"
+      - "**/developing-genkit-js/SKILL.md"
+      - "**/developing-genkit-dart/SKILL.md"
+      - "**/firebase-security-rules-auditor/SKILL.md"
+      - "**/firebase-ai-logic-basics/SKILL.md"
+      - "**/firebase-firestore/SKILL.md"
+      - "**/firebase-crashlytics/SKILL.md"
+      - "**/xcode-project-setup/SKILL.md"
+      - "**/developing-genkit-go/SKILL.md"
+      - "**/firebase-remote-config-basics/SKILL.md"
+      - "**/firebase-firestore-standard/SKILL.md"
+      - "**/firebase-firestore-enterprise-native-mode/SKILL.md"
+      - "**/firebase-ai-logic/SKILL.md"
+      - "**/developing-genkit-python/SKILL.md"
+      - "**/firestore-security-rules-auditor/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: wshobson-agents
+    type: git_repository_collection
+    url: https://github.com/wshobson/agents
+    include:
+      - "**/tailwind-design-system/SKILL.md"
+      - "**/typescript-advanced-types/SKILL.md"
+      - "**/nodejs-backend-patterns/SKILL.md"
+      - "**/python-performance-optimization/SKILL.md"
+      - "**/brand-landingpage/SKILL.md"
+      - "**/python-testing-patterns/SKILL.md"
+      - "**/api-design-principles/SKILL.md"
+      - "**/code-review-excellence/SKILL.md"
+      - "**/nextjs-app-router-patterns/SKILL.md"
+      - "**/postgresql-table-design/SKILL.md"
+      - "**/fastapi-templates/SKILL.md"
+      - "**/e2e-testing-patterns/SKILL.md"
+      - "**/architecture-patterns/SKILL.md"
+      - "**/mobile-ios-design/SKILL.md"
+      - "**/mobile-android-design/SKILL.md"
+      - "**/error-handling-patterns/SKILL.md"
+      - "**/prompt-engineering-patterns/SKILL.md"
+      - "**/javascript-testing-patterns/SKILL.md"
+      - "**/modern-javascript-patterns/SKILL.md"
+      - "**/sql-optimization-patterns/SKILL.md"
+      - "**/python-design-patterns/SKILL.md"
+      - "**/rust-async-patterns/SKILL.md"
+      - "**/dotnet-backend-patterns/SKILL.md"
+      - "**/security-requirement-extraction/SKILL.md"
+      - "**/git-advanced-workflows/SKILL.md"
+      - "**/responsive-design/SKILL.md"
+      - "**/database-migration/SKILL.md"
+      - "**/async-python-patterns/SKILL.md"
+      - "**/openapi-spec-generation/SKILL.md"
+      - "**/backtesting-frameworks/SKILL.md"
+      - "**/data-storytelling/SKILL.md"
+      - "**/solidity-security/SKILL.md"
+      - "**/github-actions-templates/SKILL.md"
+      - "**/terraform-module-library/SKILL.md"
+      - "**/k8s-security-policies/SKILL.md"
+      - "**/gdpr-data-handling/SKILL.md"
+      - "**/godot-gdscript-patterns/SKILL.md"
+      - "**/react-native-design/SKILL.md"
+      - "**/design-system-patterns/SKILL.md"
+      - "**/react-native-architecture/SKILL.md"
+      - "**/react-state-management/SKILL.md"
+      - "**/uv-package-manager/SKILL.md"
+      - "**/monorepo-management/SKILL.md"
+      - "**/python-code-style/SKILL.md"
+      - "**/kpi-dashboard-design/SKILL.md"
+      - "**/accessibility-compliance/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: lllllllama-rigorpilot-skills
+    type: git_repository_collection
+    url: https://github.com/lllllllama/rigorpilot-skills
+    include:
+      - "**/analyze-project/SKILL.md"
+      - "**/explore-code/SKILL.md"
+      - "**/ai-research-reproduction/SKILL.md"
+      - "**/paper-context-resolver/SKILL.md"
+      - "**/run-train/SKILL.md"
+      - "**/safe-debug/SKILL.md"
+      - "**/repo-intake-and-plan/SKILL.md"
+      - "**/ai-research-explore/SKILL.md"
+      - "**/minimal-run-and-audit/SKILL.md"
+      - "**/env-and-assets-bootstrap/SKILL.md"
+      - "**/explore-run/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: halt-catch-fire-skills
+    type: git_repository_collection
+    url: https://github.com/halt-catch-fire/skills
+    include:
+      - "**/remotion-render/SKILL.md"
+      - "**/ai-avatar-video/SKILL.md"
+      - "**/twitter-automation/SKILL.md"
+      - "**/ai-image-generation/SKILL.md"
+      - "**/ai-video-generation/SKILL.md"
+      - "**/agent-browser/SKILL.md"
+      - "**/agent-tools/SKILL.md"
+      - "**/web-search/SKILL.md"
+      - "**/python-executor/SKILL.md"
+      - "**/infsh-cli/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: lllllllama-ai-paper-reproduction-skill
+    type: git_repository_collection
+    url: https://github.com/lllllllama/ai-paper-reproduction-skill
+    include:
+      - "**/paper-context-resolver/SKILL.md"
+      - "**/repo-intake-and-plan/SKILL.md"
+      - "**/env-and-assets-bootstrap/SKILL.md"
+      - "**/minimal-run-and-audit/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: github-awesome-copilot
+    type: git_repository_collection
+    url: https://github.com/github/awesome-copilot
+    include:
+      - "**/git-commit/SKILL.md"
+      - "**/excalidraw-diagram-generator/SKILL.md"
+      - "**/gh-cli/SKILL.md"
+      - "**/documentation-writer/SKILL.md"
+      - "**/prd/SKILL.md"
+      - "**/refactor/SKILL.md"
+      - "**/java-springboot/SKILL.md"
+      - "**/multi-stage-dockerfile/SKILL.md"
+      - "**/create-readme/SKILL.md"
+      - "**/playwright-generate-test/SKILL.md"
+      - "**/postgresql-optimization/SKILL.md"
+      - "**/conventional-commit/SKILL.md"
+      - "**/chrome-devtools/SKILL.md"
+      - "**/dotnet-best-practices/SKILL.md"
+      - "**/sql-optimization/SKILL.md"
+      - "**/memory-merger/SKILL.md"
+      - "**/microsoft-docs/SKILL.md"
+      - "**/github-issues/SKILL.md"
+      - "**/microsoft-code-reference/SKILL.md"
+      - "**/create-specification/SKILL.md"
+      - "**/nuget-manager/SKILL.md"
+      - "**/web-design-reviewer/SKILL.md"
+      - "**/refactor-plan/SKILL.md"
+      - "**/sql-code-review/SKILL.md"
+      - "**/azure-devops-cli/SKILL.md"
+      - "**/javascript-typescript-jest/SKILL.md"
+      - "**/playwright-explore-website/SKILL.md"
+      - "**/create-agentsmd/SKILL.md"
+      - "**/create-implementation-plan/SKILL.md"
+      - "**/penpot-uiux-design/SKILL.md"
+      - "**/pytest-coverage/SKILL.md"
+      - "**/webapp-testing/SKILL.md"
+      - "**/architecture-blueprint-generator/SKILL.md"
+      - "**/game-engine/SKILL.md"
+      - "**/postgresql-code-review/SKILL.md"
+      - "**/typescript-mcp-server-generator/SKILL.md"
+      - "**/playwright-automation-fill-in-form/SKILL.md"
+      - "**/java-junit/SKILL.md"
+      - "**/dotnet-design-pattern-review/SKILL.md"
+      - "**/review-and-refactor/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: vercel-labs-agent-browser
+    type: git_repository_collection
+    url: https://github.com/vercel-labs/agent-browser
+    include:
+      - "**/agent-browser/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: jimliu-baoyu-skills
+    type: git_repository_collection
+    url: https://github.com/jimliu/baoyu-skills
+    include:
+      - "**/baoyu-post-to-wechat/SKILL.md"
+      - "**/baoyu-image-gen/SKILL.md"
+      - "**/baoyu-markdown-to-html/SKILL.md"
+      - "**/baoyu-cover-image/SKILL.md"
+      - "**/baoyu-infographic/SKILL.md"
+      - "**/baoyu-article-illustrator/SKILL.md"
+      - "**/baoyu-xhs-images/SKILL.md"
+      - "**/baoyu-slide-deck/SKILL.md"
+      - "**/baoyu-url-to-markdown/SKILL.md"
+      - "**/baoyu-comic/SKILL.md"
+      - "**/baoyu-post-to-x/SKILL.md"
+      - "**/baoyu-danger-x-to-markdown/SKILL.md"
+      - "**/baoyu-compress-image/SKILL.md"
+      - "**/baoyu-danger-gemini-web/SKILL.md"
+      - "**/baoyu-format-markdown/SKILL.md"
+      - "**/release-skills/SKILL.md"
+      - "**/baoyu-translate/SKILL.md"
+      - "**/baoyu-post-to-weibo/SKILL.md"
+      - "**/baoyu-youtube-transcript/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: agentspace-so-skills
+    type: git_repository_collection
+    url: https://github.com/agentspace-so/skills
+    include:
+      - "**/agentspace/SKILL.md"
+      - "**/find-skills/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: nextlevelbuilder-ui-ux-pro-max-skill
+    type: git_repository_collection
+    url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+    include:
+      - "**/ui-ux-pro-max/SKILL.md"
+      - "**/ckm:design-system/SKILL.md"
+      - "**/ckm:design/SKILL.md"
+      - "**/ckm:ui-styling/SKILL.md"
+      - "**/ckm:brand/SKILL.md"
+      - "**/ckm:banner-design/SKILL.md"
+      - "**/ckm:slides/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: get-convex-agent-skills
+    type: git_repository_collection
+    url: https://github.com/get-convex/agent-skills
+    include:
+      - "**/convex-quickstart/SKILL.md"
+      - "**/convex-performance-audit/SKILL.md"
+      - "**/convex-setup-auth/SKILL.md"
+      - "**/convex-migration-helper/SKILL.md"
+      - "**/convex-create-component/SKILL.md"
+      - "**/convex/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: expo-skills
+    type: git_repository_collection
+    url: https://github.com/expo/skills
+    include:
+      - "**/building-native-ui/SKILL.md"
+      - "**/native-data-fetching/SKILL.md"
+      - "**/upgrading-expo/SKILL.md"
+      - "**/expo-tailwind-setup/SKILL.md"
+      - "**/expo-deployment/SKILL.md"
+      - "**/expo-dev-client/SKILL.md"
+      - "**/expo-cicd-workflows/SKILL.md"
+      - "**/expo-api-routes/SKILL.md"
+      - "**/use-dom/SKILL.md"
+      - "**/expo-module/SKILL.md"
+      - "**/eas-update-insights/SKILL.md"
+      - "**/expo-ui-swiftui/SKILL.md"
+      - "**/expo-ui-jetpack-compose/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: remotion-dev-skills
+    type: git_repository_collection
+    url: https://github.com/remotion-dev/skills
+    include:
+      - "**/remotion-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: supabase-agent-skills
+    type: git_repository_collection
+    url: https://github.com/supabase/agent-skills
+    include:
+      - "**/supabase-postgres-best-practices/SKILL.md"
+      - "**/supabase/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: firecrawl-firecrawl-workflows
+    type: git_repository_collection
+    url: https://github.com/firecrawl/firecrawl-workflows
+    include:
+      - "**/firecrawl-deep-research/SKILL.md"
+      - "**/firecrawl-research-papers/SKILL.md"
+      - "**/firecrawl-website-design-clone/SKILL.md"
+      - "**/firecrawl-market-research/SKILL.md"
+      - "**/firecrawl-knowledge-base/SKILL.md"
+      - "**/firecrawl-lead-gen/SKILL.md"
+      - "**/firecrawl-dashboard-reporting/SKILL.md"
+      - "**/firecrawl-seo-audit/SKILL.md"
+      - "**/firecrawl-shop/SKILL.md"
+      - "**/firecrawl-lead-research/SKILL.md"
+      - "**/firecrawl-qa/SKILL.md"
+      - "**/firecrawl-workflows/SKILL.md"
+      - "**/firecrawl-competitive-intel/SKILL.md"
+      - "**/firecrawl-knowledge-ingest/SKILL.md"
+      - "**/firecrawl-company-directories/SKILL.md"
+      - "**/firecrawl-demo-walkthrough/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: google-labs-code-stitch-skills
+    type: git_repository_collection
+    url: https://github.com/google-labs-code/stitch-skills
+    include:
+      - "**/design-md/SKILL.md"
+      - "**/react:components/SKILL.md"
+      - "**/enhance-prompt/SKILL.md"
+      - "**/stitch-loop/SKILL.md"
+      - "**/shadcn-ui/SKILL.md"
+      - "**/remotion/SKILL.md"
+      - "**/stitch-design/SKILL.md"
+      - "**/taste-design/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: sleekdotdesign-agent-skills
+    type: git_repository_collection
+    url: https://github.com/sleekdotdesign/agent-skills
+    include:
+      - "**/sleek-design-mobile-apps/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: antfu-skills
+    type: git_repository_collection
+    url: https://github.com/antfu/skills
+    include:
+      - "**/vite/SKILL.md"
+      - "**/vue/SKILL.md"
+      - "**/vitest/SKILL.md"
+      - "**/vue-best-practices/SKILL.md"
+      - "**/nuxt/SKILL.md"
+      - "**/vueuse-functions/SKILL.md"
+      - "**/web-design-guidelines/SKILL.md"
+      - "**/pnpm/SKILL.md"
+      - "**/vue-router-best-practices/SKILL.md"
+      - "**/pinia/SKILL.md"
+      - "**/vue-testing-best-practices/SKILL.md"
+      - "**/unocss/SKILL.md"
+      - "**/antfu/SKILL.md"
+      - "**/tsdown/SKILL.md"
+      - "**/slidev/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: google-agents-cli
+    type: git_repository_collection
+    url: https://github.com/google/agents-cli
+    include:
+      - "**/google-agents-cli-adk-code/SKILL.md"
+      - "**/google-agents-cli-workflow/SKILL.md"
+      - "**/google-agents-cli-eval/SKILL.md"
+      - "**/google-agents-cli-scaffold/SKILL.md"
+      - "**/google-agents-cli-observability/SKILL.md"
+      - "**/google-agents-cli-deploy/SKILL.md"
+      - "**/google-agents-cli-publish/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: higgsfield-ai-skills
+    type: git_repository_collection
+    url: https://github.com/higgsfield-ai/skills
+    include:
+      - "**/higgsfield-generate/SKILL.md"
+      - "**/higgsfield-product-photoshoot/SKILL.md"
+      - "**/higgsfield-soul-id/SKILL.md"
+      - "**/higgsfield-marketplace-cards/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: scrapegraphai-just-scrape
+    type: git_repository_collection
+    url: https://github.com/scrapegraphai/just-scrape
+    include:
+      - "**/just-scrape/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: roin-orca-skills
+    type: git_repository_collection
+    url: https://github.com/roin-orca/skills
+    include:
+      - "**/simple/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: flutter-skills
+    type: git_repository_collection
+    url: https://github.com/flutter/skills
+    include:
+      - "**/flutter-apply-architecture-best-practices/SKILL.md"
+      - "**/flutter-build-responsive-layout/SKILL.md"
+      - "**/flutter-fix-layout-issues/SKILL.md"
+      - "**/flutter-add-widget-test/SKILL.md"
+      - "**/flutter-setup-declarative-routing/SKILL.md"
+      - "**/flutter-add-integration-test/SKILL.md"
+      - "**/flutter-implement-json-serialization/SKILL.md"
+      - "**/flutter-setup-localization/SKILL.md"
+      - "**/flutter-add-widget-preview/SKILL.md"
+      - "**/flutter-use-http-package/SKILL.md"
+      - "**/flutter-building-layouts/SKILL.md"
+      - "**/flutter-architecting-apps/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: greensock-gsap-skills
+    type: git_repository_collection
+    url: https://github.com/greensock/gsap-skills
+    include:
+      - "**/gsap-core/SKILL.md"
+      - "**/gsap-scrolltrigger/SKILL.md"
+      - "**/gsap-performance/SKILL.md"
+      - "**/gsap-timeline/SKILL.md"
+      - "**/gsap-plugins/SKILL.md"
+      - "**/gsap-utils/SKILL.md"
+      - "**/gsap-react/SKILL.md"
+      - "**/gsap-frameworks/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: kepano-obsidian-skills
+    type: git_repository_collection
+    url: https://github.com/kepano/obsidian-skills
+    include:
+      - "**/obsidian-markdown/SKILL.md"
+      - "**/obsidian-cli/SKILL.md"
+      - "**/obsidian-bases/SKILL.md"
+      - "**/json-canvas/SKILL.md"
+      - "**/defuddle/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: firecrawl-skills
+    type: git_repository_collection
+    url: https://github.com/firecrawl/skills
+    include:
+      - "**/firecrawl-build-search/SKILL.md"
+      - "**/firecrawl-build-scrape/SKILL.md"
+      - "**/firecrawl-build-interact/SKILL.md"
+      - "**/firecrawl-build-onboarding/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: vercel-labs-next-skills
+    type: git_repository_collection
+    url: https://github.com/vercel-labs/next-skills
+    include:
+      - "**/next-best-practices/SKILL.md"
+      - "**/next-cache-components/SKILL.md"
+      - "**/next-upgrade/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: better-auth-skills
+    type: git_repository_collection
+    url: https://github.com/better-auth/skills
+    include:
+      - "**/better-auth-best-practices/SKILL.md"
+      - "**/create-auth-skill/SKILL.md"
+      - "**/email-and-password-best-practices/SKILL.md"
+      - "**/organization-best-practices/SKILL.md"
+      - "**/two-factor-authentication-best-practices/SKILL.md"
+      - "**/better-auth-security-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: cloudflare-skills
+    type: git_repository_collection
+    url: https://github.com/cloudflare/skills
+    include:
+      - "**/cloudflare/SKILL.md"
+      - "**/wrangler/SKILL.md"
+      - "**/workers-best-practices/SKILL.md"
+      - "**/web-perf/SKILL.md"
+      - "**/durable-objects/SKILL.md"
+      - "**/agents-sdk/SKILL.md"
+      - "**/sandbox-sdk/SKILL.md"
+      - "**/cloudflare-email-service/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: vyralcontent-content-skills
+    type: git_repository_collection
+    url: https://github.com/vyralcontent/content-skills
+    include:
+      - "**/viral-short-form/SKILL.md"
+      - "**/viral-captions-and-ctas/SKILL.md"
+      - "**/viral-youtube-shorts/SKILL.md"
+      - "**/viral-short-form-ideas/SKILL.md"
+      - "**/viral-tiktok-content/SKILL.md"
+      - "**/viral-instagram-reels/SKILL.md"
+      - "**/viral-hooks/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: arvindrk-extract-design-system
+    type: git_repository_collection
+    url: https://github.com/arvindrk/extract-design-system
+    include:
+      - "**/extract-design-system/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: clerk-skills
+    type: git_repository_collection
+    url: https://github.com/clerk/skills
+    include:
+      - "**/clerk-nextjs-patterns/SKILL.md"
+      - "**/clerk-setup/SKILL.md"
+      - "**/clerk-custom-ui/SKILL.md"
+      - "**/clerk-webhooks/SKILL.md"
+      - "**/clerk-backend-api/SKILL.md"
+      - "**/clerk-testing/SKILL.md"
+      - "**/clerk/SKILL.md"
+      - "**/clerk-orgs/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: addyosmani-web-quality-skills
+    type: git_repository_collection
+    url: https://github.com/addyosmani/web-quality-skills
+    include:
+      - "**/accessibility/SKILL.md"
+      - "**/seo/SKILL.md"
+      - "**/performance/SKILL.md"
+      - "**/web-quality-audit/SKILL.md"
+      - "**/core-web-vitals/SKILL.md"
+      - "**/best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: anthropics-claude-code
+    type: git_repository_collection
+    url: https://github.com/anthropics/claude-code
+    include:
+      - "**/frontend-design/SKILL.md"
+      - "**/agent-development/SKILL.md"
+      - "**/skill-development/SKILL.md"
+      - "**/mcp-integration/SKILL.md"
+      - "**/command-development/SKILL.md"
+      - "**/hook-development/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: browser-act-skills
+    type: git_repository_collection
+    url: https://github.com/browser-act/skills
+    include:
+      - "**/browser-act/SKILL.md"
+      - "**/browser-act-skill-forge/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: emilkowalski-skills
+    type: git_repository_collection
+    url: https://github.com/emilkowalski/skills
+    include:
+      - "**/emil-design-eng/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: browser-use-browser-use
+    type: git_repository_collection
+    url: https://github.com/browser-use/browser-use
+    include:
+      - "**/browser-use/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: wecomteam-wecom-cli
+    type: git_repository_collection
+    url: https://github.com/wecomteam/wecom-cli
+    include:
+      - "**/wecomcli-doc/SKILL.md"
+      - "**/wecomcli-msg/SKILL.md"
+      - "**/wecomcli-contact/SKILL.md"
+      - "**/wecomcli-todo/SKILL.md"
+      - "**/wecomcli-schedule/SKILL.md"
+      - "**/wecomcli-meeting/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: jeffallan-claude-skills
+    type: git_repository_collection
+    url: https://github.com/jeffallan/claude-skills
+    include:
+      - "**/laravel-specialist/SKILL.md"
+      - "**/golang-pro/SKILL.md"
+      - "**/flutter-expert/SKILL.md"
+      - "**/php-pro/SKILL.md"
+      - "**/kubernetes-specialist/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: microsoft-playwright-cli
+    type: git_repository_collection
+    url: https://github.com/microsoft/playwright-cli
+    include:
+      - "**/playwright-cli/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: jackwener-opencli
+    type: git_repository_collection
+    url: https://github.com/jackwener/opencli
+    include:
+      - "**/opencli-usage/SKILL.md"
+      - "**/opencli-browser/SKILL.md"
+      - "**/opencli-autofix/SKILL.md"
+      - "**/smart-search/SKILL.md"
+      - "**/opencli-adapter-author/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: momentic-ai-skills
+    type: git_repository_collection
+    url: https://github.com/momentic-ai/skills
+    include:
+      - "**/momentic-test/SKILL.md"
+      - "**/momentic-result-classification/SKILL.md"
+      - "**/momentic-mobile-test/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: tavily-ai-skills
+    type: git_repository_collection
+    url: https://github.com/tavily-ai/skills
+    include:
+      - "**/tavily-search/SKILL.md"
+      - "**/tavily-research/SKILL.md"
+      - "**/tavily-best-practices/SKILL.md"
+      - "**/search/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: ibelick-ui-skills
+    type: git_repository_collection
+    url: https://github.com/ibelick/ui-skills
+    include:
+      - "**/fixing-motion-performance/SKILL.md"
+      - "**/baseline-ui/SKILL.md"
+      - "**/fixing-accessibility/SKILL.md"
+      - "**/fixing-metadata/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: squirrelscan-skills
+    type: git_repository_collection
+    url: https://github.com/squirrelscan/skills
+    include:
+      - "**/audit-website/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: insforge-agent-skills
+    type: git_repository_collection
+    url: https://github.com/insforge/agent-skills
+    include:
+      - "**/insforge/SKILL.md"
+      - "**/insforge-cli/SKILL.md"
+      - "**/insforge-debug/SKILL.md"
+      - "**/insforge-integrations/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: currents-dev-playwright-best-practices-skill
+    type: git_repository_collection
+    url: https://github.com/currents-dev/playwright-best-practices-skill
+    include:
+      - "**/playwright-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: dontbesilent2025-dbskill
+    type: git_repository_collection
+    url: https://github.com/dontbesilent2025/dbskill
+    include:
+      - "**/dbs/SKILL.md"
+      - "**/dbs-content/SKILL.md"
+      - "**/dbs-diagnosis/SKILL.md"
+      - "**/dbs-benchmark/SKILL.md"
+      - "**/dbs-deconstruct/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: intellectronica-agent-skills
+    type: git_repository_collection
+    url: https://github.com/intellectronica/agent-skills
+    include:
+      - "**/notion-api/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: genkit-ai-skills
+    type: git_repository_collection
+    url: https://github.com/genkit-ai/skills
+    include:
+      - "**/developing-genkit-js/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: othmanadi-planning-with-files
+    type: git_repository_collection
+    url: https://github.com/othmanadi/planning-with-files
+    include:
+      - "**/planning-with-files/SKILL.md"
+      - "**/planning-with-files-zh/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: degausai-wonda
+    type: git_repository_collection
+    url: https://github.com/degausai/wonda
+    include:
+      - "**/wonda-cli/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: neondatabase-agent-skills
+    type: git_repository_collection
+    url: https://github.com/neondatabase/agent-skills
+    include:
+      - "**/neon-postgres/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: msmps-opentui-skill
+    type: git_repository_collection
+    url: https://github.com/msmps/opentui-skill
+    include:
+      - "**/opentui/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: vercel-turborepo
+    type: git_repository_collection
+    url: https://github.com/vercel/turborepo
+    include:
+      - "**/turborepo/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: nozomio-labs-nia-skill
+    type: git_repository_collection
+    url: https://github.com/nozomio-labs/nia-skill
+    include:
+      - "**/nia/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: pexoai-pexo-skills
+    type: git_repository_collection
+    url: https://github.com/pexoai/pexo-skills
+    include:
+      - "**/pexo-agent/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: hyf0-vue-skills
+    type: git_repository_collection
+    url: https://github.com/hyf0/vue-skills
+    include:
+      - "**/vue-best-practices/SKILL.md"
+      - "**/vue-debug-guides/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: solana-foundation-solana-dev-skill
+    type: git_repository_collection
+    url: https://github.com/solana-foundation/solana-dev-skill
+    include:
+      - "**/solana-dev/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: hugmouse-skills
+    type: git_repository_collection
+    url: https://github.com/hugmouse/skills
+    include:
+      - "**/value/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: prisma-skills
+    type: git_repository_collection
+    url: https://github.com/prisma/skills
+    include:
+      - "**/prisma-database-setup/SKILL.md"
+      - "**/prisma-client-api/SKILL.md"
+      - "**/prisma-cli/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: agentix-cloud-skills
+    type: git_repository_collection
+    url: https://github.com/agentix-cloud/skills
+    include:
+      - "**/agentix-ceo/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: jakubkrehel-make-interfaces-feel-better
+    type: git_repository_collection
+    url: https://github.com/jakubkrehel/make-interfaces-feel-better
+    include:
+      - "**/make-interfaces-feel-better/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: sickn33-antigravity-awesome-skills
+    type: git_repository_collection
+    url: https://github.com/sickn33/antigravity-awesome-skills
+    include:
+      - "**/docker-expert/SKILL.md"
+      - "**/nodejs-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: alchaincyf-huashu-design
+    type: git_repository_collection
+    url: https://github.com/alchaincyf/huashu-design
+    include:
+      - "**/huashu-design/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: pilioai-skills
+    type: git_repository_collection
+    url: https://github.com/pilioai/skills
+    include:
+      - "**/gpt-image-2/SKILL.md"
+      - "**/nano-banana-2/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: replicas-group-skill
+    type: git_repository_collection
+    url: https://github.com/replicas-group/skill
+    include:
+      - "**/replicas-agent/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: anysearch-ai-anysearch-skill
+    type: git_repository_collection
+    url: https://github.com/anysearch-ai/anysearch-skill
+    include:
+      - "**/anysearch/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: op7418-humanizer-zh
+    type: git_repository_collection
+    url: https://github.com/op7418/humanizer-zh
+    include:
+      - "**/humanizer-zh/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: resciencelab-opc-skills
+    type: git_repository_collection
+    url: https://github.com/resciencelab/opc-skills
+    include:
+      - "**/seo-geo/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: giuseppe-trisciuoglio-developer-kit
+    type: git_repository_collection
+    url: https://github.com/giuseppe-trisciuoglio/developer-kit
+    include:
+      - "**/shadcn-ui/SKILL.md"
+      - "**/tailwind-css-patterns/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: charon-fan-agent-playbook
+    type: git_repository_collection
+    url: https://github.com/charon-fan/agent-playbook
+    include:
+      - "**/self-improving-agent/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: nexscope-ai-amazon-skills
+    type: git_repository_collection
+    url: https://github.com/nexscope-ai/amazon-skills
+    include:
+      - "**/amazon-product-research/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: gargantuax-openskills
+    type: git_repository_collection
+    url: https://github.com/gargantuax/openskills
+    include:
+      - "**/gpt-image-2/SKILL.md"
+      - "**/nanobanana/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: antibrow-anti-detect-browser-skills
+    type: git_repository_collection
+    url: https://github.com/antibrow/anti-detect-browser-skills
+    include:
+      - "**/anti-detect-browser/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: avdlee-swiftui-agent-skill
+    type: git_repository_collection
+    url: https://github.com/avdlee/swiftui-agent-skill
+    include:
+      - "**/swiftui-expert-skill/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: aaron-he-zhu-seo-geo-claude-skills
+    type: git_repository_collection
+    url: https://github.com/aaron-he-zhu/seo-geo-claude-skills
+    include:
+      - "**/backlink-analyzer/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: nexscope-ai-ecommerce-skills
+    type: git_repository_collection
+    url: https://github.com/nexscope-ai/ecommerce-skills
+    include:
+      - "**/cross-border-ecommerce/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: alchaincyf-nuwa-skill
+    type: git_repository_collection
+    url: https://github.com/alchaincyf/nuwa-skill
+    include:
+      - "**/huashu-nuwa/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: mastra-ai-skills
+    type: git_repository_collection
+    url: https://github.com/mastra-ai/skills
+    include:
+      - "**/mastra/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: twostraws-swiftui-agent-skill
+    type: git_repository_collection
+    url: https://github.com/twostraws/swiftui-agent-skill
+    include:
+      - "**/swiftui-pro/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: kadajett-agent-nestjs-skills
+    type: git_repository_collection
+    url: https://github.com/kadajett/agent-nestjs-skills
+    include:
+      - "**/nestjs-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: useai-pro-openclaw-skills-security
+    type: git_repository_collection
+    url: https://github.com/useai-pro/openclaw-skills-security
+    include:
+      - "**/skill-vetter/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: steipete-clawdis
+    type: git_repository_collection
+    url: https://github.com/steipete/clawdis
+    include:
+      - "**/summarize/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: wind-information-co-ltd-wind-skills
+    type: git_repository_collection
+    url: https://github.com/wind-information-co-ltd/wind-skills
+    include:
+      - "**/wind-mcp-skill/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: jane-o-o-o-o-agent-pulse-skills
+    type: git_repository_collection
+    url: https://github.com/jane-o-o-o-o/agent-pulse-skills
+    include:
+      - "**/agent-pulse/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: angular-skills
+    type: git_repository_collection
+    url: https://github.com/angular/skills
+    include:
+      - "**/angular-developer/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: dammyjay93-interface-design
+    type: git_repository_collection
+    url: https://github.com/dammyjay93/interface-design
+    include:
+      - "**/interface-design/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: callstackincubator-agent-skills
+    type: git_repository_collection
+    url: https://github.com/callstackincubator/agent-skills
+    include:
+      - "**/react-native-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: tencent-wechatreading
+    type: git_repository_collection
+    url: https://github.com/tencent/wechatreading
+    include:
+      - "**/weread-skills/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: garrytan-gstack
+    type: git_repository_collection
+    url: https://github.com/garrytan/gstack
+    include:
+      - "**/gstack/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: forrestchang-andrej-karpathy-skills
+    type: git_repository_collection
+    url: https://github.com/forrestchang/andrej-karpathy-skills
+    include:
+      - "**/karpathy-guidelines/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: mvanhorn-last30days-skill
+    type: git_repository_collection
+    url: https://github.com/mvanhorn/last30days-skill
+    include:
+      - "**/last30days/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: op7418-guizang-ppt-skill
+    type: git_repository_collection
+    url: https://github.com/op7418/guizang-ppt-skill
+    include:
+      - "**/guizang-ppt-skill/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: mcp-use-mcp-use
+    type: git_repository_collection
+    url: https://github.com/mcp-use/mcp-use
+    include:
+      - "**/mcp-apps-builder/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: sfkislev-the-news
+    type: git_repository_collection
+    url: https://github.com/sfkislev/the-news
+    include:
+      - "**/the-news/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: google-gemini-gemini-skills
+    type: git_repository_collection
+    url: https://github.com/google-gemini/gemini-skills
+    include:
+      - "**/gemini-api-dev/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: shadcn-improve
+    type: git_repository_collection
+    url: https://github.com/shadcn/improve
+    include:
+      - "**/improve/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: halthelobster-proactive-agent
+    type: git_repository_collection
+    url: https://github.com/halthelobster/proactive-agent
+    include:
+      - "**/proactive-agent/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: mcollina-skills
+    type: git_repository_collection
+    url: https://github.com/mcollina/skills
+    include:
+      - "**/fastify-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: madteacher-mad-agents-skills
+    type: git_repository_collection
+    url: https://github.com/madteacher/mad-agents-skills
+    include:
+      - "**/flutter-animations/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: lewislulu-html-ppt-skill
+    type: git_repository_collection
+    url: https://github.com/lewislulu/html-ppt-skill
+    include:
+      - "**/html-ppt/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: avdlee-swift-concurrency-agent-skill
+    type: git_repository_collection
+    url: https://github.com/avdlee/swift-concurrency-agent-skill
+    include:
+      - "**/swift-concurrency/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: eze-is-web-access
+    type: git_repository_collection
+    url: https://github.com/eze-is/web-access
+    include:
+      - "**/web-access/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: gargantuax-gemini-watermark-remover
+    type: git_repository_collection
+    url: https://github.com/gargantuax/gemini-watermark-remover
+    include:
+      - "**/gemini-watermark-remover/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: apollographql-skills
+    type: git_repository_collection
+    url: https://github.com/apollographql/skills
+    include:
+      - "**/rust-best-practices/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: sugarforever-01coder-agent-skills
+    type: git_repository_collection
+    url: https://github.com/sugarforever/01coder-agent-skills
+    include:
+      - "**/china-stock-analysis/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: apify-agent-skills
+    type: git_repository_collection
+    url: https://github.com/apify/agent-skills
+    include:
+      - "**/apify-ultimate-scraper/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: vercel-ai-elements
+    type: git_repository_collection
+    url: https://github.com/vercel/ai-elements
+    include:
+      - "**/ai-elements/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: spillwavesolutions-design-doc-mermaid
+    type: git_repository_collection
+    url: https://github.com/spillwavesolutions/design-doc-mermaid
+    include:
+      - "**/design-doc-mermaid/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: nutlope-hallmark
+    type: git_repository_collection
+    url: https://github.com/nutlope/hallmark
+    include:
+      - "**/hallmark/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: franalgaba-grimoire
+    type: git_repository_collection
+    url: https://github.com/franalgaba/grimoire
+    include:
+      - "**/grimoire-polymarket/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: yizhiyanhua-ai-fireworks-tech-graph
+    type: git_repository_collection
+    url: https://github.com/yizhiyanhua-ai/fireworks-tech-graph
+    include:
+      - "**/fireworks-tech-graph/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: hexiaochun-seedance2-api
+    type: git_repository_collection
+    url: https://github.com/hexiaochun/seedance2-api
+    include:
+      - "**/seedance2-api/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: pluginagentmarketplace-custom-plugin-java
+    type: git_repository_collection
+    url: https://github.com/pluginagentmarketplace/custom-plugin-java
+    include:
+      - "**/java-spring-boot/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: claude-office-skills-skills
+    type: git_repository_collection
+    url: https://github.com/claude-office-skills/skills
+    include:
+      - "**/excel-automation/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: ast-grep-agent-skill
+    type: git_repository_collection
+    url: https://github.com/ast-grep/agent-skill
+    include:
+      - "**/ast-grep/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: langchain-ai-langchain-skills
+    type: git_repository_collection
+    url: https://github.com/langchain-ai/langchain-skills
+    include:
+      - "**/deep-agents-memory/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: affaan-m-everything-claude-code
+    type: git_repository_collection
+    url: https://github.com/affaan-m/everything-claude-code
+    include:
+      - "**/security-review/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: benjitaylor-agentation
+    type: git_repository_collection
+    url: https://github.com/benjitaylor/agentation
+    include:
+      - "**/agentation/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: starchild-ai-agent-official-skills
+    type: git_repository_collection
+    url: https://github.com/starchild-ai-agent/official-skills
+    include:
+      - "**/coinglass/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: zhjiang22-openclaw-xhs
+    type: git_repository_collection
+    url: https://github.com/zhjiang22/openclaw-xhs
+    include:
+      - "**/xiaohongshu/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: gracefullight-stock-checker
+    type: git_repository_collection
+    url: https://github.com/gracefullight/stock-checker
+    include:
+      - "**/stock-analysis/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: brightdata-skills
+    type: git_repository_collection
+    url: https://github.com/brightdata/skills
+    include:
+      - "**/scrape/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: parallel-web-parallel-agent-skills
+    type: git_repository_collection
+    url: https://github.com/parallel-web/parallel-agent-skills
+    include:
+      - "**/parallel-deep-research/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: mindrally-skills
+    type: git_repository_collection
+    url: https://github.com/mindrally/skills
+    include:
+      - "**/fastapi-python/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs
+  - slug: brianlovin-claude-config
+    type: git_repository_collection
+    url: https://github.com/brianlovin/claude-config
+    include:
+      - "**/simplify/SKILL.md"
+      - "SKILL.md"
+    curation:
+      category: skill
+      reason: top skills.sh entries by all-time installs

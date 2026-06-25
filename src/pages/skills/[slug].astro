@@ -1,8 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { Button, KV, Notice, Score, Tag, ValidationFinding } from '@agentcaps/ui';
+import { Button, CapCard, KV, Notice, Score, ValidationFinding } from '@agentcaps/ui';
 import type { KVItem } from '@agentcaps/ui';
 import { getListings, hostedCatalogPath } from '../../lib/registry';
+
+const all = getListings();
 
 export function getStaticPaths() {
   return getListings().map((listing) => ({ params: { slug: listing.slug }, props: { listing } }));
@@ -10,6 +12,7 @@ export function getStaticPaths() {
 
 const { listing } = Astro.props;
 const entry = listing.catalogEntry;
+const category = listing.source.curation?.category ?? 'capability';
 const catalogJson = JSON.stringify(entry, null, 2);
 const hostedCatalog = hostedCatalogPath(listing.source.url);
 const v = listing.validation;
@@ -26,11 +29,28 @@ const snapshotItems: KVItem[] = [
   { label: 'commit', value: (listing.snapshot.sourceCommit ?? '—').slice(0, 12) },
   { label: 'indexed', value: listing.snapshot.fetchedAt.slice(0, 10) }
 ];
+
+// Related: same-category first, then tag overlap, then score. Top 3.
+const myTags = new Set(tags.map((t) => t.toLowerCase()));
+const related = all
+  .filter((l) => l.slug !== listing.slug)
+  .map((l) => {
+    const lTags = (l.catalogEntry.tags ?? []).map((t) => t.toLowerCase());
+    return {
+      l,
+      same: (l.source.curation?.category ?? 'capability') === category ? 1 : 0,
+      overlap: lTags.filter((t) => myTags.has(t)).length,
+      score: l.validation.score
+    };
+  })
+  .sort((a, b) => b.same - a.same || b.overlap - a.overlap || b.score - a.score)
+  .slice(0, 3)
+  .map((x) => x.l);
 ---
 <Base title={`${entry.displayName} — AgentCaps`} description={entry.description}>
   <section class="section section--flush">
     <a class="back" href="/explore">← Explore</a>
-    <span class="cap-cat detail-cat">{listing.source.curation?.category ?? 'capability'} · indexed from GitHub</span>
+    <span class="cap-cat detail-cat">{category} · indexed from GitHub</span>
     <h1>{entry.displayName}</h1>
     <p class="prose lede">{entry.description}</p>
     <div class="btn-row detail-actions">
@@ -53,7 +73,7 @@ const snapshotItems: KVItem[] = [
       {capabilities.length > 0 && (
         <div class="block">
           <h2>Capabilities</h2>
-          <div class="tagrow tagrow--lg">{capabilities.map((c) => <Tag mono>{c}</Tag>)}</div>
+          <div class="tagrow tagrow--lg">{capabilities.map((c) => <span class="tag mono">{c}</span>)}</div>
         </div>
       )}
 
@@ -82,7 +102,9 @@ const snapshotItems: KVItem[] = [
       {tags.length > 0 && (
         <div class="side-block">
           <h3 class="label">Tags</h3>
-          <div class="tagrow">{tags.map((t) => <Tag>{t}</Tag>)}</div>
+          <div class="tagrow">
+            {tags.map((t) => <a class="tag tag--link" href={`/explore?q=${encodeURIComponent(t)}`}>{t}</a>)}
+          </div>
         </div>
       )}
 
@@ -97,14 +119,36 @@ const snapshotItems: KVItem[] = [
     </aside>
   </section>
 
+  {related.length > 0 && (
+    <section class="section related">
+      <h2>Related capabilities</h2>
+      <div class="cap-grid">
+        {related.map((r) => (
+          <CapCard
+            name={r.catalogEntry.displayName}
+            href={`/skills/${r.slug}`}
+            description={r.catalogEntry.description}
+            category={r.source.curation?.category ?? 'capability'}
+            score={r.validation.score}
+            tags={r.catalogEntry.tags ?? []}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Copied CatalogEntry to clipboard</div>
+
   <script define:vars={{ catalogJson }}>
     const btn = document.querySelector('.js-copy');
+    const toast = document.querySelector('#toast');
+    let timer;
     btn?.addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(catalogJson);
-        const original = btn.textContent;
-        btn.textContent = 'Copied ✓';
-        setTimeout(() => { btn.textContent = original; }, 1600);
+        toast?.classList.add('show');
+        clearTimeout(timer);
+        timer = setTimeout(() => toast?.classList.remove('show'), 1800);
       } catch {
         btn.textContent = 'Copy failed';
       }
@@ -139,10 +183,26 @@ const snapshotItems: KVItem[] = [
     .score-card { border: 1px solid var(--line); border-radius: 4px; padding: 20px; background: var(--surface); }
     .score-card p { margin-top: 10px; font-size: 0.8125rem; color: var(--muted); }
     .side-block h3.label { margin-bottom: 10px; }
+    .tag--link { cursor: pointer; }
+    .tag--link:hover { border-color: var(--ink-2); color: var(--ink); text-decoration: none; }
+
+    .related h2 { margin-bottom: 22px; }
+
+    .toast {
+      position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(8px);
+      background: var(--ink); color: #fff; font: 600 0.875rem/1 var(--font-sans);
+      padding: 13px 18px; border-radius: 999px; z-index: 60;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.18s var(--ease), transform 0.18s var(--ease);
+    }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
     @media (max-width: 900px) {
       .detail-grid { grid-template-columns: 1fr; gap: 32px; }
       .detail-side { position: static; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .toast { transition: opacity 0.18s; transform: translateX(-50%); }
     }
   </style>
 </Base>
