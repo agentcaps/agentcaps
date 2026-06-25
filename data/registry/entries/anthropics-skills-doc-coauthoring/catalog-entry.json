@@ -4,5 +4,26 @@
   "type": "application/ai-skill",
   "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/doc-coauthoring/SKILL.md",
   "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
-  "updatedAt": "2026-06-24T08:07:15.034Z"
+  "tags": [
+    "documentation",
+    "writing",
+    "collaboration",
+    "structured-workflow",
+    "co-authoring"
+  ],
+  "capabilities": [
+    "writing.guide",
+    "documentation.create",
+    "content.structure",
+    "content.refine",
+    "documentation.review"
+  ],
+  "representativeQueries": [
+    "draft a proposal for our new feature",
+    "create a technical specification document",
+    "help me structure a design document",
+    "write documentation for this code",
+    "guide me through creating a decision doc"
+  ],
+  "updatedAt": "2026-06-25T13:54:49.983Z"
 }

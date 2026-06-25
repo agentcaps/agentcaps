@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-swagger
+entryId: samber-cc-skills-golang-golang-swagger
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-swagger
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-swagger/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - swagger
+        - openapi
+        - api-documentation
+        - code-generation
+        - rest-api
+      capabilities:
+        - api.document
+        - api.annotate
+        - swagger.generate
+        - api.secure
+        - documentation.audit
+      representativeQueries:
+        - Add Swagger documentation to my Go API
+        - Generate OpenAPI docs from Go annotations
+        - Set up Swagger UI with gin framework
+        - Audit my API documentation for completeness
+        - Configure security definitions for API endpoints
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-swagger/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-swagger/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-swagger/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-swagger/SKILL.md
+  sourceDigest: sha256:3674ae7e1b7afc28fb5ca6670e3fc9360fdf81e975fecb463d36a1ba8b09247f
+  fetchedAt: 2026-06-25T13:57:50.670Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.051Z

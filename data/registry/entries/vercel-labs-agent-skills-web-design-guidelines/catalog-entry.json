@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:vercel-labs:agent-skills:skill:web-design-guidelines",
+  "displayName": "web-design-guidelines",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/web-design-guidelines/SKILL.md",
+  "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+  "tags": [
+    "ui-review",
+    "design-audit",
+    "accessibility",
+    "web-standards",
+    "compliance-check"
+  ],
+  "capabilities": [
+    "design.review",
+    "code.review",
+    "accessibility.audit",
+    "standards.validate",
+    "ui.compliance"
+  ],
+  "representativeQueries": [
+    "Review my UI code for design guidelines",
+    "Check my website for accessibility issues",
+    "Audit my design against best practices",
+    "Review my site for UX compliance"
+  ],
+  "updatedAt": "2026-06-25T13:54:32.294Z"
+}

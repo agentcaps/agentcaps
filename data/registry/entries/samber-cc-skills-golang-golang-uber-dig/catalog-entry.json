@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-uber-dig",
+  "displayName": "golang-uber-dig",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-uber-dig/SKILL.md",
+  "description": "Implements dependency injection in Golang using uber-go/dig — reflection-based container, Provide/Invoke, dig.In/dig.Out parameter and result objects, named values, value groups, optional dependencies, scopes, and Decorate. Apply when using or adopting uber-go/dig, when the codebase imports `go.uber.org/dig`, or when wiring an application graph at startup. For higher-level lifecycle and modules, see `samber/cc-skills-golang@golang-uber-fx` skill.",
+  "tags": [
+    "dependency-injection",
+    "golang",
+    "uber-dig",
+    "container",
+    "composition",
+    "wiring"
+  ],
+  "capabilities": [
+    "dependency-injection.implement",
+    "dependency-injection.provide",
+    "dependency-injection.invoke",
+    "code.wire",
+    "architecture.compose"
+  ],
+  "representativeQueries": [
+    "How do I use uber-go/dig for dependency injection?",
+    "Wire up an application graph with dig",
+    "Implement dependency injection in Go",
+    "Set up dig container with named values",
+    "How to use dig.In and dig.Out structs?"
+  ],
+  "updatedAt": "2026-06-25T13:57:57.842Z"
+}

@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-video
+entryId: coreyhaines31-marketingskills-video
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-video
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/video/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - ai-video
+        - video-production
+        - programmatic-video
+        - video-creation
+        - ai-avatar
+      capabilities:
+        - video.generate
+        - video.create
+        - avatar.create
+        - video.edit
+        - video.build
+        - content.produce
+      representativeQueries:
+        - Create a product demo video
+        - Generate AI avatar explainer video
+        - Make me a talking head video
+        - Build a programmatic video template
+        - Generate B-roll using AI video
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/video/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/video/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/video/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/video/SKILL.md
+  sourceDigest: sha256:322ff36c8a0fdf7ffeb482fcf2190857c81e21514d99bce7b6c56d654edeb1ae
+  fetchedAt: 2026-06-25T13:51:54.689Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.771Z

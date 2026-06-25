@@ -1,0 +1,47 @@
+slug: runcomfy-com-skills-happyhorse-1-0
+entryId: runcomfy-com-skills-happyhorse-1-0
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-happyhorse-1-0
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: happyhorse-1-0/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - text-to-video
+        - video-generation
+        - runcomfy
+        - character-consistency
+        - ai-video
+        - media-synthesis
+      capabilities:
+        - video.generate
+        - video.create
+        - media.create
+        - content.synthesize
+      representativeQueries:
+        - Generate a multi-shot video with HappyHorse
+        - Create text-to-video with character consistency
+        - I need synchronized audio in my video generation
+        - Generate video with HappyHorse 1.0 model
+        - Create a video with consistent character across scenes
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/happyhorse-1-0/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: happyhorse-1-0/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/happyhorse-1-0/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/happyhorse-1-0/SKILL.md
+  sourceDigest: sha256:eaca8bb73e047efd0d2ab742a82dad5d52a0bda073e4fb301b3a651046475e00
+  fetchedAt: 2026-06-25T13:48:36.428Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.973Z

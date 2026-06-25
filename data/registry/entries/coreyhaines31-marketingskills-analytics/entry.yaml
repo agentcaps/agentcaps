@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-analytics
+entryId: coreyhaines31-marketingskills-analytics
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-analytics
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/analytics/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - analytics
+        - tracking
+        - measurement
+        - conversion-tracking
+        - event-implementation
+        - gtag
+      capabilities:
+        - analytics.setup
+        - analytics.track
+        - analytics.measure
+        - analytics.audit
+        - conversion.track
+        - event.implement
+      representativeQueries:
+        - How do I set up Google Analytics on my site?
+        - Help me track conversions in Google Analytics
+        - I need to implement event tracking for my app
+        - Are my analytics events firing correctly?
+        - Set up a tracking plan for my marketing funnel
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/analytics/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/analytics/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/analytics/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/analytics/SKILL.md
+  sourceDigest: sha256:16aab197f87bf6e2599d179061f1947d96acafe0a340837432d8ab96d2f8c55a
+  fetchedAt: 2026-06-25T13:52:17.417Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.707Z

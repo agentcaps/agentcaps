@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/skill-creator/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - skill-creation
+        - skill-optimization
+        - evaluation
+        - benchmarking
+        - iterative-improvement
+        - testing
+      capabilities:
+        - skill.create
+        - skill.optimize
+        - skill.evaluate
+        - skill.benchmark
+        - skill.test
+      representativeQueries:
+        - Create a new skill from scratch
+        - Help me improve my skill's performance
+        - Benchmark and evaluate this skill
+        - Can you help me optimize this skill?
+        - Run performance tests on my skill
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/skill-creator/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/skill-creator/SKILL.md
   sourceDigest: sha256:dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:54:05.820Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.331Z
+  publishedAt: 2026-06-25T13:59:33.684Z

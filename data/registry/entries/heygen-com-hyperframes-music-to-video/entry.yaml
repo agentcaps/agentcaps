@@ -1,0 +1,48 @@
+slug: heygen-com-hyperframes-music-to-video
+entryId: heygen-com-hyperframes-music-to-video
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-music-to-video
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/music-to-video/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - music-to-video
+        - beat-sync
+        - video-generation
+        - audio-analysis
+        - frame-composition
+        - hyperframes
+      capabilities:
+        - media.generate
+        - audio.analyze
+        - video.sync
+        - media.compose
+        - video.edit
+      representativeQueries:
+        - Turn my music into a beat-synced HyperFrames video
+        - Create a video that syncs with the beats in my song
+        - Generate a kinetic promo video from an audio track
+        - Build a music video with beat-grid frame composition
+        - Make a beat-synchronized video from my music file
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/music-to-video/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/music-to-video/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/music-to-video/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/music-to-video/SKILL.md
+  sourceDigest: sha256:191d5aeb5dadb370bd46b746424757ed9f47e374a45dd1956b0fabb752874677
+  fetchedAt: 2026-06-25T13:54:28.109Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.849Z

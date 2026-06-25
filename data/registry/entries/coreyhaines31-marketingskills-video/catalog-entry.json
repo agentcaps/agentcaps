@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:video",
+  "displayName": "video",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/video/SKILL.md",
+  "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative.",
+  "tags": [
+    "video-generation",
+    "ai-video",
+    "video-production",
+    "programmatic-video",
+    "video-creation",
+    "ai-avatar"
+  ],
+  "capabilities": [
+    "video.generate",
+    "video.create",
+    "avatar.create",
+    "video.edit",
+    "video.build",
+    "content.produce"
+  ],
+  "representativeQueries": [
+    "Create a product demo video",
+    "Generate AI avatar explainer video",
+    "Make me a talking head video",
+    "Build a programmatic video template",
+    "Generate B-roll using AI video"
+  ],
+  "updatedAt": "2026-06-25T13:51:54.689Z"
+}

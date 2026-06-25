@@ -1,0 +1,46 @@
+slug: runcomfy-com-skills-image-outpainting
+entryId: runcomfy-com-skills-image-outpainting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-image-outpainting
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: image-outpainting/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-outpainting
+        - image-editing
+        - canvas-extension
+        - aspect-ratio
+        - ai-image
+        - runcomfy
+      capabilities:
+        - image.outpaint
+        - image.edit
+        - image.extend
+        - image.uncrop
+      representativeQueries:
+        - Extend the image canvas to the right
+        - Change this square photo to widescreen
+        - Expand the image borders and fill in sky
+        - Uncrop this portrait to landscape format
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-outpainting/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: image-outpainting/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-outpainting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-outpainting/SKILL.md
+  sourceDigest: sha256:f1507fa330c210e9d821ec36a9045689ec5dd43d47a9a8bba59d34a0f52b74c4
+  fetchedAt: 2026-06-25T13:48:58.006Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.978Z

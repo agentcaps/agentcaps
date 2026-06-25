@@ -1,0 +1,48 @@
+slug: agentspace-so-runcomfy-agent-skills-ai-avatar-video
+entryId: agentspace-so-runcomfy-agent-skills-ai-avatar-video
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-ai-avatar-video
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: ai-avatar-video/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - avatar
+        - lip-sync
+        - ai-video
+        - talking-head
+        - audio-to-video
+      capabilities:
+        - video.generate
+        - video.avatar
+        - media.synthesize
+        - audio.to-video
+        - video.lip-sync
+      representativeQueries:
+        - Create a talking head video from my voiceover
+        - Generate an AI avatar video that speaks my script
+        - Make this portrait talk using audio-driven animation
+        - Create a lip-synced video of my product demo
+        - Generate a virtual presenter video for my presentation
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-avatar-video/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: ai-avatar-video/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-avatar-video/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-avatar-video/SKILL.md
+  sourceDigest: sha256:8b6bf883992770dba887e02d42ca5181f9d10d7551358c2a0bba4553a44a18e6
+  fetchedAt: 2026-06-25T13:47:23.690Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.610Z

@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:paper-context-resolver",
+  "displayName": "paper-context-resolver",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md",
+  "description": "Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.",
+  "tags": [
+    "paper-resolution",
+    "reproduction",
+    "deep-learning",
+    "repo-verification",
+    "context-resolution",
+    "conflict-detection"
+  ],
+  "capabilities": [
+    "paper.resolve",
+    "repo.verification",
+    "research.context",
+    "paper.compare",
+    "reproduction.validate",
+    "dataset.resolve"
+  ],
+  "representativeQueries": [
+    "Resolve the dataset split mentioned in the original paper for this repository",
+    "Check if the evaluation protocol in the README matches the paper's methodology",
+    "Find checkpoint mapping details from the paper for this deep learning model",
+    "Clarify preprocessing differences between the paper and repository implementation",
+    "Identify runtime assumptions required for reproducing this model"
+  ],
+  "updatedAt": "2026-06-25T13:58:50.163Z"
+}

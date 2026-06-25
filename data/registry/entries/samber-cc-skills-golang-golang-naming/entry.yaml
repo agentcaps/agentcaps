@@ -1,0 +1,47 @@
+slug: samber-cc-skills-golang-golang-naming
+entryId: samber-cc-skills-golang-golang-naming
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-naming
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-naming/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - go-naming
+        - golang-conventions
+        - code-style
+        - naming-patterns
+        - best-practices
+      capabilities:
+        - go.naming
+        - code.review
+        - code.refactor
+        - naming.guide
+        - style.convention
+      representativeQueries:
+        - What naming convention for Go interfaces?
+        - How should I name my Go constructor functions?
+        - Should Go error types use Error suffix or Err?
+        - Best practices for naming Go receivers and getters?
+        - Is this Go package name following conventions?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-naming/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-naming/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-naming/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-naming/SKILL.md
+  sourceDigest: sha256:a54d4bc4277bc361e56c64107e5e7e827751304dcfebab89e99b62a519134b89
+  fetchedAt: 2026-06-25T13:55:50.508Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.022Z

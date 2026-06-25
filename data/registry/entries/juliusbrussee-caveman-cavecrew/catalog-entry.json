@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:juliusbrussee:caveman:skill:cavecrew",
+  "displayName": "cavecrew",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/juliusbrussee/caveman/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/cavecrew/SKILL.md",
+  "description": "Decision guide for delegating to caveman-style subagents. Tells the main thread WHEN to spawn `cavecrew-investigator` (locate code), `cavecrew-builder` (1-2 file edit), or `cavecrew-reviewer` (diff review) instead of doing the work inline or using vanilla `Explore`. Subagent output is caveman-compressed so the tool-result injected back into main context is ~60% smaller — main context lasts longer across long sessions. Trigger: \"delegate to subagent\", \"use cavecrew\", \"spawn investigator/builder/reviewer\", \"save context\", \"compressed agent output\".",
+  "tags": [
+    "delegation",
+    "subagent",
+    "context-compression",
+    "code-review",
+    "agent-routing",
+    "code-navigation"
+  ],
+  "capabilities": [
+    "code.locate",
+    "code.edit",
+    "diff.review",
+    "context.compress",
+    "agent.delegate"
+  ],
+  "representativeQueries": [
+    "Where is this function defined in the codebase?",
+    "Find all uses of this variable across files",
+    "Review this branch for potential bugs",
+    "Delegate code investigation to a subagent",
+    "How can I compress my agent output tokens?"
+  ],
+  "updatedAt": "2026-06-25T13:55:13.658Z"
+}

@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-samber-do
+entryId: samber-cc-skills-golang-golang-samber-do
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-samber-do
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-samber-do/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - dependency-injection
+        - golang
+        - service-container
+        - go-generics
+        - composition-root
+        - lifecycle-management
+      capabilities:
+        - go.inject
+        - go.configure
+        - architecture.di
+        - lifecycle.manage
+        - code.refactor
+      representativeQueries:
+        - Set up dependency injection with samber/do in my Go project
+        - Refactor manual constructor injection to use DI container
+        - Configure service lifecycle and scopes with samber/do
+        - Implement graceful shutdown with dependency injection
+        - Design composition root for my Go application
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-do/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-samber-do/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-do/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-do/SKILL.md
+  sourceDigest: sha256:281b3babcb3201863e19c92ed0409df0206c57fde657d1f88a2178b6b52e7e3d
+  fetchedAt: 2026-06-25T13:57:20.241Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.039Z

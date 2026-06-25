@@ -1,0 +1,46 @@
+slug: samber-cc-skills-golang-golang-security
+entryId: samber-cc-skills-golang-golang-security
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-security
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-security/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - security
+        - vulnerability-prevention
+        - code-review
+        - cryptography
+      capabilities:
+        - code.review
+        - security.audit
+        - vulnerability.detect
+        - crypto.validate
+        - secrets.check
+      representativeQueries:
+        - Review this Go code for SQL injection vulnerabilities
+        - Audit my golang codebase for security issues
+        - Check if this cryptography implementation is secure
+        - Find hardcoded secrets in my Go project
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-security/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-security/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-security/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-security/SKILL.md
+  sourceDigest: sha256:70aea8ac83f721d3c3ff14d5364d255cbb79f9d7d6b1db35f5009affb9efee5f
+  fetchedAt: 2026-06-25T13:55:41.176Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.045Z

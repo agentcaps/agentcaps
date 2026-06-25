@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-benchmark",
+  "displayName": "golang-benchmark",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-benchmark/SKILL.md",
+  "description": "Golang benchmarking, profiling, and performance measurement. Use when writing, running, or comparing Go benchmarks, profiling hot paths with pprof, interpreting CPU/memory/trace profiles, analyzing results with benchstat, setting up CI benchmark regression detection, or investigating production performance with Prometheus runtime metrics. Also use when the developer needs deep analysis on a specific performance indicator - this skill provides the measurement methodology, while `samber/cc-skills-golang@golang-performance` provides the optimization patterns.",
+  "tags": [
+    "golang",
+    "benchmarking",
+    "profiling",
+    "performance",
+    "pprof",
+    "measurement"
+  ],
+  "capabilities": [
+    "performance.measure",
+    "benchmark.write",
+    "benchmark.run",
+    "benchmark.compare",
+    "profile.interpret",
+    "regression.detect"
+  ],
+  "representativeQueries": [
+    "Help me write a Go benchmark for this function",
+    "How do I compare two benchmark runs statistically",
+    "Analyze this pprof CPU profile for performance bottlenecks",
+    "Set up CI benchmark regression detection for my Go project",
+    "Measure the memory usage and performance impact of this code"
+  ],
+  "updatedAt": "2026-06-25T13:57:12.996Z"
+}

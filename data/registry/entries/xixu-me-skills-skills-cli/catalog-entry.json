@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:skills-cli",
+  "displayName": "skills-cli",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/skills-cli/SKILL.md",
+  "description": "Use when users ask to discover, install, list, check, update, remove, back up, restore, sync, or initialize Agent Skills, mention `bunx skills`, `npx skills`, `skills.sh`, or `skills-lock.json`, ask \"find a skill for X\", or want help extending agent capabilities with installable skills.",
+  "tags": [
+    "skills-management",
+    "package-manager",
+    "skill-discovery",
+    "agent-capabilities",
+    "cli-tools"
+  ],
+  "capabilities": [
+    "skills.discover",
+    "skills.install",
+    "skills.manage",
+    "agent.extend",
+    "skills.update"
+  ],
+  "representativeQueries": [
+    "Find a skill for testing",
+    "How do I install an agent skill?",
+    "Can you help me discover skills?",
+    "List all installed skills",
+    "Is there a skill for code review?"
+  ],
+  "updatedAt": "2026-06-25T13:53:38.644Z"
+}

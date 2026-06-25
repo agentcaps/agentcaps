@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-design-patterns
+entryId: samber-cc-skills-golang-golang-design-patterns
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-design-patterns
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-design-patterns/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - design-patterns
+        - architecture
+        - best-practices
+        - api-design
+        - error-handling
+      capabilities:
+        - golang.architect
+        - code.review
+        - api.design
+        - pattern.apply
+        - constructor.implement
+      representativeQueries:
+        - How should I structure this Go package?
+        - Review this code for design issues
+        - What's the right pattern for this API?
+        - How do I implement functional options?
+        - Design a graceful shutdown for my server
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-design-patterns/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-design-patterns/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-design-patterns/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-design-patterns/SKILL.md
+  sourceDigest: sha256:facb970dcff3632155de8382d1ceb4afb55ff20d4335283f52a9072debc3836b
+  fetchedAt: 2026-06-25T13:55:31.124Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.010Z

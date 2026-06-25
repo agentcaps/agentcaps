@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-cli",
+  "displayName": "golang-cli",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-cli/SKILL.md",
+  "description": "Golang CLI application development. Use when building, modifying, or reviewing a Go CLI tool — especially for command structure, flag handling, configuration layering, version embedding, exit codes, I/O patterns, signal handling, shell completion, argument validation, and CLI unit testing. Also triggers when code uses cobra, viper, or urfave/cli. For cobra-specific APIs → See `samber/cc-skills-golang@golang-spf13-cobra` skill; for viper configuration layering → See `samber/cc-skills-golang@golang-spf13-viper` skill.",
+  "tags": [
+    "golang",
+    "cli",
+    "cobra",
+    "viper",
+    "development",
+    "command-line"
+  ],
+  "capabilities": [
+    "cli.build",
+    "cli.extend",
+    "cli.review",
+    "cli.configure",
+    "development.golang"
+  ],
+  "representativeQueries": [
+    "Build a new Go CLI application",
+    "Add subcommands to my existing CLI",
+    "Review my CLI tool for best practices",
+    "Set up configuration and flags handling",
+    "How do I implement shell completion?"
+  ],
+  "updatedAt": "2026-06-25T13:56:48.390Z"
+}

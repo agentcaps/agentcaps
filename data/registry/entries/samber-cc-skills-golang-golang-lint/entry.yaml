@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-lint
+entryId: samber-cc-skills-golang-golang-lint
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-lint
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-lint/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - linting
+        - code-quality
+        - golangci-lint
+        - static-analysis
+        - best-practices
+      capabilities:
+        - code.lint
+        - code.review
+        - config.setup
+        - code.fix
+        - code.analyze
+      representativeQueries:
+        - Configure golangci-lint for my Go project
+        - How do I suppress this golangci-lint warning?
+        - Set up code linting in my Go codebase
+        - What linters should I enable for quality?
+        - Fix all golangci-lint errors automatically
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-lint/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-lint/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-lint/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-lint/SKILL.md
+  sourceDigest: sha256:bfd49aa022338959ea45d08d3fbf3fce010c236cdd0109a2d6a9859635c3cd72
+  fetchedAt: 2026-06-25T13:56:27.928Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.018Z

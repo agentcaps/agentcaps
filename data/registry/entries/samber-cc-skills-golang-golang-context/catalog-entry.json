@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-context",
+  "displayName": "golang-context",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-context/SKILL.md",
+  "description": "Idiomatic context.Context usage in Golang — propagation through API boundaries, cancellation, timeouts and deadlines, request-scoped values, context.WithoutCancel for background work outliving requests. Apply when designing context propagation across layers, debugging leaked or unexpired contexts, choosing between context.Background/TODO/WithoutCancel, or storing values in context. Not for code that merely accepts ctx as first parameter.",
+  "tags": [
+    "golang",
+    "context-handling",
+    "concurrency",
+    "cancellation",
+    "api-design",
+    "timeout-management"
+  ],
+  "capabilities": [
+    "go.context-design",
+    "code.review",
+    "api.design",
+    "concurrency.cancellation",
+    "patterns.propagation",
+    "debug.context-leaks"
+  ],
+  "representativeQueries": [
+    "How should I propagate context through my API layers?",
+    "What's the right way to handle context cancellation in Go?",
+    "How do I avoid context leaks in my Go microservice?",
+    "When should I use context.WithoutCancel instead of Background?",
+    "Design context flow for database queries and timeout handling"
+  ],
+  "updatedAt": "2026-06-25T13:55:53.979Z"
+}

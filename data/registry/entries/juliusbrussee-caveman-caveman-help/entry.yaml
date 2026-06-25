@@ -1,0 +1,48 @@
+slug: juliusbrussee-caveman-caveman-help
+entryId: juliusbrussee-caveman-caveman-help
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: juliusbrussee-caveman-caveman-help
+  type: git_repository
+  url: https://github.com/juliusbrussee/caveman
+  path: skills/caveman-help/SKILL.md
+  curation:
+    category: communication
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - caveman
+        - help
+        - reference
+        - communication
+        - compression
+        - command
+      capabilities:
+        - help.display
+        - documentation.reference
+        - communication.reference
+        - command.reference
+        - text.compress
+      representativeQueries:
+        - what caveman commands
+        - how do I use caveman
+        - caveman quick reference
+        - show me caveman modes
+        - what are caveman skills
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/juliusbrussee/caveman
+  sourceRepositoryUrl: https://github.com/juliusbrussee/caveman
+  sourceWebUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-help/SKILL.md
+  sourceCommit: 25d22f864ad68cc447a4cb93aefde918aa4aec9f
+  trackingRef: HEAD
+  artifactPath: skills/caveman-help/SKILL.md
+  pinnedArtifactUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-help/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/juliusbrussee/caveman/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-help/SKILL.md
+  sourceDigest: sha256:590d6c6c17254bda56d18da7cc9d0bf252aeec5d1c78b77dd7ae4cabb8404f89
+  fetchedAt: 2026-06-25T13:56:03.424Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.864Z

@@ -1,0 +1,48 @@
+slug: heygen-com-hyperframes-hyperframes
+entryId: heygen-com-hyperframes-hyperframes
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-hyperframes
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/hyperframes/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video
+        - animation
+        - html
+        - motion-graphics
+        - composition
+        - rendering
+      capabilities:
+        - video.render
+        - video.create
+        - animation.create
+        - media.generate
+        - composition.author
+      representativeQueries:
+        - Create a promotional video with animations and voiceover
+        - Make an explainer video with motion graphics and captions
+        - Generate an animated title card for my video project
+        - Author a video composition from HTML with timing controls
+        - Render an animated video with background music and effects
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/hyperframes/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes/SKILL.md
+  sourceDigest: sha256:f8ae3801952e29d2577046033c3d6b7aca31b4c1c233b79e77f259185c3ec525
+  fetchedAt: 2026-06-25T13:57:57.560Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.837Z

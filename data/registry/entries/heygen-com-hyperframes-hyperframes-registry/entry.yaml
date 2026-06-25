@@ -1,0 +1,47 @@
+slug: heygen-com-hyperframes-hyperframes-registry
+entryId: heygen-com-hyperframes-hyperframes-registry
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-hyperframes-registry
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/hyperframes-registry/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - composition
+        - registry
+        - blocks
+        - components
+        - wiring
+        - animation
+      capabilities:
+        - registry.install
+        - composition.wire
+        - block.install
+        - component.install
+        - composition.configure
+      representativeQueries:
+        - How do I install a block from the registry?
+        - Wire a block into my composition with proper attributes
+        - Can I customize install locations for blocks and components?
+        - How do I add a component to my HyperFrames project?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-registry/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/hyperframes-registry/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-registry/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-registry/SKILL.md
+  sourceDigest: sha256:1abaa095aae1b680b5b6e80032e66694fc401ccbfea9526aabcf727c841c9012
+  fetchedAt: 2026-06-25T13:57:07.000Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.847Z

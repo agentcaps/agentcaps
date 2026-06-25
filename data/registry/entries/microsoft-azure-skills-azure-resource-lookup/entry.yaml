@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-resource-lookup
+entryId: microsoft-azure-skills-azure-resource-lookup
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-resource-lookup
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-resource-lookup/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - resource-management
+        - cloud-infrastructure
+        - inventory
+        - azure-resource-graph
+        - discovery
+      capabilities:
+        - cloud.query
+        - resource.list
+        - resource.discover
+        - azure.inventory
+        - resource.search
+      representativeQueries:
+        - list my virtual machines in azure
+        - show storage accounts across subscriptions
+        - find orphaned resources in my resource groups
+        - list all web apps and app services
+        - what azure resources do I have
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-resource-lookup/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-resource-lookup/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-resource-lookup/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-resource-lookup/SKILL.md
+  sourceDigest: sha256:81357bebb50b2a9cbfe46386eae4643d565445562882de4f891801b8b5dbfed1
+  fetchedAt: 2026-06-25T13:45:08.966Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.908Z

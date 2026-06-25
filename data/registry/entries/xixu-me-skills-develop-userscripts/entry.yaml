@@ -1,0 +1,48 @@
+slug: xixu-me-skills-develop-userscripts
+entryId: xixu-me-skills-develop-userscripts
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-develop-userscripts
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/develop-userscripts/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - userscript
+        - browser-automation
+        - tampermonkey
+        - scriptcat
+        - javascript
+        - web-automation
+      capabilities:
+        - browser.script-build
+        - browser.script-debug
+        - browser.script-package
+        - web.automate
+        - code.inject
+      representativeQueries:
+        - Help me debug my Tampermonkey script permissions
+        - How do I create and package a ScriptCat userscript
+        - Set up @match and @grant metadata for my script
+        - Debug injection timing issues in my userscript
+        - Create a background script with scheduled tasks
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/develop-userscripts/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/develop-userscripts/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/develop-userscripts/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/develop-userscripts/SKILL.md
+  sourceDigest: sha256:dcf479356d93f4f62da1cc786fa27b9bcec8a95a0ff93ee079ba4e82d3679f4d
+  fetchedAt: 2026-06-25T13:54:13.257Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.066Z

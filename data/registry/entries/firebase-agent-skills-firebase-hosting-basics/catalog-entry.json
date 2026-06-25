@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-hosting-basics",
+  "displayName": "firebase-hosting-basics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-hosting-basics/SKILL.md",
+  "description": "Skill for working with Firebase Hosting (Classic). Use this when you want to deploy static web apps, Single Page Apps (SPAs), or simple microservices. Do NOT use for Firebase App Hosting.",
+  "tags": [
+    "firebase",
+    "hosting",
+    "deployment",
+    "spa",
+    "static-site",
+    "web-hosting"
+  ],
+  "capabilities": [
+    "hosting.deploy",
+    "hosting.configure",
+    "hosting.preview",
+    "deployment.manage",
+    "web.host"
+  ],
+  "representativeQueries": [
+    "How do I deploy my React app to Firebase Hosting?",
+    "Configure Firebase Hosting with redirects and rewrites",
+    "Set up preview channels for Firebase Hosting",
+    "Deploy my static website to Firebase Hosting",
+    "How to manage Firebase Hosting releases?"
+  ],
+  "updatedAt": "2026-06-25T13:58:25.365Z"
+}

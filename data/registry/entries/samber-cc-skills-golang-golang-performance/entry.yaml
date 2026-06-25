@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-performance
+entryId: samber-cc-skills-golang-golang-performance
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-performance
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-performance/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - performance
+        - optimization
+        - benchmarking
+        - profiling
+        - memory-tuning
+      capabilities:
+        - performance.optimize
+        - code.profile
+        - code.benchmark
+        - performance.review
+        - memory.tune
+        - allocation.reduce
+      representativeQueries:
+        - How can I optimize this Go function's performance?
+        - What memory allocation patterns should I fix in this code?
+        - Review this Go service for performance bottlenecks
+        - How do I reduce GC pressure in my Go application?
+        - What's the right optimization pattern for this bottleneck?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-performance/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-performance/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-performance/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-performance/SKILL.md
+  sourceDigest: sha256:cfd50ca2ec6619aeb26ee02e26338f00bf55810926392f031f469e2681b9b583
+  fetchedAt: 2026-06-25T13:55:27.862Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.029Z

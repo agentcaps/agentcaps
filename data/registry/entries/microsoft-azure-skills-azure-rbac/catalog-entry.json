@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-rbac",
+  "displayName": "azure-rbac",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-rbac/SKILL.md",
+  "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: bicep for role assignment, what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles.",
+  "tags": [
+    "azure",
+    "rbac",
+    "iam",
+    "least-privilege",
+    "role-assignment",
+    "access-control"
+  ],
+  "capabilities": [
+    "iam.assign-role",
+    "iam.recommend-role",
+    "code.generate-bicep",
+    "cli.generate-commands",
+    "cloud.access-control"
+  ],
+  "representativeQueries": [
+    "What Azure RBAC role should I assign for least privilege access?",
+    "Generate CLI commands to assign Azure role to managed identity",
+    "Create Bicep infrastructure code for role assignment",
+    "What permissions do I need to grant RBAC roles?",
+    "Find minimal role for reading blob storage"
+  ],
+  "updatedAt": "2026-06-25T13:46:12.636Z"
+}

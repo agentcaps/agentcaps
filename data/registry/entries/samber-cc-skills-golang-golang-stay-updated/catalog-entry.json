@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-stay-updated",
+  "displayName": "golang-stay-updated",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-stay-updated/SKILL.md",
+  "description": "Provides resources to stay updated with Golang news, communities and people to follow. Use when seeking Go learning resources, discovering new libraries, finding community channels, or keeping up with Go language changes and releases.",
+  "tags": [
+    "golang",
+    "news",
+    "learning",
+    "community",
+    "resources",
+    "ecosystem"
+  ],
+  "capabilities": [
+    "learning.discover",
+    "community.find",
+    "knowledge.stay-updated",
+    "developer.follow",
+    "library.discover"
+  ],
+  "representativeQueries": [
+    "Where can I find Go learning resources?",
+    "How do I stay updated with Go news?",
+    "Which influential Go developers should I follow?",
+    "What Go communities and forums should I join?",
+    "Show me curated Go libraries and tools"
+  ],
+  "updatedAt": "2026-06-25T13:57:08.918Z"
+}

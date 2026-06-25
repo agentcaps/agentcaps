@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:lipsync",
+  "displayName": "lipsync",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/lipsync/SKILL.md",
+  "description": "Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on \"lip sync\", \"lipsync\", \"make this video speak\", \"match audio to mouth\", \"dub video\", \"sync lips to voice\", \"Sync Labs\", \"voiceover sync\", or any explicit ask to drive a face's mouth from an audio track.",
+  "tags": [
+    "lipsync",
+    "audio-sync",
+    "avatar",
+    "dubbing",
+    "voice-sync"
+  ],
+  "capabilities": [
+    "video.lipsync",
+    "avatar.generate",
+    "audio.sync",
+    "media.dub"
+  ],
+  "representativeQueries": [
+    "Lip sync this video to audio",
+    "Make this face speak the audio",
+    "Dub video with voiceover",
+    "Sync lips to voice track",
+    "Create lip-synced video from script"
+  ],
+  "updatedAt": "2026-06-25T13:50:15.338Z"
+}

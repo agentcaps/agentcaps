@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-modernize",
+  "displayName": "golang-modernize",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-modernize/SKILL.md",
+  "description": "Modernize Golang code to use recent language features, standard library improvements, and idiomatic patterns. Trigger proactively when writing or reviewing Go code and old-style patterns are detected, or when encountering a deprecation warning. Also use when the user explicitly asks for modernization, a Go version upgrade, or a CI/tooling refresh.",
+  "tags": [
+    "golang",
+    "modernization",
+    "refactoring",
+    "code-quality",
+    "idioms",
+    "legacy-code"
+  ],
+  "capabilities": [
+    "code.modernize",
+    "golang.upgrade",
+    "code.refactor",
+    "testing.modernize",
+    "golang.idioms"
+  ],
+  "representativeQueries": [
+    "Modernize this Go code to use recent features",
+    "Update deprecated Go patterns in this codebase",
+    "Apply Go 1.26 idioms and standard library improvements",
+    "Scan for outdated Go patterns and suggest fixes",
+    "Make this Go code more idiomatic and modern"
+  ],
+  "updatedAt": "2026-06-25T13:56:15.856Z"
+}

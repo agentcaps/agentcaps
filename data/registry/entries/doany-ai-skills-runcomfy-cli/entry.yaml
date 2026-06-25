@@ -1,0 +1,48 @@
+slug: doany-ai-skills-runcomfy-cli
+entryId: doany-ai-skills-runcomfy-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-runcomfy-cli
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: runcomfy-cli/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - cli
+        - model-inference
+        - image-generation
+        - video-generation
+        - ml-models
+        - runcomfy
+      capabilities:
+        - model.run
+        - image.generate
+        - video.generate
+        - image.edit
+        - auth.login
+      representativeQueries:
+        - run a text-to-image model on runcomfy
+        - generate an image using runcomfy cli
+        - how do I install and authenticate runcomfy
+        - run video generation on runcomfy models
+        - set up runcomfy for face-swap and lip-sync
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/runcomfy-cli/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: runcomfy-cli/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/runcomfy-cli/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/runcomfy-cli/SKILL.md
+  sourceDigest: sha256:f4c822d0972a78d8840a48cff0583319d156ab7a373a4053a2a0c26c7bb339a3
+  fetchedAt: 2026-06-25T13:49:25.160Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.804Z

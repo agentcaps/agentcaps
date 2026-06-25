@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:runcomfy-com:skills:skill:wan-2-7",
+  "displayName": "wan-2-7",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/wan-2-7/SKILL.md",
+  "description": "Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, and when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2 instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through the local RunComfy CLI. Triggers on \"wan\", \"wan 2.7\", \"wan-2-7\", \"wan video\", or any explicit ask to generate video with this model.",
+  "tags": [
+    "video-generation",
+    "text-to-video",
+    "wan-2-7",
+    "runcomfy",
+    "ai-video",
+    "motion"
+  ],
+  "capabilities": [
+    "video.generate",
+    "audio.sync",
+    "video.customize",
+    "motion.control"
+  ],
+  "representativeQueries": [
+    "Generate a video from text using Wan 2.7",
+    "Create lip-synced video with audio track",
+    "Make a text-to-video with motion control",
+    "Generate 1080p video with Wan 2.7 model",
+    "Create smooth motion video from description"
+  ],
+  "updatedAt": "2026-06-25T13:49:00.686Z"
+}

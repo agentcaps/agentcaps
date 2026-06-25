@@ -1,0 +1,46 @@
+slug: lllllllama-rigorpilot-skills-env-and-assets-bootstrap
+entryId: lllllllama-rigorpilot-skills-env-and-assets-bootstrap
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-env-and-assets-bootstrap
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/env-and-assets-bootstrap/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - environment-setup
+        - conda
+        - deep-learning
+        - reproduction
+        - assets-bootstrap
+      capabilities:
+        - environment.setup
+        - environment.configure
+        - assets.prepare
+        - checkpoint.locate
+      representativeQueries:
+        - Set up conda environment for deep learning repo reproduction
+        - Prepare checkpoint and dataset paths before running experiments
+        - Configure environment variables and cache directories for models
+        - Bootstrap conda environment with dependencies from README
+        - Plan asset preparation for deep learning model reproduction
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/env-and-assets-bootstrap/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/env-and-assets-bootstrap/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/env-and-assets-bootstrap/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/env-and-assets-bootstrap/SKILL.md
+  sourceDigest: sha256:75052a7f8563755bbf22228aaf9b28f2a578e38d8ffdd09e624140b1af24c870
+  fetchedAt: 2026-06-25T13:59:03.821Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.873Z

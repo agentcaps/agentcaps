@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-stretchr-testify",
+  "displayName": "golang-stretchr-testify",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-stretchr-testify/SKILL.md",
+  "description": "Comprehensive guide to stretchr/testify for Golang testing. Covers assert, require, mock, and suite packages in depth. Use when writing tests with testify, creating mocks, setting up test suites, or choosing between assert and require. Covers testify assertions, mock expectations, argument matchers, call verification, suite lifecycle, and advanced patterns like Eventually, JSONEq, and custom matchers. Apply when the codebase imports github.com/stretchr/testify.",
+  "tags": [
+    "golang",
+    "testing",
+    "testify",
+    "assertions",
+    "mocking",
+    "test-suites"
+  ],
+  "capabilities": [
+    "testing.write-assertions",
+    "testing.create-mocks",
+    "testing.verify-calls",
+    "testing.setup-suites",
+    "code.test"
+  ],
+  "representativeQueries": [
+    "Help me write assertions for my Go tests",
+    "How do I create mocks with stretchr/testify?",
+    "Set up a test suite with testify fixtures",
+    "What's the difference between assert and require?",
+    "Create mock expectations and argument matchers"
+  ],
+  "updatedAt": "2026-06-25T13:57:05.802Z"
+}

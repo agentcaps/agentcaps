@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-structs-interfaces",
+  "displayName": "golang-structs-interfaces",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-structs-interfaces/SKILL.md",
+  "description": "Golang struct and interface design patterns — composition, embedding, type assertions, type switches, interface segregation, dependency injection via interfaces, struct field tags, and pointer vs value receivers. Use this skill when designing Go types, defining or implementing interfaces, embedding structs or interfaces, writing type assertions or type switches, adding struct field tags for JSON/YAML/DB serialization, or choosing between pointer and value receivers. Also use when the user asks about \"accept interfaces, return structs\", compile-time interface checks, or composing small interfaces into larger ones.",
+  "tags": [
+    "golang",
+    "interfaces",
+    "struct-design",
+    "composition",
+    "design-patterns",
+    "type-system"
+  ],
+  "capabilities": [
+    "interface.design",
+    "struct.define",
+    "type.assertion",
+    "interface.compose",
+    "struct.embed",
+    "architecture.dependency-injection"
+  ],
+  "representativeQueries": [
+    "How do I design a small composable interface in Go?",
+    "What's the best way to embed structs in Go?",
+    "How should I use type assertions and type switches?",
+    "What's the difference between pointer and value receivers?",
+    "How do I implement interface segregation in Go?"
+  ],
+  "updatedAt": "2026-06-25T13:56:53.144Z"
+}

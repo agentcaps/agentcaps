@@ -1,0 +1,48 @@
+slug: leonxlnx-taste-skill-imagegen-frontend-mobile
+entryId: leonxlnx-taste-skill-imagegen-frontend-mobile
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: leonxlnx-taste-skill-imagegen-frontend-mobile
+  type: git_repository
+  url: https://github.com/leonxlnx/taste-skill
+  path: skills/imagegen-frontend-mobile/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - mobile-ui
+        - app-design
+        - screen-mockup
+        - premium-design
+        - flow-design
+        - ios-android
+      capabilities:
+        - image.generate
+        - design.mobile-screen
+        - ui.mockup
+        - flow.design
+        - product.concept
+      representativeQueries:
+        - Design mobile app onboarding screens for iOS and Android
+        - Create premium dashboard mockup for a fintech app
+        - Generate multi-screen chat app interface concept
+        - Design authentication flow screens for mobile product
+        - Make ecommerce app home screen and product detail mockups
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/leonxlnx/taste-skill
+  sourceRepositoryUrl: https://github.com/leonxlnx/taste-skill
+  sourceWebUrl: https://github.com/leonxlnx/taste-skill/blob/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-mobile/SKILL.md
+  sourceCommit: 06d6028b5c623016c59ce8536f578e5a1127b499
+  trackingRef: HEAD
+  artifactPath: skills/imagegen-frontend-mobile/SKILL.md
+  pinnedArtifactUrl: https://github.com/leonxlnx/taste-skill/blob/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-mobile/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/leonxlnx/taste-skill/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-mobile/SKILL.md
+  sourceDigest: sha256:8a33389979f3074fa0926678e266ad2eb9234624472254469fc1ad916b9caa24
+  fetchedAt: 2026-06-25T13:58:01.130Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.869Z

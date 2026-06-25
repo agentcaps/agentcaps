@@ -1,0 +1,48 @@
+slug: doany-ai-skills-ai-image-generation
+entryId: doany-ai-skills-ai-image-generation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-ai-image-generation
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: ai-image-generation/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-generation
+        - text-to-image
+        - runcomfy
+        - ai-models
+        - image-editing
+        - generative-ai
+      capabilities:
+        - image.generate
+        - image.edit
+        - model.select
+        - media.create
+        - image.transform
+      representativeQueries:
+        - Generate an image of a sunset landscape
+        - Make a photorealistic portrait picture
+        - Text to image generation with FLUX model
+        - Edit this image using AI technology
+        - Create a styled image from reference photos
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-image-generation/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: ai-image-generation/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-image-generation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-image-generation/SKILL.md
+  sourceDigest: sha256:752a30e08a7c89fbca5a8bd2556654af9a7b6ce7fb6082098299fbdb49e6253b
+  fetchedAt: 2026-06-25T13:49:56.700Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.777Z

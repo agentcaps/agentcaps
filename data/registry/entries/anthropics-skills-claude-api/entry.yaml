@@ -8,12 +8,29 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/claude-api/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - api-reference
+        - llm-integration
+        - anthropic-sdk
+        - model-configuration
+        - prompt-engineering
+        - tool-use
+      capabilities:
+        - api.reference
+        - model.selection
+        - sdk.integration
+        - cache.configuration
+        - agent.implementation
+        - tool.definition
+      representativeQueries:
+        - Which Claude model should I use for my use case?
+        - How do I implement tool use with Claude?
+        - What's the pricing for the Claude API?
+        - How do I set up prompt caching with the Anthropic SDK?
+        - Show me how to build an agent with Claude
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +42,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/claude-api/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/claude-api/SKILL.md
   sourceDigest: sha256:290beaca25c5938cb94355ff3a452712e4e32d1b202cc6af75991160af147e3d
-  fetchedAt: 2026-06-24T08:07:15.034Z
+  fetchedAt: 2026-06-25T13:55:18.120Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.321Z
+  publishedAt: 2026-06-25T13:59:33.670Z

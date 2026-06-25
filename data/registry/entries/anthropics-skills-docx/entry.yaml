@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/docx/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - docx
+        - word-documents
+        - document-creation
+        - document-editing
+        - office-automation
+      capabilities:
+        - document.create
+        - document.edit
+        - document.read
+        - document.convert
+        - office.format
+      representativeQueries:
+        - Create a professional Word document with formatting and a table of
+          contents
+        - Read and extract content from an existing .docx file
+        - Edit a Word document and insert or replace images
+        - Convert a Word document to PDF and then to images
+        - Generate a formatted business report as a .docx file
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/docx/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/docx/SKILL.md
   sourceDigest: sha256:cfbabd72b1aec7dfaad988fb6e5e16b27dc744b9a00cae15db9045e95f53903e
-  fetchedAt: 2026-06-24T08:07:15.034Z
+  fetchedAt: 2026-06-25T13:54:27.625Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.324Z
+  publishedAt: 2026-06-25T13:59:33.674Z

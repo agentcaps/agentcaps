@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:competitors",
+  "displayName": "competitors",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/competitors/SKILL.md",
+  "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+  "tags": [
+    "competitor-analysis",
+    "content-marketing",
+    "seo",
+    "sales-enablement",
+    "positioning",
+    "comparison"
+  ],
+  "capabilities": [
+    "content.create",
+    "marketing.position",
+    "comparison.build",
+    "competitive-intelligence.research",
+    "sales.enable",
+    "seo.optimize"
+  ],
+  "representativeQueries": [
+    "Create competitor comparison pages for SEO",
+    "Build alternative pages for sales enablement",
+    "Generate competitor vs competitor battle cards",
+    "How do we position against competitors",
+    "Create alternative page to rank for keyword"
+  ],
+  "updatedAt": "2026-06-25T13:52:35.883Z"
+}

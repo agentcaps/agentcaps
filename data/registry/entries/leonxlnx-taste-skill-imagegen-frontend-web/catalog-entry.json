@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:leonxlnx:taste-skill:skill:imagegen-frontend-web",
+  "displayName": "imagegen-frontend-web",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/leonxlnx/taste-skill/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-web/SKILL.md",
+  "description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.",
+  "tags": [
+    "image-generation",
+    "frontend-design",
+    "design-reference",
+    "web-composition",
+    "conversion-optimize",
+    "art-direction"
+  ],
+  "capabilities": [
+    "image.generate",
+    "design.compose",
+    "frontend.reference",
+    "layout.direct",
+    "conversion.optimize"
+  ],
+  "representativeQueries": [
+    "Generate a premium landing page design reference with 6 sections",
+    "Create website design mockups for conversion-focused landing pages",
+    "Design a marketing website with varied hero compositions and imagery",
+    "Generate AWWWARDS-level design references for developer implementation",
+    "Create full-website design references with section-by-section imagery"
+  ],
+  "updatedAt": "2026-06-25T13:57:11.016Z"
+}

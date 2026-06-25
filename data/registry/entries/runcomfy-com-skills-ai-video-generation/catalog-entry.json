@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:runcomfy-com:skills:skill:ai-video-generation",
+  "displayName": "ai-video-generation",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-video-generation/SKILL.md",
+  "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate video\", \"make a video\", \"text to video\", \"t2v\", \"image to video\", \"i2v\", \"animate\", \"AI video\", \"make X move\", \"video from prompt\", \"video from image\", or any explicit ask to produce a video clip from prompt or still.",
+  "tags": [
+    "ai-video",
+    "video-generation",
+    "text-to-video",
+    "image-to-video",
+    "runcomfy"
+  ],
+  "capabilities": [
+    "video.generate",
+    "video.text-to-video",
+    "video.image-to-video",
+    "media.create"
+  ],
+  "representativeQueries": [
+    "Generate a video from this text prompt",
+    "Create an AI video from an image",
+    "Make an animation from my photo",
+    "Text to video generation please",
+    "Extend a video clip with AI"
+  ],
+  "updatedAt": "2026-06-25T13:48:24.695Z"
+}

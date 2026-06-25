@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-compliance
+entryId: microsoft-azure-skills-azure-compliance
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-compliance
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-compliance/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure-compliance
+        - security-audit
+        - key-vault
+        - azure-resources
+        - compliance-scan
+        - expiration-monitoring
+      capabilities:
+        - azure.audit
+        - security.assess
+        - keyvault.monitor
+        - azure.review
+        - policy.validate
+      representativeQueries:
+        - Check what's expiring in the next 30 days
+        - Run Azure compliance assessment on my subscription
+        - Audit my Key Vault for compliance issues
+        - Validate Azure resources against best practices
+        - Identify orphaned or misconfigured Azure resources
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compliance/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-compliance/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compliance/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compliance/SKILL.md
+  sourceDigest: sha256:1f35685eadc0aa9f0c3299c248425d83740271e679170f8048356926fc1403aa
+  fetchedAt: 2026-06-25T13:45:04.096Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.887Z

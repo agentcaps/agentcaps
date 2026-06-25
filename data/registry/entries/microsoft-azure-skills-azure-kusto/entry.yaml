@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-kusto
+entryId: microsoft-azure-skills-azure-kusto
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-kusto
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-kusto/SKILL.md
+  curation:
+    category: data
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - kusto
+        - kql
+        - analytics
+        - telemetry
+        - logs
+      capabilities:
+        - data.query
+        - schema.explore
+        - analytics.aggregate
+        - analytics.timeseries
+        - resource.list
+      representativeQueries:
+        - Query my Kusto database for errors
+        - Show telemetry data from last hour
+        - Analyze logs in Azure Data Explorer
+        - What tables exist in my ADX cluster?
+        - Create a time series chart from logs
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kusto/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-kusto/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kusto/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kusto/SKILL.md
+  sourceDigest: sha256:d3018c0de4b700f805cab55a40a16de7bab4ba3ed747f69819450c6edca891d7
+  fetchedAt: 2026-06-25T13:45:37.735Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.899Z

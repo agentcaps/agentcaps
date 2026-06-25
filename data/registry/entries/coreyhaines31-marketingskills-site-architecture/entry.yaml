@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-site-architecture
+entryId: coreyhaines31-marketingskills-site-architecture
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-site-architecture
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/site-architecture/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - information-architecture
+        - navigation-design
+        - url-structure
+        - website-planning
+        - page-hierarchy
+        - internal-linking
+      capabilities:
+        - website.plan
+        - navigation.design
+        - hierarchy.organize
+        - url.structure
+        - sitemap.design
+      representativeQueries:
+        - How should I organize my website structure?
+        - I need help planning my site navigation and pages
+        - Create an information architecture for my site
+        - What pages do I need for my marketing website?
+        - Help me redesign my site's internal linking strategy
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/site-architecture/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/site-architecture/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/site-architecture/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/site-architecture/SKILL.md
+  sourceDigest: sha256:a47f693c6a4f45db89276d8c341b3aa3054090cc8002dd4a2635448d7d152492
+  fetchedAt: 2026-06-25T13:51:13.362Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.767Z

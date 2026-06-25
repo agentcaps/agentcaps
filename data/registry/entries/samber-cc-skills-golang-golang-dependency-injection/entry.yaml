@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-dependency-injection
+entryId: samber-cc-skills-golang-golang-dependency-injection
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-dependency-injection
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-dependency-injection/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - dependency-injection
+        - golang
+        - architecture
+        - testing
+        - service-container
+        - refactoring
+      capabilities:
+        - architecture.design
+        - code.refactor
+        - dependency.inject
+        - service.architect
+        - testing.improve
+        - library.select
+      representativeQueries:
+        - How do I set up dependency injection in Go?
+        - Refactor this tightly coupled code to use DI
+        - Which dependency injection library should I use?
+        - How do I design a testable Go service?
+        - Show me how to wire up dependencies properly
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-dependency-injection/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-dependency-injection/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-dependency-injection/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-dependency-injection/SKILL.md
+  sourceDigest: sha256:bae7ee09f193c59aed78d8925f8b1ff905d5beff7b1f28e204e254a1ee30d8c9
+  fetchedAt: 2026-06-25T13:56:58.543Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.007Z

@@ -1,0 +1,47 @@
+slug: doany-ai-skills-wan-2-7
+entryId: doany-ai-skills-wan-2-7
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-wan-2-7
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: wan-2-7/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - text-to-video
+        - wan-ai
+        - runcomfy
+        - ai-video
+        - audio-sync
+      capabilities:
+        - video.generate
+        - audio.sync
+        - text.to-video
+        - video.configure
+      representativeQueries:
+        - Generate a video from a text prompt using Wan 2.7
+        - Create a cinematic text-to-video with audio lip-sync
+        - Generate video with multi-reference motion control
+        - Make a video with Wan 2.7 audio-driven lip-sync
+        - Create a video from text on RunComfy platform
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/wan-2-7/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: wan-2-7/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/wan-2-7/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/wan-2-7/SKILL.md
+  sourceDigest: sha256:0c38b830e5a8273b62e61069161af937441dc0bedd5567da8032ebec88e6f6b9
+  fetchedAt: 2026-06-25T13:50:31.685Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.810Z

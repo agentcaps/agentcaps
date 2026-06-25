@@ -1,0 +1,47 @@
+slug: coreyhaines31-marketingskills-revops
+entryId: coreyhaines31-marketingskills-revops
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-revops
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/revops/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - revenue-operations
+        - lead-management
+        - pipeline-management
+        - crm-automation
+        - marketing-sales-handoff
+        - lead-scoring
+      capabilities:
+        - revenue.optimize
+        - lead.route
+        - pipeline.manage
+        - lead.score
+        - crm.automate
+      representativeQueries:
+        - How should we structure our lead scoring model?
+        - What's the best way to hand off leads from marketing to sales?
+        - How do we reduce lead-to-opportunity conversion time?
+        - Help me optimize my marketing-to-sales handoff process
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/revops/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/revops/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/revops/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/revops/SKILL.md
+  sourceDigest: sha256:bb27b16ad41c5c2d4fea14c12359c6a01fc755f2bb91140f0c2c43b05b3adb10
+  fetchedAt: 2026-06-25T13:51:21.119Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.760Z

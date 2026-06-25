@@ -1,0 +1,44 @@
+slug: github-awesome-copilot-prd
+entryId: github-awesome-copilot-prd
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: github-awesome-copilot-prd
+  type: git_repository
+  url: https://github.com/github/awesome-copilot
+  path: skills/prd/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - product-requirements
+        - prd
+        - documentation
+        - planning
+        - requirements
+        - product-design
+      capabilities:
+        - product.design
+        - document.generate
+        - requirements.define
+        - planning.create
+        - product.plan
+      representativeQueries:
+        - Write a comprehensive PRD for our new feature
+        - Generate a product requirements document for our system
+        - Help me plan and document this AI feature
+        - Create detailed technical requirements specification
+        - Document user stories and acceptance criteria
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/github/awesome-copilot
+  sourceRepositoryUrl: https://github.com/github/awesome-copilot
+  sourceWebUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/prd/SKILL.md
+  sourceCommit: e9c8e3704181fa38245d101308a8527d12af6a4d
+  trackingRef: HEAD
+  artifactPath: skills/prd/SKILL.md
+  pinnedArtifactUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/prd/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/prd/SKILL.md
+  sourceDigest: sha256:6772e6f0fcc7110d625c7f4595e4990e1910007676c36d217eda4e779041d5e5
+  fetchedAt: 2026-06-25T14:00:35.312Z

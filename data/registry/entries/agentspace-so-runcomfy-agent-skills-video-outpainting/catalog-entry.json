@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:agentspace-so:runcomfy-agent-skills:skill:video-outpainting",
+  "displayName": "video-outpainting",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-outpainting/SKILL.md",
+  "description": "Video outpainting on RunComfy via the `runcomfy` CLI — extend the spatial canvas of a video, change aspect ratio (9:16 vertical to 16:9 horizontal or vice versa), add environment beyond the original frame while preserving the central action. Routes prompt-shaped spatial extension through Wan 2-7 edit-video and points the agent at dedicated ComfyUI outpaint workflows when seam quality matters for hero delivery. Triggers on \"video outpaint\", \"video outpainting\", \"extend video canvas\", \"expand video frame\", \"uncrop video\", \"aspect ratio change\", \"vertical to horizontal video\", \"16:9 from 9:16\", \"TikTok to YouTube\", or any explicit ask to extend a video spatially beyond its original frame.",
+  "tags": [
+    "video-outpainting",
+    "aspect-ratio",
+    "canvas-extension",
+    "video-editing",
+    "spatial-extension"
+  ],
+  "capabilities": [
+    "video.outpaint",
+    "video.extend",
+    "video.aspect-ratio-change",
+    "video.uncrop",
+    "video.edit"
+  ],
+  "representativeQueries": [
+    "Extend this video canvas to 16:9",
+    "Change my vertical video to horizontal",
+    "Uncrop and expand my video frame",
+    "Convert TikTok video to YouTube aspect ratio",
+    "Add environment around my video subject"
+  ],
+  "updatedAt": "2026-06-25T13:47:53.586Z"
+}

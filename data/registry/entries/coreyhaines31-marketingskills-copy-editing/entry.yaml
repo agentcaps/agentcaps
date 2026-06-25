@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-copy-editing
+entryId: coreyhaines31-marketingskills-copy-editing
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-copy-editing
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/copy-editing/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - copy-editing
+        - marketing-copy
+        - proofreading
+        - content-editing
+        - copy-improvement
+        - voice-and-tone
+      capabilities:
+        - writing.edit
+        - marketing.review
+        - content.polish
+        - copy.improve
+        - voice.review
+      representativeQueries:
+        - Edit this marketing copy for clarity
+        - Review and improve my website copy
+        - Proofread and polish this content
+        - Help me tighten up this sales page
+        - Refresh the messaging on this page
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/copy-editing/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/copy-editing/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/copy-editing/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/copy-editing/SKILL.md
+  sourceDigest: sha256:9b5a20be3dc5513c8f0b4f4c4960857e4d28ed83698a5b33c8dde9dc75a47bf6
+  fetchedAt: 2026-06-25T13:51:01.459Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.723Z

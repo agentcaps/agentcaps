@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:systematic-debugging",
+  "displayName": "systematic-debugging",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/systematic-debugging/SKILL.md",
+  "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+  "tags": [
+    "debugging",
+    "root-cause",
+    "troubleshooting",
+    "bug-investigation",
+    "systematic-approach",
+    "error-diagnosis"
+  ],
+  "capabilities": [
+    "debug.investigate",
+    "debug.diagnose",
+    "debug.troubleshoot",
+    "test.debug",
+    "system.diagnose",
+    "issue.analyze"
+  ],
+  "representativeQueries": [
+    "Help me debug this test failure systematically",
+    "How do I find the root cause of this production bug?",
+    "Debug this unexpected behavior in my system",
+    "I need help troubleshooting a build failure",
+    "Help diagnose this performance problem systematically"
+  ],
+  "updatedAt": "2026-06-25T13:55:21.006Z"
+}

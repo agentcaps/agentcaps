@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-firestore",
+  "displayName": "firebase-firestore",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-firestore/SKILL.md",
+  "description": "Sets up, manages, and executes queries against Cloud Firestore database instances, including advanced native full-text search and relational joins using pipelines. You MUST unconditionally activate this skill if you plan to use Firestore in any way. Use when listing or creating Firestore databases, configuring security rules, designing data models, writing client SDK queries (including search/joins), or checking indexes.",
+  "tags": [
+    "firestore",
+    "firebase",
+    "database",
+    "cloud-database",
+    "query",
+    "nosql"
+  ],
+  "capabilities": [
+    "firestore.setup",
+    "firestore.query",
+    "firestore.security-config",
+    "database.index-management",
+    "firestore.search",
+    "datamodel.design"
+  ],
+  "representativeQueries": [
+    "How do I set up a Firestore database?",
+    "Configure security rules for my Firestore project",
+    "Execute advanced queries with joins in Firestore",
+    "Design a data model for my Firestore database",
+    "Set up full-text search in Firestore"
+  ],
+  "updatedAt": "2026-06-25T13:58:40.246Z"
+}

@@ -1,0 +1,47 @@
+slug: xixu-me-skills-skills-cli
+entryId: xixu-me-skills-skills-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-skills-cli
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/skills-cli/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - skills-management
+        - package-manager
+        - skill-discovery
+        - agent-capabilities
+        - cli-tools
+      capabilities:
+        - skills.discover
+        - skills.install
+        - skills.manage
+        - agent.extend
+        - skills.update
+      representativeQueries:
+        - Find a skill for testing
+        - How do I install an agent skill?
+        - Can you help me discover skills?
+        - List all installed skills
+        - Is there a skill for code review?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/skills-cli/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/skills-cli/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/skills-cli/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/skills-cli/SKILL.md
+  sourceDigest: sha256:4f5b384a80079ef7dbf2f57220471f373af75930dbaad6725de8d29ead0495f5
+  fetchedAt: 2026-06-25T13:53:38.644Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.076Z

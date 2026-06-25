@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:documentation-writer",
+  "displayName": "documentation-writer",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/documentation-writer/SKILL.md",
+  "description": "Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework.",
+  "tags": [
+    "documentation",
+    "writing",
+    "diataxis",
+    "technical-writing",
+    "tutorial",
+    "content"
+  ],
+  "capabilities": [
+    "documentation.write",
+    "documentation.create",
+    "documentation.structure",
+    "content.organize",
+    "writing.guide"
+  ],
+  "representativeQueries": [
+    "Write a getting started tutorial for my API",
+    "Create a how-to guide for database migration",
+    "Help me structure technical documentation",
+    "Write reference documentation for my library",
+    "Create an explanation document for this feature"
+  ],
+  "updatedAt": "2026-06-25T14:00:54.959Z"
+}

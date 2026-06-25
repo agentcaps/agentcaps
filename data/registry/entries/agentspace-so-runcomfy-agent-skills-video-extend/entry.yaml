@@ -1,0 +1,45 @@
+slug: agentspace-so-runcomfy-agent-skills-video-extend
+entryId: agentspace-so-runcomfy-agent-skills-video-extend
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-video-extend
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: video-extend/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-extend
+        - video-generation
+        - veo-3-1
+        - runcomfy
+        - video-continuation
+      capabilities:
+        - video.extend
+        - video.generate
+        - video.continue
+      representativeQueries:
+        - extend my video clip further
+        - make this video longer please
+        - continue the video shot
+        - chain narrative video shots
+        - extend video with motion consistency
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-extend/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: video-extend/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-extend/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-extend/SKILL.md
+  sourceDigest: sha256:241753d4947fda79f782d972b5014cdb34105c661ff31c018f8106e83656f1d2
+  fetchedAt: 2026-06-25T13:47:58.238Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.658Z

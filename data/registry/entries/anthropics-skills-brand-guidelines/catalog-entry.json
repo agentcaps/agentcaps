@@ -4,5 +4,25 @@
   "type": "application/ai-skill",
   "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/brand-guidelines/SKILL.md",
   "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
-  "updatedAt": "2026-06-24T08:07:15.033Z"
+  "tags": [
+    "branding",
+    "typography",
+    "color-palette",
+    "visual-design",
+    "anthropic-brand",
+    "styling"
+  ],
+  "capabilities": [
+    "design.apply-branding",
+    "typography.apply-fonts",
+    "branding.apply-colors",
+    "visual.apply-styling"
+  ],
+  "representativeQueries": [
+    "Apply Anthropic brand colors and fonts to this artifact",
+    "Update presentation with official brand guidelines",
+    "Style this document with Anthropic brand identity",
+    "Apply corporate styling to my design"
+  ],
+  "updatedAt": "2026-06-25T13:54:54.799Z"
 }

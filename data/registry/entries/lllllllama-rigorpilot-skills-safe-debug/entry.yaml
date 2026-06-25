@@ -1,0 +1,47 @@
+slug: lllllllama-rigorpilot-skills-safe-debug
+entryId: lllllllama-rigorpilot-skills-safe-debug
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-safe-debug
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/safe-debug/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - debug
+        - deep-learning
+        - error-diagnosis
+        - research
+        - conservative
+      capabilities:
+        - debug.diagnose
+        - error.trace
+        - training.validate
+        - research.audit
+        - checkpoint.validate
+      representativeQueries:
+        - My CUDA OOM error during training
+        - The shape mismatch in my model forward pass
+        - NaN loss detected during training
+        - Checkpoint loading fails with this error
+        - Why is my deep learning training failing?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/safe-debug/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/safe-debug/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/safe-debug/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/safe-debug/SKILL.md
+  sourceDigest: sha256:94948b17a268d9a039f7a2caf68ffa4fe4946c8090d9ca0f1ac05acda32da456
+  fetchedAt: 2026-06-25T13:58:58.534Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.879Z

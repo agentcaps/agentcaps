@@ -1,0 +1,49 @@
+slug: lllllllama-rigorpilot-skills-explore-code
+entryId: lllllllama-rigorpilot-skills-explore-code
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-explore-code
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/explore-code/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - exploratory
+        - deep-learning
+        - research-code
+        - candidate-impl
+        - isolated-work
+        - audit-trail
+      capabilities:
+        - code.explore
+        - code.adapt
+        - code.transplant
+        - research.audit
+        - code.isolate
+        - model.experiment
+      representativeQueries:
+        - Explore LoRA adapter insertion in this research repository
+        - Help transplant a backbone module with full audit trail
+        - Adapt deep learning model on isolated branch with rollback
+        - Document candidate implementation changes for comparison
+        - Experiment with module combinations on separate worktree
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/explore-code/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/explore-code/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/explore-code/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/explore-code/SKILL.md
+  sourceDigest: sha256:aad15b9878fe48819a96d377cfc91bd603a63733161e4c6785c205736c6c00ce
+  fetchedAt: 2026-06-25T13:58:52.817Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.874Z

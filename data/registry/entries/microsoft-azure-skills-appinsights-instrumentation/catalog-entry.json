@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:appinsights-instrumentation",
+  "displayName": "appinsights-instrumentation",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/appinsights-instrumentation/SKILL.md",
+  "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.",
+  "tags": [
+    "azure",
+    "instrumentation",
+    "telemetry",
+    "monitoring",
+    "apm"
+  ],
+  "capabilities": [
+    "monitoring.setup",
+    "instrumentation.configure",
+    "telemetry.collect",
+    "diagnostics.instrument",
+    "apm.setup"
+  ],
+  "representativeQueries": [
+    "How do I instrument my app with Application Insights?",
+    "Set up Azure Application Insights SDK for ASP.NET Core",
+    "What telemetry patterns should I use with App Insights?",
+    "Guide me on instrumenting my Node.js application",
+    "How to configure Application Insights in Azure?"
+  ],
+  "updatedAt": "2026-06-25T13:45:13.717Z"
+}

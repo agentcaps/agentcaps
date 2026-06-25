@@ -1,0 +1,46 @@
+slug: agentspace-so-runcomfy-agent-skills-face-swap
+entryId: agentspace-so-runcomfy-agent-skills-face-swap
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-face-swap
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: face-swap/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - face-swap
+        - video-editing
+        - image-manipulation
+        - deepfake
+        - identity-swap
+      capabilities:
+        - video.edit
+        - image.edit
+        - media.transform
+        - content.generate
+      representativeQueries:
+        - Swap a face into this video
+        - Put my face on this actor's body
+        - Replace the character in this photo
+        - Deepfake this performance with different actor
+        - Make this video star X instead
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/face-swap/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: face-swap/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/face-swap/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/face-swap/SKILL.md
+  sourceDigest: sha256:676d8f22c561891df78cf75dcd7364349bdcc48c317d9268c7eadeebca9ef2cf
+  fetchedAt: 2026-06-25T13:47:28.907Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.623Z

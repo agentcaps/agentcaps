@@ -8,12 +8,27 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/webapp-testing/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - web-testing
+        - playwright
+        - automation
+        - browser-testing
+        - ui-testing
+      capabilities:
+        - web.test
+        - browser.screenshot
+        - ui.verify
+        - web.automate
+        - dom.inspect
+      representativeQueries:
+        - Test my local web application with Playwright
+        - Capture screenshots of a running webapp
+        - Verify frontend functionality with automation
+        - Debug UI behavior in my browser
+        - Inspect DOM elements and interact with them
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +40,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/webapp-testing/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/webapp-testing/SKILL.md
   sourceDigest: sha256:51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:54:40.104Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.334Z
+  publishedAt: 2026-06-25T13:59:33.690Z

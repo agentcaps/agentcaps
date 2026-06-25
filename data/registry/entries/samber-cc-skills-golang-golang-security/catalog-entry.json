@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-security",
+  "displayName": "golang-security",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-security/SKILL.md",
+  "description": "Security best practices and vulnerability prevention for Golang. Covers injection (SQL, command, XSS), cryptography, filesystem safety, network security, cookies, secrets management, memory safety, and logging. Apply when writing, reviewing, or auditing Go code for security, or when working on any risky code involving crypto, I/O, secrets management, user input handling, or authentication. Includes configuration of security tools.",
+  "tags": [
+    "golang",
+    "security",
+    "vulnerability-prevention",
+    "code-review",
+    "cryptography"
+  ],
+  "capabilities": [
+    "code.review",
+    "security.audit",
+    "vulnerability.detect",
+    "crypto.validate",
+    "secrets.check"
+  ],
+  "representativeQueries": [
+    "Review this Go code for SQL injection vulnerabilities",
+    "Audit my golang codebase for security issues",
+    "Check if this cryptography implementation is secure",
+    "Find hardcoded secrets in my Go project"
+  ],
+  "updatedAt": "2026-06-25T13:55:41.176Z"
+}

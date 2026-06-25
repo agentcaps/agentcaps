@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-grpc
+entryId: samber-cc-skills-golang-golang-grpc
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-grpc
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-grpc/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - grpc
+        - golang
+        - microservices
+        - protobuf
+        - distributed-systems
+        - rpc
+      capabilities:
+        - grpc.implement
+        - grpc.review
+        - proto.define
+        - grpc.security
+        - grpc.error-handling
+        - grpc.test
+      representativeQueries:
+        - How do I implement a gRPC service in Go?
+        - Review my gRPC server for security issues
+        - How do I configure TLS for my gRPC client?
+        - What's the best way to handle streaming RPCs?
+        - How do I set up gRPC interceptors properly?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-grpc/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-grpc/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-grpc/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-grpc/SKILL.md
+  sourceDigest: sha256:f3581f647089812729fbfadf7678ef6a808efd2d0575e285459a595cd8457197
+  fetchedAt: 2026-06-25T13:57:02.668Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.016Z

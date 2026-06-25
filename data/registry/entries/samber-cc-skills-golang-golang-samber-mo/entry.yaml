@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-samber-mo
+entryId: samber-cc-skills-golang-golang-samber-mo
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-samber-mo
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-samber-mo/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - functional-programming
+        - monads
+        - type-safety
+        - error-handling
+        - composition
+      capabilities:
+        - code.compose
+        - error.handle
+        - type.nullable
+        - async.control
+        - state.manage
+      representativeQueries:
+        - How do I use Option and Result types safely?
+        - Show me how to compose error handling pipelines
+        - What's the best way to handle nullable values in Go?
+        - Guide me through functional programming patterns in Go
+        - How can I manage async operations with Future types?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-mo/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-samber-mo/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-mo/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-mo/SKILL.md
+  sourceDigest: sha256:7b2538536af825b3fe09380a40e4187c3e3e5760bb0660c1728893333e59ca1d
+  fetchedAt: 2026-06-25T13:57:36.980Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.042Z

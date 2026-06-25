@@ -1,0 +1,48 @@
+slug: doany-ai-skills-video-edit
+entryId: doany-ai-skills-video-edit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-video-edit
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: video-edit/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-edit
+        - ai-video
+        - motion-transfer
+        - video-restyle
+        - outfit-swap
+        - runcomfy
+      capabilities:
+        - video.edit
+        - video.restyle
+        - video.motion-transfer
+        - video.background-swap
+        - video.outfit-swap
+      representativeQueries:
+        - Restyle my talking head video while preserving lip sync
+        - Transfer this character's motion from reference video
+        - Swap the background in my product video
+        - Change the outfit in my video keeping the face
+        - Apply a cinematic color grade to my footage
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/video-edit/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: video-edit/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/video-edit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/video-edit/SKILL.md
+  sourceDigest: sha256:e7886a19ebdd2558e4a2965a779ca72e2a867fdbf7ec89de11288cd94d45aa44
+  fetchedAt: 2026-06-25T13:50:34.211Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.806Z

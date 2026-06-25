@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-ai-music
+entryId: agentspace-so-runcomfy-agent-skills-ai-music
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-ai-music
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: ai-music/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - ai-music
+        - music-generation
+        - audio
+        - runcomfy
+        - generative-ai
+      capabilities:
+        - music.generate
+        - audio.create
+        - audio.inpaint
+        - audio.extend
+        - music.edit
+      representativeQueries:
+        - Generate AI music for my game
+        - Make background music track
+        - Create a multilingual vocal song
+        - Extend this 30 second music clip
+        - Generate instrumental background music
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-music/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: ai-music/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-music/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-music/SKILL.md
+  sourceDigest: sha256:afec31ead5a4a0b5011be38be6d755bd111b605f7cbdfbe99859b112ac61ff88
+  fetchedAt: 2026-06-25T13:47:49.002Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.614Z

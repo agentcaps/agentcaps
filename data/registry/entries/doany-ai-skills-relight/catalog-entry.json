@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:relight",
+  "displayName": "relight",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/relight/SKILL.md",
+  "description": "Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on \"relight\", \"relighting\", \"change the lighting\", \"make it golden hour\", \"studio lighting\", \"rim light\", \"blue hour\", \"soft window light\", \"change light direction\", \"color temperature\", or any explicit ask to alter how a still is lit.",
+  "tags": [
+    "image-editing",
+    "lighting-control",
+    "photo-relighting",
+    "color-temperature",
+    "visual-effects"
+  ],
+  "capabilities": [
+    "image.relight",
+    "image.edit",
+    "lighting.adjust",
+    "color.temperature",
+    "photo.enhance"
+  ],
+  "representativeQueries": [
+    "Relight this product photo with studio lighting",
+    "Change the portrait to golden hour mood",
+    "Adjust lighting direction to window light",
+    "Convert to blue hour with dramatic lighting",
+    "Make this image warmer with soft window light"
+  ],
+  "updatedAt": "2026-06-25T13:49:27.558Z"
+}

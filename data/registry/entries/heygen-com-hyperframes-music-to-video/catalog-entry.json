@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:music-to-video",
+  "displayName": "music-to-video",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/music-to-video/SKILL.md",
+  "description": "Use when the user has a music track (an audio file, or a video to pull audio from) and wants a beat-synced HyperFrames video, calm to hard-hitting. The music drives everything: one analyzer reads it once, the orchestrator lays out the frames and fills a per-frame plan, and one sub-agent builds each frame. Typography and templates are the floor — a complete video needs zero assets — but any images or videos the user supplies are cut into the frames on the same beat grid (beat-cut / ken-burns). The genre (lyric video, slideshow, kinetic promo) falls out of the per-frame choices; the pipeline never branches on it.",
+  "tags": [
+    "music-to-video",
+    "beat-sync",
+    "video-generation",
+    "audio-analysis",
+    "frame-composition",
+    "hyperframes"
+  ],
+  "capabilities": [
+    "media.generate",
+    "audio.analyze",
+    "video.sync",
+    "media.compose",
+    "video.edit"
+  ],
+  "representativeQueries": [
+    "Turn my music into a beat-synced HyperFrames video",
+    "Create a video that syncs with the beats in my song",
+    "Generate a kinetic promo video from an audio track",
+    "Build a music video with beat-grid frame composition",
+    "Make a beat-synchronized video from my music file"
+  ],
+  "updatedAt": "2026-06-25T13:54:28.109Z"
+}

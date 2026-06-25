@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:revops",
+  "displayName": "revops",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/revops/SKILL.md",
+  "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.",
+  "tags": [
+    "revenue-operations",
+    "lead-management",
+    "pipeline-management",
+    "crm-automation",
+    "marketing-sales-handoff",
+    "lead-scoring"
+  ],
+  "capabilities": [
+    "revenue.optimize",
+    "lead.route",
+    "pipeline.manage",
+    "lead.score",
+    "crm.automate"
+  ],
+  "representativeQueries": [
+    "How should we structure our lead scoring model?",
+    "What's the best way to hand off leads from marketing to sales?",
+    "How do we reduce lead-to-opportunity conversion time?",
+    "Help me optimize my marketing-to-sales handoff process"
+  ],
+  "updatedAt": "2026-06-25T13:51:21.119Z"
+}

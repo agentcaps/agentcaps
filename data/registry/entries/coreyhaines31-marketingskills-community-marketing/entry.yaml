@@ -1,0 +1,47 @@
+slug: coreyhaines31-marketingskills-community-marketing
+entryId: coreyhaines31-marketingskills-community-marketing
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-community-marketing
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/community-marketing/SKILL.md
+  curation:
+    category: social
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - community-building
+        - growth-strategy
+        - member-engagement
+        - brand-advocacy
+        - word-of-mouth
+      capabilities:
+        - community.build
+        - community.grow
+        - community.strategy
+        - advocacy.build
+        - engagement.manage
+      representativeQueries:
+        - How do I build a Discord community?
+        - Create a community strategy for my brand
+        - How can I turn users into brand advocates?
+        - What's a community-led growth strategy?
+        - How do I manage my Slack community effectively?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/community-marketing/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/community-marketing/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/community-marketing/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/community-marketing/SKILL.md
+  sourceDigest: sha256:edd8060b63820e620a0612af0a280cf3ee68d3eab80684932257205c8327d971
+  fetchedAt: 2026-06-25T13:51:58.862Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.714Z

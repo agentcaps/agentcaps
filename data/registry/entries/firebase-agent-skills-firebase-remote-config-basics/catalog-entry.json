@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-remote-config-basics",
+  "displayName": "firebase-remote-config-basics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-remote-config-basics/SKILL.md",
+  "description": "Comprehensive guide for Firebase Remote Config, including template management and SDK usage. Use this skill when the user needs help setting up Remote Config, managing feature flags, or updating app behavior dynamically.",
+  "tags": [
+    "firebase",
+    "remote-config",
+    "feature-flags",
+    "mobile-development",
+    "config-management"
+  ],
+  "capabilities": [
+    "config.setup",
+    "config.manage",
+    "feature.flag",
+    "template.version",
+    "sdk.integrate"
+  ],
+  "representativeQueries": [
+    "How do I set up Firebase Remote Config?",
+    "How can I manage feature flags dynamically?",
+    "Help me configure Remote Config template",
+    "I need to set up Remote Config on Android",
+    "How do I update app behavior without deployment?"
+  ],
+  "updatedAt": "2026-06-25T13:58:45.010Z"
+}

@@ -9,11 +9,27 @@ source:
   path: skills/pdf/SKILL.md
   curation:
     category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - pdf-processing
+        - document-handling
+        - text-extraction
+        - pdf-manipulation
+        - ocr
+      capabilities:
+        - pdf.extract-text
+        - pdf.merge
+        - pdf.split
+        - pdf.rotate
+        - pdf.form-fill
+        - pdf.encrypt
+      representativeQueries:
+        - Extract text from a PDF document
+        - Merge multiple PDF files together
+        - Split a PDF into separate pages
+        - Extract tables from a PDF file
+        - Fill out a PDF form programmatically
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/pdf/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/pdf/SKILL.md
   sourceDigest: sha256:9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:54:18.159Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.329Z
+  publishedAt: 2026-06-25T13:59:33.681Z

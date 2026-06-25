@@ -1,0 +1,48 @@
+slug: obra-superpowers-finishing-a-development-branch
+entryId: obra-superpowers-finishing-a-development-branch
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-finishing-a-development-branch
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/finishing-a-development-branch/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - git-workflow
+        - branch-management
+        - merge-workflow
+        - test-verification
+        - pull-request
+        - completion
+      capabilities:
+        - git.merge
+        - git.push
+        - test.verify
+        - workflow.complete
+        - branch.manage
+      representativeQueries:
+        - How do I finish my development work?
+        - I'm done coding and tests pass
+        - Should I merge or create a PR?
+        - Help me complete this feature branch
+        - What do I do with my development branch?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/finishing-a-development-branch/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/finishing-a-development-branch/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/finishing-a-development-branch/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/finishing-a-development-branch/SKILL.md
+  sourceDigest: sha256:e6d4a812de900d33c6eacfb40747f99427f25c304a7b7099120f9373b115a47f
+  fetchedAt: 2026-06-25T13:56:05.939Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.936Z

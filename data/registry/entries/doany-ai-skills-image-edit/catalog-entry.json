@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:image-edit",
+  "displayName": "image-edit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-edit/SKILL.md",
+  "description": "Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on \"image edit\", \"edit image\", \"image-to-image\", \"i2i\", \"swap background\", \"remove object\", \"rewrite headline\", or any explicit ask to edit a single or batch of images.",
+  "tags": [
+    "image-editing",
+    "runcomfy",
+    "batch-edit",
+    "object-removal",
+    "smart-routing",
+    "generative-ai"
+  ],
+  "capabilities": [
+    "image.edit",
+    "image.batch-process",
+    "image.remove-object",
+    "image.swap-background",
+    "image.inpaint"
+  ],
+  "representativeQueries": [
+    "Edit these 20 product images consistently",
+    "Remove the background from this photo",
+    "Swap the background in my photos",
+    "Rewrite the text in this image",
+    "Edit image regions with a mask"
+  ],
+  "updatedAt": "2026-06-25T13:50:10.185Z"
+}

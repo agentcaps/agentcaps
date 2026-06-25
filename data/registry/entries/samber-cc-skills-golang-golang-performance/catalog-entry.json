@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-performance",
+  "displayName": "golang-performance",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-performance/SKILL.md",
+  "description": "Golang performance optimization patterns and methodology - if X bottleneck, then apply Y. Covers allocation reduction, CPU efficiency, memory layout, GC tuning, pooling, caching, and hot-path optimization. Use when profiling or benchmarks have identified a bottleneck and you need the right optimization pattern to fix it. Also use when performing performance code review to suggest improvements or benchmarks that could help identify quick performance gains. Not for measurement methodology (→ See `samber/cc-skills-golang@golang-benchmark` skill) or debugging workflow (→ See `samber/cc-skills-golang@golang-troubleshooting` skill).",
+  "tags": [
+    "golang",
+    "performance",
+    "optimization",
+    "benchmarking",
+    "profiling",
+    "memory-tuning"
+  ],
+  "capabilities": [
+    "performance.optimize",
+    "code.profile",
+    "code.benchmark",
+    "performance.review",
+    "memory.tune",
+    "allocation.reduce"
+  ],
+  "representativeQueries": [
+    "How can I optimize this Go function's performance?",
+    "What memory allocation patterns should I fix in this code?",
+    "Review this Go service for performance bottlenecks",
+    "How do I reduce GC pressure in my Go application?",
+    "What's the right optimization pattern for this bottleneck?"
+  ],
+  "updatedAt": "2026-06-25T13:55:27.862Z"
+}

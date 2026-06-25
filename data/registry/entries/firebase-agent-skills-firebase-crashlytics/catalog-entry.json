@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-crashlytics",
+  "displayName": "firebase-crashlytics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-crashlytics/SKILL.md",
+  "description": "Comprehensive guide for Firebase Crashlytics, including provisioning and SDK usage. Use this skill when the user needs help setting up Crashlytics, adding crash reporting, or using the Crashlytics SDK in their application.",
+  "tags": [
+    "crash-reporting",
+    "firebase",
+    "mobile",
+    "error-tracking",
+    "debugging"
+  ],
+  "capabilities": [
+    "crash.setup",
+    "crash.report",
+    "crash.customize",
+    "debug.collect",
+    "app.monitor"
+  ],
+  "representativeQueries": [
+    "How do I set up Crashlytics in my Android app?",
+    "How can I add custom logs to crash reports?",
+    "Show me how to configure iOS Crashlytics",
+    "How do I report non-fatal exceptions in Crashlytics?",
+    "I need to set user identifiers for crash reports"
+  ],
+  "updatedAt": "2026-06-25T13:58:37.914Z"
+}

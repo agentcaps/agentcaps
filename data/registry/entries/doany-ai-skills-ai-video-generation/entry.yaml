@@ -1,0 +1,47 @@
+slug: doany-ai-skills-ai-video-generation
+entryId: doany-ai-skills-ai-video-generation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-ai-video-generation
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: ai-video-generation/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - ai-video
+        - video-generation
+        - text-to-video
+        - image-to-video
+        - animation
+        - runcomfy
+      capabilities:
+        - video.generate
+        - video.create
+        - image.animate
+        - video.extend
+      representativeQueries:
+        - Generate a video from this text prompt
+        - Create an AI video from an image
+        - Make a text-to-video animation
+        - Turn this image into a video
+        - Generate videos with RunComfy
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-video-generation/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: ai-video-generation/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-video-generation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-video-generation/SKILL.md
+  sourceDigest: sha256:76511e833124b37cc19be3a341ef8dc6c62d283c93b89577ada1d16366210af6
+  fetchedAt: 2026-06-25T13:50:23.239Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.781Z

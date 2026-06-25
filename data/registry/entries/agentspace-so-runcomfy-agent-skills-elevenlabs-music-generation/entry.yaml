@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-elevenlabs-music-generation
+entryId: agentspace-so-runcomfy-agent-skills-elevenlabs-music-generation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-elevenlabs-music-generation
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: elevenlabs-music-generation/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - music-generation
+        - ai-music
+        - song-creation
+        - text-to-audio
+        - audio-synthesis
+        - vocal-generation
+      capabilities:
+        - music.generate
+        - audio.synthesize
+        - song.create
+        - track.generate
+      representativeQueries:
+        - Generate a complete song with vocals from text
+        - Create background music for a podcast intro
+        - Make an instrumental track for a video game
+        - Compose royalty-free music from a style brief
+        - Generate a jingle with structured lyrics and melody
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/elevenlabs-music-generation/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: elevenlabs-music-generation/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/elevenlabs-music-generation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/elevenlabs-music-generation/SKILL.md
+  sourceDigest: sha256:b98501a1bfc76fd6f17da5b6361f262907c30f060889621d48fafc05c115d83b
+  fetchedAt: 2026-06-25T13:47:51.282Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.621Z

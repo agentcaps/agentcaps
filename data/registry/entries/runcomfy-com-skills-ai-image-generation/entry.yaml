@@ -1,0 +1,47 @@
+slug: runcomfy-com-skills-ai-image-generation
+entryId: runcomfy-com-skills-ai-image-generation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-ai-image-generation
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: ai-image-generation/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-generation
+        - text-to-image
+        - ai-models
+        - image-editing
+        - runcomfy
+        - visual-ai
+      capabilities:
+        - image.generate
+        - image.edit
+        - image.transform
+        - media.create
+      representativeQueries:
+        - Generate an image of a sunset landscape
+        - Create a picture with AI from text description
+        - Make an image in the style of impressionism
+        - Edit this photo with artificial intelligence
+        - Transform my image using text-to-image AI
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-image-generation/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: ai-image-generation/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-image-generation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-image-generation/SKILL.md
+  sourceDigest: sha256:752a30e08a7c89fbca5a8bd2556654af9a7b6ce7fb6082098299fbdb49e6253b
+  fetchedAt: 2026-06-25T13:48:02.992Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.958Z

@@ -1,0 +1,48 @@
+slug: agentspace-so-runcomfy-agent-skills-relight
+entryId: agentspace-so-runcomfy-agent-skills-relight
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-relight
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: relight/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - relight
+        - image-edit
+        - lighting
+        - photography
+        - runcomfy
+        - photo-editing
+      capabilities:
+        - image.relight
+        - image.edit
+        - photo.lighting
+        - image.enhance
+        - color.grade
+      representativeQueries:
+        - Change the lighting direction in this photo
+        - Make this image golden hour with warm tones
+        - Relight the product photo with studio softbox
+        - Convert the portrait to overcast mood
+        - Add rim light and adjust color temperature
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: relight/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md
+  sourceDigest: sha256:03c4541c08c25dfda581f4f37bce60abfff7083088f87bcd7e487acbcf866630
+  fetchedAt: 2026-06-25T13:47:46.756Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.651Z

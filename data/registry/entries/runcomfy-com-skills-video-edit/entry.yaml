@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-video-edit
+entryId: runcomfy-com-skills-video-edit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-video-edit
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: video-edit/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-editing
+        - motion-control
+        - ai-video
+        - video-generation
+        - content-creation
+        - visual-effects
+      capabilities:
+        - video.edit
+        - video.restyle
+        - video.swap
+        - motion.transfer
+        - video.color-grade
+      representativeQueries:
+        - Edit this video with a new background
+        - Transfer motion from my reference video
+        - Restyle this talking head video professionally
+        - Swap the outfit in this character video
+        - Apply a cinematic color grade to this video
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-edit/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: video-edit/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-edit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-edit/SKILL.md
+  sourceDigest: sha256:e7886a19ebdd2558e4a2965a779ca72e2a867fdbf7ec89de11288cd94d45aa44
+  fetchedAt: 2026-06-25T13:48:41.261Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.991Z

@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-stay-updated
+entryId: samber-cc-skills-golang-golang-stay-updated
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-stay-updated
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-stay-updated/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - news
+        - learning
+        - community
+        - resources
+        - ecosystem
+      capabilities:
+        - learning.discover
+        - community.find
+        - knowledge.stay-updated
+        - developer.follow
+        - library.discover
+      representativeQueries:
+        - Where can I find Go learning resources?
+        - How do I stay updated with Go news?
+        - Which influential Go developers should I follow?
+        - What Go communities and forums should I join?
+        - Show me curated Go libraries and tools
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-stay-updated/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-stay-updated/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-stay-updated/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-stay-updated/SKILL.md
+  sourceDigest: sha256:dd6011c213b53055d8319418d607f8b2cbc6f265fa8a388363a8517ebab15554
+  fetchedAt: 2026-06-25T13:57:08.918Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.048Z

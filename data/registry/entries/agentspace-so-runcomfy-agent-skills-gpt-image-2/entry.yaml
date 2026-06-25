@@ -1,0 +1,45 @@
+slug: agentspace-so-runcomfy-agent-skills-gpt-image-2
+entryId: agentspace-so-runcomfy-agent-skills-gpt-image-2
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-gpt-image-2
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: gpt-image-2/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-generation
+        - openai
+        - text-to-image
+        - image-editing
+        - gpt-image-2
+      capabilities:
+        - image.generate
+        - image.edit
+        - text.to-image
+      representativeQueries:
+        - Generate an image with embedded text using GPT Image 2
+        - Create a logo with multilingual typography
+        - Edit an image to add text elements and preserve composition
+        - Make a brand-safe product mockup
+        - Generate a text-based design with embedded signage
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/gpt-image-2/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: gpt-image-2/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/gpt-image-2/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/gpt-image-2/SKILL.md
+  sourceDigest: sha256:49ad28451095c6daa8ae722551fce724f98efab7e24e0a99088bc03b1d001303
+  fetchedAt: 2026-06-25T13:48:00.637Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.631Z

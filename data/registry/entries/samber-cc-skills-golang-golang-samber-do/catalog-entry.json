@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-samber-do",
+  "displayName": "golang-samber-do",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-do/SKILL.md",
+  "description": "Dependency injection in Golang using samber/do — service containers, lifecycle management, scopes, health checks, graceful shutdown, and module organization. Apply when using or adopting samber/do, when the codebase imports github.com/samber/do or github.com/samber/do/v2, or when refactoring manual constructor injection into a DI container.",
+  "tags": [
+    "dependency-injection",
+    "golang",
+    "service-container",
+    "go-generics",
+    "composition-root",
+    "lifecycle-management"
+  ],
+  "capabilities": [
+    "go.inject",
+    "go.configure",
+    "architecture.di",
+    "lifecycle.manage",
+    "code.refactor"
+  ],
+  "representativeQueries": [
+    "Set up dependency injection with samber/do in my Go project",
+    "Refactor manual constructor injection to use DI container",
+    "Configure service lifecycle and scopes with samber/do",
+    "Implement graceful shutdown with dependency injection",
+    "Design composition root for my Go application"
+  ],
+  "updatedAt": "2026-06-25T13:57:20.241Z"
+}

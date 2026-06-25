@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:aso",
+  "displayName": "aso",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/aso/SKILL.md",
+  "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
+  "tags": [
+    "app-store-optimization",
+    "aso",
+    "app-listing",
+    "app-marketing",
+    "app-store-audit",
+    "keyword-optimization"
+  ],
+  "capabilities": [
+    "app.audit",
+    "app.optimize",
+    "app.compare",
+    "store.analyze",
+    "listing.score"
+  ],
+  "representativeQueries": [
+    "Audit my app store listing for improvements",
+    "How can I improve my app's store visibility?",
+    "Optimize my app for better search rankings",
+    "Compare my app to direct competitors",
+    "What keywords should I use in my app?"
+  ],
+  "updatedAt": "2026-06-25T13:53:18.606Z"
+}

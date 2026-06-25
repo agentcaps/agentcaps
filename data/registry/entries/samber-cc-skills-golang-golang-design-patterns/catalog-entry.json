@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-design-patterns",
+  "displayName": "golang-design-patterns",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-design-patterns/SKILL.md",
+  "description": "Idiomatic Golang design patterns — functional options, constructors, error flow and cascading, resource management and lifecycle, graceful shutdown, resilience, architecture, dependency injection, data handling, streaming, and more. Apply when explicitly choosing between architectural patterns, implementing functional options, designing constructor APIs, setting up graceful shutdown, applying resilience patterns, or asking which idiomatic Go pattern fits a specific problem.",
+  "tags": [
+    "golang",
+    "design-patterns",
+    "architecture",
+    "best-practices",
+    "api-design",
+    "error-handling"
+  ],
+  "capabilities": [
+    "golang.architect",
+    "code.review",
+    "api.design",
+    "pattern.apply",
+    "constructor.implement"
+  ],
+  "representativeQueries": [
+    "How should I structure this Go package?",
+    "Review this code for design issues",
+    "What's the right pattern for this API?",
+    "How do I implement functional options?",
+    "Design a graceful shutdown for my server"
+  ],
+  "updatedAt": "2026-06-25T13:55:31.124Z"
+}

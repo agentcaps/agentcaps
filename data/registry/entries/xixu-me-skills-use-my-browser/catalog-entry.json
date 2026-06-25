@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:use-my-browser",
+  "displayName": "use-my-browser",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/use-my-browser/SKILL.md",
+  "description": "Use when work depends on the user's live browser session or visible rendered state rather than static fetches, especially for browser debugging contexts or DevTools-selected elements or requests, logged-in dashboards or CMS flows, localhost apps, forms, uploads, downloads, media inspection, DOM or iframe inspection, Shadow DOM, or browser failures that look like soft 404s, auth walls, anti-bot checks, or rate limits.",
+  "tags": [
+    "browser",
+    "automation",
+    "devtools",
+    "debugging",
+    "interaction",
+    "session"
+  ],
+  "capabilities": [
+    "browser.debug",
+    "page.inspect",
+    "interaction.form",
+    "session.manage",
+    "network.inspect"
+  ],
+  "representativeQueries": [
+    "Debug my app in the browser using DevTools",
+    "Inspect the rendered DOM of this webpage",
+    "Fill and submit this form in my live session",
+    "Check network requests in the browser console",
+    "Verify the shadow DOM structure of my component"
+  ],
+  "updatedAt": "2026-06-25T13:53:41.197Z"
+}

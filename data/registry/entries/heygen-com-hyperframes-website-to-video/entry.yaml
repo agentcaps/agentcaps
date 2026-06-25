@@ -1,0 +1,47 @@
+slug: heygen-com-hyperframes-website-to-video
+entryId: heygen-com-hyperframes-website-to-video
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-website-to-video
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/website-to-video/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - website-capture
+        - hyperframes
+        - content-creation
+        - social-media
+      capabilities:
+        - video.generate
+        - website.capture
+        - content.convert
+        - media.produce
+        - screenshot.capture
+      representativeQueries:
+        - Turn this website into a 15-second social clip for Instagram
+        - Make a 30-second site tour / showcase from this URL
+        - Capture our homepage and build a video from its own visuals
+        - Turn my portfolio website into a promotional video
+        - Generate a video showcasing our landing page
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/website-to-video/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/website-to-video/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/website-to-video/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/website-to-video/SKILL.md
+  sourceDigest: sha256:034276ce1b67aa7f56652ca0304372671d568d89ba074b01b754b2ed85c6250b
+  fetchedAt: 2026-06-25T13:54:06.117Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.856Z

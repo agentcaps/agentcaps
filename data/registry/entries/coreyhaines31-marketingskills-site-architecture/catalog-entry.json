@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:site-architecture",
+  "displayName": "site-architecture",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/site-architecture/SKILL.md",
+  "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema.",
+  "tags": [
+    "information-architecture",
+    "navigation-design",
+    "url-structure",
+    "website-planning",
+    "page-hierarchy",
+    "internal-linking"
+  ],
+  "capabilities": [
+    "website.plan",
+    "navigation.design",
+    "hierarchy.organize",
+    "url.structure",
+    "sitemap.design"
+  ],
+  "representativeQueries": [
+    "How should I organize my website structure?",
+    "I need help planning my site navigation and pages",
+    "Create an information architecture for my site",
+    "What pages do I need for my marketing website?",
+    "Help me redesign my site's internal linking strategy"
+  ],
+  "updatedAt": "2026-06-25T13:51:13.362Z"
+}

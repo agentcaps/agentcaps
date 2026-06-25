@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-ace-step
+entryId: runcomfy-com-skills-ace-step
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-ace-step
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: ace-step/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - music-generation
+        - text-to-audio
+        - audio-inpainting
+        - audio-outpainting
+        - open-weights
+        - runcomfy
+      capabilities:
+        - music.generate
+        - audio.generate
+        - audio.inpaint
+        - audio.outpaint
+        - music.compose
+      representativeQueries:
+        - Generate background music with ACE Step and genre tags
+        - Inpaint audio to regenerate a section of my track
+        - Create music with specific mood and instruments using ACE Step
+        - Extend my music track before or after with outpainting
+        - Generate multilingual lyrics with ACE Step 1.5
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ace-step/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: ace-step/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ace-step/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ace-step/SKILL.md
+  sourceDigest: sha256:36f237b9eac6a63124df6bec19f08c8c81ab962502877c6e254ff3ffedaf15e1
+  fetchedAt: 2026-06-25T13:49:06.211Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.955Z

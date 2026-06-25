@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-reliability",
+  "displayName": "azure-reliability",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-reliability/SKILL.md",
+  "description": "Assess and improve the reliability posture of PaaS Applications (Azure Functions and Azure App Service). Scans deployed resources for zone redundancy, ZRS storage, health probes, and multi-region failover. Presents a feature-pivoted checklist, then drives staged remediation (CLI or IaC patches) end-to-end with user confirmation. WHEN: \"assess reliability\", \"check reliability\", \"zone redundant\", \"multi-region failover\", \"high availability\", \"disaster recovery\", \"single points of failure\", \"reliability posture\", \"resiliency\".",
+  "tags": [
+    "azure",
+    "reliability",
+    "zone-redundancy",
+    "multi-region",
+    "failover",
+    "disaster-recovery"
+  ],
+  "capabilities": [
+    "reliability.assess",
+    "reliability.improve",
+    "infrastructure.configure"
+  ],
+  "representativeQueries": [
+    "Assess my Function app's reliability",
+    "Make my app zone redundant",
+    "Set up multi-region failover for my app",
+    "Check disaster recovery readiness",
+    "Find single points of failure"
+  ],
+  "updatedAt": "2026-06-25T13:46:42.398Z"
+}

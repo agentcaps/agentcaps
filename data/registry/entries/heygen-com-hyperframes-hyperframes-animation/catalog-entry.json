@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:hyperframes-animation",
+  "displayName": "hyperframes-animation",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-animation/SKILL.md",
+  "description": "All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic.",
+  "tags": [
+    "animation",
+    "motion-design",
+    "gsap",
+    "web-animation",
+    "choreography"
+  ],
+  "capabilities": [
+    "animation.compose",
+    "animation.blueprint",
+    "animation.transition",
+    "motion.design",
+    "animation.adapt"
+  ],
+  "representativeQueries": [
+    "Create a smooth fade-in animation",
+    "Design a multi-phase scene choreography",
+    "How do I animate scene transitions",
+    "What motion design technique should I use",
+    "Compose multiple animation rules together"
+  ],
+  "updatedAt": "2026-06-25T13:51:26.515Z"
+}

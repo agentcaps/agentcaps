@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-ai-image-generation
+entryId: agentspace-so-runcomfy-agent-skills-ai-image-generation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-ai-image-generation
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: ai-image-generation/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-generation
+        - text-to-image
+        - ai-powered
+        - creative-tools
+        - image-editing
+        - multi-model
+      capabilities:
+        - image.generate
+        - image.edit
+        - media.create
+        - visual.generate
+      representativeQueries:
+        - Generate an image of a futuristic city
+        - Make a picture of my dog
+        - Edit this image with a new background
+        - Generate multiple AI images from text prompts
+        - Transform this photo with a different style
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-image-generation/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: ai-image-generation/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-image-generation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-image-generation/SKILL.md
+  sourceDigest: sha256:752a30e08a7c89fbca5a8bd2556654af9a7b6ce7fb6082098299fbdb49e6253b
+  fetchedAt: 2026-06-25T13:47:44.278Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.612Z

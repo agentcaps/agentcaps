@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:repo-intake-and-plan",
+  "displayName": "repo-intake-and-plan",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/repo-intake-and-plan/SKILL.md",
+  "description": "Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration.",
+  "tags": [
+    "repo-analysis",
+    "reproduction-planning",
+    "readme-intake",
+    "command-extraction",
+    "repo-mapping"
+  ],
+  "capabilities": [
+    "repo.scan",
+    "repo.analyze",
+    "plan.create",
+    "command.extract",
+    "code.classify"
+  ],
+  "representativeQueries": [
+    "Scan this repository and create a reproduction plan",
+    "Analyze the repository structure and extract documented commands",
+    "Create a minimal reproduction plan from the repository README",
+    "Map out the inference, evaluation, and training pipelines in this repo",
+    "Intake the repository and identify the reproduction commands"
+  ],
+  "updatedAt": "2026-06-25T13:59:11.555Z"
+}

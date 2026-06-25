@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/algorithmic-art/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - generative-art
+        - p5js
+        - algorithmic
+        - interactive
+        - creative-coding
+        - parametric
+      capabilities:
+        - art.generate
+        - code.create
+        - visualization.generate
+        - animation.interactive
+        - design.explore
+      representativeQueries:
+        - Create an algorithmic art piece with flow fields and particles
+        - Generate interactive generative art with p5.js
+        - Design a computational aesthetic using seeded randomness
+        - Make artistic visualizations with emergent behavior
+        - Create parametric interactive art with visualization
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/algorithmic-art/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/algorithmic-art/SKILL.md
   sourceDigest: sha256:3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef
-  fetchedAt: 2026-06-24T08:07:15.033Z
+  fetchedAt: 2026-06-25T13:54:59.871Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.315Z
+  publishedAt: 2026-06-25T13:59:33.666Z

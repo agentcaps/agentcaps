@@ -4,5 +4,27 @@
   "type": "application/ai-skill",
   "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/skill-creator/SKILL.md",
   "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
-  "updatedAt": "2026-06-24T08:07:15.035Z"
+  "tags": [
+    "skill-creation",
+    "skill-optimization",
+    "evaluation",
+    "benchmarking",
+    "iterative-improvement",
+    "testing"
+  ],
+  "capabilities": [
+    "skill.create",
+    "skill.optimize",
+    "skill.evaluate",
+    "skill.benchmark",
+    "skill.test"
+  ],
+  "representativeQueries": [
+    "Create a new skill from scratch",
+    "Help me improve my skill's performance",
+    "Benchmark and evaluate this skill",
+    "Can you help me optimize this skill?",
+    "Run performance tests on my skill"
+  ],
+  "updatedAt": "2026-06-25T13:54:05.820Z"
 }

@@ -1,0 +1,48 @@
+slug: xixu-me-skills-running-claude-code-via-litellm-copilot
+entryId: xixu-me-skills-running-claude-code-via-litellm-copilot
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-running-claude-code-via-litellm-copilot
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/running-claude-code-via-litellm-copilot/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - litellm-proxy
+        - claude-code
+        - github-copilot
+        - cost-reduction
+        - api-routing
+        - configuration
+      capabilities:
+        - code.configure
+        - api.route
+        - proxy.setup
+        - auth.configure
+        - api.troubleshoot
+      representativeQueries:
+        - How do I run Claude Code through a local LiteLLM proxy?
+        - Configure Claude Code to use GitHub Copilot backend
+        - Help reduce Anthropic API spend with LiteLLM Copilot
+        - Troubleshoot proxy setup failures for Claude Code
+        - Set up ANTHROPIC_BASE_URL for GitHub Copilot routing
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/running-claude-code-via-litellm-copilot/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/running-claude-code-via-litellm-copilot/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/running-claude-code-via-litellm-copilot/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/running-claude-code-via-litellm-copilot/SKILL.md
+  sourceDigest: sha256:e008ca87a9a1b514ea2cd330be76d3445d1c1e240f40bef9d845d59d49dcf78b
+  fetchedAt: 2026-06-25T13:53:36.329Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.073Z

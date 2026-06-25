@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-auth-basics",
+  "displayName": "firebase-auth-basics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-auth-basics/SKILL.md",
+  "description": "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules.",
+  "tags": [
+    "firebase-auth",
+    "authentication",
+    "user-management",
+    "identity-provider",
+    "firebase-setup"
+  ],
+  "capabilities": [
+    "auth.setup",
+    "auth.configure",
+    "user.manage",
+    "identity.provision",
+    "provider.integrate"
+  ],
+  "representativeQueries": [
+    "How do I set up Firebase authentication in my app?",
+    "What identity providers does Firebase support?",
+    "How do I configure Google Sign-In in Firebase?",
+    "How do I manage users in Firebase Authentication?",
+    "How do I implement user sign-in and sign-out?"
+  ],
+  "updatedAt": "2026-06-25T13:58:30.387Z"
+}

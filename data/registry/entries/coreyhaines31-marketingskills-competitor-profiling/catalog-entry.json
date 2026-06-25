@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:competitor-profiling",
+  "displayName": "competitor-profiling",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/competitor-profiling/SKILL.md",
+  "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement.",
+  "tags": [
+    "competitive-intelligence",
+    "competitor-analysis",
+    "market-research",
+    "business-research",
+    "profiling"
+  ],
+  "capabilities": [
+    "competitor.analyze",
+    "competitor.research",
+    "market.analyze",
+    "intelligence.gather",
+    "research.profile"
+  ],
+  "representativeQueries": [
+    "Research these competitor websites",
+    "Create competitor profiles for analysis",
+    "Who are my main competitors in this market?",
+    "Analyze our competitive landscape",
+    "Build competitive intelligence profiles"
+  ],
+  "updatedAt": "2026-06-25T13:51:38.054Z"
+}

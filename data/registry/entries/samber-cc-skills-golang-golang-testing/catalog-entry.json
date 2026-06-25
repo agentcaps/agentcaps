@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-testing",
+  "displayName": "golang-testing",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-testing/SKILL.md",
+  "description": "Production-ready Golang tests — table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures, goroutine leak detection with goleak, snapshot testing, code coverage, integration tests, idiomatic test naming. Use when writing or reviewing Go tests, choosing a testing approach, setting up Go test CI, or debugging flaky/slow tests. For testify-specific APIs see `samber/cc-skills-golang@golang-stretchr-testify`; for measurement methodology see `samber/cc-skills-golang@golang-benchmark`.",
+  "tags": [
+    "go-testing",
+    "table-driven-tests",
+    "test-mocking",
+    "test-coverage",
+    "fuzzing",
+    "integration-testing"
+  ],
+  "capabilities": [
+    "test.write",
+    "test.review",
+    "test.debug",
+    "test.mock",
+    "testing.coverage"
+  ],
+  "representativeQueries": [
+    "How do I write table-driven tests in Go?",
+    "Review my Go test suite for flakiness issues",
+    "Debug a failing Go test in my project",
+    "Set up code coverage measurement for Go tests",
+    "Create test mocks using testify assertions"
+  ],
+  "updatedAt": "2026-06-25T13:55:34.551Z"
+}

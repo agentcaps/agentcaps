@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:leonxlnx:taste-skill:skill:imagegen-frontend-mobile",
+  "displayName": "imagegen-frontend-mobile",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/leonxlnx/taste-skill/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-mobile/SKILL.md",
+  "description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.",
+  "tags": [
+    "mobile-ui",
+    "app-design",
+    "screen-mockup",
+    "premium-design",
+    "flow-design",
+    "ios-android"
+  ],
+  "capabilities": [
+    "image.generate",
+    "design.mobile-screen",
+    "ui.mockup",
+    "flow.design",
+    "product.concept"
+  ],
+  "representativeQueries": [
+    "Design mobile app onboarding screens for iOS and Android",
+    "Create premium dashboard mockup for a fintech app",
+    "Generate multi-screen chat app interface concept",
+    "Design authentication flow screens for mobile product",
+    "Make ecommerce app home screen and product detail mockups"
+  ],
+  "updatedAt": "2026-06-25T13:58:01.130Z"
+}

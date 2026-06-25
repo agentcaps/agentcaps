@@ -1,0 +1,48 @@
+slug: heygen-com-hyperframes-faceless-explainer
+entryId: heygen-com-hyperframes-faceless-explainer
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-faceless-explainer
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/faceless-explainer/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - explainer-video
+        - text-to-video
+        - animation
+        - faceless-video
+        - synthetic-media
+      capabilities:
+        - video.generate
+        - video.explainer
+        - text.visualize
+        - media.animate
+        - design.synthesize
+      representativeQueries:
+        - Turn my article into an explainer video
+        - Create a faceless video about cryptocurrency
+        - Make an animated explainer for this topic
+        - Convert these notes into a visual explanation
+        - Generate a how-to video without real footage
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/faceless-explainer/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/faceless-explainer/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/faceless-explainer/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/faceless-explainer/SKILL.md
+  sourceDigest: sha256:c65e0a5a8b085d8382691cc6d89ea6ac6301b6259226e643cb40bf4da383b567
+  fetchedAt: 2026-06-25T13:53:07.275Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.829Z

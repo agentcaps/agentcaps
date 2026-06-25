@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:product-launch-video",
+  "displayName": "product-launch-video",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/product-launch-video/SKILL.md",
+  "description": "turn a product or marketing URL, pasted script, or brief into a product launch video, including SaaS promos, feature reveals, app launches, company promos, and product marketing videos. Use this skill when the user wants to market, launch, promote, or reveal a product. Do not use it for general non-launch website tours, non-product topic explainers, GitHub pull requests, captioning existing footage, or short unnarrated motion graphics. If the intent is unclear, route through /hyperframes first.",
+  "tags": [
+    "product-launch",
+    "video-creation",
+    "marketing",
+    "promotional",
+    "saas"
+  ],
+  "capabilities": [
+    "video.generate",
+    "marketing.create",
+    "promo.create",
+    "content.produce",
+    "product.launch"
+  ],
+  "representativeQueries": [
+    "Create a product launch video for our SaaS",
+    "Make a promotional video from my script",
+    "Turn this website into a marketing video",
+    "Generate a feature reveal video please",
+    "Build an app launch promotional video"
+  ],
+  "updatedAt": "2026-06-25T13:53:24.395Z"
+}

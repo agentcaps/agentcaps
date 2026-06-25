@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-grpc",
+  "displayName": "golang-grpc",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-grpc/SKILL.md",
+  "description": "Provides gRPC usage guidelines, protobuf organization, and production-ready patterns for Golang microservices. Use when implementing, reviewing, or debugging gRPC servers/clients, writing proto files, setting up interceptors, handling gRPC errors with status codes, configuring TLS/mTLS, testing with bufconn, or working with streaming RPCs.",
+  "tags": [
+    "grpc",
+    "golang",
+    "microservices",
+    "protobuf",
+    "distributed-systems",
+    "rpc"
+  ],
+  "capabilities": [
+    "grpc.implement",
+    "grpc.review",
+    "proto.define",
+    "grpc.security",
+    "grpc.error-handling",
+    "grpc.test"
+  ],
+  "representativeQueries": [
+    "How do I implement a gRPC service in Go?",
+    "Review my gRPC server for security issues",
+    "How do I configure TLS for my gRPC client?",
+    "What's the best way to handle streaming RPCs?",
+    "How do I set up gRPC interceptors properly?"
+  ],
+  "updatedAt": "2026-06-25T13:57:02.668Z"
+}

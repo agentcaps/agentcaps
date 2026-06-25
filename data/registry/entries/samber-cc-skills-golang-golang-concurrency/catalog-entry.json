@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-concurrency",
+  "displayName": "golang-concurrency",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-concurrency/SKILL.md",
+  "description": "Golang concurrency patterns. Use when writing or reviewing concurrent Go code involving goroutines, channels, select, locks, sync primitives, errgroup, singleflight, worker pools, or fan-out/fan-in pipelines. Also triggers when you detect goroutine leaks, race conditions, channel ownership issues, or need to choose between channels and mutexes.",
+  "tags": [
+    "golang",
+    "concurrency",
+    "goroutines",
+    "channels",
+    "synchronization",
+    "patterns"
+  ],
+  "capabilities": [
+    "code.review",
+    "code.write",
+    "concurrency.audit",
+    "concurrency.debug",
+    "concurrency.optimize"
+  ],
+  "representativeQueries": [
+    "How do I fix this goroutine leak?",
+    "Review my concurrent Go code for race conditions",
+    "Design a worker pool pattern for processing tasks",
+    "Debug goroutine leaks in my application",
+    "What is the best way to synchronize goroutines?"
+  ],
+  "updatedAt": "2026-06-25T13:55:44.329Z"
+}

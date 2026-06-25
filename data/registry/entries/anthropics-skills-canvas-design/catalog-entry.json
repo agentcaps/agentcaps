@@ -4,5 +4,28 @@
   "type": "application/ai-skill",
   "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/canvas-design/SKILL.md",
   "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-  "updatedAt": "2026-06-24T08:07:15.034Z"
+  "tags": [
+    "canvas-design",
+    "visual-art",
+    "creative-design",
+    "aesthetic-movement",
+    "poster-creation",
+    "art-generation"
+  ],
+  "capabilities": [
+    "visual.create",
+    "design.generate",
+    "aesthetic.define",
+    "canvas.produce",
+    "art.express",
+    "poster.design"
+  ],
+  "representativeQueries": [
+    "Create a beautiful poster with design philosophy",
+    "Design original visual art expressing an aesthetic",
+    "Generate visually striking artwork for a project",
+    "Create a design philosophy and express it visually",
+    "Design a piece manifesting brutalist joy principles"
+  ],
+  "updatedAt": "2026-06-25T13:54:35.359Z"
 }

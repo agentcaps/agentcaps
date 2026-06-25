@@ -1,0 +1,49 @@
+slug: microsoft-azure-skills-azure-kubernetes
+entryId: microsoft-azure-skills-azure-kubernetes
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-kubernetes
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-kubernetes/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - kubernetes
+        - azure
+        - infrastructure
+        - cluster
+        - devops
+        - cloud
+      capabilities:
+        - kubernetes.create
+        - kubernetes.configure
+        - infrastructure.plan
+        - cloud.provision
+        - security.setup
+        - networking.design
+      representativeQueries:
+        - How do I create an AKS cluster for production?
+        - Design AKS networking with private API server
+        - What are AKS Automatic vs Standard differences?
+        - Set up AKS security and identity management
+        - Configure AKS autoscaling and pod management
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kubernetes/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-kubernetes/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kubernetes/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kubernetes/SKILL.md
+  sourceDigest: sha256:9c8f61b2dd265ddbd08d2082e470f339c63c43d3c784324189a06927c75e80fb
+  fetchedAt: 2026-06-25T13:46:26.747Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.897Z

@@ -1,0 +1,46 @@
+slug: juliusbrussee-caveman-caveman-review
+entryId: juliusbrussee-caveman-caveman-review
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: juliusbrussee-caveman-caveman-review
+  type: git_repository
+  url: https://github.com/juliusbrussee/caveman
+  path: skills/caveman-review/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - code-review
+        - terse-feedback
+        - pull-request
+        - actionable
+        - pr-comments
+      capabilities:
+        - code.review
+        - feedback.compress
+        - code.analyze
+        - comment.generate
+      representativeQueries:
+        - code review please
+        - review this PR
+        - check the pull request
+        - review the diff
+        - feedback on my changes
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/juliusbrussee/caveman
+  sourceRepositoryUrl: https://github.com/juliusbrussee/caveman
+  sourceWebUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-review/SKILL.md
+  sourceCommit: 25d22f864ad68cc447a4cb93aefde918aa4aec9f
+  trackingRef: HEAD
+  artifactPath: skills/caveman-review/SKILL.md
+  pinnedArtifactUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-review/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/juliusbrussee/caveman/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-review/SKILL.md
+  sourceDigest: sha256:9ef09065f26b9781275b5a4775e14870e331fab833efb2a2aa33f3205a2b83c3
+  fetchedAt: 2026-06-25T13:55:21.579Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.866Z

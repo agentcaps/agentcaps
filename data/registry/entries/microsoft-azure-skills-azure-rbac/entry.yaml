@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-rbac
+entryId: microsoft-azure-skills-azure-rbac
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-rbac
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-rbac/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - rbac
+        - iam
+        - least-privilege
+        - role-assignment
+        - access-control
+      capabilities:
+        - iam.assign-role
+        - iam.recommend-role
+        - code.generate-bicep
+        - cli.generate-commands
+        - cloud.access-control
+      representativeQueries:
+        - What Azure RBAC role should I assign for least privilege access?
+        - Generate CLI commands to assign Azure role to managed identity
+        - Create Bicep infrastructure code for role assignment
+        - What permissions do I need to grant RBAC roles?
+        - Find minimal role for reading blob storage
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-rbac/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-rbac/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-rbac/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-rbac/SKILL.md
+  sourceDigest: sha256:5fa1410b1526906d42f094bd38ec0dee952cd67a24d0dd15590833b954627cb7
+  fetchedAt: 2026-06-25T13:46:12.636Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.905Z

@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:git-commit",
+  "displayName": "git-commit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/git-commit/SKILL.md",
+  "description": "Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions \"/commit\". Supports: (1) Auto-detecting type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with optional type/scope/description overrides, (4) Intelligent file staging for logical grouping",
+  "tags": [
+    "git",
+    "commit",
+    "conventional-commits",
+    "staging",
+    "message-generation"
+  ],
+  "capabilities": [
+    "git.commit",
+    "git.stage",
+    "commit.generate",
+    "vcs.analyze"
+  ],
+  "representativeQueries": [
+    "Create a git commit from my changes",
+    "Generate conventional commit messages",
+    "Stage and commit my work intelligently",
+    "What should my commit message be?",
+    "Help me organize and commit changes"
+  ],
+  "updatedAt": "2026-06-25T13:59:32.358Z"
+}

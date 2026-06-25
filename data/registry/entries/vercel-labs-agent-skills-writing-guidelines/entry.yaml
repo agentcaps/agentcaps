@@ -1,0 +1,47 @@
+slug: vercel-labs-agent-skills-writing-guidelines
+entryId: vercel-labs-agent-skills-writing-guidelines
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: vercel-labs-agent-skills-writing-guidelines
+  type: git_repository
+  url: https://github.com/vercel-labs/agent-skills
+  path: skills/writing-guidelines/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - writing
+        - documentation
+        - style-guide
+        - compliance
+        - prose
+        - linting
+      capabilities:
+        - documentation.review
+        - writing.audit
+        - prose.lint
+        - style.validate
+      representativeQueries:
+        - review my documentation for compliance
+        - check writing style and tone guidance
+        - audit this prose against guidelines
+        - review docs voice and tone
+        - check this page for writing standards
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/vercel-labs/agent-skills
+  sourceRepositoryUrl: https://github.com/vercel-labs/agent-skills
+  sourceWebUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/writing-guidelines/SKILL.md
+  sourceCommit: f8a72b9603728bb92a217a879b7e62e43ad76c81
+  trackingRef: HEAD
+  artifactPath: skills/writing-guidelines/SKILL.md
+  pinnedArtifactUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/writing-guidelines/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/writing-guidelines/SKILL.md
+  sourceDigest: sha256:89a5f581193289b80af58b980090aeed535047c8df2b55ccbaae0de40283a99d
+  fetchedAt: 2026-06-25T13:55:05.736Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.062Z

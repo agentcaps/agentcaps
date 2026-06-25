@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-benchmark
+entryId: samber-cc-skills-golang-golang-benchmark
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-benchmark
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-benchmark/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - benchmarking
+        - profiling
+        - performance
+        - pprof
+        - measurement
+      capabilities:
+        - performance.measure
+        - benchmark.write
+        - benchmark.run
+        - benchmark.compare
+        - profile.interpret
+        - regression.detect
+      representativeQueries:
+        - Help me write a Go benchmark for this function
+        - How do I compare two benchmark runs statistically
+        - Analyze this pprof CPU profile for performance bottlenecks
+        - Set up CI benchmark regression detection for my Go project
+        - Measure the memory usage and performance impact of this code
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-benchmark/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-benchmark/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-benchmark/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-benchmark/SKILL.md
+  sourceDigest: sha256:27d09fbf1a0ba188b061b8e3d9cf99bfbf7b19f169d541a6fe2ac7064543f666
+  fetchedAt: 2026-06-25T13:57:12.996Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.998Z

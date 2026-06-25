@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-runcomfy-cli
+entryId: runcomfy-com-skills-runcomfy-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-runcomfy-cli
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: runcomfy-cli/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - runcomfy
+        - cli
+        - image-generation
+        - video-generation
+        - generative-ai
+      capabilities:
+        - model.run
+        - model.discover
+        - image.generate
+        - video.generate
+        - image.edit
+        - auth.authenticate
+      representativeQueries:
+        - Generate an image with RunComfy
+        - How do I install the RunComfy CLI
+        - Create videos with RunComfy
+        - Install and authenticate with RunComfy
+        - Upscale images with RunComfy CLI
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/runcomfy-cli/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: runcomfy-cli/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/runcomfy-cli/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/runcomfy-cli/SKILL.md
+  sourceDigest: sha256:f4c822d0972a78d8840a48cff0583319d156ab7a373a4053a2a0c26c7bb339a3
+  fetchedAt: 2026-06-25T13:48:49.583Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.988Z

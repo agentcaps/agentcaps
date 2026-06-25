@@ -1,0 +1,49 @@
+slug: xixu-me-skills-secure-linux-web-hosting
+entryId: xixu-me-skills-secure-linux-web-hosting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-secure-linux-web-hosting
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/secure-linux-web-hosting/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - linux-hosting
+        - server-security
+        - web-hosting
+        - nginx
+        - https-ssl
+        - ssh-setup
+      capabilities:
+        - server.setup
+        - server.secure
+        - web.host
+        - dns.configure
+        - https.setup
+        - nginx.configure
+      representativeQueries:
+        - How do I set up a secure web server on Linux?
+        - I need to configure HTTPS on my cloud server
+        - How do I harden SSH access on my cloud droplet?
+        - Can you help me set up Nginx as a reverse proxy?
+        - I want to set up a domain and SSL certificate on my server
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/secure-linux-web-hosting/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/secure-linux-web-hosting/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/secure-linux-web-hosting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/secure-linux-web-hosting/SKILL.md
+  sourceDigest: sha256:71f264601ca5b5306fec9366b655ad8e81635d83ca5f70e532da5615b489536f
+  fetchedAt: 2026-06-25T13:53:46.016Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.075Z

@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-ads
+entryId: coreyhaines31-marketingskills-ads
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-ads
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/ads/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - paid-advertising
+        - campaign-optimization
+        - performance-marketing
+        - audience-targeting
+        - ppc-management
+        - roas-optimization
+      capabilities:
+        - marketing.campaign-create
+        - marketing.audience-target
+        - marketing.bid-optimize
+        - marketing.roas-optimize
+        - advertising.strategy
+        - marketing.retargeting
+      representativeQueries:
+        - Help me optimize my Google Ads campaign for better ROAS
+        - How should I set up audience targeting on Facebook Ads
+        - What's the best strategy for LinkedIn ad campaigns for B2B leads
+        - I need help with my ad budget allocation and bidding strategy
+        - Should I run retargeting ads for my e-commerce store
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ads/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/ads/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ads/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ads/SKILL.md
+  sourceDigest: sha256:4b7a4a65ea1af2a27105f2daea61c654bf92a6e016377275003ea1a7b6fa625b
+  fetchedAt: 2026-06-25T13:52:32.243Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.704Z

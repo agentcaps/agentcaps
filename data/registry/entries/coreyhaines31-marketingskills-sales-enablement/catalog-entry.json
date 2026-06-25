@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:sales-enablement",
+  "displayName": "sales-enablement",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/sales-enablement/SKILL.md",
+  "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitors. For marketing website copy, see copywriting. For cold outreach emails, see cold-email. For the offer being sold (bonuses, guarantees, pricing structure), see offers.",
+  "tags": [
+    "sales",
+    "pitch-deck",
+    "sales-collateral",
+    "b2b-sales",
+    "deal-closing"
+  ],
+  "capabilities": [
+    "sales.create-pitch-deck",
+    "sales.create-collateral",
+    "sales.create-playbook",
+    "sales.create-demo-script",
+    "sales.handle-objections",
+    "sales.roi-analysis"
+  ],
+  "representativeQueries": [
+    "Create a sales pitch deck for my startup",
+    "Generate objection handling documents for my team",
+    "I need a one-pager for our enterprise product",
+    "Build demo scripts and talk tracks for my sales reps",
+    "Create a sales playbook to help close deals"
+  ],
+  "updatedAt": "2026-06-25T13:51:28.748Z"
+}

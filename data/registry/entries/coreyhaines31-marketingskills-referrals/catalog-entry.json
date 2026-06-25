@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:referrals",
+  "displayName": "referrals",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/referrals/SKILL.md",
+  "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch.",
+  "tags": [
+    "referral-programs",
+    "affiliate-marketing",
+    "growth-strategy",
+    "word-of-mouth",
+    "customer-acquisition",
+    "viral-loops"
+  ],
+  "capabilities": [
+    "growth.referral",
+    "marketing.affiliate",
+    "program.design",
+    "incentive.structure",
+    "strategy.growth"
+  ],
+  "representativeQueries": [
+    "How do I create a referral program?",
+    "What's the best affiliate structure for our product?",
+    "How do I incentivize customers to refer friends?",
+    "How can we build a viral referral loop?",
+    "What's the best way to design an affiliate program?"
+  ],
+  "updatedAt": "2026-06-25T13:52:59.631Z"
+}

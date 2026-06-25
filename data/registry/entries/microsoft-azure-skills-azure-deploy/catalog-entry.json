@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-deploy",
+  "displayName": "azure-deploy",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-deploy/SKILL.md",
+  "description": "Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/deployment-plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/deployment-plan.md from azure-prepare and validated status from azure-validate. WHEN: \"run azd up\", \"run azd deploy\", \"execute deployment\", \"push to production\", \"push to cloud\", \"go live\", \"ship it\", \"bicep deploy\", \"terraform apply\", \"publish to Azure\", \"launch on Azure\". DO NOT USE WHEN: \"create and deploy\", \"build and deploy\", \"create a new app\", \"set up infrastructure\", \"create and deploy to Azure using Terraform\" — use azure-prepare for these.",
+  "tags": [
+    "azure-deployment",
+    "cloud-deployment",
+    "infrastructure",
+    "production",
+    "azd",
+    "terraform"
+  ],
+  "capabilities": [
+    "cloud.deploy",
+    "infrastructure.apply",
+    "azure.deploy",
+    "deployment.execute",
+    "cloud.provision"
+  ],
+  "representativeQueries": [
+    "Run azd up to deploy my application",
+    "Push my app to production on Azure",
+    "Execute the deployment plan now",
+    "Apply terraform to Azure infrastructure",
+    "Deploy changes to the cloud"
+  ],
+  "updatedAt": "2026-06-25T13:44:47.656Z"
+}

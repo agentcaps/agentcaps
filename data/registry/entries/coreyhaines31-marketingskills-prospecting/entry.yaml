@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-prospecting
+entryId: coreyhaines31-marketingskills-prospecting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-prospecting
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/prospecting/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - prospecting
+        - lead-generation
+        - b2b-sales
+        - qualification
+        - list-building
+        - outbound-research
+      capabilities:
+        - prospecting.find
+        - prospecting.qualify
+        - prospecting.research
+        - sales.build-list
+        - research.score
+        - lead.identify
+      representativeQueries:
+        - build a prospect list for outreach
+        - find ICP-fit SaaS companies to target
+        - find local businesses near me
+        - create a qualified lead sheet
+        - discover B2B prospects in my space
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/prospecting/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/prospecting/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/prospecting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/prospecting/SKILL.md
+  sourceDigest: sha256:9e02e7d38f6467d29fd0e86c12e6ffa3c2cc6dd044f986e8c55d9877bde26963
+  fetchedAt: 2026-06-25T13:53:26.134Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.757Z

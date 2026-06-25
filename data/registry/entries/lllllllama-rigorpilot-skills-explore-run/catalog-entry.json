@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:explore-run",
+  "displayName": "explore-run",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/explore-run/SKILL.md",
+  "description": "Rigor Improve / Rigor Explore run leaf skill for bounded exploratory evidence in deep learning research repositories. Use when the researcher explicitly authorizes exploratory runs such as small-subset validation, short-cycle guess-and-check, batch sweeps, idle-GPU search, or quick transfer-learning trials, with fair-comparison caveats and no-overclaim summaries in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline execution, conservative training verification, default routing, verified SOTA claims, or implicit experimentation.",
+  "tags": [
+    "exploratory-research",
+    "experiment-planning",
+    "machine-learning",
+    "comparative-analysis",
+    "training-optimization"
+  ],
+  "capabilities": [
+    "research.execute",
+    "experiment.plan",
+    "training.benchmark",
+    "candidates.rank",
+    "results.compare"
+  ],
+  "representativeQueries": [
+    "Plan exploratory runs for model variants",
+    "Rank candidates by cost and success rate",
+    "Execute bounded subset validation trials",
+    "Generate comparison reports for experiments",
+    "Sweep hyperparameters with idle GPU time"
+  ],
+  "updatedAt": "2026-06-25T13:59:09.036Z"
+}

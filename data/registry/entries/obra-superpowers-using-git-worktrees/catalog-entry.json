@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:using-git-worktrees",
+  "displayName": "using-git-worktrees",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-git-worktrees/SKILL.md",
+  "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+  "tags": [
+    "git",
+    "worktree",
+    "isolation",
+    "workspace",
+    "development",
+    "branching"
+  ],
+  "capabilities": [
+    "git.worktree",
+    "workspace.isolate",
+    "workspace.create",
+    "git.branch",
+    "development.isolate"
+  ],
+  "representativeQueries": [
+    "Set up an isolated workspace for feature work",
+    "Create a git worktree for my changes",
+    "Isolate my work from the main branch with worktrees",
+    "Start feature development in a separate worktree",
+    "How do I protect my workspace while working on features"
+  ],
+  "updatedAt": "2026-06-25T13:55:55.835Z"
+}

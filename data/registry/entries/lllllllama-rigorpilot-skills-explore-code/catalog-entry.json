@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:explore-code",
+  "displayName": "explore-code",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/explore-code/SKILL.md",
+  "description": "Rigor Improve implementation leaf skill for auditable candidate implementation in deep learning research repositories. Use when the researcher explicitly authorizes exploratory work on an isolated branch or worktree to transplant modules, adapt a backbone, add LoRA or adapter layers, replace a head, or stitch together meaningful low-risk migration ideas with rollback-aware records in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline reproduction, conservative debugging, environment setup, verified contribution claims, or default repository analysis.",
+  "tags": [
+    "exploratory",
+    "deep-learning",
+    "research-code",
+    "candidate-impl",
+    "isolated-work",
+    "audit-trail"
+  ],
+  "capabilities": [
+    "code.explore",
+    "code.adapt",
+    "code.transplant",
+    "research.audit",
+    "code.isolate",
+    "model.experiment"
+  ],
+  "representativeQueries": [
+    "Explore LoRA adapter insertion in this research repository",
+    "Help transplant a backbone module with full audit trail",
+    "Adapt deep learning model on isolated branch with rollback",
+    "Document candidate implementation changes for comparison",
+    "Experiment with module combinations on separate worktree"
+  ],
+  "updatedAt": "2026-06-25T13:58:52.817Z"
+}

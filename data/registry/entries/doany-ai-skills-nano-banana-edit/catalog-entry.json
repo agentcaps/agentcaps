@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:nano-banana-edit",
+  "displayName": "nano-banana-edit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/nano-banana-edit/SKILL.md",
+  "description": "Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on \"nano banana edit\", \"edit with nano banana\", \"image edit nano banana\", or any explicit ask to edit with this model.",
+  "tags": [
+    "image-edit",
+    "batch-editing",
+    "google-models",
+    "runcomfy",
+    "generative-ai",
+    "image-to-image"
+  ],
+  "capabilities": [
+    "image.edit",
+    "image.batch-edit",
+    "image.transform",
+    "image.background-replace",
+    "model.run"
+  ],
+  "representativeQueries": [
+    "Edit this image with nano banana 2",
+    "Swap the background and preserve the subject",
+    "Batch edit up to 20 images consistently",
+    "Localize edits to specific areas with spatial language",
+    "Edit multiple photos at once with nano banana"
+  ],
+  "updatedAt": "2026-06-25T13:49:29.900Z"
+}

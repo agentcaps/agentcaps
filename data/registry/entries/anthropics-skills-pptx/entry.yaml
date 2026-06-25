@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/pptx/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: presentation
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - presentation
+        - slides
+        - pptx
+        - deck
+        - document-editing
+        - office
+      capabilities:
+        - presentation.create
+        - presentation.edit
+        - presentation.read
+        - document.extract
+        - presentation.combine
+      representativeQueries:
+        - Create a new presentation deck
+        - Extract text from PowerPoint slides
+        - Edit and modify my presentation
+        - Generate a pitch deck for investors
+        - Combine multiple presentation files
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/pptx/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/pptx/SKILL.md
   sourceDigest: sha256:e5b0df918cbe9d62508b3cf808d73899633f82fc19f6258a25ef9f0de7e62125
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:54:10.186Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.330Z
+  publishedAt: 2026-06-25T13:59:33.682Z

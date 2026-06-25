@@ -1,0 +1,47 @@
+slug: heygen-com-hyperframes-general-video
+entryId: heygen-com-hyperframes-general-video
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-general-video
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/general-video/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-composition
+        - video-authoring
+        - hyperframes
+        - orchestrator
+        - composition
+        - freeform
+      capabilities:
+        - video.compose
+        - video.author
+        - media.orchestrate
+        - composition.design
+      representativeQueries:
+        - Create a custom video composition for our brand
+        - Make a multi-scene video with title cards and music
+        - Author a video montage with custom transitions
+        - Build a freeform video composition from scratch
+        - Design a branded sizzle reel with multiple scenes
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/general-video/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/general-video/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/general-video/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/general-video/SKILL.md
+  sourceDigest: sha256:74e80d9bc4ac32d5ac633a72d0d50ad0fa6525db076eb0048c1e9cf68cae2d6c
+  fetchedAt: 2026-06-25T13:57:51.413Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.832Z

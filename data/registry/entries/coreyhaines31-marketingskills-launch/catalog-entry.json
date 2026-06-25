@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:launch",
+  "displayName": "launch",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/launch/SKILL.md",
+  "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers.",
+  "tags": [
+    "product-launch",
+    "go-to-market",
+    "release-strategy",
+    "feature-announcement",
+    "launch-planning",
+    "marketing-strategy"
+  ],
+  "capabilities": [
+    "product.launch",
+    "marketing.plan",
+    "strategy.gtm",
+    "launch.announce",
+    "product.position"
+  ],
+  "representativeQueries": [
+    "How should I plan my product launch?",
+    "Help me create a go-to-market strategy",
+    "What's a good launch checklist for my feature?",
+    "How do I build momentum for product announcements?",
+    "Create a launch strategy for our new product"
+  ],
+  "updatedAt": "2026-06-25T13:52:39.670Z"
+}

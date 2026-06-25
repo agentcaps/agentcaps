@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:secure-linux-web-hosting",
+  "displayName": "secure-linux-web-hosting",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/secure-linux-web-hosting/SKILL.md",
+  "description": "Use when setting up, hardening, or reviewing a cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR.",
+  "tags": [
+    "linux-hosting",
+    "server-security",
+    "web-hosting",
+    "nginx",
+    "https-ssl",
+    "ssh-setup"
+  ],
+  "capabilities": [
+    "server.setup",
+    "server.secure",
+    "web.host",
+    "dns.configure",
+    "https.setup",
+    "nginx.configure"
+  ],
+  "representativeQueries": [
+    "How do I set up a secure web server on Linux?",
+    "I need to configure HTTPS on my cloud server",
+    "How do I harden SSH access on my cloud droplet?",
+    "Can you help me set up Nginx as a reverse proxy?",
+    "I want to set up a domain and SSL certificate on my server"
+  ],
+  "updatedAt": "2026-06-25T13:53:46.016Z"
+}

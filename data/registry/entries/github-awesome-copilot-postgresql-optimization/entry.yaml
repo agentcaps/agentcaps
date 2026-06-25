@@ -1,0 +1,44 @@
+slug: github-awesome-copilot-postgresql-optimization
+entryId: github-awesome-copilot-postgresql-optimization
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: github-awesome-copilot-postgresql-optimization
+  type: git_repository
+  url: https://github.com/github/awesome-copilot
+  path: skills/postgresql-optimization/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - postgresql
+        - database
+        - sql
+        - optimization
+        - performance
+        - tuning
+      capabilities:
+        - database.optimize
+        - database.query
+        - database.analyze
+        - performance.tune
+        - data.search
+      representativeQueries:
+        - How can I optimize my PostgreSQL queries?
+        - Show me JSONB operations and examples
+        - Explain window functions for data analytics
+        - How do I implement full-text search in PostgreSQL?
+        - What are PostgreSQL performance tuning best practices?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/github/awesome-copilot
+  sourceRepositoryUrl: https://github.com/github/awesome-copilot
+  sourceWebUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/postgresql-optimization/SKILL.md
+  sourceCommit: e9c8e3704181fa38245d101308a8527d12af6a4d
+  trackingRef: HEAD
+  artifactPath: skills/postgresql-optimization/SKILL.md
+  pinnedArtifactUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/postgresql-optimization/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/postgresql-optimization/SKILL.md
+  sourceDigest: sha256:9b511a7d706302761a7700cd6b87df9793650fa7f7f3299fe33243fc339e3c9f
+  fetchedAt: 2026-06-25T14:02:04.151Z

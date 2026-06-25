@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-image-to-video
+entryId: runcomfy-com-skills-image-to-video
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-image-to-video
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: image-to-video/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-to-video
+        - video-generation
+        - animation
+        - runcomfy
+        - ai-model
+        - intent-routing
+      capabilities:
+        - media.animate
+        - media.generate
+        - video.create
+        - animation.synthesize
+        - media.transform
+      representativeQueries:
+        - Animate this still image into video
+        - Turn my portrait into animated video
+        - Create video animation with custom voiceover
+        - Generate motion from a static image
+        - Convert image to video with lip sync
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-to-video/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: image-to-video/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-to-video/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-to-video/SKILL.md
+  sourceDigest: sha256:7a97ff688209d3cad39a9d84b284b209c3b3cdcc775fb91b4711b2eb1555ad7b
+  fetchedAt: 2026-06-25T13:48:22.292Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.979Z

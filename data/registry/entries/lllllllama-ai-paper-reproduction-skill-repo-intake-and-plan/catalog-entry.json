@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:ai-paper-reproduction-skill:skill:repo-intake-and-plan",
+  "displayName": "repo-intake-and-plan",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/ai-paper-reproduction-skill/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/repo-intake-and-plan/SKILL.md",
+  "description": "Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration.",
+  "tags": [
+    "deep-learning",
+    "repository-analysis",
+    "reproduction-planning",
+    "code-intake",
+    "documentation-parsing"
+  ],
+  "capabilities": [
+    "repo.scan",
+    "repo.analyze",
+    "code.classify",
+    "doc.extract",
+    "plan.generate"
+  ],
+  "representativeQueries": [
+    "Scan this deep learning repository and create a reproduction plan",
+    "Analyze the repo structure and identify inference evaluation training commands",
+    "Extract documented commands from the README and classify them",
+    "Plan the smallest trustworthy reproduction workflow for this ML project",
+    "Map out the repository structure and command inventory for reproduction"
+  ],
+  "updatedAt": "2026-06-25T13:59:38.048Z"
+}

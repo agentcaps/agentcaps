@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-lint",
+  "displayName": "golang-lint",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-lint/SKILL.md",
+  "description": "Linting best practices and golangci-lint configuration for Golang projects — running linters, configuring .golangci.yml, suppressing warnings with nolint directives, interpreting lint output, and selecting linters. Use when configuring golangci-lint, asking about lint warnings or nolint suppressions, setting up code quality tooling, or choosing linters. Also use when the user mentions golangci-lint, go vet, staticcheck, or revive.",
+  "tags": [
+    "golang",
+    "linting",
+    "code-quality",
+    "golangci-lint",
+    "static-analysis",
+    "best-practices"
+  ],
+  "capabilities": [
+    "code.lint",
+    "code.review",
+    "config.setup",
+    "code.fix",
+    "code.analyze"
+  ],
+  "representativeQueries": [
+    "Configure golangci-lint for my Go project",
+    "How do I suppress this golangci-lint warning?",
+    "Set up code linting in my Go codebase",
+    "What linters should I enable for quality?",
+    "Fix all golangci-lint errors automatically"
+  ],
+  "updatedAt": "2026-06-25T13:56:27.928Z"
+}

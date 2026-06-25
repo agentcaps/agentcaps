@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:readme-i18n",
+  "displayName": "readme-i18n",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/readme-i18n/SKILL.md",
+  "description": "Use when the user wants to translate a repository README, make a repo multilingual, localize docs, add a language switcher, internationalize the README, or update localized README variants in a GitHub-style repository.",
+  "tags": [
+    "readme-translation",
+    "localization",
+    "i18n",
+    "multilingual-docs",
+    "documentation"
+  ],
+  "capabilities": [
+    "documentation.translate",
+    "documentation.localize",
+    "documentation.internationalize",
+    "repo.configure"
+  ],
+  "representativeQueries": [
+    "Translate my README to multiple languages",
+    "Make my repository README multilingual",
+    "Add a language switcher to my README file",
+    "Create translated README variants in GitHub",
+    "Internationalize my repository documentation"
+  ],
+  "updatedAt": "2026-06-25T13:53:50.577Z"
+}

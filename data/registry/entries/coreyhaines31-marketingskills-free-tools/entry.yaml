@@ -1,0 +1,47 @@
+slug: coreyhaines31-marketingskills-free-tools
+entryId: coreyhaines31-marketingskills-free-tools
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-free-tools
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/free-tools/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - marketing
+        - lead-generation
+        - free-tools
+        - tool-strategy
+        - seo
+      capabilities:
+        - marketing.plan
+        - marketing.evaluate
+        - marketing.build
+        - lead.generate
+        - seo.optimize
+      representativeQueries:
+        - Should I build a free tool for leads?
+        - How do I plan a marketing tool strategy?
+        - What types of free tools generate leads?
+        - I want to build an interactive calculator
+        - How do I evaluate tool ideas before building?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/free-tools/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/free-tools/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/free-tools/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/free-tools/SKILL.md
+  sourceDigest: sha256:76dc4535041899581cfea32a77094ed19dda5de718e9345caf1f236356f9a6b7
+  fetchedAt: 2026-06-25T13:52:51.318Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.737Z

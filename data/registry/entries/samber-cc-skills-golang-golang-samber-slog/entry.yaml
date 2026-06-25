@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-samber-slog
+entryId: samber-cc-skills-golang-golang-samber-slog
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-samber-slog
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-samber-slog/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - structured-logging
+        - slog
+        - log-pipelines
+        - observability
+        - middleware
+      capabilities:
+        - logging.configure
+        - logging.sample
+        - logging.format
+        - logging.route
+        - middleware.logging
+      representativeQueries:
+        - Set up structured logging with slog
+        - Configure multi-handler log pipeline
+        - Add Datadog backend to slog logger
+        - Reduce log volume with sampling
+        - Strip PII from log records
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-slog/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-samber-slog/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-slog/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-slog/SKILL.md
+  sourceDigest: sha256:58259d0bf28c8c6b6975f5c0eddb06ea257ee7339c29600bd11ecfd8ebc25b7a
+  fetchedAt: 2026-06-25T13:57:47.019Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.044Z

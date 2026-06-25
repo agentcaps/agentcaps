@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-project-layout
+entryId: samber-cc-skills-golang-golang-project-layout
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-project-layout
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-project-layout/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - project-layout
+        - architecture
+        - package-structure
+        - monorepo
+        - directory-conventions
+      capabilities:
+        - project.setup
+        - code.organize
+        - architecture.design
+        - package.structure
+        - module.organize
+      representativeQueries:
+        - How should I structure my Go project?
+        - Set up a new Go monorepo with multiple packages
+        - Help me organize an existing Go codebase
+        - What's the best directory layout for a CLI tool?
+        - How do I decide between cmd/internal/pkg directories?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-project-layout/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-project-layout/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-project-layout/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-project-layout/SKILL.md
+  sourceDigest: sha256:6572b1c5eb2290d7f4c9d5438a3b8161cca82a89cb9214e34f11103509e34c75
+  fetchedAt: 2026-06-25T13:56:24.561Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.035Z

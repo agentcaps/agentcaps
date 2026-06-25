@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:vercel-labs:agent-skills:skill:writing-guidelines",
+  "displayName": "writing-guidelines",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/writing-guidelines/SKILL.md",
+  "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
+  "tags": [
+    "writing",
+    "documentation",
+    "style-guide",
+    "compliance",
+    "prose",
+    "linting"
+  ],
+  "capabilities": [
+    "documentation.review",
+    "writing.audit",
+    "prose.lint",
+    "style.validate"
+  ],
+  "representativeQueries": [
+    "review my documentation for compliance",
+    "check writing style and tone guidance",
+    "audit this prose against guidelines",
+    "review docs voice and tone",
+    "check this page for writing standards"
+  ],
+  "updatedAt": "2026-06-25T13:55:05.736Z"
+}

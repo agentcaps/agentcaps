@@ -1,0 +1,47 @@
+slug: doany-ai-skills-kling-3-0
+entryId: doany-ai-skills-kling-3-0
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-kling-3-0
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: kling-3-0/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - kling-3-0
+        - text-to-video
+        - image-to-video
+        - runcomfy
+        - cinematic-video
+      capabilities:
+        - video.generate
+        - image.animate
+        - text.synthesize
+        - media.create
+        - audio.synchronize
+      representativeQueries:
+        - Generate a video from text using Kling
+        - Create a 4K cinematic video from this image
+        - Generate a multi-shot video with Kling Pro
+        - Make a video with synchronized audio and characters
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/kling-3-0/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: kling-3-0/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/kling-3-0/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/kling-3-0/SKILL.md
+  sourceDigest: sha256:bbad428f4ad583a49c34140e01d1c8612a186d8354771fbb3e5b25243c337ddc
+  fetchedAt: 2026-06-25T13:50:28.986Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.798Z

@@ -1,0 +1,47 @@
+slug: runcomfy-com-skills-image-inpainting
+entryId: runcomfy-com-skills-image-inpainting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-image-inpainting
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: image-inpainting/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-inpainting
+        - image-editing
+        - mask-driven
+        - object-removal
+        - runcomfy
+        - watermark-removal
+      capabilities:
+        - image.inpaint
+        - image.edit
+        - image.remove-object
+        - image.remove-watermark
+        - region.fill
+      representativeQueries:
+        - Remove the object from this image
+        - Inpaint this masked region with new content
+        - Remove the watermark from the photo
+        - Fill the gap in this image using inpainting
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-inpainting/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: image-inpainting/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-inpainting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-inpainting/SKILL.md
+  sourceDigest: sha256:ac0654910addb44b1ceaeda38d8e2f0d66c337d0f2bfb6acd15ce74b39cba0b3
+  fetchedAt: 2026-06-25T13:48:15.219Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.976Z

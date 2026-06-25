@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:agentspace-so:runcomfy-agent-skills:skill:image-inpainting",
+  "displayName": "image-inpainting",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-inpainting/SKILL.md",
+  "description": "Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on \"inpaint\", \"inpainting\", \"image inpaint\", \"remove from image\", \"fill region\", \"mask-driven edit\", \"remove watermark\", \"remove object\", \"patch the photo\", \"fill the hole\", or any explicit ask to edit a specific masked region of a still.",
+  "tags": [
+    "image-inpainting",
+    "mask-driven",
+    "object-removal",
+    "watermark-removal",
+    "region-editing",
+    "runcomfy"
+  ],
+  "capabilities": [
+    "image.inpaint",
+    "image.remove-object",
+    "image.remove-watermark",
+    "image.edit-region",
+    "image.fill"
+  ],
+  "representativeQueries": [
+    "Remove this object from the image",
+    "Inpaint the masked area with a new object",
+    "Fill the masked region in my photo",
+    "Remove the watermark from this image",
+    "Edit the selected area of my picture"
+  ],
+  "updatedAt": "2026-06-25T13:47:39.524Z"
+}

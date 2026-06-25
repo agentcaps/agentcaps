@@ -1,0 +1,46 @@
+slug: runcomfy-com-skills-relight
+entryId: runcomfy-com-skills-relight
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-relight
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: relight/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-relighting
+        - lighting-control
+        - color-temperature
+        - ai-image-edit
+        - mood-shift
+      capabilities:
+        - image.relight
+        - image.edit
+        - lighting.control
+        - color.adjust
+      representativeQueries:
+        - Relight this image to golden hour
+        - Change the lighting direction and color
+        - Make this studio photo look like window light
+        - Adjust the color temperature to warm tones
+        - Add rim lighting to this portrait photo
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: relight/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md
+  sourceDigest: sha256:03c4541c08c25dfda581f4f37bce60abfff7083088f87bcd7e487acbcf866630
+  fetchedAt: 2026-06-25T13:48:51.898Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.986Z

@@ -1,0 +1,47 @@
+slug: samber-cc-skills-golang-golang-samber-oops
+entryId: samber-cc-skills-golang-golang-samber-oops
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-samber-oops
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-samber-oops/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - error-handling
+        - structured-logging
+        - debugging
+        - panic-recovery
+      capabilities:
+        - error.handle
+        - error.wrap
+        - error.debug
+        - logging.structure
+        - error.recover
+      representativeQueries:
+        - How do I add structured context to Go errors?
+        - Create error codes and stack traces in Go
+        - Wrap errors with diagnostic attributes
+        - Set user-facing messages for errors
+        - Handle panic recovery with samber/oops
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-oops/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-samber-oops/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-oops/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-oops/SKILL.md
+  sourceDigest: sha256:ef4a48b978e0d79b954d511d8d2124b176e22ce6a7bd20c80c725385c60215b3
+  fetchedAt: 2026-06-25T13:57:29.252Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.043Z

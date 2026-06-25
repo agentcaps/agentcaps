@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:social",
+  "displayName": "social",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/social/SKILL.md",
+  "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' or 'find people asking for.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations.",
+  "tags": [
+    "social-media",
+    "content-creation",
+    "scheduling",
+    "video-scripting",
+    "engagement",
+    "social-listening"
+  ],
+  "capabilities": [
+    "social.create",
+    "social.schedule",
+    "social.optimize",
+    "social.listen",
+    "video.script",
+    "content.repurpose"
+  ],
+  "representativeQueries": [
+    "Help me create a LinkedIn carousel post about my new product launch",
+    "Write a Twitter thread about emerging trends in my industry",
+    "How can I improve engagement on my Instagram Reels and Stories",
+    "Create a content calendar for my TikTok channel posting strategy",
+    "Find trending topics in my industry for social listening opportunities"
+  ],
+  "updatedAt": "2026-06-25T13:52:06.401Z"
+}

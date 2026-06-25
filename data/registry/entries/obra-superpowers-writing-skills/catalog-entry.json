@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:writing-skills",
+  "displayName": "writing-skills",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/writing-skills/SKILL.md",
+  "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+  "tags": [
+    "skill-authoring",
+    "test-driven-development",
+    "documentation",
+    "agent-guidance",
+    "best-practices"
+  ],
+  "capabilities": [
+    "skill.create",
+    "skill.edit",
+    "skill.verify",
+    "documentation.write",
+    "testing.define"
+  ],
+  "representativeQueries": [
+    "How do I write a new skill?",
+    "How do I test skills before deployment?",
+    "When should I create a skill?",
+    "How do I apply TDD to skill documentation?",
+    "How do I verify my skill works with agents?"
+  ],
+  "updatedAt": "2026-06-25T13:55:58.799Z"
+}

@@ -1,0 +1,47 @@
+slug: samber-cc-skills-golang-golang-troubleshooting
+entryId: samber-cc-skills-golang-golang-troubleshooting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-troubleshooting
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-troubleshooting/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang-debugging
+        - troubleshooting
+        - root-cause-analysis
+        - race-detection
+        - performance-profiling
+      capabilities:
+        - go.debug
+        - go.troubleshoot
+        - code.trace
+        - performance.profile
+        - race.detect
+      representativeQueries:
+        - My Go program is crashing unexpectedly
+        - How do I debug a race condition in Go?
+        - What's causing this deadlock in my Go code?
+        - Help me troubleshoot a memory leak in Go
+        - Debug a goroutine that's stuck hanging
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-troubleshooting/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-troubleshooting/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-troubleshooting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-troubleshooting/SKILL.md
+  sourceDigest: sha256:d955d27f5f44fc511eb4d3e132b9a09c445848accb130274cc790176d7c834bf
+  fetchedAt: 2026-06-25T13:56:31.166Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.053Z

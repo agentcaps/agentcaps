@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/xlsx/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: data
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - spreadsheet
+        - excel
+        - csv
+        - data-cleaning
+        - tabular-data
+        - worksheet
+      capabilities:
+        - spreadsheet.create
+        - spreadsheet.edit
+        - spreadsheet.clean
+        - spreadsheet.format
+        - data.convert
+      representativeQueries:
+        - I need to clean up this messy spreadsheet
+        - Can you create an Excel file from this data?
+        - Convert my CSV to an Excel workbook
+        - Add a new column with a formula please
+        - Fix the broken formulas in my sheet
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/xlsx/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/xlsx/SKILL.md
   sourceDigest: sha256:dd316db7785a6be12966c2a2d848931fbf5f518b3cdb0a66fa62ee835ead1cfc
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:54:31.691Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.335Z
+  publishedAt: 2026-06-25T13:59:33.691Z

@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-structs-interfaces
+entryId: samber-cc-skills-golang-golang-structs-interfaces
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-structs-interfaces
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-structs-interfaces/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - interfaces
+        - struct-design
+        - composition
+        - design-patterns
+        - type-system
+      capabilities:
+        - interface.design
+        - struct.define
+        - type.assertion
+        - interface.compose
+        - struct.embed
+        - architecture.dependency-injection
+      representativeQueries:
+        - How do I design a small composable interface in Go?
+        - What's the best way to embed structs in Go?
+        - How should I use type assertions and type switches?
+        - What's the difference between pointer and value receivers?
+        - How do I implement interface segregation in Go?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-structs-interfaces/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-structs-interfaces/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-structs-interfaces/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-structs-interfaces/SKILL.md
+  sourceDigest: sha256:e1e9192aab7b3c05f3e4e6c7fbe00b634dda870932f5862e386d7b472247bf8e
+  fetchedAt: 2026-06-25T13:56:53.144Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.050Z

@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-quotas
+entryId: microsoft-azure-skills-azure-quotas
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-quotas
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-quotas/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - quotas
+        - capacity
+        - limits
+        - deployment
+        - resource-management
+      capabilities:
+        - azure.quota.check
+        - azure.quota.request
+        - azure.capacity.validate
+        - azure.usage.show
+        - deployment.plan
+      representativeQueries:
+        - Check my Azure quotas and usage
+        - How many vCPUs are available in my subscription
+        - Request a quota increase for vCPUs
+        - Validate capacity before deployment
+        - Compare Azure regional quota availability
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-quotas/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-quotas/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-quotas/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-quotas/SKILL.md
+  sourceDigest: sha256:b517e29b50ba07dc42dd4fd356c0c15d5d41435415f6835ddb2ad874d6997237
+  fetchedAt: 2026-06-25T13:46:04.046Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.903Z

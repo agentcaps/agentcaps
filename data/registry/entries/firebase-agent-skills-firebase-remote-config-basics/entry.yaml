@@ -1,0 +1,47 @@
+slug: firebase-agent-skills-firebase-remote-config-basics
+entryId: firebase-agent-skills-firebase-remote-config-basics
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: firebase-agent-skills-firebase-remote-config-basics
+  type: git_repository
+  url: https://github.com/firebase/agent-skills
+  path: skills/firebase-remote-config-basics/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - firebase
+        - remote-config
+        - feature-flags
+        - mobile-development
+        - config-management
+      capabilities:
+        - config.setup
+        - config.manage
+        - feature.flag
+        - template.version
+        - sdk.integrate
+      representativeQueries:
+        - How do I set up Firebase Remote Config?
+        - How can I manage feature flags dynamically?
+        - Help me configure Remote Config template
+        - I need to set up Remote Config on Android
+        - How do I update app behavior without deployment?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/firebase/agent-skills
+  sourceRepositoryUrl: https://github.com/firebase/agent-skills
+  sourceWebUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-remote-config-basics/SKILL.md
+  sourceCommit: 538130c39402a40d9c2586ede87def5914641a33
+  trackingRef: HEAD
+  artifactPath: skills/firebase-remote-config-basics/SKILL.md
+  pinnedArtifactUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-remote-config-basics/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-remote-config-basics/SKILL.md
+  sourceDigest: sha256:87b472695dcda17162304caf9d40ef94ef51e3371f13ac641f26fd55a9d83fe1
+  fetchedAt: 2026-06-25T13:58:45.010Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.817Z

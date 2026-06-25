@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-popular-libraries",
+  "displayName": "golang-popular-libraries",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-popular-libraries/SKILL.md",
+  "description": "Recommends production-ready Golang libraries and frameworks. Apply when the user explicitly asks for library suggestions, wants to compare alternatives, needs to choose a library for a specific task, or when a new dependency is being added to the project.",
+  "tags": [
+    "golang",
+    "library-recommendations",
+    "dependency-selection",
+    "package-management",
+    "ecosystem",
+    "production-ready"
+  ],
+  "capabilities": [
+    "code.library-recommendation",
+    "dependencies.select",
+    "dependencies.compare",
+    "ecosystem.analyze",
+    "dependencies.evaluate"
+  ],
+  "representativeQueries": [
+    "What Go library should I use for HTTP requests?",
+    "Compare Go web frameworks for our project needs",
+    "Recommend a production-ready database driver for Go",
+    "Should I use an external library or stdlib for this?",
+    "Find the best Go logging library with structured output"
+  ],
+  "updatedAt": "2026-06-25T13:56:20.691Z"
+}

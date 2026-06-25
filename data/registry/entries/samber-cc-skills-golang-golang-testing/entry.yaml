@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-testing
+entryId: samber-cc-skills-golang-golang-testing
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-testing
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-testing/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - go-testing
+        - table-driven-tests
+        - test-mocking
+        - test-coverage
+        - fuzzing
+        - integration-testing
+      capabilities:
+        - test.write
+        - test.review
+        - test.debug
+        - test.mock
+        - testing.coverage
+      representativeQueries:
+        - How do I write table-driven tests in Go?
+        - Review my Go test suite for flakiness issues
+        - Debug a failing Go test in my project
+        - Set up code coverage measurement for Go tests
+        - Create test mocks using testify assertions
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-testing/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-testing/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-testing/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-testing/SKILL.md
+  sourceDigest: sha256:c49ca69d2e297950863d207c6dc036ff5a47a8d32a46dabfec94b9f131afa011
+  fetchedAt: 2026-06-25T13:55:34.551Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.052Z

@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:video-edit",
+  "displayName": "video-edit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/video-edit/SKILL.md",
+  "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on \"video edit\", \"edit video\", \"restyle video\", \"swap video background\", \"motion control\", \"outfit swap video\", or any explicit ask to transform a video.",
+  "tags": [
+    "video-edit",
+    "ai-video",
+    "motion-transfer",
+    "video-restyle",
+    "outfit-swap",
+    "runcomfy"
+  ],
+  "capabilities": [
+    "video.edit",
+    "video.restyle",
+    "video.motion-transfer",
+    "video.background-swap",
+    "video.outfit-swap"
+  ],
+  "representativeQueries": [
+    "Restyle my talking head video while preserving lip sync",
+    "Transfer this character's motion from reference video",
+    "Swap the background in my product video",
+    "Change the outfit in my video keeping the face",
+    "Apply a cinematic color grade to my footage"
+  ],
+  "updatedAt": "2026-06-25T13:50:34.211Z"
+}

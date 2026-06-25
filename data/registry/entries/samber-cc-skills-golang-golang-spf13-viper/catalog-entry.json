@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-spf13-viper",
+  "displayName": "golang-spf13-viper",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-spf13-viper/SKILL.md",
+  "description": "Golang configuration library using spf13/viper — layered precedence (flag > env > file > KV > default), BindPFlag/BindPFlags, SetEnvPrefix + SetEnvKeyReplacer + AutomaticEnv, ReadInConfig + ConfigFileNotFoundError, Unmarshal + mapstructure struct tags, Sub for sub-trees, WatchConfig + OnConfigChange for hot reload, viper.New() for test isolation, and remote KV integration. Apply when using or adopting spf13/viper, or when the codebase imports `github.com/spf13/viper`. For CLI command structure alongside viper, see the `samber/cc-skills-golang@golang-spf13-cobra` skill. For general CLI architecture, see `samber/cc-skills-golang@golang-cli`.",
+  "tags": [
+    "golang",
+    "configuration",
+    "viper",
+    "cli",
+    "environment-variables",
+    "config-file"
+  ],
+  "capabilities": [
+    "config.load",
+    "config.bind",
+    "config.watch",
+    "config.resolve",
+    "config.unmarshal"
+  ],
+  "representativeQueries": [
+    "How do I set up layered configuration with environment variables in Go?",
+    "Bind CLI flags to configuration in Go using viper",
+    "Watch configuration files for changes and hot reload",
+    "Load configuration from multiple sources in Go",
+    "Unmarshal configuration to Go structs with struct tags"
+  ],
+  "updatedAt": "2026-06-25T13:58:10.444Z"
+}

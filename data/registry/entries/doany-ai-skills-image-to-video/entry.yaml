@@ -1,0 +1,47 @@
+slug: doany-ai-skills-image-to-video
+entryId: doany-ai-skills-image-to-video
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-image-to-video
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: image-to-video/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-to-video
+        - animation
+        - video-generation
+        - ai-powered
+        - runcomfy
+        - media
+      capabilities:
+        - video.generate
+        - image.animate
+        - media.synthesize
+        - audio.synthesize
+      representativeQueries:
+        - Animate this still image
+        - Turn image into video
+        - Create video animation from photo
+        - Generate video from image with lip-sync
+        - Animate portrait with custom voiceover
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-to-video/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: image-to-video/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-to-video/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-to-video/SKILL.md
+  sourceDigest: sha256:7a97ff688209d3cad39a9d84b284b209c3b3cdcc775fb91b4711b2eb1555ad7b
+  fetchedAt: 2026-06-25T13:50:17.633Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.797Z

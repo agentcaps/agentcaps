@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-cost
+entryId: microsoft-azure-skills-azure-cost
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-cost
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-cost/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - cost-management
+        - budget
+        - forecast
+        - optimization
+        - cloud-spend
+      capabilities:
+        - cost.query
+        - cost.forecast
+        - cost.optimize
+        - azure.analyze
+        - budget.track
+      representativeQueries:
+        - How much am I spending on Azure monthly?
+        - Forecast my Azure spending for next quarter
+        - Find ways to reduce my Azure cloud costs
+        - Analyze orphaned resources to optimize costs
+        - Show cost breakdown by Azure service category
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cost/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-cost/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cost/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cost/SKILL.md
+  sourceDigest: sha256:1bc522b995b8abd42b189cc3478031d52d9230ab41dde0e19a5db39832c85abc
+  fetchedAt: 2026-06-25T13:46:17.022Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.891Z

@@ -1,0 +1,46 @@
+slug: microsoft-azure-skills-azure-upgrade
+entryId: microsoft-azure-skills-azure-upgrade
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-upgrade
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-upgrade/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - upgrade
+        - migration
+        - infrastructure
+        - sdk
+        - modernization
+      capabilities:
+        - infrastructure.assess
+        - infrastructure.upgrade
+        - infrastructure.migrate
+        - code.modernize
+      representativeQueries:
+        - Upgrade my function app from Consumption to Flex Consumption
+        - Migrate my Redis cache to managed Redis
+        - Modernize legacy Azure Java SDK
+        - Assess if my app is ready for upgrade
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-upgrade/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-upgrade/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-upgrade/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-upgrade/SKILL.md
+  sourceDigest: sha256:56b6ce64bca0630e42a3691a08b624227fd5c45e082adc328bfd4ef356a00b20
+  fetchedAt: 2026-06-25T13:46:22.080Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.912Z

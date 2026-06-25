@@ -1,0 +1,48 @@
+slug: juliusbrussee-caveman-cavecrew
+entryId: juliusbrussee-caveman-cavecrew
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: juliusbrussee-caveman-cavecrew
+  type: git_repository
+  url: https://github.com/juliusbrussee/caveman
+  path: skills/cavecrew/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - delegation
+        - subagent
+        - context-compression
+        - code-review
+        - agent-routing
+        - code-navigation
+      capabilities:
+        - code.locate
+        - code.edit
+        - diff.review
+        - context.compress
+        - agent.delegate
+      representativeQueries:
+        - Where is this function defined in the codebase?
+        - Find all uses of this variable across files
+        - Review this branch for potential bugs
+        - Delegate code investigation to a subagent
+        - How can I compress my agent output tokens?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/juliusbrussee/caveman
+  sourceRepositoryUrl: https://github.com/juliusbrussee/caveman
+  sourceWebUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/cavecrew/SKILL.md
+  sourceCommit: 25d22f864ad68cc447a4cb93aefde918aa4aec9f
+  trackingRef: HEAD
+  artifactPath: skills/cavecrew/SKILL.md
+  pinnedArtifactUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/cavecrew/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/juliusbrussee/caveman/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/cavecrew/SKILL.md
+  sourceDigest: sha256:b74f374f6aae6e9a31e78e7d876860406fe5833378e9298536edf176c12f379b
+  fetchedAt: 2026-06-25T13:55:13.658Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.858Z

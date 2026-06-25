@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:refactor",
+  "displayName": "refactor",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/refactor/SKILL.md",
+  "description": "Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code smells, and applying design patterns. Less drastic than repo-rebuilder; use for gradual improvements.",
+  "tags": [
+    "code-refactoring",
+    "maintainability",
+    "code-quality",
+    "code-smells",
+    "architecture",
+    "testing"
+  ],
+  "capabilities": [
+    "code.refactor",
+    "code.extract-function",
+    "code.simplify",
+    "code.rename",
+    "code.improve-structure"
+  ],
+  "representativeQueries": [
+    "Clean up this code and improve readability",
+    "Extract functions from this long method",
+    "Help me refactor this code smell",
+    "Break down this large function into smaller parts",
+    "Improve the structure of this code"
+  ],
+  "updatedAt": "2026-06-25T14:01:14.837Z"
+}

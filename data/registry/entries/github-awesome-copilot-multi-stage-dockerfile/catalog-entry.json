@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:multi-stage-dockerfile",
+  "displayName": "multi-stage-dockerfile",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/multi-stage-dockerfile/SKILL.md",
+  "description": "Create optimized multi-stage Dockerfiles for any language or framework",
+  "tags": [
+    "docker",
+    "dockerfile",
+    "multi-stage",
+    "container-optimization",
+    "devops",
+    "build-optimization"
+  ],
+  "capabilities": [
+    "docker.create",
+    "dockerfile.optimize",
+    "container.build",
+    "image.optimize",
+    "build.cache-optimization",
+    "docker.security"
+  ],
+  "representativeQueries": [
+    "Create a multi-stage Dockerfile for my Node.js application",
+    "How do I optimize my Docker image size and performance?",
+    "Help me write a secure production Dockerfile",
+    "Build an efficient Docker image with proper layer caching",
+    "Optimize my Dockerfile for faster deployments"
+  ],
+  "updatedAt": "2026-06-25T14:01:31.623Z"
+}

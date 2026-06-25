@@ -1,0 +1,49 @@
+slug: microsoft-azure-skills-azure-ai
+entryId: microsoft-azure-skills-azure-ai
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-ai
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-ai/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - semantic-search
+        - speech-to-text
+        - document-extraction
+        - ai-services
+        - nlp
+      capabilities:
+        - search.query
+        - search.vector
+        - speech.transcribe
+        - speech.synthesize
+        - document.extract
+        - text.analyze
+      representativeQueries:
+        - Search my documents using vector embeddings
+        - Convert speech audio to text transcription
+        - Extract data from PDF forms and documents
+        - Generate natural speech from text content
+        - Perform semantic search across my index
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-ai/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-ai/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-ai/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-ai/SKILL.md
+  sourceDigest: sha256:9060994a74a9c8510c6e64d01edcef55440cefbba399c93cda18980651fff186
+  fetchedAt: 2026-06-25T13:44:59.535Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.883Z

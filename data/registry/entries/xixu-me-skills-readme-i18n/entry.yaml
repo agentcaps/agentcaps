@@ -1,0 +1,46 @@
+slug: xixu-me-skills-readme-i18n
+entryId: xixu-me-skills-readme-i18n
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-readme-i18n
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/readme-i18n/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - readme-translation
+        - localization
+        - i18n
+        - multilingual-docs
+        - documentation
+      capabilities:
+        - documentation.translate
+        - documentation.localize
+        - documentation.internationalize
+        - repo.configure
+      representativeQueries:
+        - Translate my README to multiple languages
+        - Make my repository README multilingual
+        - Add a language switcher to my README file
+        - Create translated README variants in GitHub
+        - Internationalize my repository documentation
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/readme-i18n/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/readme-i18n/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/readme-i18n/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/readme-i18n/SKILL.md
+  sourceDigest: sha256:ab7f02a1900a1831ff79e327d9b9586de10a6b4486430d5e6293ab3f47915b85
+  fetchedAt: 2026-06-25T13:53:50.577Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.072Z

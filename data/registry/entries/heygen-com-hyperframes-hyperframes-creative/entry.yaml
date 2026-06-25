@@ -1,0 +1,49 @@
+slug: heygen-com-hyperframes-hyperframes-creative
+entryId: heygen-com-hyperframes-hyperframes-creative
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-hyperframes-creative
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/hyperframes-creative/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - creative-direction
+        - video-design
+        - branding
+        - composition
+        - typography
+        - narrative-planning
+      capabilities:
+        - video.creative-direction
+        - design.composition
+        - palette.selection
+        - branding.style
+        - narration.planning
+        - typography.guide
+      representativeQueries:
+        - Design a color palette and visual style for my video
+        - Plan the beat structure and pacing for my multi-scene video
+        - What typography and branding should I use for this project?
+        - Create audio-reactive visual composition guidance
+        - Develop the creative direction and design specifications
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-creative/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/hyperframes-creative/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-creative/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-creative/SKILL.md
+  sourceDigest: sha256:8b104a3928473f3ea683510c377e0ea65d41d3472e80e2983629cca09ff736b3
+  fetchedAt: 2026-06-25T13:51:50.719Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.846Z

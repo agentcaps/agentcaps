@@ -1,0 +1,47 @@
+slug: doany-ai-skills-relight
+entryId: doany-ai-skills-relight
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-relight
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: relight/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-editing
+        - lighting-control
+        - photo-relighting
+        - color-temperature
+        - visual-effects
+      capabilities:
+        - image.relight
+        - image.edit
+        - lighting.adjust
+        - color.temperature
+        - photo.enhance
+      representativeQueries:
+        - Relight this product photo with studio lighting
+        - Change the portrait to golden hour mood
+        - Adjust lighting direction to window light
+        - Convert to blue hour with dramatic lighting
+        - Make this image warmer with soft window light
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/relight/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: relight/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/relight/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/relight/SKILL.md
+  sourceDigest: sha256:03c4541c08c25dfda581f4f37bce60abfff7083088f87bcd7e487acbcf866630
+  fetchedAt: 2026-06-25T13:49:27.558Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.803Z

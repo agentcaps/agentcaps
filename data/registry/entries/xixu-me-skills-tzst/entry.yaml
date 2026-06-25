@@ -1,0 +1,48 @@
+slug: xixu-me-skills-tzst
+entryId: xixu-me-skills-tzst
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-tzst
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/tzst/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - archive
+        - compression
+        - zstd
+        - cli
+        - automation
+        - extraction
+      capabilities:
+        - archive.create
+        - archive.extract
+        - archive.list
+        - archive.test
+        - file.compress
+      representativeQueries:
+        - Create a tzst archive from these files
+        - Extract this tar.zst archive to my directory
+        - List the contents of this .tzst file
+        - Test the integrity of my backup archive
+        - How do I install the tzst CLI tool
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/tzst/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/tzst/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/tzst/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/tzst/SKILL.md
+  sourceDigest: sha256:d4215e2d45d0cc58e2f0c071434d33c69e5a15681374b29f3e9158e62a6c49e6
+  fetchedAt: 2026-06-25T13:53:54.545Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.078Z

@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-uber-fx
+entryId: samber-cc-skills-golang-golang-uber-fx
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-uber-fx
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-uber-fx/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - dependency-injection
+        - uber-fx
+        - lifecycle
+        - service-architecture
+        - application-framework
+      capabilities:
+        - code.wire
+        - dependency.inject
+        - lifecycle.manage
+        - module.compose
+        - service.bootstrap
+      representativeQueries:
+        - How do I wire services with Uber-go/fx?
+        - Set up lifecycle hooks for graceful shutdown
+        - Configure dependency injection in Go applications
+        - Create modular Go services using fx modules
+        - Wire a long-running Go service with uber-go/fx
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-uber-fx/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-uber-fx/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-uber-fx/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-uber-fx/SKILL.md
+  sourceDigest: sha256:3a0cc65c6c5feb01de899e075b2f6056956df28c4f10ef9a3a90068480ee9e5b
+  fetchedAt: 2026-06-25T13:58:01.356Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.055Z

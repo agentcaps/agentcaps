@@ -1,0 +1,49 @@
+slug: obra-superpowers-systematic-debugging
+entryId: obra-superpowers-systematic-debugging
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-systematic-debugging
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/systematic-debugging/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - debugging
+        - root-cause
+        - troubleshooting
+        - bug-investigation
+        - systematic-approach
+        - error-diagnosis
+      capabilities:
+        - debug.investigate
+        - debug.diagnose
+        - debug.troubleshoot
+        - test.debug
+        - system.diagnose
+        - issue.analyze
+      representativeQueries:
+        - Help me debug this test failure systematically
+        - How do I find the root cause of this production bug?
+        - Debug this unexpected behavior in my system
+        - I need help troubleshooting a build failure
+        - Help diagnose this performance problem systematically
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/systematic-debugging/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/systematic-debugging/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/systematic-debugging/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/systematic-debugging/SKILL.md
+  sourceDigest: sha256:3b20719eca4f0461cb51a195221320d775dcf03b6859271066a03a5132a6ce7a
+  fetchedAt: 2026-06-25T13:55:21.006Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.944Z

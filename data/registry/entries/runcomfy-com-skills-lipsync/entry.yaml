@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-lipsync
+entryId: runcomfy-com-skills-lipsync
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-lipsync
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: lipsync/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video
+        - lip-sync
+        - audio-sync
+        - avatar
+        - dubbing
+        - synthesis
+      capabilities:
+        - video.synthesize
+        - audio.sync
+        - video.edit
+        - avatar.generate
+        - voice.dub
+      representativeQueries:
+        - Make this video speak to this audio
+        - Lip sync my face to an audio track
+        - Sync this voiceover to the video
+        - Create an avatar from a portrait and voice
+        - Dub this video with a different language
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/lipsync/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: lipsync/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/lipsync/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/lipsync/SKILL.md
+  sourceDigest: sha256:b5cf20f33476b4acd6f2d13f22efce53dc0b7dd19634911bad762d6707ad54e3
+  fetchedAt: 2026-06-25T13:48:34.091Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.982Z

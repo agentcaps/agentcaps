@@ -1,0 +1,47 @@
+slug: lllllllama-rigorpilot-skills-analyze-project
+entryId: lllllllama-rigorpilot-skills-analyze-project
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-analyze-project
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/analyze-project/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - code-analysis
+        - repository-inspection
+        - deep-learning
+        - read-only
+        - pattern-detection
+      capabilities:
+        - repository.analyze
+        - model.inspect
+        - code.audit
+        - config.review
+        - training.analyze
+      representativeQueries:
+        - Analyze this deep learning repository structure
+        - Inspect the model architecture and training entrypoints
+        - Review the configuration and suggest insertion points
+        - Flag suspicious patterns in the codebase
+        - Understand the inference pipeline in this project
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/analyze-project/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/analyze-project/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/analyze-project/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/analyze-project/SKILL.md
+  sourceDigest: sha256:3f1e8361e057500bd3c473aa44e90b97201103c73d228dd6c106703534a0ca20
+  fetchedAt: 2026-06-25T13:58:55.808Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.872Z

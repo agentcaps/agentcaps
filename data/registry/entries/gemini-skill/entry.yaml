@@ -39,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/WJZ-P/gemini-skill/blob/9dbfd22adfb0a815bc9905eef78d569f7c86347b/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/WJZ-P/gemini-skill/9dbfd22adfb0a815bc9905eef78d569f7c86347b/SKILL.md
   sourceDigest: sha256:b4c6806def478de8d0190e97239c6a0c0d01685b1000fe7eb3d82809507fdbca
-  fetchedAt: 2026-06-24T08:07:59.125Z
+  fetchedAt: 2026-06-25T13:44:16.774Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.343Z
+  publishedAt: 2026-06-25T13:59:33.823Z

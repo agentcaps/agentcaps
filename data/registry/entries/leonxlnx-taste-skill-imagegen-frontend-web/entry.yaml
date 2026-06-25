@@ -1,0 +1,48 @@
+slug: leonxlnx-taste-skill-imagegen-frontend-web
+entryId: leonxlnx-taste-skill-imagegen-frontend-web
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: leonxlnx-taste-skill-imagegen-frontend-web
+  type: git_repository
+  url: https://github.com/leonxlnx/taste-skill
+  path: skills/imagegen-frontend-web/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-generation
+        - frontend-design
+        - design-reference
+        - web-composition
+        - conversion-optimize
+        - art-direction
+      capabilities:
+        - image.generate
+        - design.compose
+        - frontend.reference
+        - layout.direct
+        - conversion.optimize
+      representativeQueries:
+        - Generate a premium landing page design reference with 6 sections
+        - Create website design mockups for conversion-focused landing pages
+        - Design a marketing website with varied hero compositions and imagery
+        - Generate AWWWARDS-level design references for developer implementation
+        - Create full-website design references with section-by-section imagery
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/leonxlnx/taste-skill
+  sourceRepositoryUrl: https://github.com/leonxlnx/taste-skill
+  sourceWebUrl: https://github.com/leonxlnx/taste-skill/blob/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-web/SKILL.md
+  sourceCommit: 06d6028b5c623016c59ce8536f578e5a1127b499
+  trackingRef: HEAD
+  artifactPath: skills/imagegen-frontend-web/SKILL.md
+  pinnedArtifactUrl: https://github.com/leonxlnx/taste-skill/blob/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-web/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/leonxlnx/taste-skill/06d6028b5c623016c59ce8536f578e5a1127b499/skills/imagegen-frontend-web/SKILL.md
+  sourceDigest: sha256:6b5c2256522fdba1e3313eafa3d743b960a7b13ec029d3e6586e04b23327c1f8
+  fetchedAt: 2026-06-25T13:57:11.016Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.870Z

@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:opensource-guide-coach",
+  "displayName": "opensource-guide-coach",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/opensource-guide-coach/SKILL.md",
+  "description": "Use when a user wants guidance on starting, contributing to, growing, governing, funding, securing, or sustaining an open source project, or asks about contributor onboarding, community health, maintainer burnout, code of conduct, metrics, legal basics, or open source project adoption.",
+  "tags": [
+    "open-source",
+    "project-coaching",
+    "community-management",
+    "contributor-experience",
+    "governance",
+    "project-sustainability"
+  ],
+  "capabilities": [
+    "project.plan",
+    "project.launch",
+    "community.build",
+    "contributor.onboard",
+    "governance.establish",
+    "project.sustain"
+  ],
+  "representativeQueries": [
+    "How do I start an open source project?",
+    "What metrics should my open source project track?",
+    "How can I improve contributor onboarding?",
+    "How do I prevent maintainer burnout?"
+  ],
+  "updatedAt": "2026-06-25T13:53:43.602Z"
+}

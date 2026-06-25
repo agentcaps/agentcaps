@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-error-handling
+entryId: samber-cc-skills-golang-golang-error-handling
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-error-handling
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-error-handling/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - error-handling
+        - logging
+        - reliability
+        - code-review
+        - debugging
+      capabilities:
+        - error.create
+        - error.wrap
+        - error.inspect
+        - error.handle
+        - logging.structure
+        - code.review
+      representativeQueries:
+        - How do I wrap errors with context in Go?
+        - Review my error handling in this PR
+        - Audit error handling across my codebase
+        - Implement structured error logging
+        - Set up error handling best practices
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-error-handling/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-error-handling/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-error-handling/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-error-handling/SKILL.md
+  sourceDigest: sha256:7abe176a068f2df4b19a9e265995186a792c69d494f5746978763e840983ded8
+  fetchedAt: 2026-06-25T13:55:37.750Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.012Z

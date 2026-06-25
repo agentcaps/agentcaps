@@ -1,0 +1,49 @@
+slug: microsoft-azure-skills-azure-aigateway
+entryId: microsoft-azure-skills-azure-aigateway
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-aigateway
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-aigateway/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - api-management
+        - ai-gateway
+        - llm-governance
+        - semantic-caching
+        - content-safety
+      capabilities:
+        - model.configure
+        - model.cache-semantic
+        - cost.limit-tokens
+        - mcp.rate-limit
+        - agent.content-safety
+        - gateway.test
+      representativeQueries:
+        - How do I add an Azure OpenAI backend to my gateway?
+        - Configure semantic caching to reduce API costs
+        - Set up jailbreak detection for my AI agents
+        - Rate limit MCP tools through API Management
+        - Track and control token usage across AI models
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-aigateway/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-aigateway/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-aigateway/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-aigateway/SKILL.md
+  sourceDigest: sha256:2229d5e496d19e159bc97a7cc8b818be18a39d0a65578473d623af088aa21b4e
+  fetchedAt: 2026-06-25T13:45:47.497Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.885Z

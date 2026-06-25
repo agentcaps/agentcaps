@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-app-hosting-basics",
+  "displayName": "firebase-app-hosting-basics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-app-hosting-basics/SKILL.md",
+  "description": "Deploy and manage web apps with Firebase App Hosting. Use this skill when deploying Next.js/Angular apps with backends.",
+  "tags": [
+    "firebase",
+    "app-hosting",
+    "deployment",
+    "next-js",
+    "full-stack",
+    "ssr"
+  ],
+  "capabilities": [
+    "devops.deploy",
+    "devops.configure",
+    "cloud.manage",
+    "devops.secrets",
+    "web.framework"
+  ],
+  "representativeQueries": [
+    "How do I deploy a Next.js app with Firebase App Hosting?",
+    "What's the difference between Firebase Hosting and App Hosting?",
+    "How do I set up automatic GitHub deployments to App Hosting?",
+    "How do I manage secrets in Firebase App Hosting deployments?",
+    "Can I deploy an Angular application to Firebase App Hosting?"
+  ],
+  "updatedAt": "2026-06-25T13:58:27.806Z"
+}

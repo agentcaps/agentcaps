@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-aigateway",
+  "displayName": "azure-aigateway",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-aigateway/SKILL.md",
+  "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway.",
+  "tags": [
+    "azure",
+    "api-management",
+    "ai-gateway",
+    "llm-governance",
+    "semantic-caching",
+    "content-safety"
+  ],
+  "capabilities": [
+    "model.configure",
+    "model.cache-semantic",
+    "cost.limit-tokens",
+    "mcp.rate-limit",
+    "agent.content-safety",
+    "gateway.test"
+  ],
+  "representativeQueries": [
+    "How do I add an Azure OpenAI backend to my gateway?",
+    "Configure semantic caching to reduce API costs",
+    "Set up jailbreak detection for my AI agents",
+    "Rate limit MCP tools through API Management",
+    "Track and control token usage across AI models"
+  ],
+  "updatedAt": "2026-06-25T13:45:47.497Z"
+}

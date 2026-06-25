@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:minimal-run-and-audit",
+  "displayName": "minimal-run-and-audit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/minimal-run-and-audit/SKILL.md",
+  "description": "Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself.",
+  "tags": [
+    "rigor",
+    "deep-learning",
+    "reproduction",
+    "smoke-test",
+    "reporting",
+    "audit"
+  ],
+  "capabilities": [
+    "research.reproduce",
+    "research.audit",
+    "code.execute",
+    "science.report",
+    "science.verify"
+  ],
+  "representativeQueries": [
+    "Run the model inference command and generate standardized repro outputs",
+    "Execute the smoke test and document evidence with scientific audit",
+    "Capture evaluation results and create reproducibility report",
+    "Run documented evaluation command and write scientific changelog",
+    "Execute inference with patch notes for repository changes"
+  ],
+  "updatedAt": "2026-06-25T13:59:06.482Z"
+}

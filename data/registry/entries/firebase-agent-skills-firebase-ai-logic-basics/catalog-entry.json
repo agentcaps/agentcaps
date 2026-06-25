@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-ai-logic-basics",
+  "displayName": "firebase-ai-logic-basics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-ai-logic-basics/SKILL.md",
+  "description": "Official skill for integrating Firebase AI Logic (Gemini API) into web applications. Covers setup, multimodal inference, structured output, and security.",
+  "tags": [
+    "firebase",
+    "gemini",
+    "ai-integration",
+    "multimodal",
+    "sdk-setup",
+    "structured-output"
+  ],
+  "capabilities": [
+    "ai.generate",
+    "media.analyze",
+    "api.setup",
+    "model.integrate",
+    "inference.multimodal"
+  ],
+  "representativeQueries": [
+    "How do I set up Firebase AI Logic in my web app?",
+    "Can Gemini analyze images and videos directly?",
+    "What's the difference between Gemini Developer API and Vertex AI?",
+    "How do I enable structured output with Firebase AI Logic?",
+    "Show me how to integrate multimodal AI into my application"
+  ],
+  "version": "1.0.1",
+  "updatedAt": "2026-06-25T13:58:42.621Z"
+}

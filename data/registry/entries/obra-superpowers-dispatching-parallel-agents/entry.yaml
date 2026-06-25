@@ -1,0 +1,47 @@
+slug: obra-superpowers-dispatching-parallel-agents
+entryId: obra-superpowers-dispatching-parallel-agents
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-dispatching-parallel-agents
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/dispatching-parallel-agents/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - parallel-execution
+        - agent-dispatch
+        - concurrency
+        - multi-agent
+        - independent-tasks
+      capabilities:
+        - agent.dispatch
+        - workflow.coordinate
+        - task.parallelize
+        - agent.isolate
+        - execution.concurrent
+      representativeQueries:
+        - How do I run multiple independent tasks at the same time?
+        - I have several unrelated bugs to fix - should I use multiple agents?
+        - Can I dispatch agents to work on different test files in parallel?
+        - What's the best way to investigate multiple independent failures
+          concurrently?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/dispatching-parallel-agents/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/dispatching-parallel-agents/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/dispatching-parallel-agents/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/dispatching-parallel-agents/SKILL.md
+  sourceDigest: sha256:f0df13f584049059cc5619f90061405b89dcc6e28ab3f2a8517d27d99c7a46a6
+  fetchedAt: 2026-06-25T13:56:01.658Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.929Z

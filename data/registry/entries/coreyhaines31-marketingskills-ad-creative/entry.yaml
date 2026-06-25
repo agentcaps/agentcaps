@@ -1,0 +1,47 @@
+slug: coreyhaines31-marketingskills-ad-creative
+entryId: coreyhaines31-marketingskills-ad-creative
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-ad-creative
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/ad-creative/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - ad-creative
+        - ad-copy
+        - marketing
+        - performance-marketing
+        - creative-testing
+      capabilities:
+        - ads.generate
+        - ads.iterate
+        - copy.generate
+        - marketing.optimize
+        - ads.scale
+      representativeQueries:
+        - generate headlines for my Google search ads
+        - create Facebook ad copy variations
+        - iterate on my ad creative based on performance data
+        - help me scale my ad creative across platforms
+        - write RSA headlines for search ads
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ad-creative/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/ad-creative/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ad-creative/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ad-creative/SKILL.md
+  sourceDigest: sha256:dfe60e076f0ffad82b9d26cb212c1b8839d833474f78a434357633e6b57165c9
+  fetchedAt: 2026-06-25T13:51:05.920Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.702Z

@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:xget",
+  "displayName": "xget",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xget/SKILL.md",
+  "description": "Use when tasks involve Xget URL rewriting, registry/package/container/API acceleration, integrating Xget into Git, download tools, package managers, container builds, AI SDKs, CI/CD, deployment, self-hosting, or adapting commands and config from the live README `Use Cases` section into files, environments, shells, or base URLs.",
+  "tags": [
+    "acceleration",
+    "url-rewriting",
+    "package-management",
+    "container",
+    "ci-cd",
+    "deployment"
+  ],
+  "capabilities": [
+    "url.rewrite",
+    "package.accelerate",
+    "container.accelerate",
+    "git.integrate",
+    "sdk.configure",
+    "deployment.setup"
+  ],
+  "representativeQueries": [
+    "Configure Xget for my npm packages",
+    "Integrate Xget with my Git workflow",
+    "Speed up Docker image pulls with Xget",
+    "Set up Xget for AI SDK base URLs",
+    "Deploy Xget to my infrastructure"
+  ],
+  "updatedAt": "2026-06-25T13:53:48.321Z"
+}

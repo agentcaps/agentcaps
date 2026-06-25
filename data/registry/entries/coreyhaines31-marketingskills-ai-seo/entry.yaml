@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-ai-seo
+entryId: coreyhaines31-marketingskills-ai-seo
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-ai-seo
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/ai-seo/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - ai-seo
+        - search-visibility
+        - llm-citations
+        - content-optimization
+        - answer-engines
+        - ai-discovery
+      capabilities:
+        - ai-search.optimize
+        - content.optimize
+        - visibility.analyze
+        - citations.improve
+        - search.research
+      representativeQueries:
+        - How do I get cited by ChatGPT and Claude?
+        - How can I optimize for AI Overviews?
+        - What's the best way to appear in AI-generated answers?
+        - How do I improve my visibility in AI search?
+        - What is AI SEO and how should I use it?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ai-seo/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/ai-seo/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ai-seo/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ai-seo/SKILL.md
+  sourceDigest: sha256:d0e95cf38b9589ce041858ca55d163d8295d1460266974239cb00adc4163b87a
+  fetchedAt: 2026-06-25T13:51:24.924Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.705Z

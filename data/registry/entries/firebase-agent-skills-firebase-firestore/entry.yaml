@@ -1,0 +1,49 @@
+slug: firebase-agent-skills-firebase-firestore
+entryId: firebase-agent-skills-firebase-firestore
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: firebase-agent-skills-firebase-firestore
+  type: git_repository
+  url: https://github.com/firebase/agent-skills
+  path: skills/firebase-firestore/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - firestore
+        - firebase
+        - database
+        - cloud-database
+        - query
+        - nosql
+      capabilities:
+        - firestore.setup
+        - firestore.query
+        - firestore.security-config
+        - database.index-management
+        - firestore.search
+        - datamodel.design
+      representativeQueries:
+        - How do I set up a Firestore database?
+        - Configure security rules for my Firestore project
+        - Execute advanced queries with joins in Firestore
+        - Design a data model for my Firestore database
+        - Set up full-text search in Firestore
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/firebase/agent-skills
+  sourceRepositoryUrl: https://github.com/firebase/agent-skills
+  sourceWebUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-firestore/SKILL.md
+  sourceCommit: 538130c39402a40d9c2586ede87def5914641a33
+  trackingRef: HEAD
+  artifactPath: skills/firebase-firestore/SKILL.md
+  pinnedArtifactUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-firestore/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-firestore/SKILL.md
+  sourceDigest: sha256:6ffca8a8835056793cdda49ce7c5addd23cf2a8a5b327e10108b6f0e2c7a4227
+  fetchedAt: 2026-06-25T13:58:40.246Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.815Z

@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-launch
+entryId: coreyhaines31-marketingskills-launch
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-launch
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/launch/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - product-launch
+        - go-to-market
+        - release-strategy
+        - feature-announcement
+        - launch-planning
+        - marketing-strategy
+      capabilities:
+        - product.launch
+        - marketing.plan
+        - strategy.gtm
+        - launch.announce
+        - product.position
+      representativeQueries:
+        - How should I plan my product launch?
+        - Help me create a go-to-market strategy
+        - What's a good launch checklist for my feature?
+        - How do I build momentum for product announcements?
+        - Create a launch strategy for our new product
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/launch/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/launch/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/launch/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/launch/SKILL.md
+  sourceDigest: sha256:6d8bbd61449c48c458b20457c0b698386fe808e7063a7baadc197fc179bd94bb
+  fetchedAt: 2026-06-25T13:52:39.670Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.741Z

@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:image",
+  "displayName": "image",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/image/SKILL.md",
+  "description": "When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Flux Kontext,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'ChatGPT Images,' 'Ideogram,' 'Gemini image,' 'Nano Banana,' 'Recraft,' 'Stable Diffusion,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video.",
+  "tags": [
+    "image-generation",
+    "ai-imaging",
+    "marketing-graphics",
+    "design-tools",
+    "visual-content"
+  ],
+  "capabilities": [
+    "image.generate",
+    "image.edit",
+    "image.optimize",
+    "graphics.create",
+    "mockup.generate"
+  ],
+  "representativeQueries": [
+    "Generate a blog hero image for my marketing post",
+    "Create a social media graphic for LinkedIn",
+    "Make a product mockup image",
+    "Optimize and compress this image for web",
+    "Generate an AI image with Flux for my website"
+  ],
+  "updatedAt": "2026-06-25T13:52:02.580Z"
+}

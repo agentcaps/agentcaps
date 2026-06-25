@@ -1,0 +1,49 @@
+slug: runcomfy-com-skills-face-swap
+entryId: runcomfy-com-skills-face-swap
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-face-swap
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: face-swap/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - face-swap
+        - video-editing
+        - synthetic-media
+        - deepfake
+        - identity-swap
+        - character-animation
+      capabilities:
+        - media.swap-faces
+        - video.manipulate
+        - image.synthesize
+        - video.generate
+        - media.transform
+        - character.animate
+      representativeQueries:
+        - Swap my face into this video
+        - Replace the actor in this video
+        - Create a deepfake with my face
+        - Swap faces in this photo
+        - Put my character into this animation
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/face-swap/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: face-swap/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/face-swap/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/face-swap/SKILL.md
+  sourceDigest: sha256:676d8f22c561891df78cf75dcd7364349bdcc48c317d9268c7eadeebca9ef2cf
+  fetchedAt: 2026-06-25T13:48:17.634Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.966Z

@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:agentspace-so:runcomfy-agent-skills:skill:runcomfy-cli",
+  "displayName": "runcomfy-cli",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/runcomfy-cli/SKILL.md",
+  "description": "Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on \"runcomfy cli\", \"install runcomfy\", \"runcomfy login\", \"runcomfy run\", \"runcomfy whoami\", \"runcomfy api\", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.",
+  "tags": [
+    "runcomfy",
+    "cli",
+    "model-inference",
+    "image-generation",
+    "video-generation",
+    "api"
+  ],
+  "capabilities": [
+    "image.generate",
+    "video.generate",
+    "media.edit",
+    "model.run",
+    "authentication.login"
+  ],
+  "representativeQueries": [
+    "Install the runcomfy CLI and authenticate with my account",
+    "Run an image generation model on RunComfy from the command line",
+    "Generate a video using RunComfy text-to-video endpoint",
+    "Discover available models and their input schemas on RunComfy",
+    "Train a LoRA model using the RunComfy CLI"
+  ],
+  "updatedAt": "2026-06-25T13:47:26.191Z"
+}

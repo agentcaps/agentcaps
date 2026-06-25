@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-resource-lookup",
+  "displayName": "azure-resource-lookup",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-resource-lookup/SKILL.md",
+  "description": "List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like \"list the websites in my subscription\", \"list my web apps\", \"show my app services\", \"list virtual machines\", \"list my VMs\", \"show storage accounts\", \"find container apps\", and \"what resources do I have\". USE FOR: list websites, list web apps, list app services, show websites in subscription, resource inventory, find resources by tag, tag analysis, orphaned resource discovery (not for cost analysis), unattached disks, count resources by type, cross-subscription lookup, and Azure Resource Graph queries. DO NOT USE FOR: deploying/changing resources (use azure-deploy), cost optimization (use azure-cost), or non-Azure clouds.",
+  "tags": [
+    "azure",
+    "resource-management",
+    "cloud-infrastructure",
+    "inventory",
+    "azure-resource-graph",
+    "discovery"
+  ],
+  "capabilities": [
+    "cloud.query",
+    "resource.list",
+    "resource.discover",
+    "azure.inventory",
+    "resource.search"
+  ],
+  "representativeQueries": [
+    "list my virtual machines in azure",
+    "show storage accounts across subscriptions",
+    "find orphaned resources in my resource groups",
+    "list all web apps and app services",
+    "what azure resources do I have"
+  ],
+  "updatedAt": "2026-06-25T13:45:08.966Z"
+}

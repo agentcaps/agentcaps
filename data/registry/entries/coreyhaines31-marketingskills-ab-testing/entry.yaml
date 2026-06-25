@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-ab-testing
+entryId: coreyhaines31-marketingskills-ab-testing
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-ab-testing
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/ab-testing/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - a-b-testing
+        - experimentation
+        - growth
+        - statistics
+        - hypothesis-testing
+        - conversion
+      capabilities:
+        - experiment.design
+        - test.plan
+        - growth.optimize
+        - hypothesis.validate
+        - metrics.analyze
+        - statistics.calculate
+      representativeQueries:
+        - How should I design an A/B test?
+        - Plan a growth experiment for my website
+        - What's the right sample size for testing?
+        - Build an experimentation program
+        - Test this new feature with users
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ab-testing/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/ab-testing/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ab-testing/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/ab-testing/SKILL.md
+  sourceDigest: sha256:1fd229160f6014f3f2d7c92cc7d2f991fbf8dc9ed68aac9793c71b408a6d1144
+  fetchedAt: 2026-06-25T13:52:56.179Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.700Z

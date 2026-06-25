@@ -1,0 +1,46 @@
+slug: github-awesome-copilot-git-commit
+entryId: github-awesome-copilot-git-commit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: github-awesome-copilot-git-commit
+  type: git_repository
+  url: https://github.com/github/awesome-copilot
+  path: skills/git-commit/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - git
+        - commit
+        - conventional-commits
+        - staging
+        - message-generation
+      capabilities:
+        - git.commit
+        - git.stage
+        - commit.generate
+        - vcs.analyze
+      representativeQueries:
+        - Create a git commit from my changes
+        - Generate conventional commit messages
+        - Stage and commit my work intelligently
+        - What should my commit message be?
+        - Help me organize and commit changes
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/github/awesome-copilot
+  sourceRepositoryUrl: https://github.com/github/awesome-copilot
+  sourceWebUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/git-commit/SKILL.md
+  sourceCommit: e9c8e3704181fa38245d101308a8527d12af6a4d
+  trackingRef: HEAD
+  artifactPath: skills/git-commit/SKILL.md
+  pinnedArtifactUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/git-commit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/git-commit/SKILL.md
+  sourceDigest: sha256:554d1a3c6d95f15bc1170160659ecdc9a9958b64f377f3988941b672c249b13f
+  fetchedAt: 2026-06-25T13:59:32.358Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.825Z

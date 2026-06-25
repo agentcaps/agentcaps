@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:runcomfy-com:skills:skill:ace-step",
+  "displayName": "ace-step",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ace-step/SKILL.md",
+  "description": "Generate, inpaint, and outpaint music with ACE Step on RunComfy via the `runcomfy` CLI. ACE Step is StepFun-AI's open-weights music foundation model — tag-driven composition (genre, mood, instruments), multilingual lyrics with section markers, 5 s to 4 min stereo output, $0.0002–0.0003 per second (≈ 27× cheaper than ElevenLabs Music). Four endpoints: ACE Step text-to-audio (the default), ACE Step 1.5 text-to-audio (50+ language lyrics, refined structured-lyric handling), ACE Step audio-inpaint (regenerate a time range inside an existing track), ACE Step audio-outpaint (extend an existing track before or after). Triggers on \"ace step\", \"ace-step\", \"acestep\", \"ACE music\", \"open music model\", \"cheap AI music\", \"inpaint audio\", \"audio inpaint\", \"extend music\", \"audio outpaint\", \"lengthen track\", \"music with tags\", or any explicit ask to generate or edit music with ACE Step.",
+  "tags": [
+    "music-generation",
+    "text-to-audio",
+    "audio-inpainting",
+    "audio-outpainting",
+    "open-weights",
+    "runcomfy"
+  ],
+  "capabilities": [
+    "music.generate",
+    "audio.generate",
+    "audio.inpaint",
+    "audio.outpaint",
+    "music.compose"
+  ],
+  "representativeQueries": [
+    "Generate background music with ACE Step and genre tags",
+    "Inpaint audio to regenerate a section of my track",
+    "Create music with specific mood and instruments using ACE Step",
+    "Extend my music track before or after with outpainting",
+    "Generate multilingual lyrics with ACE Step 1.5"
+  ],
+  "updatedAt": "2026-06-25T13:49:06.211Z"
+}

@@ -1,0 +1,44 @@
+slug: lllllllama-ai-paper-reproduction-skill-repo-intake-and-plan
+entryId: lllllllama-ai-paper-reproduction-skill-repo-intake-and-plan
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: lllllllama-ai-paper-reproduction-skill-repo-intake-and-plan
+  type: git_repository
+  url: https://github.com/lllllllama/ai-paper-reproduction-skill
+  path: skills/repo-intake-and-plan/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - deep-learning
+        - repository-analysis
+        - reproduction-planning
+        - code-intake
+        - documentation-parsing
+      capabilities:
+        - repo.scan
+        - repo.analyze
+        - code.classify
+        - doc.extract
+        - plan.generate
+      representativeQueries:
+        - Scan this deep learning repository and create a reproduction plan
+        - Analyze the repo structure and identify inference evaluation training
+          commands
+        - Extract documented commands from the README and classify them
+        - Plan the smallest trustworthy reproduction workflow for this ML project
+        - Map out the repository structure and command inventory for reproduction
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/ai-paper-reproduction-skill
+  sourceRepositoryUrl: https://github.com/lllllllama/ai-paper-reproduction-skill
+  sourceWebUrl: https://github.com/lllllllama/ai-paper-reproduction-skill/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/repo-intake-and-plan/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/repo-intake-and-plan/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/ai-paper-reproduction-skill/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/repo-intake-and-plan/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/ai-paper-reproduction-skill/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/repo-intake-and-plan/SKILL.md
+  sourceDigest: sha256:0b510d81b930751ee79839f0a01658a090b13705659f91a9ac45d7d4b2a8f5f3
+  fetchedAt: 2026-06-25T13:59:38.048Z

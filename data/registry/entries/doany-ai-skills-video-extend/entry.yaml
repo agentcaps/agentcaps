@@ -1,0 +1,44 @@
+slug: doany-ai-skills-video-extend
+entryId: doany-ai-skills-video-extend
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-video-extend
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: video-extend/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-extend
+        - video-continuation
+        - google-veo
+        - runcomfy
+        - content-generation
+      capabilities:
+        - video.extend
+        - video.continue
+        - media.generate
+      representativeQueries:
+        - extend this video clip longer
+        - continue my existing video clip
+        - make this video longer using Veo
+        - chain multiple video shots together
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/video-extend/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: video-extend/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/video-extend/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/video-extend/SKILL.md
+  sourceDigest: sha256:241753d4947fda79f782d972b5014cdb34105c661ff31c018f8106e83656f1d2
+  fetchedAt: 2026-06-25T13:49:46.853Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.807Z

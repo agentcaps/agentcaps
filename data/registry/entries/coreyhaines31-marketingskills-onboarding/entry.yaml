@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-onboarding
+entryId: coreyhaines31-marketingskills-onboarding
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-onboarding
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/onboarding/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - onboarding
+        - user-activation
+        - aha-moment
+        - conversion-optimization
+        - retention
+        - first-run-experience
+      capabilities:
+        - product.onboard
+        - activation.optimize
+        - engagement.improve
+        - retention.increase
+        - metrics.analyze
+      representativeQueries:
+        - How can we improve our user activation rate?
+        - What's the best onboarding flow for a SaaS product?
+        - Users sign up but don't activate - how do we fix this?
+        - How do we define and measure our aha moment?
+        - Optimize our first-run experience for better retention
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/onboarding/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/onboarding/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/onboarding/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/onboarding/SKILL.md
+  sourceDigest: sha256:15a802ffb73828730aba90b740426fbb8d2070721ee92d6f8737de4704e8ff0f
+  fetchedAt: 2026-06-25T13:52:47.899Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.749Z

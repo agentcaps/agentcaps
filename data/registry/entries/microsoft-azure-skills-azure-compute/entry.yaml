@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-compute
+entryId: microsoft-azure-skills-azure-compute
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-compute
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-compute/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - compute
+        - vm
+        - provisioning
+        - troubleshooting
+        - infrastructure
+      capabilities:
+        - azure.create-vm
+        - azure.recommend-vm
+        - azure.troubleshoot-connectivity
+        - azure.manage-capacity-reservation
+        - azure.provision-vmss
+      representativeQueries:
+        - What Azure VM size should I use for my workload?
+        - How do I troubleshoot RDP connection failures to my Azure VM?
+        - Compare pricing for different Azure VM SKUs
+        - How do I create a virtual machine scale set in Azure?
+        - Help me set up a capacity reservation group
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compute/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-compute/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compute/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compute/SKILL.md
+  sourceDigest: sha256:884d17e240d11148465cda7b4820f23e4efc6e13a0ae8ad07d60b714fdcb4506
+  fetchedAt: 2026-06-25T13:45:57.860Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.889Z

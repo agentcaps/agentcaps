@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-cloud-migrate",
+  "displayName": "azure-cloud-migrate",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cloud-migrate/SKILL.md",
+  "description": "Assess and migrate cross-cloud workloads to Azure with reports and code conversion. Supports Lambda→Functions, Beanstalk/Heroku/App Engine→App Service, Fargate/Kubernetes/Cloud Run/Spring Boot→Container Apps. WHEN: migrate Lambda to Functions, AWS to Azure, migrate Beanstalk, migrate Heroku, migrate App Engine, Cloud Run migration, Fargate to ACA, ECS/Kubernetes/GKE/EKS to Container Apps, Spring Boot to Container Apps, cross-cloud migration.",
+  "tags": [
+    "azure",
+    "cloud-migration",
+    "cross-cloud",
+    "infrastructure",
+    "devops",
+    "code-conversion"
+  ],
+  "capabilities": [
+    "infrastructure.migrate",
+    "cloud.assess",
+    "code.convert",
+    "deployment.plan",
+    "cloud.analyze"
+  ],
+  "representativeQueries": [
+    "Migrate Lambda to Azure Functions",
+    "Assess Kubernetes workload for Azure",
+    "Convert AWS Beanstalk to App Service",
+    "Plan cross-cloud migration to Azure",
+    "Migrate Heroku application to Azure"
+  ],
+  "updatedAt": "2026-06-25T13:45:53.047Z"
+}

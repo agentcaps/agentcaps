@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-referrals
+entryId: coreyhaines31-marketingskills-referrals
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-referrals
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/referrals/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - referral-programs
+        - affiliate-marketing
+        - growth-strategy
+        - word-of-mouth
+        - customer-acquisition
+        - viral-loops
+      capabilities:
+        - growth.referral
+        - marketing.affiliate
+        - program.design
+        - incentive.structure
+        - strategy.growth
+      representativeQueries:
+        - How do I create a referral program?
+        - What's the best affiliate structure for our product?
+        - How do I incentivize customers to refer friends?
+        - How can we build a viral referral loop?
+        - What's the best way to design an affiliate program?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/referrals/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/referrals/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/referrals/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/referrals/SKILL.md
+  sourceDigest: sha256:4ddd01713b7ef3c3fb669fd3bb9a720641ee8db8b9ac327c35d6be3548a7f777
+  fetchedAt: 2026-06-25T13:52:59.631Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.759Z

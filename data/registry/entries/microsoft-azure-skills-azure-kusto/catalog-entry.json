@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-kusto",
+  "displayName": "azure-kusto",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kusto/SKILL.md",
+  "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection.",
+  "tags": [
+    "azure",
+    "kusto",
+    "kql",
+    "analytics",
+    "telemetry",
+    "logs"
+  ],
+  "capabilities": [
+    "data.query",
+    "schema.explore",
+    "analytics.aggregate",
+    "analytics.timeseries",
+    "resource.list"
+  ],
+  "representativeQueries": [
+    "Query my Kusto database for errors",
+    "Show telemetry data from last hour",
+    "Analyze logs in Azure Data Explorer",
+    "What tables exist in my ADX cluster?",
+    "Create a time series chart from logs"
+  ],
+  "updatedAt": "2026-06-25T13:45:37.735Z"
+}

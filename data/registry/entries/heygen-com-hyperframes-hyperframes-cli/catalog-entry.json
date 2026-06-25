@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:hyperframes-cli",
+  "displayName": "hyperframes-cli",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-cli/SKILL.md",
+  "description": "HyperFrames CLI dev loop. Use when running npx hyperframes init, add, catalog, capture, lint, validate, inspect, layout, snapshot, preview, play, render, publish, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, tts, or remove-background, or when troubleshooting the HyperFrames build/render environment. Entry point for AWS Lambda cloud rendering (`hyperframes lambda deploy / render / progress / destroy / policies`).",
+  "tags": [
+    "cli",
+    "video-rendering",
+    "composition-builder",
+    "aws-lambda",
+    "ffmpeg",
+    "build-tool"
+  ],
+  "capabilities": [
+    "video.render",
+    "video.validate",
+    "video.preview",
+    "composition.lint",
+    "composition.scaffold",
+    "rendering.cloud"
+  ],
+  "representativeQueries": [
+    "Render my HyperFrames video composition to MP4",
+    "Validate and inspect my video composition for errors",
+    "Deploy video rendering job to AWS Lambda cloud",
+    "Preview my composition in the HyperFrames Studio",
+    "Initialize a new HyperFrames video project"
+  ],
+  "updatedAt": "2026-06-25T13:56:35.593Z"
+}

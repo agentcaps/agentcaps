@@ -1,0 +1,45 @@
+slug: doany-ai-skills-controlnet-pose
+entryId: doany-ai-skills-controlnet-pose
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-controlnet-pose
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: controlnet-pose/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - controlnet
+        - pose-control
+        - motion-transfer
+        - video-generation
+        - animation
+      capabilities:
+        - video.generate
+        - image.generate
+        - motion.transfer
+        - animation.generate
+      representativeQueries:
+        - Generate a video of this character performing this dance move
+        - Transfer the pose from this reference video to a different character
+        - Create pose-controlled character animation from OpenPose skeleton
+        - Generate images conditioned on motion control references
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/controlnet-pose/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: controlnet-pose/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/controlnet-pose/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/controlnet-pose/SKILL.md
+  sourceDigest: sha256:aeadc2a160b4357e4e01e19cab7b6c190a8e040b280e947ce14c2fd3726d9eae
+  fetchedAt: 2026-06-25T13:49:17.166Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.782Z

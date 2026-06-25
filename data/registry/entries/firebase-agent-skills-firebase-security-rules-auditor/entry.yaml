@@ -1,0 +1,48 @@
+slug: firebase-agent-skills-firebase-security-rules-auditor
+entryId: firebase-agent-skills-firebase-security-rules-auditor
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: firebase-agent-skills-firebase-security-rules-auditor
+  type: git_repository
+  url: https://github.com/firebase/agent-skills
+  path: skills/firebase-security-rules-auditor/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - firebase
+        - security
+        - audit
+        - firestore
+        - penetration-testing
+        - rules-validation
+      capabilities:
+        - security.audit
+        - firestore.validate
+        - vulnerability.assess
+        - access-control.review
+        - rules.audit
+      representativeQueries:
+        - Audit my Firestore security rules for vulnerabilities
+        - Check if my Firebase rules allow privilege escalation
+        - Validate that my Firestore rules are properly securing data
+        - Test my Firebase security rules for data access bypasses
+        - Review my Firestore rules for resource exhaustion risks
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/firebase/agent-skills
+  sourceRepositoryUrl: https://github.com/firebase/agent-skills
+  sourceWebUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-security-rules-auditor/SKILL.md
+  sourceCommit: 538130c39402a40d9c2586ede87def5914641a33
+  trackingRef: HEAD
+  artifactPath: skills/firebase-security-rules-auditor/SKILL.md
+  pinnedArtifactUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-security-rules-auditor/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-security-rules-auditor/SKILL.md
+  sourceDigest: sha256:41ce481ad48b3565107c883feb28870f53f0ab2edb6aad9cad1a8ea780d66670
+  fetchedAt: 2026-06-25T13:58:32.817Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.818Z

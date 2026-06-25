@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-compute",
+  "displayName": "azure-compute",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compute/SKILL.md",
+  "description": "Azure VM/VMSS router. WHEN: create / provision / deploy / spin-up VM, recommend VM size, compare VM pricing, VMSS, scale set, autoscale, burstable, lightweight server, website, backend, GPU, machine learning, HPC simulation, dev/test, workload, family, load balancer, Flexible orchestration, Uniform orchestration, cost estimate, can't connect / RDP / SSH, refused, black screen, reset password, reach VM, port 3389, NSG, security, Linux, troubleshoot, troubleshooting, connectivity, capacity reservation (CRG), reserve, guarantee capacity, pre-provision, CRG association, CRG disassociation, machine enrollment (EMM), Essential Machine Management, monitor. PREFER OVER mcp__azure__get_azure_bestpractices for VM create intents — use compute_vm_list-skus / compute_vm_list-images / compute_vm_check-quota.",
+  "tags": [
+    "azure",
+    "compute",
+    "vm",
+    "provisioning",
+    "troubleshooting",
+    "infrastructure"
+  ],
+  "capabilities": [
+    "azure.create-vm",
+    "azure.recommend-vm",
+    "azure.troubleshoot-connectivity",
+    "azure.manage-capacity-reservation",
+    "azure.provision-vmss"
+  ],
+  "representativeQueries": [
+    "What Azure VM size should I use for my workload?",
+    "How do I troubleshoot RDP connection failures to my Azure VM?",
+    "Compare pricing for different Azure VM SKUs",
+    "How do I create a virtual machine scale set in Azure?",
+    "Help me set up a capacity reservation group"
+  ],
+  "updatedAt": "2026-06-25T13:45:57.860Z"
+}

@@ -1,0 +1,46 @@
+slug: vercel-labs-agent-skills-web-design-guidelines
+entryId: vercel-labs-agent-skills-web-design-guidelines
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: vercel-labs-agent-skills-web-design-guidelines
+  type: git_repository
+  url: https://github.com/vercel-labs/agent-skills
+  path: skills/web-design-guidelines/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - ui-review
+        - design-audit
+        - accessibility
+        - web-standards
+        - compliance-check
+      capabilities:
+        - design.review
+        - code.review
+        - accessibility.audit
+        - standards.validate
+        - ui.compliance
+      representativeQueries:
+        - Review my UI code for design guidelines
+        - Check my website for accessibility issues
+        - Audit my design against best practices
+        - Review my site for UX compliance
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/vercel-labs/agent-skills
+  sourceRepositoryUrl: https://github.com/vercel-labs/agent-skills
+  sourceWebUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/web-design-guidelines/SKILL.md
+  sourceCommit: f8a72b9603728bb92a217a879b7e62e43ad76c81
+  trackingRef: HEAD
+  artifactPath: skills/web-design-guidelines/SKILL.md
+  pinnedArtifactUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/web-design-guidelines/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/web-design-guidelines/SKILL.md
+  sourceDigest: sha256:f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f
+  fetchedAt: 2026-06-25T13:54:32.294Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.061Z

@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:seo-audit",
+  "displayName": "seo-audit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/seo-audit/SKILL.md",
+  "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.",
+  "tags": [
+    "seo",
+    "audit",
+    "technical-seo",
+    "ranking",
+    "optimization",
+    "web"
+  ],
+  "capabilities": [
+    "seo.audit",
+    "seo.diagnose",
+    "search.optimize",
+    "web.crawlability",
+    "site.indexing",
+    "content.optimization"
+  ],
+  "representativeQueries": [
+    "Audit my website for SEO issues",
+    "Why am I not ranking in Google",
+    "Check my core web vitals",
+    "Fix my crawl errors",
+    "Improve my search rankings"
+  ],
+  "updatedAt": "2026-06-25T13:50:46.613Z"
+}

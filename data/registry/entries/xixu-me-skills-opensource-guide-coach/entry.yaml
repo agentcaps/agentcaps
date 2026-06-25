@@ -1,0 +1,48 @@
+slug: xixu-me-skills-opensource-guide-coach
+entryId: xixu-me-skills-opensource-guide-coach
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-opensource-guide-coach
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/opensource-guide-coach/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - open-source
+        - project-coaching
+        - community-management
+        - contributor-experience
+        - governance
+        - project-sustainability
+      capabilities:
+        - project.plan
+        - project.launch
+        - community.build
+        - contributor.onboard
+        - governance.establish
+        - project.sustain
+      representativeQueries:
+        - How do I start an open source project?
+        - What metrics should my open source project track?
+        - How can I improve contributor onboarding?
+        - How do I prevent maintainer burnout?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/opensource-guide-coach/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/opensource-guide-coach/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/opensource-guide-coach/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/opensource-guide-coach/SKILL.md
+  sourceDigest: sha256:b3282d99655e4e0562b92f9e176e80b80178e730b6bd25e473caa9bf3404dfd3
+  fetchedAt: 2026-06-25T13:53:43.602Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.070Z

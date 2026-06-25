@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-compliance",
+  "displayName": "azure-compliance",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-compliance/SKILL.md",
+  "description": "Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/compliance validation, and security posture checks. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, expired certificates, expiring secrets, orphaned resources, compliance assessment.",
+  "tags": [
+    "azure-compliance",
+    "security-audit",
+    "key-vault",
+    "azure-resources",
+    "compliance-scan",
+    "expiration-monitoring"
+  ],
+  "capabilities": [
+    "azure.audit",
+    "security.assess",
+    "keyvault.monitor",
+    "azure.review",
+    "policy.validate"
+  ],
+  "representativeQueries": [
+    "Check what's expiring in the next 30 days",
+    "Run Azure compliance assessment on my subscription",
+    "Audit my Key Vault for compliance issues",
+    "Validate Azure resources against best practices",
+    "Identify orphaned or misconfigured Azure resources"
+  ],
+  "updatedAt": "2026-06-25T13:45:04.096Z"
+}

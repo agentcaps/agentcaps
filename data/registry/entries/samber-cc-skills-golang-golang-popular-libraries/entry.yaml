@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-popular-libraries
+entryId: samber-cc-skills-golang-golang-popular-libraries
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-popular-libraries
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-popular-libraries/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - library-recommendations
+        - dependency-selection
+        - package-management
+        - ecosystem
+        - production-ready
+      capabilities:
+        - code.library-recommendation
+        - dependencies.select
+        - dependencies.compare
+        - ecosystem.analyze
+        - dependencies.evaluate
+      representativeQueries:
+        - What Go library should I use for HTTP requests?
+        - Compare Go web frameworks for our project needs
+        - Recommend a production-ready database driver for Go
+        - Should I use an external library or stdlib for this?
+        - Find the best Go logging library with structured output
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-popular-libraries/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-popular-libraries/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-popular-libraries/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-popular-libraries/SKILL.md
+  sourceDigest: sha256:317d1e914e176387afbff9486578919dd6c078d4247f012daf5e6f6dd5652ef4
+  fetchedAt: 2026-06-25T13:56:20.691Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.032Z

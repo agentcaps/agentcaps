@@ -39,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/SIGTERM-015/mealie-cli/blob/a4cbbc73ec4fe2c3776cc0c9b39ff0125d77272d/Skill.md
   rawArtifactUrl: https://raw.githubusercontent.com/SIGTERM-015/mealie-cli/a4cbbc73ec4fe2c3776cc0c9b39ff0125d77272d/Skill.md
   sourceDigest: sha256:ba2967afe815954accc09179b3b3713628edc026318d0eb88feb6e3f38fc7dd6
-  fetchedAt: 2026-06-24T08:07:30.007Z
+  fetchedAt: 2026-06-25T13:44:00.721Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.344Z
+  publishedAt: 2026-06-25T13:59:33.880Z

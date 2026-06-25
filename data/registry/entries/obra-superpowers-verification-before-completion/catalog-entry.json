@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:verification-before-completion",
+  "displayName": "verification-before-completion",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/verification-before-completion/SKILL.md",
+  "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+  "tags": [
+    "verification",
+    "quality-assurance",
+    "testing",
+    "completion-gates",
+    "process",
+    "evidence-based"
+  ],
+  "capabilities": [
+    "work.verify",
+    "testing.validate",
+    "quality.gate",
+    "completion.checkpoint",
+    "code.verify"
+  ],
+  "representativeQueries": [
+    "Verify tests pass before committing changes",
+    "Check that my fix actually resolves the issue",
+    "Make sure the build succeeds before pushing",
+    "Validate all requirements are met and verified",
+    "Confirm the code change works as expected"
+  ],
+  "updatedAt": "2026-06-25T13:55:49.262Z"
+}

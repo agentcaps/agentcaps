@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-churn-prevention
+entryId: coreyhaines31-marketingskills-churn-prevention
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-churn-prevention
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/churn-prevention/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - churn-prevention
+        - retention
+        - saas
+        - subscription
+        - dunning
+        - offboarding
+      capabilities:
+        - churn.prevent
+        - retention.strategy
+        - cancellation.flow
+        - payment.recovery
+        - billing.dunning
+      representativeQueries:
+        - how do I reduce customer churn
+        - build a cancellation flow
+        - set up save offers when canceling
+        - recover failed payment attempts
+        - improve subscription retention
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/churn-prevention/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/churn-prevention/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/churn-prevention/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/churn-prevention/SKILL.md
+  sourceDigest: sha256:88fd25b77e44ef3689d68d54091df9659a40f5e905c8bdeb09bdeed3f049ad67
+  fetchedAt: 2026-06-25T13:51:17.246Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.710Z

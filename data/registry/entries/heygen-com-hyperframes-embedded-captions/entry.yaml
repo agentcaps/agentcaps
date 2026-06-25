@@ -1,0 +1,49 @@
+slug: heygen-com-hyperframes-embedded-captions
+entryId: heygen-com-hyperframes-embedded-captions
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-embedded-captions
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/embedded-captions/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - embedded-captions
+        - cinematic-effects
+        - video-compositing
+        - talking-head
+        - transcription
+        - motion-graphics
+      capabilities:
+        - video.caption
+        - video.composite
+        - video.effect
+        - media.transcribe
+        - video.theme
+        - video.matte
+      representativeQueries:
+        - Add captions to my talking head video
+        - Create cinematic captions for my video
+        - Apply embedded captions with visual effects
+        - Add themed captions to talking head footage
+        - Generate motion graphics captions for video
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/embedded-captions/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/embedded-captions/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/embedded-captions/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/embedded-captions/SKILL.md
+  sourceDigest: sha256:e4edb620692fd409472c5f17651cef6f24854de913716bd00715109c2c61f229
+  fetchedAt: 2026-06-25T13:52:48.184Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.828Z

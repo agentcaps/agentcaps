@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-controlnet-pose
+entryId: runcomfy-com-skills-controlnet-pose
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-controlnet-pose
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: controlnet-pose/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - controlnet
+        - pose-control
+        - motion-transfer
+        - video-generation
+        - image-generation
+        - character-animation
+      capabilities:
+        - video.generate
+        - image.generate
+        - motion.transfer
+        - animation.generate
+        - pose.control
+      representativeQueries:
+        - Generate a video with this character pose
+        - Transfer motion from my reference video
+        - Create animation controlled by pose skeleton
+        - Apply controlnet pose conditioning to image
+        - Generate video with motion control
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/controlnet-pose/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: controlnet-pose/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/controlnet-pose/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/controlnet-pose/SKILL.md
+  sourceDigest: sha256:aeadc2a160b4357e4e01e19cab7b6c190a8e040b280e947ce14c2fd3726d9eae
+  fetchedAt: 2026-06-25T13:48:39.000Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.964Z

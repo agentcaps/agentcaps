@@ -1,0 +1,47 @@
+slug: xixu-me-skills-xdrop
+entryId: xixu-me-skills-xdrop
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-xdrop
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/xdrop/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - file-transfer
+        - encryption
+        - xdrop
+        - cli-automation
+        - secure-sharing
+      capabilities:
+        - file.upload
+        - file.download
+        - file.share
+        - transfer.encrypt
+        - transfer.decrypt
+      representativeQueries:
+        - Upload my files to Xdrop server
+        - Download file from Xdrop share link
+        - Send encrypted files through Xdrop
+        - Automate encrypted file sharing
+        - Fetch files from Xdrop server
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xdrop/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/xdrop/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xdrop/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xdrop/SKILL.md
+  sourceDigest: sha256:26074fc40e0fa6122a443025fc7a404dc9764c4f68e068722aeb1c01daa638f1
+  fetchedAt: 2026-06-25T13:54:01.316Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.080Z

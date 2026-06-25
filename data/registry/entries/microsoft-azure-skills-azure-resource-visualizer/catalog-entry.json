@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-resource-visualizer",
+  "displayName": "azure-resource-visualizer",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-resource-visualizer/SKILL.md",
+  "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. WHEN: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure.",
+  "tags": [
+    "azure",
+    "resource-visualization",
+    "architecture-diagram",
+    "infrastructure",
+    "mermaid",
+    "devops"
+  ],
+  "capabilities": [
+    "azure.analyze",
+    "diagram.generate",
+    "infrastructure.visualize",
+    "resource.map",
+    "architecture.document"
+  ],
+  "representativeQueries": [
+    "Create an architecture diagram for my Azure resource group",
+    "Visualize the relationships between my Azure resources",
+    "Show me how my Azure resources are connected together",
+    "Generate a Mermaid diagram of my infrastructure",
+    "Analyze my Azure resource group structure and dependencies"
+  ],
+  "updatedAt": "2026-06-25T13:45:32.805Z"
+}

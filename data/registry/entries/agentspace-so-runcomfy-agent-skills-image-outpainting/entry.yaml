@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-image-outpainting
+entryId: agentspace-so-runcomfy-agent-skills-image-outpainting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-image-outpainting
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: image-outpainting/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-outpainting
+        - image-editing
+        - aspect-ratio
+        - canvas-extension
+        - runcomfy
+        - uncrop
+      capabilities:
+        - image.outpaint
+        - image.edit
+        - image.extend
+        - image.uncrop
+        - image.aspect-ratio
+      representativeQueries:
+        - extend image canvas beyond original bounds
+        - change aspect ratio from square to widescreen
+        - uncrop this photo to landscape orientation
+        - fill in missing background around the image
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-outpainting/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: image-outpainting/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-outpainting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-outpainting/SKILL.md
+  sourceDigest: sha256:f1507fa330c210e9d821ec36a9045689ec5dd43d47a9a8bba59d34a0f52b74c4
+  fetchedAt: 2026-06-25T13:47:41.926Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.639Z

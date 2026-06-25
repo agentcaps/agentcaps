@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:ai-paper-reproduction-skill:skill:paper-context-resolver",
+  "displayName": "paper-context-resolver",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/ai-paper-reproduction-skill/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md",
+  "description": "Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.",
+  "tags": [
+    "paper-research",
+    "reproduction-support",
+    "academic-context",
+    "evidence-gathering",
+    "deep-learning"
+  ],
+  "capabilities": [
+    "research.resolve",
+    "paper.extract",
+    "reproduction.verify",
+    "academic.search",
+    "evidence.gather"
+  ],
+  "representativeQueries": [
+    "What dataset split does the original paper use?",
+    "Find preprocessing steps from the paper source",
+    "Resolve checkpoint mapping from the original work",
+    "What evaluation protocol does the paper describe?",
+    "How do the paper's runtime assumptions differ from the README?"
+  ],
+  "updatedAt": "2026-06-25T13:59:40.713Z"
+}

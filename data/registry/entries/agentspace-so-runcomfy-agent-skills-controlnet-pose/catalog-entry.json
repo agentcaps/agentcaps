@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:agentspace-so:runcomfy-agent-skills:skill:controlnet-pose",
+  "displayName": "controlnet-pose",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/controlnet-pose/SKILL.md",
+  "description": "Pose-conditioned generation on RunComfy via the `runcomfy` CLI. Routes across Kling 2-6 Motion Control Pro / Standard (transfer the motion / blocking of a reference video onto a target character), community Wan 2-2 Animate (audio-driven character animation with pose conditioning), and Z-Image Turbo ControlNet LoRA (pose-conditioned image generation from an OpenPose / DWPose / canny / depth control image). Picks the right route based on video vs still and stylized vs photoreal. Triggers on \"controlnet\", \"control net\", \"pose control\", \"openpose\", \"DWPose\", \"transfer pose\", \"motion control\", \"pose driven\", \"character pose\", \"depth control\", \"canny edge\", \"use this pose\", or any explicit ask to condition generation on a pose / skeleton / motion / depth / canny reference.",
+  "tags": [
+    "pose-control",
+    "video-generation",
+    "motion-transfer",
+    "controlnet",
+    "character-animation"
+  ],
+  "capabilities": [
+    "video.generate",
+    "image.generate",
+    "motion.transfer",
+    "pose.condition",
+    "animation.create"
+  ],
+  "representativeQueries": [
+    "Generate a video with pose control",
+    "Transfer motion from reference video",
+    "Create character animation with pose",
+    "Apply controlnet pose to image generation",
+    "Condition video on character pose"
+  ],
+  "updatedAt": "2026-06-25T13:47:33.955Z"
+}

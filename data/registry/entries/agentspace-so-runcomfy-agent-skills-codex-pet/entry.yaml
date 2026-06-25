@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-codex-pet
+entryId: agentspace-so-runcomfy-agent-skills-codex-pet
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-codex-pet
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: codex-pet/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - codex
+        - desktop-pet
+        - spritesheet
+        - image-generation
+        - runcomfy
+        - animation
+      capabilities:
+        - image.generate
+        - animation.create
+        - pet.build
+        - codex.customize
+      representativeQueries:
+        - Create a custom Codex Pet from an image
+        - Generate a Codex Pet spritesheet from a photo
+        - Make a desktop pet companion for OpenAI Codex
+        - Build an animated sprite for Codex Pet
+        - Hatch a custom Codex Pet animation
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/codex-pet/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: codex-pet/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/codex-pet/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/codex-pet/SKILL.md
+  sourceDigest: sha256:00f9db8ad7bd89199be58eb589a16175d44a98eaa40038933106bfa4a9f8dd75
+  fetchedAt: 2026-06-25T13:47:18.713Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.618Z

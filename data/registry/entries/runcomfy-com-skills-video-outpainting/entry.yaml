@@ -1,0 +1,46 @@
+slug: runcomfy-com-skills-video-outpainting
+entryId: runcomfy-com-skills-video-outpainting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-video-outpainting
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: video-outpainting/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-outpainting
+        - video-editing
+        - aspect-ratio
+        - canvas-extension
+        - spatial-extension
+        - video-uncrop
+      capabilities:
+        - video.outpaint
+        - video.edit
+        - video.extend-canvas
+        - media.transform
+      representativeQueries:
+        - Extend this video to 16:9 aspect ratio
+        - Change my vertical TikTok video to horizontal YouTube format
+        - Outpaint this video to add more space around the edges
+        - Expand the video canvas without cropping the subject
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-outpainting/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: video-outpainting/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-outpainting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-outpainting/SKILL.md
+  sourceDigest: sha256:8bfbb99d104355527171caed6ac88a7ff0351c8d0f77441b225b2eeb797727da
+  fetchedAt: 2026-06-25T13:48:54.200Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.995Z

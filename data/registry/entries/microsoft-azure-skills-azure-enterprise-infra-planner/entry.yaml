@@ -1,0 +1,49 @@
+slug: microsoft-azure-skills-azure-enterprise-infra-planner
+entryId: microsoft-azure-skills-azure-enterprise-infra-planner
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-enterprise-infra-planner
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-enterprise-infra-planner/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure-infrastructure
+        - infrastructure-as-code
+        - cloud-architecture
+        - networking-design
+        - enterprise-infrastructure
+        - bicep-terraform
+      capabilities:
+        - infrastructure.plan
+        - infrastructure.architect
+        - network.design
+        - identity.configure
+        - infrastructure.generate
+        - disaster-recovery.plan
+      representativeQueries:
+        - Plan Azure infrastructure from workload descriptions
+        - Architect Azure landing zone with hub-spoke network
+        - Design multi-region disaster recovery topology
+        - Generate Bicep code for Azure VNet and firewall
+        - Set up Azure identity and RBAC for enterprise
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-enterprise-infra-planner/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-enterprise-infra-planner/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-enterprise-infra-planner/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-enterprise-infra-planner/SKILL.md
+  sourceDigest: sha256:993c893c4f610fd228e007010cfc5b7db03e4b361302772146e4fa64f21c5c76
+  fetchedAt: 2026-06-25T13:46:08.487Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.895Z

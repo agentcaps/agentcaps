@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:product-marketing",
+  "displayName": "product-marketing",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/product-marketing/SKILL.md",
+  "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context.",
+  "tags": [
+    "marketing",
+    "product-marketing",
+    "positioning",
+    "messaging",
+    "context",
+    "strategy"
+  ],
+  "capabilities": [
+    "marketing.create-context",
+    "marketing.position-product",
+    "marketing.audience-definition",
+    "marketing.messaging-framework",
+    "document.create"
+  ],
+  "representativeQueries": [
+    "create a product marketing context document",
+    "help me position my product to the right audience",
+    "set up my target audience and positioning",
+    "what is my ideal customer profile?",
+    "define my product positioning and messaging"
+  ],
+  "updatedAt": "2026-06-25T13:52:12.904Z"
+}

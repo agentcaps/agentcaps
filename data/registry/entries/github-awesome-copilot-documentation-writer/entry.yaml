@@ -1,0 +1,44 @@
+slug: github-awesome-copilot-documentation-writer
+entryId: github-awesome-copilot-documentation-writer
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: github-awesome-copilot-documentation-writer
+  type: git_repository
+  url: https://github.com/github/awesome-copilot
+  path: skills/documentation-writer/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - documentation
+        - writing
+        - diataxis
+        - technical-writing
+        - tutorial
+        - content
+      capabilities:
+        - documentation.write
+        - documentation.create
+        - documentation.structure
+        - content.organize
+        - writing.guide
+      representativeQueries:
+        - Write a getting started tutorial for my API
+        - Create a how-to guide for database migration
+        - Help me structure technical documentation
+        - Write reference documentation for my library
+        - Create an explanation document for this feature
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/github/awesome-copilot
+  sourceRepositoryUrl: https://github.com/github/awesome-copilot
+  sourceWebUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/documentation-writer/SKILL.md
+  sourceCommit: e9c8e3704181fa38245d101308a8527d12af6a4d
+  trackingRef: HEAD
+  artifactPath: skills/documentation-writer/SKILL.md
+  pinnedArtifactUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/documentation-writer/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/documentation-writer/SKILL.md
+  sourceDigest: sha256:7e8244988c9f4eb63bf8c0edf160578544621eb96e5e51e2d848f1401c5de8f1
+  fetchedAt: 2026-06-25T14:00:54.959Z

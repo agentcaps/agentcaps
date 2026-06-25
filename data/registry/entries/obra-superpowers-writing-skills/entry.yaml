@@ -1,0 +1,47 @@
+slug: obra-superpowers-writing-skills
+entryId: obra-superpowers-writing-skills
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-writing-skills
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/writing-skills/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - skill-authoring
+        - test-driven-development
+        - documentation
+        - agent-guidance
+        - best-practices
+      capabilities:
+        - skill.create
+        - skill.edit
+        - skill.verify
+        - documentation.write
+        - testing.define
+      representativeQueries:
+        - How do I write a new skill?
+        - How do I test skills before deployment?
+        - When should I create a skill?
+        - How do I apply TDD to skill documentation?
+        - How do I verify my skill works with agents?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/writing-skills/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/writing-skills/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/writing-skills/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/writing-skills/SKILL.md
+  sourceDigest: sha256:f01f666a4426ce800d40649704104c252e6607c196656e5ce6a28e9f51650f3a
+  fetchedAt: 2026-06-25T13:55:58.799Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.952Z

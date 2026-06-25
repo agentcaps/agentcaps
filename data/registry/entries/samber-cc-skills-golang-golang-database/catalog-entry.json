@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-database",
+  "displayName": "golang-database",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-database/SKILL.md",
+  "description": "Comprehensive guide for Go database access — parameterized queries, struct scanning, NULLable columns, transactions, isolation levels, SELECT FOR UPDATE, connection pool, batch processing, context propagation, and migration tooling. Use when writing, reviewing, or debugging Golang code that interacts with PostgreSQL, MariaDB, MySQL, or SQLite; for database testing; or for questions about database/sql, sqlx, or pgx. Does NOT generate database schemas or migration SQL.",
+  "tags": [
+    "golang",
+    "database",
+    "sql",
+    "backend",
+    "queries",
+    "transactions"
+  ],
+  "capabilities": [
+    "code.write",
+    "code.review",
+    "database.query",
+    "database.transaction",
+    "code.debug",
+    "database.test"
+  ],
+  "representativeQueries": [
+    "Help me write a safe parameterized SQL query in Go",
+    "Review this Go database code for security issues",
+    "How do I handle transactions in Go database code?",
+    "What's the right way to scan database rows in Go?",
+    "Debug my Go code that's leaking database connections"
+  ],
+  "updatedAt": "2026-06-25T13:56:00.753Z"
+}

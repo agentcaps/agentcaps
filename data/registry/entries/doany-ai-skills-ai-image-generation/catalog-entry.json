@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:ai-image-generation",
+  "displayName": "ai-image-generation",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-image-generation/SKILL.md",
+  "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image.",
+  "tags": [
+    "image-generation",
+    "text-to-image",
+    "runcomfy",
+    "ai-models",
+    "image-editing",
+    "generative-ai"
+  ],
+  "capabilities": [
+    "image.generate",
+    "image.edit",
+    "model.select",
+    "media.create",
+    "image.transform"
+  ],
+  "representativeQueries": [
+    "Generate an image of a sunset landscape",
+    "Make a photorealistic portrait picture",
+    "Text to image generation with FLUX model",
+    "Edit this image using AI technology",
+    "Create a styled image from reference photos"
+  ],
+  "updatedAt": "2026-06-25T13:49:56.700Z"
+}

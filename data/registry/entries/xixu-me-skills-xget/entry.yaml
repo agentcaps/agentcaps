@@ -1,0 +1,49 @@
+slug: xixu-me-skills-xget
+entryId: xixu-me-skills-xget
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-xget
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/xget/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - acceleration
+        - url-rewriting
+        - package-management
+        - container
+        - ci-cd
+        - deployment
+      capabilities:
+        - url.rewrite
+        - package.accelerate
+        - container.accelerate
+        - git.integrate
+        - sdk.configure
+        - deployment.setup
+      representativeQueries:
+        - Configure Xget for my npm packages
+        - Integrate Xget with my Git workflow
+        - Speed up Docker image pulls with Xget
+        - Set up Xget for AI SDK base URLs
+        - Deploy Xget to my infrastructure
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xget/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/xget/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xget/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xget/SKILL.md
+  sourceDigest: sha256:1d363cb79f2367fcfa1cdcd3848fba23bf872f134b2599e1e3224601a1a87c5b
+  fetchedAt: 2026-06-25T13:53:48.321Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.081Z

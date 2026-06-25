@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-customer-research
+entryId: coreyhaines31-marketingskills-customer-research
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-customer-research
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/customer-research/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - customer-research
+        - voice-of-customer
+        - interview-analysis
+        - survey-analysis
+        - personas
+        - competitive-research
+      capabilities:
+        - research.analyze
+        - research.gather
+        - customer.understand
+        - personas.build
+        - sentiment.analyze
+        - competitive.analyze
+      representativeQueries:
+        - Analyze these customer interview transcripts for pain points
+        - What are customers struggling with most in our support tickets
+        - Build customer personas from our recent survey responses
+        - Mine Reddit and G2 for what people say about competitors
+        - Extract insights from churned customer interviews
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/customer-research/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/customer-research/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/customer-research/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/customer-research/SKILL.md
+  sourceDigest: sha256:933146dd575e7bd3da0201056d5d7bd26e036ba4cfda797d3f68956d5eeacaa7
+  fetchedAt: 2026-06-25T13:51:51.503Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.729Z

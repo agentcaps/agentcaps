@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:juliusbrussee:caveman:skill:caveman-commit",
+  "displayName": "caveman-commit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/juliusbrussee/caveman/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-commit/SKILL.md",
+  "description": "Ultra-compressed commit message generator. Cuts noise from commit messages while preserving intent and reasoning. Conventional Commits format. Subject ≤50 chars, body only when \"why\" isn't obvious. Use when user says \"write a commit\", \"commit message\", \"generate commit\", \"/commit\", or invokes /caveman-commit. Auto-triggers when staging changes.",
+  "tags": [
+    "git",
+    "commit",
+    "messaging",
+    "conventional-commits",
+    "developer-tools",
+    "code-quality"
+  ],
+  "capabilities": [
+    "git.commit-message",
+    "code.summarize",
+    "code.document",
+    "development.workflow"
+  ],
+  "representativeQueries": [
+    "write a commit message",
+    "generate commit message",
+    "create conventional commit",
+    "help me write a better commit",
+    "generate conventional commit"
+  ],
+  "updatedAt": "2026-06-25T13:55:16.422Z"
+}

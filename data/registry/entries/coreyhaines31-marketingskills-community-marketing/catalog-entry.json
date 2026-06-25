@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:community-marketing",
+  "displayName": "community-marketing",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/community-marketing/SKILL.md",
+  "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\"",
+  "tags": [
+    "community-building",
+    "growth-strategy",
+    "member-engagement",
+    "brand-advocacy",
+    "word-of-mouth"
+  ],
+  "capabilities": [
+    "community.build",
+    "community.grow",
+    "community.strategy",
+    "advocacy.build",
+    "engagement.manage"
+  ],
+  "representativeQueries": [
+    "How do I build a Discord community?",
+    "Create a community strategy for my brand",
+    "How can I turn users into brand advocates?",
+    "What's a community-led growth strategy?",
+    "How do I manage my Slack community effectively?"
+  ],
+  "updatedAt": "2026-06-25T13:51:58.862Z"
+}

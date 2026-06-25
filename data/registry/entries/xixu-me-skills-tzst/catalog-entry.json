@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:tzst",
+  "displayName": "tzst",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/tzst/SKILL.md",
+  "description": "Use when the user needs to create, extract, flatten, list, test, install, script, or troubleshoot `tzst` CLI workflows for `.tzst` or `.tar.zst` archives, including compression levels, streaming mode, extraction filters, conflict resolution, JSON output, or standalone binary setup, even if they describe the archive task without naming `tzst`.",
+  "tags": [
+    "archive",
+    "compression",
+    "zstd",
+    "cli",
+    "automation",
+    "extraction"
+  ],
+  "capabilities": [
+    "archive.create",
+    "archive.extract",
+    "archive.list",
+    "archive.test",
+    "file.compress"
+  ],
+  "representativeQueries": [
+    "Create a tzst archive from these files",
+    "Extract this tar.zst archive to my directory",
+    "List the contents of this .tzst file",
+    "Test the integrity of my backup archive",
+    "How do I install the tzst CLI tool"
+  ],
+  "updatedAt": "2026-06-25T13:53:54.545Z"
+}

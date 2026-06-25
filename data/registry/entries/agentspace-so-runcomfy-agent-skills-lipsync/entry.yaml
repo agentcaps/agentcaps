@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-lipsync
+entryId: agentspace-so-runcomfy-agent-skills-lipsync
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-lipsync
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: lipsync/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-synthesis
+        - lip-sync
+        - audio-visual
+        - avatar-generation
+        - video-dubbing
+      capabilities:
+        - video.lipsync
+        - video.dub
+        - avatar.create
+        - media.sync
+        - audio.sync
+      representativeQueries:
+        - Lip sync this video to the audio track
+        - Make this video speak with a voice over
+        - Create a talking avatar from this image
+        - Dub this video in another language
+        - Sync dubbed audio to the lip movements
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/lipsync/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: lipsync/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/lipsync/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/lipsync/SKILL.md
+  sourceDigest: sha256:b5cf20f33476b4acd6f2d13f22efce53dc0b7dd19634911bad762d6707ad54e3
+  fetchedAt: 2026-06-25T13:47:36.392Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.645Z

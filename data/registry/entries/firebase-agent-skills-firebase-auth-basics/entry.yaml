@@ -1,0 +1,47 @@
+slug: firebase-agent-skills-firebase-auth-basics
+entryId: firebase-agent-skills-firebase-auth-basics
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: firebase-agent-skills-firebase-auth-basics
+  type: git_repository
+  url: https://github.com/firebase/agent-skills
+  path: skills/firebase-auth-basics/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - firebase-auth
+        - authentication
+        - user-management
+        - identity-provider
+        - firebase-setup
+      capabilities:
+        - auth.setup
+        - auth.configure
+        - user.manage
+        - identity.provision
+        - provider.integrate
+      representativeQueries:
+        - How do I set up Firebase authentication in my app?
+        - What identity providers does Firebase support?
+        - How do I configure Google Sign-In in Firebase?
+        - How do I manage users in Firebase Authentication?
+        - How do I implement user sign-in and sign-out?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/firebase/agent-skills
+  sourceRepositoryUrl: https://github.com/firebase/agent-skills
+  sourceWebUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-auth-basics/SKILL.md
+  sourceCommit: 538130c39402a40d9c2586ede87def5914641a33
+  trackingRef: HEAD
+  artifactPath: skills/firebase-auth-basics/SKILL.md
+  pinnedArtifactUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-auth-basics/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-auth-basics/SKILL.md
+  sourceDigest: sha256:268d5fc074acd818c5f64c2573c6ab0beefc40de77a9283fcef3237df790f878
+  fetchedAt: 2026-06-25T13:58:30.387Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.812Z

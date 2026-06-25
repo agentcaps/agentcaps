@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:copy-editing",
+  "displayName": "copy-editing",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/copy-editing/SKILL.md",
+  "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+  "tags": [
+    "copy-editing",
+    "marketing-copy",
+    "proofreading",
+    "content-editing",
+    "copy-improvement",
+    "voice-and-tone"
+  ],
+  "capabilities": [
+    "writing.edit",
+    "marketing.review",
+    "content.polish",
+    "copy.improve",
+    "voice.review"
+  ],
+  "representativeQueries": [
+    "Edit this marketing copy for clarity",
+    "Review and improve my website copy",
+    "Proofread and polish this content",
+    "Help me tighten up this sales page",
+    "Refresh the messaging on this page"
+  ],
+  "updatedAt": "2026-06-25T13:51:01.459Z"
+}

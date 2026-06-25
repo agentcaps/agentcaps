@@ -1,0 +1,47 @@
+slug: doany-ai-skills-elevenlabs-music-generation
+entryId: doany-ai-skills-elevenlabs-music-generation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-elevenlabs-music-generation
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: elevenlabs-music-generation/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - music-generation
+        - audio-generation
+        - elevenlabs
+        - runcomfy
+        - song-creation
+        - ai-music
+      capabilities:
+        - music.generate
+        - audio.create
+        - song.compose
+        - music.synthesize
+      representativeQueries:
+        - Generate music from a text description
+        - Create an instrumental background track
+        - Make a song with my lyrics and style
+        - Generate a jingle for my brand
+        - Compose a theme song with vocals
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/elevenlabs-music-generation/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: elevenlabs-music-generation/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/elevenlabs-music-generation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/elevenlabs-music-generation/SKILL.md
+  sourceDigest: sha256:b98501a1bfc76fd6f17da5b6361f262907c30f060889621d48fafc05c115d83b
+  fetchedAt: 2026-06-25T13:50:04.678Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.784Z

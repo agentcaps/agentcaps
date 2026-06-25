@@ -1,0 +1,46 @@
+slug: doany-ai-skills-face-swap
+entryId: doany-ai-skills-face-swap
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-face-swap
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: face-swap/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - face-swap
+        - video-editing
+        - image-manipulation
+        - character-swap
+        - ai-animation
+      capabilities:
+        - video.face-swap
+        - image.face-swap
+        - video.animate
+        - media.edit
+      representativeQueries:
+        - Swap my face into this video
+        - Replace the actor in this scene
+        - Make this character look like me
+        - Create a deepfake of this video
+        - Swap the face in this image
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/face-swap/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: face-swap/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/face-swap/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/face-swap/SKILL.md
+  sourceDigest: sha256:676d8f22c561891df78cf75dcd7364349bdcc48c317d9268c7eadeebca9ef2cf
+  fetchedAt: 2026-06-25T13:49:32.275Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.785Z

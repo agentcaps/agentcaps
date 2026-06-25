@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-data-structures",
+  "displayName": "golang-data-structures",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-data-structures/SKILL.md",
+  "description": "Golang data structures — slices (internals, capacity growth, preallocation, slices package), maps (internals, hash buckets, maps package), arrays, container/list/heap/ring, strings.Builder vs bytes.Buffer, generic collections, pointers (unsafe.Pointer, weak.Pointer), and copy semantics. Use when choosing or optimizing Go data structures, implementing generic containers, using container/ packages, unsafe or weak pointers, or questioning slice/map internals.",
+  "tags": [
+    "golang",
+    "data-structures",
+    "performance",
+    "memory",
+    "optimization",
+    "internals"
+  ],
+  "capabilities": [
+    "golang.optimize",
+    "golang.choose",
+    "golang.analyze",
+    "golang.allocate",
+    "golang.generics",
+    "memory.pointers"
+  ],
+  "representativeQueries": [
+    "Optimize my slice allocations",
+    "Choose the right Go data structure",
+    "Understand slice internals and capacity",
+    "When should I use maps vs arrays in Go",
+    "How do I implement generic collections"
+  ],
+  "updatedAt": "2026-06-25T13:55:57.351Z"
+}

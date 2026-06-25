@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-cost",
+  "displayName": "azure-cost",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cost/SKILL.md",
+  "description": "Azure cost management: query costs, forecast spending, optimize to reduce waste. WHEN: \"Azure costs\", \"Azure bill\", \"cost breakdown\", \"how much am I spending\", \"forecast spending\", \"optimize costs\", \"reduce spending\", \"orphaned resources\", \"rightsize VMs\", \"cost spike\", \"reduce storage costs\", \"AKS cost\". DO NOT USE FOR: deploying resources, provisioning, diagnostics, or security audits.",
+  "tags": [
+    "azure",
+    "cost-management",
+    "budget",
+    "forecast",
+    "optimization",
+    "cloud-spend"
+  ],
+  "capabilities": [
+    "cost.query",
+    "cost.forecast",
+    "cost.optimize",
+    "azure.analyze",
+    "budget.track"
+  ],
+  "representativeQueries": [
+    "How much am I spending on Azure monthly?",
+    "Forecast my Azure spending for next quarter",
+    "Find ways to reduce my Azure cloud costs",
+    "Analyze orphaned resources to optimize costs",
+    "Show cost breakdown by Azure service category"
+  ],
+  "updatedAt": "2026-06-25T13:46:17.022Z"
+}

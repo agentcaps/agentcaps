@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:safe-debug",
+  "displayName": "safe-debug",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/safe-debug/SKILL.md",
+  "description": "Rigor Debug / Rigor Audit skill for deep learning research work. Use when the user pastes a traceback, terminal error, CUDA OOM, checkpoint load failure, shape mismatch, NaN loss symptom, or training failure and wants conservative diagnosis before any patching, with debug fixes clearly separated from research contributions. Do not use for broad refactoring, speculative adaptation, automatic exploratory patching, or general repository familiarization.",
+  "tags": [
+    "debug",
+    "deep-learning",
+    "error-diagnosis",
+    "research",
+    "conservative"
+  ],
+  "capabilities": [
+    "debug.diagnose",
+    "error.trace",
+    "training.validate",
+    "research.audit",
+    "checkpoint.validate"
+  ],
+  "representativeQueries": [
+    "My CUDA OOM error during training",
+    "The shape mismatch in my model forward pass",
+    "NaN loss detected during training",
+    "Checkpoint loading fails with this error",
+    "Why is my deep learning training failing?"
+  ],
+  "updatedAt": "2026-06-25T13:58:58.534Z"
+}

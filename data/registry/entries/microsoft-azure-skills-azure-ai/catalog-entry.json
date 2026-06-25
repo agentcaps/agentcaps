@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-ai",
+  "displayName": "azure-ai",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-ai/SKILL.md",
+  "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech.",
+  "tags": [
+    "azure",
+    "semantic-search",
+    "speech-to-text",
+    "document-extraction",
+    "ai-services",
+    "nlp"
+  ],
+  "capabilities": [
+    "search.query",
+    "search.vector",
+    "speech.transcribe",
+    "speech.synthesize",
+    "document.extract",
+    "text.analyze"
+  ],
+  "representativeQueries": [
+    "Search my documents using vector embeddings",
+    "Convert speech audio to text transcription",
+    "Extract data from PDF forms and documents",
+    "Generate natural speech from text content",
+    "Perform semantic search across my index"
+  ],
+  "updatedAt": "2026-06-25T13:44:59.535Z"
+}

@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:website-to-video",
+  "displayName": "website-to-video",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/website-to-video/SKILL.md",
+  "description": "Capture a general website/URL and turn it into a HyperFrames video (site tour, showcase, or social clip from the site's own visuals). Uses headless Chrome screenshots + brand assets. Use when intent is general — portfolio/blog/landing-page showcase or social clip from the site. NOT for: product/SaaS launch or promo (→ /product-launch-video, even from a URL); topic explainer with no site (→ /faceless-explainer); GitHub PR (→ /pr-to-video); adding captions to existing video (→ /embedded-captions); short unnarrated page-highlight motion graphic (→ /motion-graphics). Unclear launch-vs-general-site? Ask one question or start at /hyperframes.",
+  "tags": [
+    "video-generation",
+    "website-capture",
+    "hyperframes",
+    "content-creation",
+    "social-media"
+  ],
+  "capabilities": [
+    "video.generate",
+    "website.capture",
+    "content.convert",
+    "media.produce",
+    "screenshot.capture"
+  ],
+  "representativeQueries": [
+    "Turn this website into a 15-second social clip for Instagram",
+    "Make a 30-second site tour / showcase from this URL",
+    "Capture our homepage and build a video from its own visuals",
+    "Turn my portfolio website into a promotional video",
+    "Generate a video showcasing our landing page"
+  ],
+  "updatedAt": "2026-06-25T13:54:06.117Z"
+}

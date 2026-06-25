@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:executing-plans",
+  "displayName": "executing-plans",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/executing-plans/SKILL.md",
+  "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+  "tags": [
+    "execution",
+    "planning",
+    "implementation",
+    "development",
+    "workflow",
+    "task-management"
+  ],
+  "capabilities": [
+    "plan.execute",
+    "plan.review",
+    "task.verify",
+    "workflow.coordinate",
+    "development.execute"
+  ],
+  "representativeQueries": [
+    "Execute this implementation plan step by step",
+    "I have a plan ready to implement now",
+    "Follow my development plan and report when done",
+    "Execute all tasks from my implementation plan",
+    "Let me implement this plan with verification checkpoints"
+  ],
+  "updatedAt": "2026-06-25T13:55:45.455Z"
+}

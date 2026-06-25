@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-kling-3-0
+entryId: agentspace-so-runcomfy-agent-skills-kling-3-0
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-kling-3-0
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: kling-3-0/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - kling-3-0
+        - text-to-video
+        - image-to-video
+        - video-synthesis
+        - runcomfy
+      capabilities:
+        - video.generate
+        - media.create
+        - video.animate
+        - content.produce
+      representativeQueries:
+        - Generate a video from text using Kling 3.0
+        - Create a cinematic video from an image
+        - Generate 4K video with Kling Pro Pack
+        - Make an animated video with consistent character identity
+        - Create multi-shot video with native audio synthesis
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/kling-3-0/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: kling-3-0/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/kling-3-0/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/kling-3-0/SKILL.md
+  sourceDigest: sha256:bbad428f4ad583a49c34140e01d1c8612a186d8354771fbb3e5b25243c337ddc
+  fetchedAt: 2026-06-25T13:47:13.123Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.643Z

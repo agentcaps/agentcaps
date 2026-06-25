@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:slideshow",
+  "displayName": "slideshow",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/slideshow/SKILL.md",
+  "description": "Author a HyperFrames slideshow composition — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching sequences, and hotspot navigation. Use as an intent check when the user asks for a presentation, pitch deck, slide deck, interactive deck, or page-to-deck conversion that might be a slideshow; if the user did not explicitly ask for a slideshow / slide show, confirm before authoring.",
+  "tags": [
+    "slideshow",
+    "presentation",
+    "deck",
+    "interactive",
+    "authoring",
+    "pitch"
+  ],
+  "capabilities": [
+    "slideshow.author",
+    "presentation.create",
+    "deck.compose",
+    "navigation.build"
+  ],
+  "representativeQueries": [
+    "Create a pitch deck presentation for investors",
+    "Author an interactive slideshow with speaker notes",
+    "Build a slide deck with hotspot navigation",
+    "Design a presentation with branching sequences",
+    "Convert a webpage into an interactive slideshow"
+  ],
+  "updatedAt": "2026-06-25T13:55:02.232Z"
+}

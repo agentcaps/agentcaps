@@ -1,0 +1,48 @@
+slug: agentspace-so-runcomfy-agent-skills-runcomfy-cli
+entryId: agentspace-so-runcomfy-agent-skills-runcomfy-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-runcomfy-cli
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: runcomfy-cli/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - runcomfy
+        - cli
+        - model-inference
+        - image-generation
+        - video-generation
+        - api
+      capabilities:
+        - image.generate
+        - video.generate
+        - media.edit
+        - model.run
+        - authentication.login
+      representativeQueries:
+        - Install the runcomfy CLI and authenticate with my account
+        - Run an image generation model on RunComfy from the command line
+        - Generate a video using RunComfy text-to-video endpoint
+        - Discover available models and their input schemas on RunComfy
+        - Train a LoRA model using the RunComfy CLI
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/runcomfy-cli/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: runcomfy-cli/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/runcomfy-cli/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/runcomfy-cli/SKILL.md
+  sourceDigest: sha256:f4c822d0972a78d8840a48cff0583319d156ab7a373a4053a2a0c26c7bb339a3
+  fetchedAt: 2026-06-25T13:47:26.191Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.653Z

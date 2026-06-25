@@ -1,0 +1,48 @@
+slug: obra-superpowers-subagent-driven-development
+entryId: obra-superpowers-subagent-driven-development
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-subagent-driven-development
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/subagent-driven-development/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - development
+        - implementation
+        - planning
+        - code-review
+        - subagents
+        - task-management
+      capabilities:
+        - plan.execute
+        - code.review
+        - task.dispatch
+        - development.coordinate
+        - task.verify
+      representativeQueries:
+        - Execute my implementation plan with fresh subagents
+        - Run all tasks from the plan without stopping
+        - Review code quality after each implementation task
+        - Dispatch subagents to complete plan tasks efficiently
+        - Execute plan with spec compliance verification after each step
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/subagent-driven-development/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/subagent-driven-development/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/subagent-driven-development/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/subagent-driven-development/SKILL.md
+  sourceDigest: sha256:41ab239a6ad1c487cd839fdac972a8c9cf0f5e90efa59a63f963767864f0df4c
+  fetchedAt: 2026-06-25T13:55:42.295Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.942Z

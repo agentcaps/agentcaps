@@ -1,0 +1,46 @@
+slug: agentspace-so-runcomfy-agent-skills-seedance-v2
+entryId: agentspace-so-runcomfy-agent-skills-seedance-v2
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-seedance-v2
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: seedance-v2/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - cinematic
+        - multi-modal
+        - lip-sync
+        - bytedance
+      capabilities:
+        - video.generate
+        - video.synthesize
+        - audio.lipsync
+        - media.combine
+      representativeQueries:
+        - Generate a video with lip-sync
+        - Create cinematic short-form video
+        - Make a video combining character and scene
+        - Generate multi-modal video with audio
+        - Create branded spokesperson video
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/seedance-v2/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: seedance-v2/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/seedance-v2/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/seedance-v2/SKILL.md
+  sourceDigest: sha256:7ebf59acc65cfe3123b0f474efd8dd2f682358c78a716e9a09ff01f73e2e3380
+  fetchedAt: 2026-06-25T13:47:04.784Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.655Z

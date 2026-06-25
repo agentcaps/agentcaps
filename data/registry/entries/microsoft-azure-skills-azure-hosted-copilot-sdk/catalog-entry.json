@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-hosted-copilot-sdk",
+  "displayName": "azure-hosted-copilot-sdk",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-hosted-copilot-sdk/SKILL.md",
+  "description": "Build, deploy, and modify GitHub Copilot SDK apps on Azure. MANDATORY when codebase contains @github/copilot-sdk or CopilotClient in package.json. PREFER OVER azure-prepare when copilot-sdk markers detected. WHEN: copilot SDK, @github/copilot-sdk, copilot-powered app, build copilot app, prepare copilot app, add feature to copilot app, modify copilot app, BYOM, bring your own model, CopilotClient, createSession, sendAndWait, azd init copilot. DO NOT USE FOR: deploying already-prepared copilot-sdk apps (use azure-deploy), general web apps without copilot SDK (use azure-prepare), Copilot Extensions, Foundry agents (use microsoft-foundry).",
+  "tags": [
+    "azure",
+    "copilot-sdk",
+    "deployment",
+    "github-copilot",
+    "sdk-setup",
+    "infrastructure"
+  ],
+  "capabilities": [
+    "copilot.build",
+    "azure.deploy",
+    "sdk.setup",
+    "app.scaffold",
+    "copilot.modify"
+  ],
+  "representativeQueries": [
+    "Build a GitHub Copilot app on Azure",
+    "Deploy Copilot SDK application to production",
+    "Add new feature to my copilot-powered app",
+    "Set up and initialize Copilot SDK project",
+    "Modify existing GitHub Copilot application"
+  ],
+  "updatedAt": "2026-06-25T13:45:42.549Z"
+}

@@ -1,0 +1,48 @@
+slug: lllllllama-rigorpilot-skills-run-train
+entryId: lllllllama-rigorpilot-skills-run-train
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-run-train
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/run-train/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - training
+        - deep-learning
+        - verification
+        - reproducibility
+        - checkpoint
+        - ml-ops
+      capabilities:
+        - training.run
+        - training.verify
+        - training.resume
+        - model.checkpoint
+        - research.experiment
+      representativeQueries:
+        - Run the training command with startup verification
+        - Resume deep learning training from the last checkpoint
+        - Execute short-run verification of the training pipeline
+        - Kick off full training with reproducibility tracking
+        - Verify training setup before starting model training
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/run-train/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/run-train/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/run-train/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/run-train/SKILL.md
+  sourceDigest: sha256:9388736b78dddd2afc590c96b31e1b39d2dbc9e4d39c6b1fa5edf72069fb4cf4
+  fetchedAt: 2026-06-25T13:58:47.492Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.878Z

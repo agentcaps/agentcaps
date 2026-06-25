@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:playwright-generate-test",
+  "displayName": "playwright-generate-test",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/playwright-generate-test/SKILL.md",
+  "description": "Generate a Playwright test based on a scenario using Playwright MCP",
+  "tags": [
+    "playwright",
+    "test-generation",
+    "automated-testing",
+    "e2e",
+    "testing",
+    "code-generation"
+  ],
+  "capabilities": [
+    "test.generate",
+    "test.playwright",
+    "code.generate",
+    "browser.automate",
+    "qa.test"
+  ],
+  "representativeQueries": [
+    "Generate a Playwright test for this scenario",
+    "Create automated tests using Playwright MCP",
+    "Write a Playwright test for user workflows",
+    "Generate end-to-end tests automatically",
+    "Build Playwright tests from scenario descriptions"
+  ],
+  "updatedAt": "2026-06-25T14:01:48.342Z"
+}

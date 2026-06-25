@@ -1,0 +1,48 @@
+slug: heygen-com-hyperframes-hyperframes-core
+entryId: heygen-com-hyperframes-hyperframes-core
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-hyperframes-core
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/hyperframes-core/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-composition
+        - timing-attributes
+        - animation-runtime
+        - html-media
+        - seekable-timeline
+        - rendering
+      capabilities:
+        - composition.build
+        - timing.configure
+        - media.control
+        - animation.create
+        - structure.organize
+      representativeQueries:
+        - How do I create a HyperFrames composition
+        - What are the data attributes for timing clips
+        - How do I structure a modular composition
+        - Can I control media playback in HyperFrames
+        - Where are the composition references documented
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-core/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/hyperframes-core/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-core/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-core/SKILL.md
+  sourceDigest: sha256:689de1f94e682ee31d1f22cf196040e8f24fdaee5fbf75a832fd890f1a27a2b7
+  fetchedAt: 2026-06-25T13:52:09.272Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.843Z

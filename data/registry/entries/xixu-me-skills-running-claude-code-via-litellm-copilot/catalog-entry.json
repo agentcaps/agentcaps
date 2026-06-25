@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:running-claude-code-via-litellm-copilot",
+  "displayName": "running-claude-code-via-litellm-copilot",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/running-claude-code-via-litellm-copilot/SKILL.md",
+  "description": "Use when routing Claude Code through a local LiteLLM proxy to GitHub Copilot, reducing direct Anthropic spend, configuring ANTHROPIC_BASE_URL or ANTHROPIC_MODEL overrides, or troubleshooting Copilot proxy setup failures such as model-not-found, no localhost traffic, or GitHub 401/403 auth errors.",
+  "tags": [
+    "litellm-proxy",
+    "claude-code",
+    "github-copilot",
+    "cost-reduction",
+    "api-routing",
+    "configuration"
+  ],
+  "capabilities": [
+    "code.configure",
+    "api.route",
+    "proxy.setup",
+    "auth.configure",
+    "api.troubleshoot"
+  ],
+  "representativeQueries": [
+    "How do I run Claude Code through a local LiteLLM proxy?",
+    "Configure Claude Code to use GitHub Copilot backend",
+    "Help reduce Anthropic API spend with LiteLLM Copilot",
+    "Troubleshoot proxy setup failures for Claude Code",
+    "Set up ANTHROPIC_BASE_URL for GitHub Copilot routing"
+  ],
+  "updatedAt": "2026-06-25T13:53:36.329Z"
+}

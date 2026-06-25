@@ -39,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/theRJMurray/browsefleet/blob/2118d13cfa07e825d6cc28eb205fc3152f271248/skill.md
   rawArtifactUrl: https://raw.githubusercontent.com/theRJMurray/browsefleet/2118d13cfa07e825d6cc28eb205fc3152f271248/skill.md
   sourceDigest: sha256:d7a9eeccc1462ca71db77513186eeaab955eadde60932a4f98df8d7601f4ee1d
-  fetchedAt: 2026-06-24T08:07:53.672Z
+  fetchedAt: 2026-06-25T13:44:12.651Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.338Z
+  publishedAt: 2026-06-25T13:59:33.696Z

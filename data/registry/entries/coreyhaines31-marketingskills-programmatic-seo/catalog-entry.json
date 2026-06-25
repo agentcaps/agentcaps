@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:programmatic-seo",
+  "displayName": "programmatic-seo",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/programmatic-seo/SKILL.md",
+  "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+  "tags": [
+    "seo-at-scale",
+    "template-pages",
+    "content-generation",
+    "keyword-targeting",
+    "seo-automation"
+  ],
+  "capabilities": [
+    "seo.generate",
+    "content.scale",
+    "keyword.target",
+    "template.create",
+    "ranking.optimize"
+  ],
+  "representativeQueries": [
+    "Create 100 pages for different cities",
+    "How do I build template pages at scale",
+    "Generate location pages for my business",
+    "Build comparison pages for keywords",
+    "Create directory pages with templates"
+  ],
+  "updatedAt": "2026-06-25T13:50:57.686Z"
+}

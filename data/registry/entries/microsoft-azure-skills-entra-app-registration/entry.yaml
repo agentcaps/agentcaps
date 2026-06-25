@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-entra-app-registration
+entryId: microsoft-azure-skills-entra-app-registration
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-entra-app-registration
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/entra-app-registration/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure-identity
+        - entra-id
+        - app-registration
+        - oauth
+        - msal
+        - service-principal
+      capabilities:
+        - identity.register
+        - auth.configure
+        - oauth.setup
+        - api.permissions
+        - service.principal
+      representativeQueries:
+        - How do I register an app in Entra ID?
+        - Set up OAuth 2.0 authentication for my Azure app
+        - Configure API permissions for my application
+        - Generate a service principal in Azure
+        - Integrate MSAL for console app authentication
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/entra-app-registration/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/entra-app-registration/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/entra-app-registration/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/entra-app-registration/SKILL.md
+  sourceDigest: sha256:c95e095025be0579170293652ff89a0515870e2585e238cdbb2491f53d6f4fde
+  fetchedAt: 2026-06-25T13:45:22.922Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.916Z

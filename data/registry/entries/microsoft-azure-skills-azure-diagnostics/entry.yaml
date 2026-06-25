@@ -1,0 +1,49 @@
+slug: microsoft-azure-skills-azure-diagnostics
+entryId: microsoft-azure-skills-azure-diagnostics
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-diagnostics
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-diagnostics/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - diagnostics
+        - troubleshooting
+        - debugging
+        - kubernetes
+        - monitoring
+      capabilities:
+        - azure.diagnose
+        - logs.analyze
+        - metrics.analyze
+        - kubernetes.troubleshoot
+        - app.debug
+        - resource.health
+      representativeQueries:
+        - troubleshoot app service high CPU issue
+        - diagnose kubernetes pod pending failure
+        - analyze app service deployment failure logs
+        - investigate azure function timeout errors
+        - diagnose event hub connection failures
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-diagnostics/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-diagnostics/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-diagnostics/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-diagnostics/SKILL.md
+  sourceDigest: sha256:75f3e45d535efa721acf42931031d6ed27c1cca6574be9b881a0dd59139a88ad
+  fetchedAt: 2026-06-25T13:44:37.204Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.893Z

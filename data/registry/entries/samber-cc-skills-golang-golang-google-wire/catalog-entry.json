@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-google-wire",
+  "displayName": "golang-google-wire",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-google-wire/SKILL.md",
+  "description": "Compile-time dependency injection in Golang using google/wire — wire.NewSet, wire.Build, wire.Bind (interface→concrete), wire.Struct, wire.Value, wire.InterfaceValue, wire.FieldsOf, cleanup functions, //go:build wireinject injector files, and generated wire_gen.go. Apply when using or adopting google/wire, when the codebase imports `github.com/google/wire`, or when wiring an application graph at compile time via `wire.Build`. For runtime DI with reflection, see `samber/cc-skills-golang@golang-uber-dig` skill.",
+  "tags": [
+    "golang",
+    "dependency-injection",
+    "compile-time",
+    "code-generation",
+    "wire"
+  ],
+  "capabilities": [
+    "go.wire",
+    "code.inject",
+    "code.generate",
+    "architecture.compose",
+    "dependency.resolve"
+  ],
+  "representativeQueries": [
+    "Set up compile-time dependency injection in Go",
+    "Configure google wire for my Go application",
+    "How do I use wire.Build and wire.Bind?",
+    "Debug wire dependency graph issues",
+    "Generate and configure wire_gen.go files"
+  ],
+  "updatedAt": "2026-06-25T13:58:05.566Z"
+}

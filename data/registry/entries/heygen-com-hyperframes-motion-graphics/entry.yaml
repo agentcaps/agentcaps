@@ -1,0 +1,48 @@
+slug: heygen-com-hyperframes-motion-graphics
+entryId: heygen-com-hyperframes-motion-graphics
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-motion-graphics
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/motion-graphics/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - motion-graphics
+        - kinetic-typography
+        - data-viz
+        - logo-reveal
+        - short-form
+        - overlay
+      capabilities:
+        - video.generate
+        - design.motion
+        - text.animate
+        - graphics.render
+        - data.visualize
+      representativeQueries:
+        - Create a kinetic typography animation for my headline
+        - Make an animated data visualization showing our metrics
+        - Design a logo sting animation for our brand
+        - Generate a lower-third graphic for my news report
+        - Create an animated social media overlay graphic
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/motion-graphics/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/motion-graphics/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/motion-graphics/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/motion-graphics/SKILL.md
+  sourceDigest: sha256:bede3caf4ddaad632ad6f86f825c31aa45f40e6ac95182b14389e4ea7fd15920
+  fetchedAt: 2026-06-25T13:58:10.660Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.848Z

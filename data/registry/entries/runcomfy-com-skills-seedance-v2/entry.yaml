@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-seedance-v2
+entryId: runcomfy-com-skills-seedance-v2
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-seedance-v2
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: seedance-v2/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - bytedance
+        - ai-video
+        - multimodal
+        - lip-sync
+        - cinematic
+      capabilities:
+        - video.generate
+        - video.create
+        - media.compose
+        - audio.sync
+        - content.generate
+      representativeQueries:
+        - Generate a cinematic video with Seedance 2.0 Pro
+        - Create a lip-synced spokesperson video from images
+        - Make a short-form video with multiple audio references
+        - Generate video from multimodal inputs using Seedance
+        - Create a brand-consistent multi-language video
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/seedance-v2/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: seedance-v2/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/seedance-v2/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/seedance-v2/SKILL.md
+  sourceDigest: sha256:7ebf59acc65cfe3123b0f474efd8dd2f682358c78a716e9a09ff01f73e2e3380
+  fetchedAt: 2026-06-25T13:48:05.354Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.989Z

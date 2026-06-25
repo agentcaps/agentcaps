@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-samber-ro
+entryId: samber-cc-skills-golang-golang-samber-ro
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-samber-ro
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-samber-ro/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - reactive-streams
+        - golang
+        - event-driven
+        - asynchronous
+        - observable
+        - samber-ro
+      capabilities:
+        - stream.build
+        - pipeline.compose
+        - operator.apply
+        - observable.create
+        - subject.manage
+      representativeQueries:
+        - Build reactive pipelines for Go applications
+        - Create observable streams for async data handling
+        - Handle backpressure in reactive stream pipelines
+        - Design event-driven Go architectures with samber/ro
+        - Implement type-safe reactive operators in Go
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-ro/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-samber-ro/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-ro/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-ro/SKILL.md
+  sourceDigest: sha256:d8c7d62bce55082ea2dbe4565389f5e63a46a3dd96c0393806c57cbf04b93bab
+  fetchedAt: 2026-06-25T13:57:32.971Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.044Z

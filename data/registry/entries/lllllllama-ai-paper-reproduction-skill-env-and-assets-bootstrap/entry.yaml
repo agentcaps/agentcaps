@@ -1,0 +1,44 @@
+slug: lllllllama-ai-paper-reproduction-skill-env-and-assets-bootstrap
+entryId: lllllllama-ai-paper-reproduction-skill-env-and-assets-bootstrap
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: lllllllama-ai-paper-reproduction-skill-env-and-assets-bootstrap
+  type: git_repository
+  url: https://github.com/lllllllama/ai-paper-reproduction-skill
+  path: skills/env-and-assets-bootstrap/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - environment-setup
+        - conda
+        - deep-learning
+        - reproduction
+        - checkpoints
+        - assets
+      capabilities:
+        - env.bootstrap
+        - env.configure
+        - assets.prepare
+        - checkpoint.locate
+        - dataset.prepare
+      representativeQueries:
+        - Set up a conda environment for paper reproduction
+        - Prepare checkpoint and dataset paths for deep learning repo
+        - Bootstrap environment before running paper reproduction
+        - Configure asset locations for README-documented repository
+        - Plan conda setup and checkpoint paths for reproduction
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/ai-paper-reproduction-skill
+  sourceRepositoryUrl: https://github.com/lllllllama/ai-paper-reproduction-skill
+  sourceWebUrl: https://github.com/lllllllama/ai-paper-reproduction-skill/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/env-and-assets-bootstrap/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/env-and-assets-bootstrap/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/ai-paper-reproduction-skill/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/env-and-assets-bootstrap/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/ai-paper-reproduction-skill/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/env-and-assets-bootstrap/SKILL.md
+  sourceDigest: sha256:75052a7f8563755bbf22228aaf9b28f2a578e38d8ffdd09e624140b1af24c870
+  fetchedAt: 2026-06-25T13:59:35.445Z

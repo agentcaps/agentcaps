@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:agentspace-so:runcomfy-agent-skills:skill:video-edit",
+  "displayName": "video-edit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-edit/SKILL.md",
+  "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on \"video edit\", \"edit video\", \"restyle video\", \"swap video background\", \"motion control\", \"outfit swap video\", or any explicit ask to transform a video.",
+  "tags": [
+    "video-edit",
+    "video-generation",
+    "motion-control",
+    "content-creation",
+    "runcomfy"
+  ],
+  "capabilities": [
+    "media.edit-video",
+    "media.transfer-motion",
+    "media.swap-background",
+    "media.restyle-video",
+    "media.outfit-swap"
+  ],
+  "representativeQueries": [
+    "Edit this video with a new background",
+    "Transfer motion from reference video",
+    "Swap the outfit in this talking head video",
+    "Restyle video with cinematic color grade",
+    "Apply motion control to video character"
+  ],
+  "updatedAt": "2026-06-25T13:46:38.401Z"
+}

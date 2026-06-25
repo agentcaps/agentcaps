@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-continuous-integration",
+  "displayName": "golang-continuous-integration",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-continuous-integration/SKILL.md",
+  "description": "CI/CD pipeline configuration using GitHub Actions for Golang projects — testing, linting, SAST, security scanning, code coverage, Dependabot, Renovate, GoReleaser, code review automation, and release pipelines. Use when setting up or improving Go project CI, configuring GitHub Actions workflows, adding linters or security scanners, automating dependency updates, or adding quality gates.",
+  "tags": [
+    "golang",
+    "github-actions",
+    "ci-cd",
+    "devops",
+    "testing",
+    "security"
+  ],
+  "capabilities": [
+    "ci.setup",
+    "ci.configure",
+    "testing.automate",
+    "security.scan",
+    "release.automate"
+  ],
+  "representativeQueries": [
+    "Set up GitHub Actions for my Go project",
+    "How do I add linting to my CI pipeline?",
+    "Configure security scanning in GitHub Actions",
+    "Automate releases with GoReleaser",
+    "Add code coverage reporting to CI"
+  ],
+  "updatedAt": "2026-06-25T13:57:16.861Z"
+}

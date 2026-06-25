@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:subagent-driven-development",
+  "displayName": "subagent-driven-development",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/subagent-driven-development/SKILL.md",
+  "description": "Use when executing implementation plans with independent tasks in the current session",
+  "tags": [
+    "development",
+    "implementation",
+    "planning",
+    "code-review",
+    "subagents",
+    "task-management"
+  ],
+  "capabilities": [
+    "plan.execute",
+    "code.review",
+    "task.dispatch",
+    "development.coordinate",
+    "task.verify"
+  ],
+  "representativeQueries": [
+    "Execute my implementation plan with fresh subagents",
+    "Run all tasks from the plan without stopping",
+    "Review code quality after each implementation task",
+    "Dispatch subagents to complete plan tasks efficiently",
+    "Execute plan with spec compliance verification after each step"
+  ],
+  "updatedAt": "2026-06-25T13:55:42.295Z"
+}

@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:prd",
+  "displayName": "prd",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/prd/SKILL.md",
+  "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.",
+  "tags": [
+    "product-requirements",
+    "prd",
+    "documentation",
+    "planning",
+    "requirements",
+    "product-design"
+  ],
+  "capabilities": [
+    "product.design",
+    "document.generate",
+    "requirements.define",
+    "planning.create",
+    "product.plan"
+  ],
+  "representativeQueries": [
+    "Write a comprehensive PRD for our new feature",
+    "Generate a product requirements document for our system",
+    "Help me plan and document this AI feature",
+    "Create detailed technical requirements specification",
+    "Document user stories and acceptance criteria"
+  ],
+  "updatedAt": "2026-06-25T14:00:35.312Z"
+}

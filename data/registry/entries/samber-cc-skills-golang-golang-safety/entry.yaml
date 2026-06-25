@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-safety
+entryId: samber-cc-skills-golang-golang-safety
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-safety
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-safety/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - defensive-coding
+        - nil-safety
+        - bug-prevention
+        - code-review
+        - correctness
+      capabilities:
+        - code.review
+        - code.debug
+        - golang.safety
+        - code.validate
+        - go.fix
+      representativeQueries:
+        - Review Go code for nil-safety panics
+        - How do I prevent append aliasing bugs in Go
+        - Check for concurrent map access issues
+        - Review float comparison logic for correctness
+        - Design zero-value types safely in Go
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-safety/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-safety/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-safety/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-safety/SKILL.md
+  sourceDigest: sha256:738d483e978ba902152c9ed0538a91aff7c36a662fd986834e63d68e4a04caf4
+  fetchedAt: 2026-06-25T13:56:06.675Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.037Z

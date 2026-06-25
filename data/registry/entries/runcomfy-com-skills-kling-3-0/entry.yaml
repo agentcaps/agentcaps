@@ -1,0 +1,47 @@
+slug: runcomfy-com-skills-kling-3-0
+entryId: runcomfy-com-skills-kling-3-0
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-kling-3-0
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: kling-3-0/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - kling-3-0
+        - text-to-video
+        - image-to-video
+        - cinematic
+        - runcomfy
+      capabilities:
+        - video.generate
+        - video.animate
+        - media.render
+        - audio.synchronize
+      representativeQueries:
+        - Generate a cinematic video from text using Kling 3.0
+        - Create animated video from an image with Kling
+        - Generate 4K video with synchronized audio
+        - Animate images into cinematic scenes
+        - Create professional video content with Kling
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/kling-3-0/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: kling-3-0/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/kling-3-0/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/kling-3-0/SKILL.md
+  sourceDigest: sha256:bbad428f4ad583a49c34140e01d1c8612a186d8354771fbb3e5b25243c337ddc
+  fetchedAt: 2026-06-25T13:49:03.193Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.981Z

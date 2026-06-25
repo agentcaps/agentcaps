@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:runcomfy-com:skills:skill:flux-kontext",
+  "displayName": "flux-kontext",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/flux-kontext/SKILL.md",
+  "description": "Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on \"flux kontext\", \"flux-kontext\", \"flux 1 kontext\", \"kontext\", \"BFL kontext\", or any explicit ask to edit with this model.",
+  "tags": [
+    "flux-kontext",
+    "image-editing",
+    "runcomfy",
+    "ai-image",
+    "local-edit",
+    "high-fidelity"
+  ],
+  "capabilities": [
+    "image.edit",
+    "image.modify",
+    "image.enhance",
+    "model.invoke"
+  ],
+  "representativeQueries": [
+    "Edit this image with Flux Kontext Pro",
+    "Modify image using Kontext local edit",
+    "Can you refine an image with Flux 1",
+    "Use BFL Kontext to edit this image",
+    "Edit image keeping the person's identity"
+  ],
+  "updatedAt": "2026-06-25T13:49:11.311Z"
+}

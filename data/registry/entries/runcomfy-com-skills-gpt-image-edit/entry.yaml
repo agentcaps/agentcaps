@@ -1,0 +1,47 @@
+slug: runcomfy-com-skills-gpt-image-edit
+entryId: runcomfy-com-skills-gpt-image-edit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-gpt-image-edit
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: gpt-image-edit/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-edit
+        - gpt-image-2
+        - multilingual
+        - identity-preservation
+        - layout-editing
+        - text-editing
+      capabilities:
+        - image.edit
+        - image.text-edit
+        - image.preserve-identity
+        - ai.openai
+      representativeQueries:
+        - Edit text in this image with GPT
+        - Change the multilingual text in this image
+        - Edit image while preserving identity
+        - Modify layout and text using GPT Image Edit
+        - Edit image with reference images
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/gpt-image-edit/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: gpt-image-edit/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/gpt-image-edit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/gpt-image-edit/SKILL.md
+  sourceDigest: sha256:bd0b71520b863f4d52d68b708cb181eaa47af670e5b64213932bcea2f4d7faa1
+  fetchedAt: 2026-06-25T13:48:47.224Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.972Z

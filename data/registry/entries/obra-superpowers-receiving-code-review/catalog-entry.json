@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:receiving-code-review",
+  "displayName": "receiving-code-review",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/receiving-code-review/SKILL.md",
+  "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+  "tags": [
+    "code-review",
+    "feedback-handling",
+    "technical-rigor",
+    "verification",
+    "communication",
+    "implementation"
+  ],
+  "capabilities": [
+    "code.review",
+    "feedback.evaluate",
+    "communication.clarify",
+    "verification.technical",
+    "code.implement"
+  ],
+  "representativeQueries": [
+    "How should I respond to code review feedback?",
+    "Reviewer suggested a change, should I implement it?",
+    "I don't understand this code review comment clearly",
+    "What's the right way to handle conflicting feedback?",
+    "Should I implement this suggestion or push back?"
+  ],
+  "updatedAt": "2026-06-25T13:55:52.657Z"
+}

@@ -8,12 +8,29 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/internal-comms/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: communication
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - internal-comms
+        - status-reports
+        - business-writing
+        - communication-templates
+        - company-updates
+        - team-communication
+      capabilities:
+        - communication.write
+        - communication.compose
+        - communication.format
+        - writing.business
+        - document.create
+        - status.report
+      representativeQueries:
+        - Help me draft a weekly status report
+        - Write a leadership update for my team
+        - Create a 3P update with progress and plans
+        - Generate a company newsletter from these updates
+        - Help me write an incident report
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +42,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/internal-comms/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/internal-comms/SKILL.md
   sourceDigest: sha256:067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475
-  fetchedAt: 2026-06-24T08:07:15.034Z
+  fetchedAt: 2026-06-25T13:55:06.890Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.326Z
+  publishedAt: 2026-06-25T13:59:33.677Z

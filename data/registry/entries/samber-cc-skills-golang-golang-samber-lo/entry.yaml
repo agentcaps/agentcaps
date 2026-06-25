@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-samber-lo
+entryId: samber-cc-skills-golang-golang-samber-lo
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-samber-lo
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-samber-lo/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - functional
+        - collections
+        - generics
+        - utilities
+        - helpers
+      capabilities:
+        - collection.map
+        - collection.filter
+        - collection.reduce
+        - collection.group
+        - go.parallel
+        - code.transform
+      representativeQueries:
+        - How do I map over a slice in Go?
+        - Transform a slice using functional programming
+        - Filter and group data with samber/lo functions
+        - Replace manual loops with collection helpers
+        - Use parallel processing for Go collections
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-lo/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-samber-lo/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-lo/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-lo/SKILL.md
+  sourceDigest: sha256:95a18ed966c4d9d9eaf62fa6d718e5a0d12f37ca88768ea2ee56e2023820b0c0
+  fetchedAt: 2026-06-25T13:57:24.841Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.041Z

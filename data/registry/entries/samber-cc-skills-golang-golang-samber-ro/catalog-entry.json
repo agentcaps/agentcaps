@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-samber-ro",
+  "displayName": "golang-samber-ro",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-ro/SKILL.md",
+  "description": "Reactive streams and event-driven programming in Golang using samber/ro — ReactiveX implementation with 150+ type-safe operators, cold/hot observables, 5 subject types (Publish, Behavior, Replay, Async, Unicast), declarative pipelines via Pipe, 40+ plugins (HTTP, cron, fsnotify, JSON, logging), automatic backpressure, error propagation, and Go context integration. Apply when using or adopting samber/ro, when the codebase imports github.com/samber/ro, or when building asynchronous event-driven pipelines, real-time data processing, streams, or reactive architectures in Go. Not for finite slice transforms (→ See `samber/cc-skills-golang@golang-samber-lo` skill).",
+  "tags": [
+    "reactive-streams",
+    "golang",
+    "event-driven",
+    "asynchronous",
+    "observable",
+    "samber-ro"
+  ],
+  "capabilities": [
+    "stream.build",
+    "pipeline.compose",
+    "operator.apply",
+    "observable.create",
+    "subject.manage"
+  ],
+  "representativeQueries": [
+    "Build reactive pipelines for Go applications",
+    "Create observable streams for async data handling",
+    "Handle backpressure in reactive stream pipelines",
+    "Design event-driven Go architectures with samber/ro",
+    "Implement type-safe reactive operators in Go"
+  ],
+  "updatedAt": "2026-06-25T13:57:32.971Z"
+}

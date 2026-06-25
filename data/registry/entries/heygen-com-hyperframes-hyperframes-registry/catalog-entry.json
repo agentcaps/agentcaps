@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:hyperframes-registry",
+  "displayName": "hyperframes-registry",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-registry/SKILL.md",
+  "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, registry discovery, and authoring a new block or component to contribute upstream (idea → scaffold → validate → PR).",
+  "tags": [
+    "composition",
+    "registry",
+    "blocks",
+    "components",
+    "wiring",
+    "animation"
+  ],
+  "capabilities": [
+    "registry.install",
+    "composition.wire",
+    "block.install",
+    "component.install",
+    "composition.configure"
+  ],
+  "representativeQueries": [
+    "How do I install a block from the registry?",
+    "Wire a block into my composition with proper attributes",
+    "Can I customize install locations for blocks and components?",
+    "How do I add a component to my HyperFrames project?"
+  ],
+  "updatedAt": "2026-06-25T13:57:07.000Z"
+}

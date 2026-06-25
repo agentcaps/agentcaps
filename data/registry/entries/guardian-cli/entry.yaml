@@ -39,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/zakirkun/guardian-cli/blob/68f79f80023ecbda97a42559a07db234776203de/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/zakirkun/guardian-cli/68f79f80023ecbda97a42559a07db234776203de/SKILL.md
   sourceDigest: sha256:f9f7e277083946dcf4275cf265920b58b6ad036e82909f9a6ffcceebff35dc0c
-  fetchedAt: 2026-06-24T08:07:26.997Z
+  fetchedAt: 2026-06-25T13:43:57.765Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.344Z
+  publishedAt: 2026-06-25T13:59:33.826Z

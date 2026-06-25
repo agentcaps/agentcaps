@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:air:github.com:agentspace-so:runcomfy-agent-skills:skill:video-extend",
+  "displayName": "video-extend",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/video-extend/SKILL.md",
+  "description": "Extend or continue an existing video clip on RunComfy via the `runcomfy` CLI. Routes to Google Veo 3-1's `extend-video` and `fast/extend-video` endpoints — pick the source video plus a prompt describing what should happen next, and the model produces a clip that continues the original with consistent motion, lighting, and subject identity. Use when the user has a short Veo clip and wants it longer, or wants a chained narrative built shot-by-shot from a single seed clip. Triggers on \"extend video\", \"continue video\", \"longer video\", \"video extend\", \"make this clip longer\", \"Veo extend\", \"chain video shots\", \"video continuation\", or any explicit ask to take an existing video and add more frames after it.",
+  "tags": [
+    "video-extend",
+    "video-generation",
+    "veo-3-1",
+    "runcomfy",
+    "video-continuation"
+  ],
+  "capabilities": [
+    "video.extend",
+    "video.generate",
+    "video.continue"
+  ],
+  "representativeQueries": [
+    "extend my video clip further",
+    "make this video longer please",
+    "continue the video shot",
+    "chain narrative video shots",
+    "extend video with motion consistency"
+  ],
+  "updatedAt": "2026-06-25T13:47:58.238Z"
+}

@@ -1,0 +1,48 @@
+slug: doany-ai-skills-image-edit
+entryId: doany-ai-skills-image-edit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-image-edit
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: image-edit/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-editing
+        - runcomfy
+        - batch-edit
+        - object-removal
+        - smart-routing
+        - generative-ai
+      capabilities:
+        - image.edit
+        - image.batch-process
+        - image.remove-object
+        - image.swap-background
+        - image.inpaint
+      representativeQueries:
+        - Edit these 20 product images consistently
+        - Remove the background from this photo
+        - Swap the background in my photos
+        - Rewrite the text in this image
+        - Edit image regions with a mask
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-edit/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: image-edit/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-edit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-edit/SKILL.md
+  sourceDigest: sha256:17c1b6b5c8c8162928eb0be77d1fe274f868ae287acd15a8838e6a83272c0192
+  fetchedAt: 2026-06-25T13:50:10.185Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.793Z

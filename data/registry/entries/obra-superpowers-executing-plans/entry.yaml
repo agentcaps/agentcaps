@@ -1,0 +1,48 @@
+slug: obra-superpowers-executing-plans
+entryId: obra-superpowers-executing-plans
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-executing-plans
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/executing-plans/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - execution
+        - planning
+        - implementation
+        - development
+        - workflow
+        - task-management
+      capabilities:
+        - plan.execute
+        - plan.review
+        - task.verify
+        - workflow.coordinate
+        - development.execute
+      representativeQueries:
+        - Execute this implementation plan step by step
+        - I have a plan ready to implement now
+        - Follow my development plan and report when done
+        - Execute all tasks from my implementation plan
+        - Let me implement this plan with verification checkpoints
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/executing-plans/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/executing-plans/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/executing-plans/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/executing-plans/SKILL.md
+  sourceDigest: sha256:b357c2a2e5bf24adf237b5d4a83cacd828f07b886d0873ad91546aa3c99905c9
+  fetchedAt: 2026-06-25T13:55:45.455Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.934Z

@@ -1,0 +1,49 @@
+slug: obra-superpowers-brainstorming
+entryId: obra-superpowers-brainstorming
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-brainstorming
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/brainstorming/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - design
+        - planning
+        - requirements
+        - discovery
+        - creative
+        - collaboration
+      capabilities:
+        - design.explore
+        - design.propose
+        - workflow.clarify
+        - planning.structure
+        - discovery.requirements
+        - design.document
+      representativeQueries:
+        - Help me design the architecture for my new feature
+        - I want to brainstorm ideas before I start coding
+        - Walk me through the design process for this component
+        - Let's explore requirements and constraints for this project
+        - Help me think through the UX before implementation
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/brainstorming/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/brainstorming/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/brainstorming/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/brainstorming/SKILL.md
+  sourceDigest: sha256:e14914605f640e0841758e45d0ab2a53243b59b921f929e47921c99668f2e61d
+  fetchedAt: 2026-06-25T13:55:23.898Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.925Z

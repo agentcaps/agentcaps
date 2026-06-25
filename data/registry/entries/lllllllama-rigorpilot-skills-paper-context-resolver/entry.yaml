@@ -1,0 +1,53 @@
+slug: lllllllama-rigorpilot-skills-paper-context-resolver
+entryId: lllllllama-rigorpilot-skills-paper-context-resolver
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-paper-context-resolver
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/paper-context-resolver/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - paper-resolution
+        - reproduction
+        - deep-learning
+        - repo-verification
+        - context-resolution
+        - conflict-detection
+      capabilities:
+        - paper.resolve
+        - repo.verification
+        - research.context
+        - paper.compare
+        - reproduction.validate
+        - dataset.resolve
+      representativeQueries:
+        - Resolve the dataset split mentioned in the original paper for this
+          repository
+        - Check if the evaluation protocol in the README matches the paper's
+          methodology
+        - Find checkpoint mapping details from the paper for this deep learning
+          model
+        - Clarify preprocessing differences between the paper and repository
+          implementation
+        - Identify runtime assumptions required for reproducing this model
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/paper-context-resolver/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md
+  sourceDigest: sha256:a2351c67577fe3a534a33c104af6fc45407a7df51f02893596598304831b1b22
+  fetchedAt: 2026-06-25T13:58:50.163Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.877Z

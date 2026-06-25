@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:remotion-to-hyperframes",
+  "displayName": "remotion-to-hyperframes",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/remotion-to-hyperframes/SKILL.md",
+  "description": "Port an existing Remotion (React) composition to HyperFrames HTML. Use ONLY when the user explicitly asks to port/convert/migrate/translate a Remotion source. Do NOT use: (a) authoring a new HyperFrames composition; (b) Remotion mentioned in passing; (c) Remotion code shared as reference only; (d) \"same video as my Remotion one\" without explicit migrate request — treat as fresh build. Doubt → `/general-video`. One-way, Remotion-only: no reverse export (HyperFrames→Remotion or any framework), no non-Remotion source (After Effects, Framer Motion, plain React/CSS) → out of scope, re-create via `/general-video`. Flags unsupported patterns (useState, useEffect, async calculateMetadata, third-party React libs, `@remotion/lambda`) and recommends runtime interop over lossy translation. Unsure whether to port vs. build fresh, or only a passing Remotion mention? → /hyperframes.",
+  "tags": [
+    "remotion",
+    "hyperframes",
+    "migration",
+    "video",
+    "conversion",
+    "html"
+  ],
+  "capabilities": [
+    "video.migrate",
+    "video.convert",
+    "code.translate",
+    "remotion.export",
+    "hyperframes.import"
+  ],
+  "representativeQueries": [
+    "port my Remotion project to HyperFrames",
+    "convert this Remotion code to HyperFrames",
+    "migrate from Remotion to HyperFrames",
+    "translate this Remotion composition"
+  ],
+  "updatedAt": "2026-06-25T13:57:27.787Z"
+}

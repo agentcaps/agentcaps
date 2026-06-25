@@ -4,5 +4,27 @@
   "type": "application/ai-skill",
   "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/frontend-design/SKILL.md",
   "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
-  "updatedAt": "2026-06-24T08:07:15.034Z"
+  "tags": [
+    "design",
+    "visual-design",
+    "typography",
+    "ui-design",
+    "aesthetic",
+    "branding"
+  ],
+  "capabilities": [
+    "design.visual",
+    "design.typography",
+    "ui.design",
+    "design.aesthetic",
+    "design.direction"
+  ],
+  "representativeQueries": [
+    "Help me create a distinctive visual identity for my new product",
+    "I need guidance on typography choices for my website redesign",
+    "How can I make my UI design feel less templated and more unique?",
+    "Design an aesthetic direction for my new web application",
+    "Guide me through creating a memorable visual design system"
+  ],
+  "updatedAt": "2026-06-25T13:53:58.884Z"
 }

@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:excalidraw-diagram-generator",
+  "displayName": "excalidraw-diagram-generator",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/excalidraw-diagram-generator/SKILL.md",
+  "description": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excalidraw file\". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs .excalidraw JSON files that can be opened directly in Excalidraw.",
+  "tags": [
+    "diagram-generation",
+    "visualization",
+    "excalidraw",
+    "flowchart",
+    "architecture-design",
+    "mindmap"
+  ],
+  "capabilities": [
+    "diagram.generate",
+    "visualization.create",
+    "architecture.diagram",
+    "flowchart.generate",
+    "process.visualize"
+  ],
+  "representativeQueries": [
+    "Create a diagram showing the system architecture",
+    "Generate a flowchart for this workflow process",
+    "Visualize the relationships between these components",
+    "Make a mind map for project organization",
+    "Draw an entity relationship diagram for our database"
+  ],
+  "updatedAt": "2026-06-25T13:59:58.270Z"
+}

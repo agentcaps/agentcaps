@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-kubernetes",
+  "displayName": "azure-kubernetes",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-kubernetes/SKILL.md",
+  "description": "Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API server, Azure CNI Overlay, egress configuration), security, and operations (autoscaling, upgrade strategy, cost analysis). WHEN: create AKS environment, provision AKS, enable AKS observability, design AKS networking, choose AKS SKU, secure AKS, optimize AKS, AKS spot nodes, AKS cluster-autoscaler, rightsize AKS pod, pod rightsizing, over-provisioned AKS pod, pod resource requests and limits, Vertical Pod Autoscaler, VPA recommendations.",
+  "tags": [
+    "kubernetes",
+    "azure",
+    "infrastructure",
+    "cluster",
+    "devops",
+    "cloud"
+  ],
+  "capabilities": [
+    "kubernetes.create",
+    "kubernetes.configure",
+    "infrastructure.plan",
+    "cloud.provision",
+    "security.setup",
+    "networking.design"
+  ],
+  "representativeQueries": [
+    "How do I create an AKS cluster for production?",
+    "Design AKS networking with private API server",
+    "What are AKS Automatic vs Standard differences?",
+    "Set up AKS security and identity management",
+    "Configure AKS autoscaling and pod management"
+  ],
+  "updatedAt": "2026-06-25T13:46:26.747Z"
+}

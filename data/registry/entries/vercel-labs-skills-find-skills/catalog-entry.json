@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:vercel-labs:skills:skill:find-skills",
+  "displayName": "find-skills",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/vercel-labs/skills/9a7d8acfbf29f9cced7fb5a504da1d65b484aed3/skills/find-skills/SKILL.md",
+  "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+  "tags": [
+    "skill-discovery",
+    "agent-skills",
+    "package-manager",
+    "productivity",
+    "capability-extension"
+  ],
+  "capabilities": [
+    "skills.discover",
+    "skills.install",
+    "skills.search",
+    "skills.manage"
+  ],
+  "representativeQueries": [
+    "How do I find a skill for testing?",
+    "Can you help me discover React skills?",
+    "Find a skill for code reviewing",
+    "Is there a skill for deployment automation?",
+    "I need help extending my agent capabilities"
+  ],
+  "updatedAt": "2026-06-25T13:55:26.330Z"
+}

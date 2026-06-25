@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:analyze-project",
+  "displayName": "analyze-project",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/analyze-project/SKILL.md",
+  "description": "Rigor Analyze / Rigor Audit read-only skill for deep learning research repositories. Use when the user wants to read and understand a repository, inspect model structure and training or inference entrypoints, review configs and insertion points, or flag suspicious implementation patterns without modifying code or running heavy jobs. Do not use for active command execution, broad refactoring, speculative code adaptation, or automatic bug fixing.",
+  "tags": [
+    "code-analysis",
+    "repository-inspection",
+    "deep-learning",
+    "read-only",
+    "pattern-detection"
+  ],
+  "capabilities": [
+    "repository.analyze",
+    "model.inspect",
+    "code.audit",
+    "config.review",
+    "training.analyze"
+  ],
+  "representativeQueries": [
+    "Analyze this deep learning repository structure",
+    "Inspect the model architecture and training entrypoints",
+    "Review the configuration and suggest insertion points",
+    "Flag suspicious patterns in the codebase",
+    "Understand the inference pipeline in this project"
+  ],
+  "updatedAt": "2026-06-25T13:58:55.808Z"
+}

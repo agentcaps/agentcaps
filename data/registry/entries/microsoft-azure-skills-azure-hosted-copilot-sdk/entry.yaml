@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-hosted-copilot-sdk
+entryId: microsoft-azure-skills-azure-hosted-copilot-sdk
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-hosted-copilot-sdk
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-hosted-copilot-sdk/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - copilot-sdk
+        - deployment
+        - github-copilot
+        - sdk-setup
+        - infrastructure
+      capabilities:
+        - copilot.build
+        - azure.deploy
+        - sdk.setup
+        - app.scaffold
+        - copilot.modify
+      representativeQueries:
+        - Build a GitHub Copilot app on Azure
+        - Deploy Copilot SDK application to production
+        - Add new feature to my copilot-powered app
+        - Set up and initialize Copilot SDK project
+        - Modify existing GitHub Copilot application
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-hosted-copilot-sdk/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-hosted-copilot-sdk/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-hosted-copilot-sdk/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-hosted-copilot-sdk/SKILL.md
+  sourceDigest: sha256:342dda8b9eb682aa2349bfcfe4cf28524c246e2739604f2f88ca9cb23281fdb5
+  fetchedAt: 2026-06-25T13:45:42.549Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.896Z

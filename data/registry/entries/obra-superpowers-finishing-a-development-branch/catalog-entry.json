@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:finishing-a-development-branch",
+  "displayName": "finishing-a-development-branch",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/finishing-a-development-branch/SKILL.md",
+  "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+  "tags": [
+    "git-workflow",
+    "branch-management",
+    "merge-workflow",
+    "test-verification",
+    "pull-request",
+    "completion"
+  ],
+  "capabilities": [
+    "git.merge",
+    "git.push",
+    "test.verify",
+    "workflow.complete",
+    "branch.manage"
+  ],
+  "representativeQueries": [
+    "How do I finish my development work?",
+    "I'm done coding and tests pass",
+    "Should I merge or create a PR?",
+    "Help me complete this feature branch",
+    "What do I do with my development branch?"
+  ],
+  "updatedAt": "2026-06-25T13:56:05.939Z"
+}

@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-dependency-injection",
+  "displayName": "golang-dependency-injection",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-dependency-injection/SKILL.md",
+  "description": "Comprehensive guide for dependency injection (DI) in Golang. Covers why DI matters (testability, loose coupling, separation of concerns, lifecycle management), manual constructor injection, and DI library comparison (google/wire, uber-go/dig, uber-go/fx, samber/do). Use this skill when designing service architecture, setting up dependency injection, refactoring tightly coupled code, managing singletons or service factories, or when the user asks about inversion of control, service containers, or wiring dependencies in Go. For a specific DI library, → See `samber/cc-skills-golang@golang-google-wire`, `samber/cc-skills-golang@golang-uber-dig`, `samber/cc-skills-golang@golang-uber-fx`, or `samber/cc-skills-golang@golang-samber-do` skills.",
+  "tags": [
+    "dependency-injection",
+    "golang",
+    "architecture",
+    "testing",
+    "service-container",
+    "refactoring"
+  ],
+  "capabilities": [
+    "architecture.design",
+    "code.refactor",
+    "dependency.inject",
+    "service.architect",
+    "testing.improve",
+    "library.select"
+  ],
+  "representativeQueries": [
+    "How do I set up dependency injection in Go?",
+    "Refactor this tightly coupled code to use DI",
+    "Which dependency injection library should I use?",
+    "How do I design a testable Go service?",
+    "Show me how to wire up dependencies properly"
+  ],
+  "updatedAt": "2026-06-25T13:56:58.543Z"
+}

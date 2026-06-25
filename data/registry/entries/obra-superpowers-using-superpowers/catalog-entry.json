@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:using-superpowers",
+  "displayName": "using-superpowers",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-superpowers/SKILL.md",
+  "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+  "tags": [
+    "skill-invocation",
+    "meta-skill",
+    "onboarding",
+    "instruction-priority",
+    "platform-adaptation"
+  ],
+  "capabilities": [
+    "skill.invoke",
+    "skill.find",
+    "skill.use",
+    "meta.instruction-priority"
+  ],
+  "representativeQueries": [
+    "How do I find and use skills?",
+    "What skills are available for this task?",
+    "How do skills interact with my instructions?",
+    "When should I invoke a skill?"
+  ],
+  "updatedAt": "2026-06-25T13:55:39.025Z"
+}

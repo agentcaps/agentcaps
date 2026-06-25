@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-product-marketing
+entryId: coreyhaines31-marketingskills-product-marketing
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-product-marketing
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/product-marketing/SKILL.md
+  curation:
+    category: communication
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - marketing
+        - product-marketing
+        - positioning
+        - messaging
+        - context
+        - strategy
+      capabilities:
+        - marketing.create-context
+        - marketing.position-product
+        - marketing.audience-definition
+        - marketing.messaging-framework
+        - document.create
+      representativeQueries:
+        - create a product marketing context document
+        - help me position my product to the right audience
+        - set up my target audience and positioning
+        - what is my ideal customer profile?
+        - define my product positioning and messaging
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/product-marketing/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/product-marketing/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/product-marketing/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/product-marketing/SKILL.md
+  sourceDigest: sha256:cbebd56731ed1883d2f481ec72477b392ee0bdf99be7fa7470b9d078ff154fcb
+  fetchedAt: 2026-06-25T13:52:12.904Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.755Z

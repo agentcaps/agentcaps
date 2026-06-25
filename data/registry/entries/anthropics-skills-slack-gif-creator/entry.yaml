@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/slack-gif-creator/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - slack
+        - gif-animation
+        - image-generation
+        - graphics
+        - animation
+        - python
+      capabilities:
+        - media.generate
+        - media.animate
+        - communication.slack
+        - image.draw
+        - media.optimize
+      representativeQueries:
+        - Create an animated GIF for Slack
+        - Make a bouncing ball GIF for Slack
+        - Generate an emoji animation for Slack
+        - Create a spinning loading animation GIF
+        - Make an optimized GIF for Slack messages
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/slack-gif-creator/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/slack-gif-creator/SKILL.md
   sourceDigest: sha256:2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:55:13.999Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.331Z
+  publishedAt: 2026-06-25T13:59:33.685Z

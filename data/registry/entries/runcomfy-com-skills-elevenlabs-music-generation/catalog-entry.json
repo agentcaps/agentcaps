@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:runcomfy-com:skills:skill:elevenlabs-music-generation",
+  "displayName": "elevenlabs-music-generation",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/elevenlabs-music-generation/SKILL.md",
+  "description": "Generate full songs and instrumental tracks with ElevenLabs Music on RunComfy via the `runcomfy` CLI. ElevenLabs Music turns a style description plus structured lyrics into studio-quality 44.1 kHz stereo audio — 5 seconds to 5 minutes — with section-level control (Intro / Verse / Chorus / Bridge), multilingual vocals, and commercial-friendly output. Generate a backing track, a full vocal song, a jingle, a podcast intro, a game loop, or an instrumental bed. Calls `runcomfy run elevenlabs/elevenlabs/music-generation` through the local RunComfy CLI. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"ElevenLabs Music\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", or any explicit ask to generate music or a song from a text description.",
+  "tags": [
+    "music-generation",
+    "audio-synthesis",
+    "elevenlab",
+    "ai-music",
+    "runcomfy",
+    "song-creation"
+  ],
+  "capabilities": [
+    "music.generate",
+    "audio.create",
+    "audio.synthesis",
+    "music.compose"
+  ],
+  "representativeQueries": [
+    "Generate a full song with vocals and structure",
+    "Create background music for a podcast intro",
+    "Make an instrumental track for video",
+    "Compose a jingle for my brand",
+    "Generate royalty-free soundtrack music"
+  ],
+  "updatedAt": "2026-06-25T13:48:20.011Z"
+}

@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-naming",
+  "displayName": "golang-naming",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-naming/SKILL.md",
+  "description": "Go (Golang) naming conventions — covers packages, constructors, structs, interfaces, constants, enums, errors, booleans, receivers, getters/setters, functional options, acronyms, test functions, and subtest names. Use this skill when writing new Go code, reviewing or refactoring, choosing between naming alternatives (New vs NewTypeName, isConnected vs connected, ErrNotFound vs NotFoundError, StatusReady vs StatusUnknown at iota 0), debating Go package names (utils/helpers anti-patterns), or asking about Go naming best practices. Also trigger when the user mentions MixedCaps vs snake_case, ALL_CAPS constants, Get-prefix on getters, or error string casing. Do NOT use for general Go implementation questions that don't involve naming decisions.",
+  "tags": [
+    "go-naming",
+    "golang-conventions",
+    "code-style",
+    "naming-patterns",
+    "best-practices"
+  ],
+  "capabilities": [
+    "go.naming",
+    "code.review",
+    "code.refactor",
+    "naming.guide",
+    "style.convention"
+  ],
+  "representativeQueries": [
+    "What naming convention for Go interfaces?",
+    "How should I name my Go constructor functions?",
+    "Should Go error types use Error suffix or Err?",
+    "Best practices for naming Go receivers and getters?",
+    "Is this Go package name following conventions?"
+  ],
+  "updatedAt": "2026-06-25T13:55:50.508Z"
+}

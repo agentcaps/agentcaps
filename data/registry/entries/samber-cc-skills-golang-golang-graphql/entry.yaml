@@ -1,0 +1,47 @@
+slug: samber-cc-skills-golang-golang-graphql
+entryId: samber-cc-skills-golang-golang-graphql
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-graphql
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-graphql/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - graphql
+        - golang
+        - api-development
+        - schema-first
+        - resolvers
+      capabilities:
+        - graphql.schema
+        - graphql.resolver
+        - graphql.server
+        - api.integrate
+        - performance.optimize
+      representativeQueries:
+        - Build a GraphQL API in Go with gqlgen
+        - Write resolvers for a GraphQL schema in Golang
+        - How do I prevent N+1 queries in GraphQL?
+        - Set up GraphQL subscriptions in a Go server
+        - Integrate GraphQL with my existing Go HTTP service
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-graphql/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-graphql/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-graphql/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-graphql/SKILL.md
+  sourceDigest: sha256:0a8737677b8197b7f500cb2ae2fe304c8096a389c434b3efd5096c268d39d477
+  fetchedAt: 2026-06-25T13:57:54.017Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.015Z

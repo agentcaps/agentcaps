@@ -39,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/browser-use/browser-harness-js/blob/95b7a22a923714c45d2f7234b2bfa8fa6322c2eb/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/browser-use/browser-harness-js/95b7a22a923714c45d2f7234b2bfa8fa6322c2eb/SKILL.md
   sourceDigest: sha256:c39f3e0a2e0095680c6eafbd2654318a788844950f1ef8638e53d8afef03b8f2
-  fetchedAt: 2026-06-24T08:08:19.211Z
+  fetchedAt: 2026-06-25T13:44:23.608Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.339Z
+  publishedAt: 2026-06-25T13:59:33.697Z

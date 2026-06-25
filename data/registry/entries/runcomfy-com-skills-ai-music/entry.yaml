@@ -1,0 +1,47 @@
+slug: runcomfy-com-skills-ai-music
+entryId: runcomfy-com-skills-ai-music
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-ai-music
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: ai-music/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - music-generation
+        - audio-synthesis
+        - ai-music
+        - runcomfy
+        - generative-audio
+        - music-editing
+      capabilities:
+        - music.generate
+        - audio.edit
+        - music.compose
+        - audio.extend
+        - audio.inpaint
+      representativeQueries:
+        - Generate background music for my video
+        - Create a royalty-free instrumental track
+        - Make a song with vocals in Spanish
+        - Extend this 30 second music draft
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-music/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: ai-music/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-music/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-music/SKILL.md
+  sourceDigest: sha256:afec31ead5a4a0b5011be38be6d755bd111b605f7cbdfbe99859b112ac61ff88
+  fetchedAt: 2026-06-25T13:48:29.524Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.959Z

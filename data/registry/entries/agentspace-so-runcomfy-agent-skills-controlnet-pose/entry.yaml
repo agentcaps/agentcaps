@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-controlnet-pose
+entryId: agentspace-so-runcomfy-agent-skills-controlnet-pose
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-controlnet-pose
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: controlnet-pose/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - pose-control
+        - video-generation
+        - motion-transfer
+        - controlnet
+        - character-animation
+      capabilities:
+        - video.generate
+        - image.generate
+        - motion.transfer
+        - pose.condition
+        - animation.create
+      representativeQueries:
+        - Generate a video with pose control
+        - Transfer motion from reference video
+        - Create character animation with pose
+        - Apply controlnet pose to image generation
+        - Condition video on character pose
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/controlnet-pose/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: controlnet-pose/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/controlnet-pose/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/controlnet-pose/SKILL.md
+  sourceDigest: sha256:aeadc2a160b4357e4e01e19cab7b6c190a8e040b280e947ce14c2fd3726d9eae
+  fetchedAt: 2026-06-25T13:47:33.955Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.620Z

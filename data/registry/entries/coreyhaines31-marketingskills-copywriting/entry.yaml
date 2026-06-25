@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-copywriting
+entryId: coreyhaines31-marketingskills-copywriting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-copywriting
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/copywriting/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - marketing
+        - copywriting
+        - conversion
+        - persuasion
+        - web-copy
+        - headlines
+      capabilities:
+        - marketing.copywrite
+        - copy.improve
+        - conversion.optimize
+        - content.persuade
+        - web.messaging
+        - sales.pitch
+      representativeQueries:
+        - Help me write copy for my homepage
+        - Improve this landing page copy
+        - Write a compelling headline for my product
+        - Make this value proposition more compelling
+        - Rewrite this CTA to drive more conversions
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/copywriting/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/copywriting/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/copywriting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/copywriting/SKILL.md
+  sourceDigest: sha256:ecdaabca28863d1472f79ba637842fdf4ac2fd9acc92b215ab7f152e757b2a33
+  fetchedAt: 2026-06-25T13:50:54.196Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.724Z

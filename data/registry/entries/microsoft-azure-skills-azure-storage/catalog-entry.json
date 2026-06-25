@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-storage",
+  "displayName": "azure-storage",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-storage/SKILL.md",
+  "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers (hot, cool, cold, archive), when to use each tier, and tier comparison. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics. Includes lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, storage tiers, hot cool cold archive, storage tier comparison, when to use storage tiers, lifecycle management, Azure Storage concepts. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging).",
+  "tags": [
+    "azure-storage",
+    "blob-storage",
+    "file-shares",
+    "cloud-storage",
+    "data-lake",
+    "access-tiers"
+  ],
+  "capabilities": [
+    "storage.list",
+    "storage.upload",
+    "storage.download",
+    "storage.configure",
+    "storage.manage"
+  ],
+  "representativeQueries": [
+    "Upload a file to Azure blob storage",
+    "What is the difference between hot and cool storage tiers",
+    "Download a blob from my storage account",
+    "How do I set up lifecycle management for my blobs",
+    "When should I use archive tier storage"
+  ],
+  "updatedAt": "2026-06-25T13:44:31.585Z"
+}

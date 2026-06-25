@@ -1,0 +1,45 @@
+slug: obra-superpowers-using-superpowers
+entryId: obra-superpowers-using-superpowers
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-using-superpowers
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/using-superpowers/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - skill-invocation
+        - meta-skill
+        - onboarding
+        - instruction-priority
+        - platform-adaptation
+      capabilities:
+        - skill.invoke
+        - skill.find
+        - skill.use
+        - meta.instruction-priority
+      representativeQueries:
+        - How do I find and use skills?
+        - What skills are available for this task?
+        - How do skills interact with my instructions?
+        - When should I invoke a skill?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-superpowers/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/using-superpowers/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-superpowers/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-superpowers/SKILL.md
+  sourceDigest: sha256:918562bbba1c73d1407c50de77a92eeaa6930508bdb57a64324d7d508a9069e1
+  fetchedAt: 2026-06-25T13:55:39.025Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.949Z

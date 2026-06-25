@@ -1,0 +1,49 @@
+slug: heygen-com-hyperframes-hyperframes-cli
+entryId: heygen-com-hyperframes-hyperframes-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-hyperframes-cli
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/hyperframes-cli/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - cli
+        - video-rendering
+        - composition-builder
+        - aws-lambda
+        - ffmpeg
+        - build-tool
+      capabilities:
+        - video.render
+        - video.validate
+        - video.preview
+        - composition.lint
+        - composition.scaffold
+        - rendering.cloud
+      representativeQueries:
+        - Render my HyperFrames video composition to MP4
+        - Validate and inspect my video composition for errors
+        - Deploy video rendering job to AWS Lambda cloud
+        - Preview my composition in the HyperFrames Studio
+        - Initialize a new HyperFrames video project
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-cli/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/hyperframes-cli/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-cli/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-cli/SKILL.md
+  sourceDigest: sha256:f6f5b0c1ea9eba3f8a52e59664c1aaa3366f3c81a4ecd151541c58387524f823
+  fetchedAt: 2026-06-25T13:56:35.593Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.841Z

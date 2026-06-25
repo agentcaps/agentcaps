@@ -1,0 +1,47 @@
+slug: coreyhaines31-marketingskills-sms
+entryId: coreyhaines31-marketingskills-sms
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-sms
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/sms/SKILL.md
+  curation:
+    category: communication
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - sms-marketing
+        - text-campaigns
+        - marketing-automation
+        - compliance
+        - sms-optimization
+      capabilities:
+        - sms.plan
+        - sms.sequence
+        - sms.optimize
+        - marketing.automate
+        - compliance.validate
+      representativeQueries:
+        - How do I set up SMS marketing for my store?
+        - Plan an abandoned cart SMS sequence
+        - What are the compliance requirements for SMS?
+        - Build a post-purchase SMS campaign
+        - How can I optimize my SMS open rates?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/sms/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/sms/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/sms/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/sms/SKILL.md
+  sourceDigest: sha256:bf649cfac0e3851f28b4746dc0dccb51c7526935b64cae7dd237b1b948c58842
+  fetchedAt: 2026-06-25T13:53:09.905Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.768Z

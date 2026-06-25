@@ -1,0 +1,45 @@
+slug: juliusbrussee-caveman-caveman-stats
+entryId: juliusbrussee-caveman-caveman-stats
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: juliusbrussee-caveman-caveman-stats
+  type: git_repository
+  url: https://github.com/juliusbrussee/caveman
+  path: skills/caveman-stats/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - token-usage
+        - session-stats
+        - metrics
+        - analytics
+        - monitoring
+      capabilities:
+        - analysis.tokens
+        - metrics.usage
+        - session.analytics
+      representativeQueries:
+        - Show my token usage statistics
+        - How many tokens did I use this session?
+        - Display estimated savings for this session
+        - What is my caveman mode token usage?
+        - Show real token consumption data
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/juliusbrussee/caveman
+  sourceRepositoryUrl: https://github.com/juliusbrussee/caveman
+  sourceWebUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-stats/SKILL.md
+  sourceCommit: 25d22f864ad68cc447a4cb93aefde918aa4aec9f
+  trackingRef: HEAD
+  artifactPath: skills/caveman-stats/SKILL.md
+  pinnedArtifactUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-stats/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/juliusbrussee/caveman/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman-stats/SKILL.md
+  sourceDigest: sha256:b9e49e46ede956e0c1633eae82a695c996f728bc48f3903f001d301068a2b0ea
+  fetchedAt: 2026-06-25T13:55:19.099Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.867Z

@@ -1,0 +1,47 @@
+slug: firebase-agent-skills-firebase-crashlytics
+entryId: firebase-agent-skills-firebase-crashlytics
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: firebase-agent-skills-firebase-crashlytics
+  type: git_repository
+  url: https://github.com/firebase/agent-skills
+  path: skills/firebase-crashlytics/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - crash-reporting
+        - firebase
+        - mobile
+        - error-tracking
+        - debugging
+      capabilities:
+        - crash.setup
+        - crash.report
+        - crash.customize
+        - debug.collect
+        - app.monitor
+      representativeQueries:
+        - How do I set up Crashlytics in my Android app?
+        - How can I add custom logs to crash reports?
+        - Show me how to configure iOS Crashlytics
+        - How do I report non-fatal exceptions in Crashlytics?
+        - I need to set user identifiers for crash reports
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/firebase/agent-skills
+  sourceRepositoryUrl: https://github.com/firebase/agent-skills
+  sourceWebUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-crashlytics/SKILL.md
+  sourceCommit: 538130c39402a40d9c2586ede87def5914641a33
+  trackingRef: HEAD
+  artifactPath: skills/firebase-crashlytics/SKILL.md
+  pinnedArtifactUrl: https://github.com/firebase/agent-skills/blob/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-crashlytics/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-crashlytics/SKILL.md
+  sourceDigest: sha256:f8eadf1a5fe96e8185c5d635105e0588bdd2d1b60f55c340018c18f4f01e5c11
+  fetchedAt: 2026-06-25T13:58:37.914Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.814Z

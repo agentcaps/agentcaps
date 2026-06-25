@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:customer-research",
+  "displayName": "customer-research",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/customer-research/SKILL.md",
+  "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.",
+  "tags": [
+    "customer-research",
+    "voice-of-customer",
+    "interview-analysis",
+    "survey-analysis",
+    "personas",
+    "competitive-research"
+  ],
+  "capabilities": [
+    "research.analyze",
+    "research.gather",
+    "customer.understand",
+    "personas.build",
+    "sentiment.analyze",
+    "competitive.analyze"
+  ],
+  "representativeQueries": [
+    "Analyze these customer interview transcripts for pain points",
+    "What are customers struggling with most in our support tickets",
+    "Build customer personas from our recent survey responses",
+    "Mine Reddit and G2 for what people say about competitors",
+    "Extract insights from churned customer interviews"
+  ],
+  "updatedAt": "2026-06-25T13:51:51.503Z"
+}

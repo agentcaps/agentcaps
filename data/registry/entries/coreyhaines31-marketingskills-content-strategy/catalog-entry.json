@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:content-strategy",
+  "displayName": "content-strategy",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/content-strategy/SKILL.md",
+  "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.",
+  "tags": [
+    "content-strategy",
+    "content-planning",
+    "content-marketing",
+    "topic-research",
+    "editorial-planning"
+  ],
+  "capabilities": [
+    "content.plan",
+    "content.strategy",
+    "marketing.research",
+    "content.ideate"
+  ],
+  "representativeQueries": [
+    "Help me plan a content strategy for my blog",
+    "What topics should I write about in my niche?",
+    "How should I structure my content marketing plan?",
+    "What content ideas would drive more traffic?"
+  ],
+  "updatedAt": "2026-06-25T13:50:42.878Z"
+}

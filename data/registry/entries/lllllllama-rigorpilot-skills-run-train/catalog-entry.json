@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:run-train",
+  "displayName": "run-train",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/run-train/SKILL.md",
+  "description": "Rigor Train skill for deep learning research repositories. Use when a documented or selected training command should be run conservatively for startup verification, short-run verification, full kickoff, or resume, with command, config, seed, log, checkpoint, status, and metric evidence written to standardized `train_outputs/`. Do not use for environment setup, exploratory sweeps, speculative idea implementation, or end-to-end orchestration.",
+  "tags": [
+    "training",
+    "deep-learning",
+    "verification",
+    "reproducibility",
+    "checkpoint",
+    "ml-ops"
+  ],
+  "capabilities": [
+    "training.run",
+    "training.verify",
+    "training.resume",
+    "model.checkpoint",
+    "research.experiment"
+  ],
+  "representativeQueries": [
+    "Run the training command with startup verification",
+    "Resume deep learning training from the last checkpoint",
+    "Execute short-run verification of the training pipeline",
+    "Kick off full training with reproducibility tracking",
+    "Verify training setup before starting model training"
+  ],
+  "updatedAt": "2026-06-25T13:58:47.492Z"
+}

@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:airunway-aks-setup",
+  "displayName": "airunway-aks-setup",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/airunway-aks-setup/SKILL.md",
+  "description": "Set up AI Runway on AKS — from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and first deployment. WHEN: \"setup AI Runway\", \"onboard AKS cluster\", \"install AI Runway\", \"airunway setup\", \"deploy model to AKS\", \"GPU inference on AKS\", \"KAITO setup on AKS\", \"run LLM on AKS\", \"vLLM on AKS\", \"set up model serving on AKS\", \"AI Runway controller\".",
+  "tags": [
+    "kubernetes",
+    "azure",
+    "ai-deployment",
+    "gpu-inference",
+    "model-serving"
+  ],
+  "capabilities": [
+    "kubernetes.install-controller",
+    "cluster.verify-hardware",
+    "inference.deploy-model",
+    "provider.setup-inference",
+    "gpu.assess-compatibility"
+  ],
+  "representativeQueries": [
+    "setup AI Runway on AKS",
+    "install AI Runway controller",
+    "deploy model to AKS cluster",
+    "configure GPU inference on AKS",
+    "onboard AKS cluster for AI models"
+  ],
+  "updatedAt": "2026-06-25T13:46:35.763Z"
+}

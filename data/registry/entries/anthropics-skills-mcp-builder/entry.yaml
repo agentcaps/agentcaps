@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/mcp-builder/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - mcp
+        - development
+        - integration
+        - server
+        - protocol
+        - llm-tools
+      capabilities:
+        - mcp.build
+        - tool.design
+        - api.integrate
+        - protocol.implement
+        - agent.enable
+      representativeQueries:
+        - How do I create an MCP server for my API?
+        - Building an MCP server with FastMCP
+        - Guide to designing high-quality tools for LLM agents
+        - Best practices for MCP server development
+        - Creating a TypeScript MCP server from scratch
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/mcp-builder/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/mcp-builder/SKILL.md
   sourceDigest: sha256:0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295
-  fetchedAt: 2026-06-24T08:07:15.034Z
+  fetchedAt: 2026-06-25T13:54:44.354Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.328Z
+  publishedAt: 2026-06-25T13:59:33.679Z

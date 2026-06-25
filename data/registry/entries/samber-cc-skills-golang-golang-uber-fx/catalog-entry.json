@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-uber-fx",
+  "displayName": "golang-uber-fx",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-uber-fx/SKILL.md",
+  "description": "Golang application framework using uber-go/fx — fx.New, fx.Provide, fx.Invoke, fx.Module, fx.Lifecycle hooks, fx.Annotate (name/group/As), fx.Decorate, fx.Supply, fx.Replace, fx.WithLogger, and signal-aware Run(). Apply when using or adopting uber-go/fx, when the codebase imports `go.uber.org/fx`, or when wiring services with fx.New. For raw DI without lifecycle, see `samber/cc-skills-golang@golang-uber-dig` skill.",
+  "tags": [
+    "golang",
+    "dependency-injection",
+    "uber-fx",
+    "lifecycle",
+    "service-architecture",
+    "application-framework"
+  ],
+  "capabilities": [
+    "code.wire",
+    "dependency.inject",
+    "lifecycle.manage",
+    "module.compose",
+    "service.bootstrap"
+  ],
+  "representativeQueries": [
+    "How do I wire services with Uber-go/fx?",
+    "Set up lifecycle hooks for graceful shutdown",
+    "Configure dependency injection in Go applications",
+    "Create modular Go services using fx modules",
+    "Wire a long-running Go service with uber-go/fx"
+  ],
+  "updatedAt": "2026-06-25T13:58:01.356Z"
+}

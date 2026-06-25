@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:writing-plans",
+  "displayName": "writing-plans",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/writing-plans/SKILL.md",
+  "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+  "tags": [
+    "planning",
+    "implementation",
+    "task-decomposition",
+    "documentation",
+    "development"
+  ],
+  "capabilities": [
+    "planning.create",
+    "task.decompose",
+    "development.scope",
+    "documentation.plan",
+    "code.structure"
+  ],
+  "representativeQueries": [
+    "Help me plan this feature implementation",
+    "Create an implementation plan for this task",
+    "Break down this feature into steps",
+    "Design an implementation strategy",
+    "What files do I need to modify?"
+  ],
+  "updatedAt": "2026-06-25T13:55:29.776Z"
+}

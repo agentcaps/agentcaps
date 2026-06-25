@@ -1,0 +1,49 @@
+slug: xixu-me-skills-github-actions-docs
+entryId: xixu-me-skills-github-actions-docs
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-github-actions-docs
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/github-actions-docs/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - github-actions
+        - ci-cd
+        - workflow
+        - automation
+        - documentation
+        - devops
+      capabilities:
+        - ci.configure
+        - ci.troubleshoot
+        - workflow.author
+        - workflow.migrate
+        - security.configure
+        - deployment.configure
+      representativeQueries:
+        - How do I write a GitHub Actions workflow?
+        - How do I migrate from Jenkins to GitHub Actions?
+        - How do I secure secrets in GitHub Actions workflows?
+        - What is the GitHub Actions syntax for job matrices?
+        - How do I set up a self-hosted GitHub Actions runner?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/github-actions-docs/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/github-actions-docs/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/github-actions-docs/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/github-actions-docs/SKILL.md
+  sourceDigest: sha256:85f3e313505340d09f6c5706aac096a29ff30a0ef11c04ce7a466a57175df33f
+  fetchedAt: 2026-06-25T13:53:33.420Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.067Z

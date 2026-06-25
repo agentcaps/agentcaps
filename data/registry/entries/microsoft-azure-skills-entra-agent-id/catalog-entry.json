@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:entra-agent-id",
+  "displayName": "entra-agent-id",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/entra-agent-id/SKILL.md",
+  "description": "Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2.0 token exchange (fmi_path, OBO, cross-tenant) including the Microsoft Entra SDK for AgentID sidecar. USE FOR: Agent Identity Blueprint, BlueprintPrincipal, agent OAuth, fmi_path token exchange, agent OBO, Workload Identity Federation for agents, polyglot agent auth, Microsoft.Identity.Web.AgentIdentities. DO NOT USE FOR: standard Entra app registration (use entra-app-registration), Azure RBAC (use azure-rbac), Microsoft Foundry agent authoring (use microsoft-foundry).",
+  "tags": [
+    "entra-identity",
+    "oauth-2.0",
+    "agent-provisioning",
+    "microsoft-graph",
+    "identity-management",
+    "token-exchange"
+  ],
+  "capabilities": [
+    "identity.provision",
+    "oauth.configure",
+    "blueprint.manage",
+    "credential.configure",
+    "permission.grant",
+    "token.exchange"
+  ],
+  "representativeQueries": [
+    "Create an agent identity blueprint in Microsoft Entra",
+    "Configure OAuth 2.0 token exchange for my AI agent",
+    "Provision per-instance Agent Identities under a Blueprint",
+    "Set up Workload Identity Federation for autonomous agents",
+    "Deploy Agent Identity with fmi_path token exchange"
+  ],
+  "updatedAt": "2026-06-25T13:46:31.042Z"
+}

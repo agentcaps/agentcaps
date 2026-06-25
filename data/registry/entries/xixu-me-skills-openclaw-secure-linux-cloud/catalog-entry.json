@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:openclaw-secure-linux-cloud",
+  "displayName": "openclaw-secure-linux-cloud",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/openclaw-secure-linux-cloud/SKILL.md",
+  "description": "Use when self-hosting OpenClaw on a cloud server, hardening a remote OpenClaw gateway, choosing between SSH tunneling, Tailscale, or reverse-proxy exposure, or reviewing Podman, pairing, sandboxing, token auth, and tool-permission defaults for a secure personal deployment.",
+  "tags": [
+    "openclaw",
+    "secure-hosting",
+    "linux-deployment",
+    "ssh-tunneling",
+    "infrastructure",
+    "hardening"
+  ],
+  "capabilities": [
+    "openclaw.deploy",
+    "infrastructure.harden",
+    "access.tunnel",
+    "network.configure",
+    "security.configure"
+  ],
+  "representativeQueries": [
+    "How do I securely deploy OpenClaw on a cloud server?",
+    "What's the best way to harden an OpenClaw gateway on Linux?",
+    "Should I use SSH tunneling or Tailscale for OpenClaw access?",
+    "How do I set up OpenClaw with rootless Podman isolation?",
+    "What are secure defaults for remote OpenClaw deployment?"
+  ],
+  "updatedAt": "2026-06-25T13:53:30.248Z"
+}

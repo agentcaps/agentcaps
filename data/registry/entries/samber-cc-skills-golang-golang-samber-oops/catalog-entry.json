@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-samber-oops",
+  "displayName": "golang-samber-oops",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-oops/SKILL.md",
+  "description": "Structured error handling in Golang with samber/oops — error builders, stack traces, error codes, error context, error wrapping, error attributes, user-facing vs developer messages, panic recovery, and logger integration. Apply when using or adopting samber/oops, or when the codebase already imports github.com/samber/oops.",
+  "tags": [
+    "golang",
+    "error-handling",
+    "structured-logging",
+    "debugging",
+    "panic-recovery"
+  ],
+  "capabilities": [
+    "error.handle",
+    "error.wrap",
+    "error.debug",
+    "logging.structure",
+    "error.recover"
+  ],
+  "representativeQueries": [
+    "How do I add structured context to Go errors?",
+    "Create error codes and stack traces in Go",
+    "Wrap errors with diagnostic attributes",
+    "Set user-facing messages for errors",
+    "Handle panic recovery with samber/oops"
+  ],
+  "updatedAt": "2026-06-25T13:57:29.252Z"
+}

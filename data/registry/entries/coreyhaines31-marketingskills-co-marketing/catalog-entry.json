@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:co-marketing",
+  "displayName": "co-marketing",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/co-marketing/SKILL.md",
+  "description": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch.",
+  "tags": [
+    "co-marketing",
+    "partner-strategy",
+    "campaign-planning",
+    "partnership-identification",
+    "joint-campaigns"
+  ],
+  "capabilities": [
+    "marketing.identify-partners",
+    "marketing.plan-campaigns",
+    "strategy.evaluate-partnerships",
+    "marketing.brainstorm-partnerships",
+    "business.find-partners"
+  ],
+  "representativeQueries": [
+    "Find co-marketing partners for our SaaS product",
+    "Plan a joint campaign with a potential partner",
+    "Who should we partner with for market expansion",
+    "Brainstorm co-marketing partnership ideas with us",
+    "Evaluate partnership fit with another company"
+  ],
+  "updatedAt": "2026-06-25T13:52:09.758Z"
+}

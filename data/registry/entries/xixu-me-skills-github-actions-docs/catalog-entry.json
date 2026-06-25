@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:github-actions-docs",
+  "displayName": "github-actions-docs",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/github-actions-docs/SKILL.md",
+  "description": "Use when users ask how to write, explain, customize, migrate, secure, or troubleshoot GitHub Actions workflows, workflow syntax, triggers, matrices, runners, reusable workflows, artifacts, caching, secrets, OIDC, deployments, custom actions, or Actions Runner Controller, especially when they need official GitHub documentation, exact links, or docs-grounded YAML guidance.",
+  "tags": [
+    "github-actions",
+    "ci-cd",
+    "workflow",
+    "automation",
+    "documentation",
+    "devops"
+  ],
+  "capabilities": [
+    "ci.configure",
+    "ci.troubleshoot",
+    "workflow.author",
+    "workflow.migrate",
+    "security.configure",
+    "deployment.configure"
+  ],
+  "representativeQueries": [
+    "How do I write a GitHub Actions workflow?",
+    "How do I migrate from Jenkins to GitHub Actions?",
+    "How do I secure secrets in GitHub Actions workflows?",
+    "What is the GitHub Actions syntax for job matrices?",
+    "How do I set up a self-hosted GitHub Actions runner?"
+  ],
+  "updatedAt": "2026-06-25T13:53:33.420Z"
+}

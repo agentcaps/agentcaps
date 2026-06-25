@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-quotas",
+  "displayName": "azure-quotas",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-quotas/SKILL.md",
+  "description": "Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: \"check quotas\", \"service limits\", \"current usage\", \"request quota increase\", \"quota exceeded\", \"validate capacity\", \"regional availability\", \"provisioning limits\", \"vCPU limit\", \"how many vCPUs available in my subscription\".",
+  "tags": [
+    "azure",
+    "quotas",
+    "capacity",
+    "limits",
+    "deployment",
+    "resource-management"
+  ],
+  "capabilities": [
+    "azure.quota.check",
+    "azure.quota.request",
+    "azure.capacity.validate",
+    "azure.usage.show",
+    "deployment.plan"
+  ],
+  "representativeQueries": [
+    "Check my Azure quotas and usage",
+    "How many vCPUs are available in my subscription",
+    "Request a quota increase for vCPUs",
+    "Validate capacity before deployment",
+    "Compare Azure regional quota availability"
+  ],
+  "updatedAt": "2026-06-25T13:46:04.046Z"
+}

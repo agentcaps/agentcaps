@@ -1,0 +1,46 @@
+slug: coreyhaines31-marketingskills-marketing-ideas
+entryId: coreyhaines31-marketingskills-marketing-ideas
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-marketing-ideas
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/marketing-ideas/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - marketing
+        - saas
+        - strategy
+        - growth
+        - brainstorming
+      capabilities:
+        - marketing.ideate
+        - marketing.strategize
+        - marketing.recommend
+        - growth.plan
+      representativeQueries:
+        - I need marketing ideas for my SaaS product
+        - What marketing strategies should I try?
+        - How can I grow my software product?
+        - Brainstorm marketing tactics for my startup
+        - What are some ways to promote my application?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/marketing-ideas/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/marketing-ideas/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/marketing-ideas/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/marketing-ideas/SKILL.md
+  sourceDigest: sha256:7fe1f79d008129c359f28ec733837693567a11f54bd578e1fd0d178ac69bbb8d
+  fetchedAt: 2026-06-25T13:50:50.290Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.744Z

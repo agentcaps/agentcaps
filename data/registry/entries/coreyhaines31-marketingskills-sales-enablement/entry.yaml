@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-sales-enablement
+entryId: coreyhaines31-marketingskills-sales-enablement
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-sales-enablement
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/sales-enablement/SKILL.md
+  curation:
+    category: presentation
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - sales
+        - pitch-deck
+        - sales-collateral
+        - b2b-sales
+        - deal-closing
+      capabilities:
+        - sales.create-pitch-deck
+        - sales.create-collateral
+        - sales.create-playbook
+        - sales.create-demo-script
+        - sales.handle-objections
+        - sales.roi-analysis
+      representativeQueries:
+        - Create a sales pitch deck for my startup
+        - Generate objection handling documents for my team
+        - I need a one-pager for our enterprise product
+        - Build demo scripts and talk tracks for my sales reps
+        - Create a sales playbook to help close deals
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/sales-enablement/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/sales-enablement/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/sales-enablement/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/sales-enablement/SKILL.md
+  sourceDigest: sha256:d83c3244dd8e2e64d585f1ff0d760eff181587f06b90ceaf8127a4ce618265dd
+  fetchedAt: 2026-06-25T13:51:28.748Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.761Z

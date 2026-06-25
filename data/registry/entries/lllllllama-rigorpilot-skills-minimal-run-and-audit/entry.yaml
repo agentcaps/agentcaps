@@ -1,0 +1,48 @@
+slug: lllllllama-rigorpilot-skills-minimal-run-and-audit
+entryId: lllllllama-rigorpilot-skills-minimal-run-and-audit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-minimal-run-and-audit
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/minimal-run-and-audit/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - rigor
+        - deep-learning
+        - reproduction
+        - smoke-test
+        - reporting
+        - audit
+      capabilities:
+        - research.reproduce
+        - research.audit
+        - code.execute
+        - science.report
+        - science.verify
+      representativeQueries:
+        - Run the model inference command and generate standardized repro outputs
+        - Execute the smoke test and document evidence with scientific audit
+        - Capture evaluation results and create reproducibility report
+        - Run documented evaluation command and write scientific changelog
+        - Execute inference with patch notes for repository changes
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/minimal-run-and-audit/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/minimal-run-and-audit/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/minimal-run-and-audit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/minimal-run-and-audit/SKILL.md
+  sourceDigest: sha256:0039e17b11d4c986571a989d78ac32b89edf0186d6982327230678e4646aaa79
+  fetchedAt: 2026-06-25T13:59:06.482Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.876Z

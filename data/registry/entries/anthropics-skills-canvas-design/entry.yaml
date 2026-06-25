@@ -8,12 +8,29 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/canvas-design/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - canvas-design
+        - visual-art
+        - creative-design
+        - aesthetic-movement
+        - poster-creation
+        - art-generation
+      capabilities:
+        - visual.create
+        - design.generate
+        - aesthetic.define
+        - canvas.produce
+        - art.express
+        - poster.design
+      representativeQueries:
+        - Create a beautiful poster with design philosophy
+        - Design original visual art expressing an aesthetic
+        - Generate visually striking artwork for a project
+        - Create a design philosophy and express it visually
+        - Design a piece manifesting brutalist joy principles
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +42,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/canvas-design/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/canvas-design/SKILL.md
   sourceDigest: sha256:a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b
-  fetchedAt: 2026-06-24T08:07:15.034Z
+  fetchedAt: 2026-06-25T13:54:35.359Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.320Z
+  publishedAt: 2026-06-25T13:59:33.668Z

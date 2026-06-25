@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-troubleshooting",
+  "displayName": "golang-troubleshooting",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-troubleshooting/SKILL.md",
+  "description": "Troubleshoot Golang programs systematically - find and fix the root cause. Use when encountering bugs, crashes, deadlocks, or unexpected behavior in Go code. Covers debugging methodology, common Go pitfalls, test-driven debugging, pprof setup and capture, Delve debugger, race detection, GODEBUG tracing, and production debugging. Start here for any 'something is wrong' situation. Not for interpreting profiles or benchmarking (→ See `samber/cc-skills-golang@golang-benchmark` skill) or applying optimization patterns (→ See `samber/cc-skills-golang@golang-performance` skill).",
+  "tags": [
+    "golang-debugging",
+    "troubleshooting",
+    "root-cause-analysis",
+    "race-detection",
+    "performance-profiling"
+  ],
+  "capabilities": [
+    "go.debug",
+    "go.troubleshoot",
+    "code.trace",
+    "performance.profile",
+    "race.detect"
+  ],
+  "representativeQueries": [
+    "My Go program is crashing unexpectedly",
+    "How do I debug a race condition in Go?",
+    "What's causing this deadlock in my Go code?",
+    "Help me troubleshoot a memory leak in Go",
+    "Debug a goroutine that's stuck hanging"
+  ],
+  "updatedAt": "2026-06-25T13:56:31.166Z"
+}

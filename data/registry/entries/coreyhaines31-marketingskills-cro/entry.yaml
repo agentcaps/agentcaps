@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-cro
+entryId: coreyhaines31-marketingskills-cro
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-cro
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/cro/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - conversion-rate-optimization
+        - landing-pages
+        - form-optimization
+        - marketing-analysis
+        - page-testing
+        - cro
+      capabilities:
+        - marketing.optimize
+        - page.analyze
+        - conversion.improve
+        - form.optimize
+        - marketing.cro
+      representativeQueries:
+        - How can I improve my landing page conversions?
+        - Why isn't this signup form converting well?
+        - Analyze my pricing page for conversion problems
+        - How do I reduce form abandonment rates?
+        - This page isn't converting, what's wrong?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/cro/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/cro/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/cro/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/cro/SKILL.md
+  sourceDigest: sha256:199016bec3b44bc6a7507b111b6028f6550cc852cd54c7d0df789f15d6f814c4
+  fetchedAt: 2026-06-25T13:52:25.804Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.727Z

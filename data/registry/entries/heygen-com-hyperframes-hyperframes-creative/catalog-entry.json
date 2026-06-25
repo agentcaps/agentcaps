@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:hyperframes-creative",
+  "displayName": "hyperframes-creative",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-creative/SKILL.md",
+  "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
+  "tags": [
+    "creative-direction",
+    "video-design",
+    "branding",
+    "composition",
+    "typography",
+    "narrative-planning"
+  ],
+  "capabilities": [
+    "video.creative-direction",
+    "design.composition",
+    "palette.selection",
+    "branding.style",
+    "narration.planning",
+    "typography.guide"
+  ],
+  "representativeQueries": [
+    "Design a color palette and visual style for my video",
+    "Plan the beat structure and pacing for my multi-scene video",
+    "What typography and branding should I use for this project?",
+    "Create audio-reactive visual composition guidance",
+    "Develop the creative direction and design specifications"
+  ],
+  "updatedAt": "2026-06-25T13:51:50.719Z"
+}

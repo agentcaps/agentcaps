@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-project-layout",
+  "displayName": "golang-project-layout",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-project-layout/SKILL.md",
+  "description": "Provides a guide for setting up Golang project layouts and workspaces. Use when starting a new Go project, organizing an existing codebase, setting up a monorepo with multiple packages, creating CLI tools with multiple main packages, deciding between cmd/internal/pkg directory conventions, or discussing package restructuring, package splits, or module splits.",
+  "tags": [
+    "golang",
+    "project-layout",
+    "architecture",
+    "package-structure",
+    "monorepo",
+    "directory-conventions"
+  ],
+  "capabilities": [
+    "project.setup",
+    "code.organize",
+    "architecture.design",
+    "package.structure",
+    "module.organize"
+  ],
+  "representativeQueries": [
+    "How should I structure my Go project?",
+    "Set up a new Go monorepo with multiple packages",
+    "Help me organize an existing Go codebase",
+    "What's the best directory layout for a CLI tool?",
+    "How do I decide between cmd/internal/pkg directories?"
+  ],
+  "updatedAt": "2026-06-25T13:56:24.561Z"
+}

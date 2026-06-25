@@ -1,0 +1,47 @@
+slug: heygen-com-hyperframes-remotion-to-hyperframes
+entryId: heygen-com-hyperframes-remotion-to-hyperframes
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-remotion-to-hyperframes
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/remotion-to-hyperframes/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - remotion
+        - hyperframes
+        - migration
+        - video
+        - conversion
+        - html
+      capabilities:
+        - video.migrate
+        - video.convert
+        - code.translate
+        - remotion.export
+        - hyperframes.import
+      representativeQueries:
+        - port my Remotion project to HyperFrames
+        - convert this Remotion code to HyperFrames
+        - migrate from Remotion to HyperFrames
+        - translate this Remotion composition
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/remotion-to-hyperframes/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/remotion-to-hyperframes/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/remotion-to-hyperframes/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/remotion-to-hyperframes/SKILL.md
+  sourceDigest: sha256:6cf906c4491b9a323790f05b3bfe095b4eb81643aaf16255c271cbfe6f7b17f0
+  fetchedAt: 2026-06-25T13:57:27.787Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.854Z

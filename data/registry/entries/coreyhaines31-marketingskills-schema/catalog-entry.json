@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:schema",
+  "displayName": "schema",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/schema/SKILL.md",
+  "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+  "tags": [
+    "schema-markup",
+    "structured-data",
+    "json-ld",
+    "seo",
+    "rich-results"
+  ],
+  "capabilities": [
+    "seo.schema",
+    "search.optimize",
+    "data.structure",
+    "markup.validate",
+    "content.enrich"
+  ],
+  "representativeQueries": [
+    "Add schema markup to my product pages",
+    "How do I implement JSON-LD on my site?",
+    "Create FAQ schema for my website",
+    "Optimize my pages for Google rich results",
+    "Fix schema validation errors in search console"
+  ],
+  "updatedAt": "2026-06-25T13:52:44.102Z"
+}

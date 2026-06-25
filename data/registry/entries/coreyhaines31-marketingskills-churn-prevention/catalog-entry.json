@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:churn-prevention",
+  "displayName": "churn-prevention",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/churn-prevention/SKILL.md",
+  "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls.",
+  "tags": [
+    "churn-prevention",
+    "retention",
+    "saas",
+    "subscription",
+    "dunning",
+    "offboarding"
+  ],
+  "capabilities": [
+    "churn.prevent",
+    "retention.strategy",
+    "cancellation.flow",
+    "payment.recovery",
+    "billing.dunning"
+  ],
+  "representativeQueries": [
+    "how do I reduce customer churn",
+    "build a cancellation flow",
+    "set up save offers when canceling",
+    "recover failed payment attempts",
+    "improve subscription retention"
+  ],
+  "updatedAt": "2026-06-25T13:51:17.246Z"
+}

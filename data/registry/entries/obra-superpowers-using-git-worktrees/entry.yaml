@@ -1,0 +1,48 @@
+slug: obra-superpowers-using-git-worktrees
+entryId: obra-superpowers-using-git-worktrees
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-using-git-worktrees
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/using-git-worktrees/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - git
+        - worktree
+        - isolation
+        - workspace
+        - development
+        - branching
+      capabilities:
+        - git.worktree
+        - workspace.isolate
+        - workspace.create
+        - git.branch
+        - development.isolate
+      representativeQueries:
+        - Set up an isolated workspace for feature work
+        - Create a git worktree for my changes
+        - Isolate my work from the main branch with worktrees
+        - Start feature development in a separate worktree
+        - How do I protect my workspace while working on features
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-git-worktrees/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/using-git-worktrees/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-git-worktrees/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/using-git-worktrees/SKILL.md
+  sourceDigest: sha256:e2c3ec142e52868a51af246c620cd76ab648dcf27d6900d47e6ffd07159a9794
+  fetchedAt: 2026-06-25T13:55:55.835Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.947Z

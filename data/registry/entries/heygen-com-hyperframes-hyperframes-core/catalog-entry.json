@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:hyperframes-core",
+  "displayName": "hyperframes-core",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-core/SKILL.md",
+  "description": "The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Read before writing composition HTML.",
+  "tags": [
+    "video-composition",
+    "timing-attributes",
+    "animation-runtime",
+    "html-media",
+    "seekable-timeline",
+    "rendering"
+  ],
+  "capabilities": [
+    "composition.build",
+    "timing.configure",
+    "media.control",
+    "animation.create",
+    "structure.organize"
+  ],
+  "representativeQueries": [
+    "How do I create a HyperFrames composition",
+    "What are the data attributes for timing clips",
+    "How do I structure a modular composition",
+    "Can I control media playback in HyperFrames",
+    "Where are the composition references documented"
+  ],
+  "updatedAt": "2026-06-25T13:52:09.272Z"
+}

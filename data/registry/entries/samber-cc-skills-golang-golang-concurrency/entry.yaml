@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-concurrency
+entryId: samber-cc-skills-golang-golang-concurrency
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-concurrency
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-concurrency/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - concurrency
+        - goroutines
+        - channels
+        - synchronization
+        - patterns
+      capabilities:
+        - code.review
+        - code.write
+        - concurrency.audit
+        - concurrency.debug
+        - concurrency.optimize
+      representativeQueries:
+        - How do I fix this goroutine leak?
+        - Review my concurrent Go code for race conditions
+        - Design a worker pool pattern for processing tasks
+        - Debug goroutine leaks in my application
+        - What is the best way to synchronize goroutines?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-concurrency/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-concurrency/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-concurrency/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-concurrency/SKILL.md
+  sourceDigest: sha256:8e68d3f89da84b2fd61cd9c37c6e902d94ce4dcc45d421988ba4e67f556454bd
+  fetchedAt: 2026-06-25T13:55:44.329Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.002Z

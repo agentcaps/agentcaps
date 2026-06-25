@@ -1,0 +1,48 @@
+slug: xixu-me-skills-openclaw-secure-linux-cloud
+entryId: xixu-me-skills-openclaw-secure-linux-cloud
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: xixu-me-skills-openclaw-secure-linux-cloud
+  type: git_repository
+  url: https://github.com/xixu-me/skills
+  path: skills/openclaw-secure-linux-cloud/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - openclaw
+        - secure-hosting
+        - linux-deployment
+        - ssh-tunneling
+        - infrastructure
+        - hardening
+      capabilities:
+        - openclaw.deploy
+        - infrastructure.harden
+        - access.tunnel
+        - network.configure
+        - security.configure
+      representativeQueries:
+        - How do I securely deploy OpenClaw on a cloud server?
+        - What's the best way to harden an OpenClaw gateway on Linux?
+        - Should I use SSH tunneling or Tailscale for OpenClaw access?
+        - How do I set up OpenClaw with rootless Podman isolation?
+        - What are secure defaults for remote OpenClaw deployment?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/xixu-me/skills
+  sourceRepositoryUrl: https://github.com/xixu-me/skills
+  sourceWebUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/openclaw-secure-linux-cloud/SKILL.md
+  sourceCommit: fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4
+  trackingRef: HEAD
+  artifactPath: skills/openclaw-secure-linux-cloud/SKILL.md
+  pinnedArtifactUrl: https://github.com/xixu-me/skills/blob/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/openclaw-secure-linux-cloud/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/openclaw-secure-linux-cloud/SKILL.md
+  sourceDigest: sha256:12892b306b8010b3162902fbd7a66d64cdafd0b3d810a5b85ca2203f19d9979e
+  fetchedAt: 2026-06-25T13:53:30.248Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.069Z

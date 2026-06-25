@@ -1,0 +1,46 @@
+slug: microsoft-azure-skills-python-appservice-deploy
+entryId: microsoft-azure-skills-python-appservice-deploy
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-python-appservice-deploy
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/python-appservice-deploy/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - deployment
+        - python
+        - app-service
+        - infrastructure
+      capabilities:
+        - azure.deploy
+        - infrastructure.provision
+        - python.deploy
+        - deployment.configure
+      representativeQueries:
+        - Deploy Python Flask app to Azure App Service
+        - Deploy Django application to Azure App Service Linux
+        - Deploy FastAPI server to Azure App Service
+        - Set up Python web application on Azure App Service
+        - Deploy my Python code to Azure
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/python-appservice-deploy/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/python-appservice-deploy/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/python-appservice-deploy/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/python-appservice-deploy/SKILL.md
+  sourceDigest: sha256:084bd2ef7dce6fabaec77f02c48c1d794072fa6770f18c4f180f0c17c703a4c9
+  fetchedAt: 2026-06-25T13:46:46.949Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.923Z

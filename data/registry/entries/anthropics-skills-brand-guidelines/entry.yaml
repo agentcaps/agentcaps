@@ -8,12 +8,26 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/brand-guidelines/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: presentation
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - branding
+        - typography
+        - color-palette
+        - visual-design
+        - anthropic-brand
+        - styling
+      capabilities:
+        - design.apply-branding
+        - typography.apply-fonts
+        - branding.apply-colors
+        - visual.apply-styling
+      representativeQueries:
+        - Apply Anthropic brand colors and fonts to this artifact
+        - Update presentation with official brand guidelines
+        - Style this document with Anthropic brand identity
+        - Apply corporate styling to my design
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +39,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/brand-guidelines/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/brand-guidelines/SKILL.md
   sourceDigest: sha256:1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe
-  fetchedAt: 2026-06-24T08:07:15.033Z
+  fetchedAt: 2026-06-25T13:54:54.799Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.319Z
+  publishedAt: 2026-06-25T13:59:33.667Z

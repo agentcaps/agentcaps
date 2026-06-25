@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-modernize
+entryId: samber-cc-skills-golang-golang-modernize
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-modernize
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-modernize/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - modernization
+        - refactoring
+        - code-quality
+        - idioms
+        - legacy-code
+      capabilities:
+        - code.modernize
+        - golang.upgrade
+        - code.refactor
+        - testing.modernize
+        - golang.idioms
+      representativeQueries:
+        - Modernize this Go code to use recent features
+        - Update deprecated Go patterns in this codebase
+        - Apply Go 1.26 idioms and standard library improvements
+        - Scan for outdated Go patterns and suggest fixes
+        - Make this Go code more idiomatic and modern
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-modernize/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-modernize/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-modernize/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-modernize/SKILL.md
+  sourceDigest: sha256:baf5ecd8180e71809e870876cd43ac108e7726706e6ebc263e543b644f84b828
+  fetchedAt: 2026-06-25T13:56:15.856Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.020Z

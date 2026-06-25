@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-database
+entryId: samber-cc-skills-golang-golang-database
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-database
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-database/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - database
+        - sql
+        - backend
+        - queries
+        - transactions
+      capabilities:
+        - code.write
+        - code.review
+        - database.query
+        - database.transaction
+        - code.debug
+        - database.test
+      representativeQueries:
+        - Help me write a safe parameterized SQL query in Go
+        - Review this Go database code for security issues
+        - How do I handle transactions in Go database code?
+        - What's the right way to scan database rows in Go?
+        - Debug my Go code that's leaking database connections
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-database/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-database/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-database/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-database/SKILL.md
+  sourceDigest: sha256:a69c730085d906c6ed420b9d9e98b026fdf2b3524cfbf3cda9db16db58496bf3
+  fetchedAt: 2026-06-25T13:56:00.753Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.006Z

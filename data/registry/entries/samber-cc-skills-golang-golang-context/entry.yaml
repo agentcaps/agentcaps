@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-context
+entryId: samber-cc-skills-golang-golang-context
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-context
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-context/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - context-handling
+        - concurrency
+        - cancellation
+        - api-design
+        - timeout-management
+      capabilities:
+        - go.context-design
+        - code.review
+        - api.design
+        - concurrency.cancellation
+        - patterns.propagation
+        - debug.context-leaks
+      representativeQueries:
+        - How should I propagate context through my API layers?
+        - What's the right way to handle context cancellation in Go?
+        - How do I avoid context leaks in my Go microservice?
+        - When should I use context.WithoutCancel instead of Background?
+        - Design context flow for database queries and timeout handling
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-context/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-context/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-context/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-context/SKILL.md
+  sourceDigest: sha256:2c801e7a59f3885058ed70d19423f8c943525294182796c46101c4a554ca4cb1
+  fetchedAt: 2026-06-25T13:55:53.979Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.003Z

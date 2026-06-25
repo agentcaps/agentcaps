@@ -1,0 +1,46 @@
+slug: obra-superpowers-requesting-code-review
+entryId: obra-superpowers-requesting-code-review
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-requesting-code-review
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/requesting-code-review/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - code-review
+        - quality-assurance
+        - development
+        - verification
+        - peer-review
+      capabilities:
+        - code.review
+        - code.verify
+        - development.qa
+        - task.validate
+      representativeQueries:
+        - Review my code before merging to main
+        - Request a code review for this change
+        - Check my implementation before proceeding
+        - Get feedback on my recent changes
+        - Verify this code meets requirements
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/requesting-code-review/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/requesting-code-review/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/requesting-code-review/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/requesting-code-review/SKILL.md
+  sourceDigest: sha256:1017ccdd5bc61fab67c654cf118cbdb520464b313073a0a6b9a6b9aa647a3ad6
+  fetchedAt: 2026-06-25T13:55:33.148Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.941Z

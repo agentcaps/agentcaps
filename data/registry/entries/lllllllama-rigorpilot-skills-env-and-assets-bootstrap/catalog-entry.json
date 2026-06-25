@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:env-and-assets-bootstrap",
+  "displayName": "env-and-assets-bootstrap",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/env-and-assets-bootstrap/SKILL.md",
+  "description": "Rigor Setup skill for README-first deep learning repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target.",
+  "tags": [
+    "environment-setup",
+    "conda",
+    "deep-learning",
+    "reproduction",
+    "assets-bootstrap"
+  ],
+  "capabilities": [
+    "environment.setup",
+    "environment.configure",
+    "assets.prepare",
+    "checkpoint.locate"
+  ],
+  "representativeQueries": [
+    "Set up conda environment for deep learning repo reproduction",
+    "Prepare checkpoint and dataset paths before running experiments",
+    "Configure environment variables and cache directories for models",
+    "Bootstrap conda environment with dependencies from README",
+    "Plan asset preparation for deep learning model reproduction"
+  ],
+  "updatedAt": "2026-06-25T13:59:03.821Z"
+}

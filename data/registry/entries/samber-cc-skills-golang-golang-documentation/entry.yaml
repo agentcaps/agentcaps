@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-documentation
+entryId: samber-cc-skills-golang-golang-documentation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-documentation
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-documentation/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - documentation
+        - godoc
+        - api-docs
+        - code-examples
+        - technical-writing
+      capabilities:
+        - documentation.write
+        - documentation.review
+        - godoc.generate
+        - code-examples.create
+        - api-documentation.design
+      representativeQueries:
+        - Write godoc comments for this package
+        - Review and improve our API documentation
+        - Generate example tests for the database module
+        - Help me write a comprehensive README for this Go library
+        - Set up documentation best practices for our Go project
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-documentation/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-documentation/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-documentation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-documentation/SKILL.md
+  sourceDigest: sha256:4933113eae9d7b9c6db14cf7b19cdfc97a1dfcdf7721edb8f7c4ba351f3646a3
+  fetchedAt: 2026-06-25T13:56:10.801Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.011Z

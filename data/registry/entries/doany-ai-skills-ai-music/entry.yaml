@@ -1,0 +1,47 @@
+slug: doany-ai-skills-ai-music
+entryId: doany-ai-skills-ai-music
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-ai-music
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: ai-music/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - ai-music
+        - music-generation
+        - audio
+        - runcomfy
+        - generative-ai
+      capabilities:
+        - music.generate
+        - audio.inpaint
+        - audio.outpaint
+        - music.extend
+        - music.compose
+      representativeQueries:
+        - Generate AI music for my project
+        - Create background music for video
+        - Make a song with AI music generation
+        - Extend this music track longer please
+        - Fix the chorus in this audio track
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-music/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: ai-music/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-music/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-music/SKILL.md
+  sourceDigest: sha256:afec31ead5a4a0b5011be38be6d755bd111b605f7cbdfbe99859b112ac61ff88
+  fetchedAt: 2026-06-25T13:50:26.307Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.779Z

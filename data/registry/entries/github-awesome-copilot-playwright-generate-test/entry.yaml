@@ -1,0 +1,44 @@
+slug: github-awesome-copilot-playwright-generate-test
+entryId: github-awesome-copilot-playwright-generate-test
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: github-awesome-copilot-playwright-generate-test
+  type: git_repository
+  url: https://github.com/github/awesome-copilot
+  path: skills/playwright-generate-test/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - playwright
+        - test-generation
+        - automated-testing
+        - e2e
+        - testing
+        - code-generation
+      capabilities:
+        - test.generate
+        - test.playwright
+        - code.generate
+        - browser.automate
+        - qa.test
+      representativeQueries:
+        - Generate a Playwright test for this scenario
+        - Create automated tests using Playwright MCP
+        - Write a Playwright test for user workflows
+        - Generate end-to-end tests automatically
+        - Build Playwright tests from scenario descriptions
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/github/awesome-copilot
+  sourceRepositoryUrl: https://github.com/github/awesome-copilot
+  sourceWebUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/playwright-generate-test/SKILL.md
+  sourceCommit: e9c8e3704181fa38245d101308a8527d12af6a4d
+  trackingRef: HEAD
+  artifactPath: skills/playwright-generate-test/SKILL.md
+  pinnedArtifactUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/playwright-generate-test/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/playwright-generate-test/SKILL.md
+  sourceDigest: sha256:79dbb1a49fc5a6502788ccba1a4bd30769a017a1cc31d9db329d1326ea3d898f
+  fetchedAt: 2026-06-25T14:01:48.342Z

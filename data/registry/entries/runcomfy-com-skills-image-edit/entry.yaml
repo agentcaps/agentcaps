@@ -1,0 +1,49 @@
+slug: runcomfy-com-skills-image-edit
+entryId: runcomfy-com-skills-image-edit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-image-edit
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: image-edit/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-edit
+        - image-manipulation
+        - runcomfy
+        - ai-models
+        - batch-processing
+        - inpainting
+      capabilities:
+        - image.edit
+        - image.inpaint
+        - image.remove-object
+        - image.swap-background
+        - image.rewrite-text
+        - image.batch-process
+      representativeQueries:
+        - Remove the background from these images
+        - Swap the background in this photo
+        - Rewrite the text in this image in Japanese
+        - Batch edit my product photos
+        - Remove an object from the image
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-edit/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: image-edit/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-edit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-edit/SKILL.md
+  sourceDigest: sha256:17c1b6b5c8c8162928eb0be77d1fe274f868ae287acd15a8838e6a83272c0192
+  fetchedAt: 2026-06-25T13:48:43.735Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.975Z

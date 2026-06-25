@@ -1,0 +1,49 @@
+slug: lllllllama-rigorpilot-skills-ai-research-explore
+entryId: lllllllama-rigorpilot-skills-ai-research-explore
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-ai-research-explore
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/ai-research-explore/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - research
+        - deep-learning
+        - exploration
+        - experiment-tracking
+        - reproducibility
+        - rigor
+      capabilities:
+        - research.explore
+        - research.evaluate
+        - experiment.track
+        - model.benchmark
+        - research.audit
+        - research.compare
+      representativeQueries:
+        - Explore novel deep learning architectures for image classification
+        - Run candidate experiments on this dataset with fair comparison
+        - Evaluate multiple model variants against SOTA benchmarks
+        - Track and compare experimental results systematically
+        - Audit repository changes and experiment reproducibility
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/ai-research-explore/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/ai-research-explore/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/ai-research-explore/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/ai-research-explore/SKILL.md
+  sourceDigest: sha256:df5ee97ea5417dfdb7d6a5ad6f470aa44d729249687902d3178fd5e011926f81
+  fetchedAt: 2026-06-25T13:59:14.323Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.871Z

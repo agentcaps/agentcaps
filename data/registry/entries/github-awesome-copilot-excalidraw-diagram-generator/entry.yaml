@@ -1,0 +1,44 @@
+slug: github-awesome-copilot-excalidraw-diagram-generator
+entryId: github-awesome-copilot-excalidraw-diagram-generator
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: github-awesome-copilot-excalidraw-diagram-generator
+  type: git_repository
+  url: https://github.com/github/awesome-copilot
+  path: skills/excalidraw-diagram-generator/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - diagram-generation
+        - visualization
+        - excalidraw
+        - flowchart
+        - architecture-design
+        - mindmap
+      capabilities:
+        - diagram.generate
+        - visualization.create
+        - architecture.diagram
+        - flowchart.generate
+        - process.visualize
+      representativeQueries:
+        - Create a diagram showing the system architecture
+        - Generate a flowchart for this workflow process
+        - Visualize the relationships between these components
+        - Make a mind map for project organization
+        - Draw an entity relationship diagram for our database
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/github/awesome-copilot
+  sourceRepositoryUrl: https://github.com/github/awesome-copilot
+  sourceWebUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/excalidraw-diagram-generator/SKILL.md
+  sourceCommit: e9c8e3704181fa38245d101308a8527d12af6a4d
+  trackingRef: HEAD
+  artifactPath: skills/excalidraw-diagram-generator/SKILL.md
+  pinnedArtifactUrl: https://github.com/github/awesome-copilot/blob/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/excalidraw-diagram-generator/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/excalidraw-diagram-generator/SKILL.md
+  sourceDigest: sha256:60df556e63d85ad51350fa448c097a1473d2e6e0adf4aad6e1a6c22eb536cfe9
+  fetchedAt: 2026-06-25T13:59:58.270Z

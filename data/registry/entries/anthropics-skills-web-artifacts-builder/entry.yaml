@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/web-artifacts-builder/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - web-artifacts
+        - react
+        - artifact-builder
+        - frontend
+        - html-bundling
+        - shadcn-ui
+      capabilities:
+        - artifact.create
+        - artifact.bundle
+        - frontend.build
+        - ui.create
+        - html.generate
+      representativeQueries:
+        - Create a React artifact for displaying data
+        - Build an interactive HTML widget with shadcn/ui components
+        - Generate a multi-component frontend application
+        - Bundle my React project into a single HTML file
+        - Make an elaborate web artifact with Tailwind CSS
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/web-artifacts-builder/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/web-artifacts-builder/SKILL.md
   sourceDigest: sha256:81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:55:03.514Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.333Z
+  publishedAt: 2026-06-25T13:59:33.688Z

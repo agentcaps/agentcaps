@@ -4,5 +4,28 @@
   "type": "application/ai-skill",
   "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/internal-comms/SKILL.md",
   "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
-  "updatedAt": "2026-06-24T08:07:15.034Z"
+  "tags": [
+    "internal-comms",
+    "status-reports",
+    "business-writing",
+    "communication-templates",
+    "company-updates",
+    "team-communication"
+  ],
+  "capabilities": [
+    "communication.write",
+    "communication.compose",
+    "communication.format",
+    "writing.business",
+    "document.create",
+    "status.report"
+  ],
+  "representativeQueries": [
+    "Help me draft a weekly status report",
+    "Write a leadership update for my team",
+    "Create a 3P update with progress and plans",
+    "Generate a company newsletter from these updates",
+    "Help me write an incident report"
+  ],
+  "updatedAt": "2026-06-25T13:55:06.890Z"
 }

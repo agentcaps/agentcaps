@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:ai-avatar-video",
+  "displayName": "ai-avatar-video",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/ai-avatar-video/SKILL.md",
+  "description": "Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"talking head\", \"lip sync\", \"avatar video\", \"make X speak\", \"audio to video\", \"audio driven avatar\", \"virtual presenter\", \"AI spokesperson\", \"dubbed video\", \"UGC avatar\", \"HeyGen alternative\", \"Synthesia alternative\", \"digital human\", \"make this portrait talk\", \"video from voiceover\", or any explicit ask to put words in a face.",
+  "tags": [
+    "avatar-video",
+    "lip-sync",
+    "talking-head",
+    "audio-driven",
+    "video-generation"
+  ],
+  "capabilities": [
+    "video.generate",
+    "avatar.create",
+    "speech.animate",
+    "audio.synthesize",
+    "media.create"
+  ],
+  "representativeQueries": [
+    "Create a talking head video from audio",
+    "Generate an AI avatar speaking my script",
+    "Make this portrait talk with lip sync",
+    "Create a virtual presenter from voiceover",
+    "Generate a dubbed video with AI avatar"
+  ],
+  "updatedAt": "2026-06-25T13:49:54.112Z"
+}

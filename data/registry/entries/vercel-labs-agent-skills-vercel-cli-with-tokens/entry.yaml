@@ -1,0 +1,45 @@
+slug: vercel-labs-agent-skills-vercel-cli-with-tokens
+entryId: vercel-labs-agent-skills-vercel-cli-with-tokens
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: vercel-labs-agent-skills-vercel-cli-with-tokens
+  type: git_repository
+  url: https://github.com/vercel-labs/agent-skills
+  path: skills/vercel-cli-with-tokens/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - vercel
+        - deployment
+        - cli
+        - token-auth
+        - devops
+      capabilities:
+        - deployment.deploy
+        - project.configure
+        - environment.manage
+        - authentication.token
+      representativeQueries:
+        - Deploy my project to Vercel
+        - Set up Vercel with token authentication
+        - Configure environment variables on Vercel
+        - Manage my Vercel project settings
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/vercel-labs/agent-skills
+  sourceRepositoryUrl: https://github.com/vercel-labs/agent-skills
+  sourceWebUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/vercel-cli-with-tokens/SKILL.md
+  sourceCommit: f8a72b9603728bb92a217a879b7e62e43ad76c81
+  trackingRef: HEAD
+  artifactPath: skills/vercel-cli-with-tokens/SKILL.md
+  pinnedArtifactUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/vercel-cli-with-tokens/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/vercel-cli-with-tokens/SKILL.md
+  sourceDigest: sha256:c06bea99e75eab07fde4fae26069baa002f82f39b53f07981704c2901551dd4c
+  fetchedAt: 2026-06-25T13:54:39.783Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.059Z

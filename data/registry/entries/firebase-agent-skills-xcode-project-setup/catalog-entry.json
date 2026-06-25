@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:xcode-project-setup",
+  "displayName": "xcode-project-setup",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/xcode-project-setup/SKILL.md",
+  "description": "Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project needs dependencies installed (e.g. Firebase, Alamofire).",
+  "tags": [
+    "xcode",
+    "ios",
+    "swift-packages",
+    "dependencies",
+    "project-setup"
+  ],
+  "capabilities": [
+    "xcode.setup",
+    "dependencies.add",
+    "spm.configure",
+    "xcode.link-frameworks",
+    "project.modify-settings"
+  ],
+  "representativeQueries": [
+    "Add Firebase to my iOS project",
+    "Set up Swift Package dependencies in Xcode",
+    "How do I link frameworks to an Xcode project?",
+    "Configure SPM packages for iOS development",
+    "Fix Firebase linker errors in Xcode"
+  ],
+  "updatedAt": "2026-06-25T13:58:35.419Z"
+}

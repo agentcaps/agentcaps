@@ -1,0 +1,45 @@
+slug: juliusbrussee-caveman-caveman
+entryId: juliusbrussee-caveman-caveman
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: juliusbrussee-caveman-caveman
+  type: git_repository
+  url: https://github.com/juliusbrussee/caveman
+  path: skills/caveman/SKILL.md
+  curation:
+    category: communication
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - compression
+        - token-efficiency
+        - communication-style
+        - brevity
+        - terseness
+      capabilities:
+        - communication.compress
+        - language.terse
+        - efficiency.token-reduce
+      representativeQueries:
+        - Talk like a caveman to save tokens
+        - Use caveman mode for this response
+        - Compress your responses significantly
+        - Give me the ultra-compressed version
+        - Reduce token usage by removing fluff
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/juliusbrussee/caveman
+  sourceRepositoryUrl: https://github.com/juliusbrussee/caveman
+  sourceWebUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman/SKILL.md
+  sourceCommit: 25d22f864ad68cc447a4cb93aefde918aa4aec9f
+  trackingRef: HEAD
+  artifactPath: skills/caveman/SKILL.md
+  pinnedArtifactUrl: https://github.com/juliusbrussee/caveman/blob/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/juliusbrussee/caveman/25d22f864ad68cc447a4cb93aefde918aa4aec9f/skills/caveman/SKILL.md
+  sourceDigest: sha256:e38ec671ecbee47ce234190be12615daf60ac667d775b7340d49d07f4f63c7bc
+  fetchedAt: 2026-06-25T13:55:08.493Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.860Z

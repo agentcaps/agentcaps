@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-pricing
+entryId: coreyhaines31-marketingskills-pricing
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-pricing
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/pricing/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - pricing
+        - saas
+        - monetization
+        - pricing-strategy
+        - value-metric
+        - revenue-optimization
+      capabilities:
+        - pricing.design
+        - pricing.optimize
+        - monetization.structure
+        - value-metrics.define
+        - pricing.tier
+        - revenue.model
+      representativeQueries:
+        - How should I price my SaaS product?
+        - What's the right value metric for my pricing?
+        - How do I create effective pricing tiers?
+        - Should I charge per seat or per usage?
+        - How can I optimize my pricing strategy?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/pricing/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/pricing/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/pricing/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/pricing/SKILL.md
+  sourceDigest: sha256:a5d1cfe49b80569089b3d80f29b92075cf7554cef7e3cf618ef705a348a133f0
+  fetchedAt: 2026-06-25T13:52:21.552Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.754Z

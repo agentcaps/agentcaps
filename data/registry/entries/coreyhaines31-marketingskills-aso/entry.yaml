@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-aso
+entryId: coreyhaines31-marketingskills-aso
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-aso
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/aso/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - app-store-optimization
+        - aso
+        - app-listing
+        - app-marketing
+        - app-store-audit
+        - keyword-optimization
+      capabilities:
+        - app.audit
+        - app.optimize
+        - app.compare
+        - store.analyze
+        - listing.score
+      representativeQueries:
+        - Audit my app store listing for improvements
+        - How can I improve my app's store visibility?
+        - Optimize my app for better search rankings
+        - Compare my app to direct competitors
+        - What keywords should I use in my app?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/aso/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/aso/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/aso/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/aso/SKILL.md
+  sourceDigest: sha256:158f42a00846d9e4bb2a27c0ecf8c10745891a45916dc3de9127a124c0a6dcfc
+  fetchedAt: 2026-06-25T13:53:18.606Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.708Z

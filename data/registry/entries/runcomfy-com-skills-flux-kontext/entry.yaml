@@ -1,0 +1,47 @@
+slug: runcomfy-com-skills-flux-kontext
+entryId: runcomfy-com-skills-flux-kontext
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-flux-kontext
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: flux-kontext/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - flux-kontext
+        - image-editing
+        - runcomfy
+        - ai-image
+        - local-edit
+        - high-fidelity
+      capabilities:
+        - image.edit
+        - image.modify
+        - image.enhance
+        - model.invoke
+      representativeQueries:
+        - Edit this image with Flux Kontext Pro
+        - Modify image using Kontext local edit
+        - Can you refine an image with Flux 1
+        - Use BFL Kontext to edit this image
+        - Edit image keeping the person's identity
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/flux-kontext/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: flux-kontext/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/flux-kontext/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/flux-kontext/SKILL.md
+  sourceDigest: sha256:1ae706a2a0e8e006ff5197b3bc0309b386523e27a99bac3556c5eaae34c47106
+  fetchedAt: 2026-06-25T13:49:11.311Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.969Z

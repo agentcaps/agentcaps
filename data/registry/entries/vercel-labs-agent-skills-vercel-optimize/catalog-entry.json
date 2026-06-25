@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:vercel-labs:agent-skills:skill:vercel-optimize",
+  "displayName": "vercel-optimize",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/vercel-optimize/SKILL.md",
+  "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
+  "tags": [
+    "vercel-optimization",
+    "performance-tuning",
+    "cost-reduction",
+    "observability",
+    "infrastructure",
+    "metrics-analysis"
+  ],
+  "capabilities": [
+    "infrastructure.optimize",
+    "performance.analyze",
+    "cost.analyze",
+    "deployment.audit",
+    "caching.optimize"
+  ],
+  "representativeQueries": [
+    "How can I reduce my Vercel bill this month?",
+    "What's making my Next.js app slow to deploy?",
+    "Optimize Core Web Vitals scores for my site",
+    "Find expensive routes in my Vercel project",
+    "How can I improve caching on my deployment?"
+  ],
+  "updatedAt": "2026-06-25T13:54:42.737Z"
+}

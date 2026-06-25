@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:runcomfy-com:skills:skill:seedance-v2",
+  "displayName": "seedance-v2",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/seedance-v2/SKILL.md",
+  "description": "Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on \"seedance\", \"seedance 2\", \"seedance v2\", \"seedance pro\", \"bytedance video\", or any explicit ask to generate video with this model.",
+  "tags": [
+    "video-generation",
+    "bytedance",
+    "ai-video",
+    "multimodal",
+    "lip-sync",
+    "cinematic"
+  ],
+  "capabilities": [
+    "video.generate",
+    "video.create",
+    "media.compose",
+    "audio.sync",
+    "content.generate"
+  ],
+  "representativeQueries": [
+    "Generate a cinematic video with Seedance 2.0 Pro",
+    "Create a lip-synced spokesperson video from images",
+    "Make a short-form video with multiple audio references",
+    "Generate video from multimodal inputs using Seedance",
+    "Create a brand-consistent multi-language video"
+  ],
+  "updatedAt": "2026-06-25T13:48:05.354Z"
+}

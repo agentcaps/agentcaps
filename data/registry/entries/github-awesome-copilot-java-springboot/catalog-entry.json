@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:java-springboot",
+  "displayName": "java-springboot",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/java-springboot/SKILL.md",
+  "description": "Get best practices for developing applications with Spring Boot.",
+  "tags": [
+    "java",
+    "spring-boot",
+    "best-practices",
+    "rest-api",
+    "configuration",
+    "dependency-injection"
+  ],
+  "capabilities": [
+    "framework.configure",
+    "api.design",
+    "database.query",
+    "code.validate",
+    "code.structure"
+  ],
+  "representativeQueries": [
+    "How do I structure a Spring Boot project?",
+    "What are Spring Boot best practices?",
+    "How do I configure a Spring Boot application?",
+    "How should I handle validation in my REST API?",
+    "What's the best way to organize my Spring Boot code?"
+  ],
+  "updatedAt": "2026-06-25T14:00:15.850Z"
+}

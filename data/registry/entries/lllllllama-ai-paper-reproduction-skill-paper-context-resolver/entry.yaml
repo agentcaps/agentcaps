@@ -1,0 +1,43 @@
+slug: lllllllama-ai-paper-reproduction-skill-paper-context-resolver
+entryId: lllllllama-ai-paper-reproduction-skill-paper-context-resolver
+publicationStatus: imported
+driftStatus: unknown
+source:
+  slug: lllllllama-ai-paper-reproduction-skill-paper-context-resolver
+  type: git_repository
+  url: https://github.com/lllllllama/ai-paper-reproduction-skill
+  path: skills/paper-context-resolver/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - paper-research
+        - reproduction-support
+        - academic-context
+        - evidence-gathering
+        - deep-learning
+      capabilities:
+        - research.resolve
+        - paper.extract
+        - reproduction.verify
+        - academic.search
+        - evidence.gather
+      representativeQueries:
+        - What dataset split does the original paper use?
+        - Find preprocessing steps from the paper source
+        - Resolve checkpoint mapping from the original work
+        - What evaluation protocol does the paper describe?
+        - How do the paper's runtime assumptions differ from the README?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/ai-paper-reproduction-skill
+  sourceRepositoryUrl: https://github.com/lllllllama/ai-paper-reproduction-skill
+  sourceWebUrl: https://github.com/lllllllama/ai-paper-reproduction-skill/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/paper-context-resolver/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/ai-paper-reproduction-skill/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/ai-paper-reproduction-skill/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/paper-context-resolver/SKILL.md
+  sourceDigest: sha256:a2351c67577fe3a534a33c104af6fc45407a7df51f02893596598304831b1b22
+  fetchedAt: 2026-06-25T13:59:40.713Z

@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-directory-submissions
+entryId: coreyhaines31-marketingskills-directory-submissions
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-directory-submissions
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/directory-submissions/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - marketing
+        - distribution
+        - seo
+        - backlinks
+        - product-launch
+        - directories
+      capabilities:
+        - marketing.distribute
+        - seo.backlink
+        - product.launch
+        - marketing.position
+        - discovery.distribution
+      representativeQueries:
+        - submit my product to AI directories
+        - how do I get dofollow backlinks from directories
+        - list my SaaS on Product Hunt and alternatives
+        - create a directory submission strategy for launch
+        - submit my agent to the MCP registry
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/directory-submissions/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/directory-submissions/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/directory-submissions/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/directory-submissions/SKILL.md
+  sourceDigest: sha256:dd08854f5cd1e16413dd588b13e02a32ce01dd3a9f4e9b1099f92a7b635ac24a
+  fetchedAt: 2026-06-25T13:51:44.094Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.732Z

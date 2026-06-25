@@ -1,0 +1,46 @@
+slug: doany-ai-skills-happyhorse-1-0
+entryId: doany-ai-skills-happyhorse-1-0
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-happyhorse-1-0
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: happyhorse-1-0/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - video-generation
+        - text-to-video
+        - ai-model
+        - runcomfy
+        - character-consistency
+        - audio-sync
+      capabilities:
+        - video.generate
+        - media.create
+        - audio.generate
+      representativeQueries:
+        - Generate a video using HappyHorse 1.0
+        - Create a multi-shot video with consistent characters
+        - Make a video from my text prompt
+        - Generate video with synchronized audio
+        - Text-to-video generation with character consistency
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/happyhorse-1-0/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: happyhorse-1-0/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/happyhorse-1-0/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/happyhorse-1-0/SKILL.md
+  sourceDigest: sha256:eaca8bb73e047efd0d2ab742a82dad5d52a0bda073e4fb301b3a651046475e00
+  fetchedAt: 2026-06-25T13:49:59.594Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.792Z

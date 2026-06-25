@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:dispatching-parallel-agents",
+  "displayName": "dispatching-parallel-agents",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/dispatching-parallel-agents/SKILL.md",
+  "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+  "tags": [
+    "parallel-execution",
+    "agent-dispatch",
+    "concurrency",
+    "multi-agent",
+    "independent-tasks"
+  ],
+  "capabilities": [
+    "agent.dispatch",
+    "workflow.coordinate",
+    "task.parallelize",
+    "agent.isolate",
+    "execution.concurrent"
+  ],
+  "representativeQueries": [
+    "How do I run multiple independent tasks at the same time?",
+    "I have several unrelated bugs to fix - should I use multiple agents?",
+    "Can I dispatch agents to work on different test files in parallel?",
+    "What's the best way to investigate multiple independent failures concurrently?"
+  ],
+  "updatedAt": "2026-06-25T13:56:01.658Z"
+}

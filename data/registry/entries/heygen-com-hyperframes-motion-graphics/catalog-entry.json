@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:motion-graphics",
+  "displayName": "motion-graphics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/motion-graphics/SKILL.md",
+  "description": "Use when the user wants a short, design-led motion graphic where motion is the message: kinetic typography, stat or number count-up, chart/data-viz hit, logo sting, brand lockup, lower-third, callout, social overlay, animated headline/tweet/news item, motion poster, or quick captured-page highlight. Usually under 10s and up to ~30s, with no narration arc, voice-over, or live-action subject. Can render to MP4 or transparent overlay. Not for longer, multi-scene, narrated, or brand-reel pieces (use general-video), narrated website videos (website-to-video), topic explainers (faceless-explainer), product promos (product-launch-video), PR videos (pr-to-video), or captions on existing footage (embedded-captions). When unsure whether it's a quick motion-first piece or a longer / narrated treatment, see /hyperframes.",
+  "tags": [
+    "motion-graphics",
+    "kinetic-typography",
+    "data-viz",
+    "logo-reveal",
+    "short-form",
+    "overlay"
+  ],
+  "capabilities": [
+    "video.generate",
+    "design.motion",
+    "text.animate",
+    "graphics.render",
+    "data.visualize"
+  ],
+  "representativeQueries": [
+    "Create a kinetic typography animation for my headline",
+    "Make an animated data visualization showing our metrics",
+    "Design a logo sting animation for our brand",
+    "Generate a lower-third graphic for my news report",
+    "Create an animated social media overlay graphic"
+  ],
+  "updatedAt": "2026-06-25T13:58:10.660Z"
+}

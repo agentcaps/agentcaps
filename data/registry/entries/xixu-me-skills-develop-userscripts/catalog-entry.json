@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:develop-userscripts",
+  "displayName": "develop-userscripts",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/develop-userscripts/SKILL.md",
+  "description": "Use when building, debugging, packaging, or publishing browser userscripts for Tampermonkey or ScriptCat, including GM APIs, metadata blocks, permission issues, @match/@grant/@connect setup, ScriptCat background or scheduled scripts, UserConfig blocks, or subscription workflows.",
+  "tags": [
+    "userscript",
+    "browser-automation",
+    "tampermonkey",
+    "scriptcat",
+    "javascript",
+    "web-automation"
+  ],
+  "capabilities": [
+    "browser.script-build",
+    "browser.script-debug",
+    "browser.script-package",
+    "web.automate",
+    "code.inject"
+  ],
+  "representativeQueries": [
+    "Help me debug my Tampermonkey script permissions",
+    "How do I create and package a ScriptCat userscript",
+    "Set up @match and @grant metadata for my script",
+    "Debug injection timing issues in my userscript",
+    "Create a background script with scheduled tasks"
+  ],
+  "updatedAt": "2026-06-25T13:54:13.257Z"
+}

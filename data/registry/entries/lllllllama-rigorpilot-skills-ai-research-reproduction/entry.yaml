@@ -1,0 +1,49 @@
+slug: lllllllama-rigorpilot-skills-ai-research-reproduction
+entryId: lllllllama-rigorpilot-skills-ai-research-reproduction
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: lllllllama-rigorpilot-skills-ai-research-reproduction
+  type: git_repository
+  url: https://github.com/lllllllama/rigorpilot-skills
+  path: skills/ai-research-reproduction/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - research-reproduction
+        - deep-learning
+        - reproducibility
+        - experiment-setup
+        - scientific-rigor
+        - repository-audit
+      capabilities:
+        - research.reproduce
+        - experiment.execute
+        - code.setup
+        - experiment.verify
+        - report.generate
+        - repository.analyze
+      representativeQueries:
+        - Reproduce this deep learning research repository
+        - Help me set up and run this AI experiment
+        - Verify the evaluation results from this paper
+        - Execute the training workflow with auditable evidence
+        - Audit this research repository for reproducibility
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceRepositoryUrl: https://github.com/lllllllama/rigorpilot-skills
+  sourceWebUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/ai-research-reproduction/SKILL.md
+  sourceCommit: 56bc41c40beabc42f5628f06bb2634a5196071f5
+  trackingRef: HEAD
+  artifactPath: skills/ai-research-reproduction/SKILL.md
+  pinnedArtifactUrl: https://github.com/lllllllama/rigorpilot-skills/blob/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/ai-research-reproduction/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/ai-research-reproduction/SKILL.md
+  sourceDigest: sha256:a6fbf695cfa0fd729062b748cb67b8f1b67aa0231cea666362f4a619d00dfb9a
+  fetchedAt: 2026-06-25T13:59:01.205Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.872Z

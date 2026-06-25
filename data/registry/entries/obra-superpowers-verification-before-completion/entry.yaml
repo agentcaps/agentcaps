@@ -1,0 +1,48 @@
+slug: obra-superpowers-verification-before-completion
+entryId: obra-superpowers-verification-before-completion
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: obra-superpowers-verification-before-completion
+  type: git_repository
+  url: https://github.com/obra/superpowers
+  path: skills/verification-before-completion/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - verification
+        - quality-assurance
+        - testing
+        - completion-gates
+        - process
+        - evidence-based
+      capabilities:
+        - work.verify
+        - testing.validate
+        - quality.gate
+        - completion.checkpoint
+        - code.verify
+      representativeQueries:
+        - Verify tests pass before committing changes
+        - Check that my fix actually resolves the issue
+        - Make sure the build succeeds before pushing
+        - Validate all requirements are met and verified
+        - Confirm the code change works as expected
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/obra/superpowers
+  sourceRepositoryUrl: https://github.com/obra/superpowers
+  sourceWebUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/verification-before-completion/SKILL.md
+  sourceCommit: 896224c4b1879920ab573417e68fd51d2ccc9072
+  trackingRef: HEAD
+  artifactPath: skills/verification-before-completion/SKILL.md
+  pinnedArtifactUrl: https://github.com/obra/superpowers/blob/896224c4b1879920ab573417e68fd51d2ccc9072/skills/verification-before-completion/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/verification-before-completion/SKILL.md
+  sourceDigest: sha256:ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c
+  fetchedAt: 2026-06-25T13:55:49.262Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.950Z

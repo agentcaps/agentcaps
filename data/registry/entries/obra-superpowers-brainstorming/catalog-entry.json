@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:brainstorming",
+  "displayName": "brainstorming",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/brainstorming/SKILL.md",
+  "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+  "tags": [
+    "design",
+    "planning",
+    "requirements",
+    "discovery",
+    "creative",
+    "collaboration"
+  ],
+  "capabilities": [
+    "design.explore",
+    "design.propose",
+    "workflow.clarify",
+    "planning.structure",
+    "discovery.requirements",
+    "design.document"
+  ],
+  "representativeQueries": [
+    "Help me design the architecture for my new feature",
+    "I want to brainstorm ideas before I start coding",
+    "Walk me through the design process for this component",
+    "Let's explore requirements and constraints for this project",
+    "Help me think through the UX before implementation"
+  ],
+  "updatedAt": "2026-06-25T13:55:23.898Z"
+}

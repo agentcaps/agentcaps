@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:free-tools",
+  "displayName": "free-tools",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/free-tools/SKILL.md",
+  "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
+  "tags": [
+    "marketing",
+    "lead-generation",
+    "free-tools",
+    "tool-strategy",
+    "seo"
+  ],
+  "capabilities": [
+    "marketing.plan",
+    "marketing.evaluate",
+    "marketing.build",
+    "lead.generate",
+    "seo.optimize"
+  ],
+  "representativeQueries": [
+    "Should I build a free tool for leads?",
+    "How do I plan a marketing tool strategy?",
+    "What types of free tools generate leads?",
+    "I want to build an interactive calculator",
+    "How do I evaluate tool ideas before building?"
+  ],
+  "updatedAt": "2026-06-25T13:52:51.318Z"
+}

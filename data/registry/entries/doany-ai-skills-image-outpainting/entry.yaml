@@ -1,0 +1,47 @@
+slug: doany-ai-skills-image-outpainting
+entryId: doany-ai-skills-image-outpainting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-image-outpainting
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: image-outpainting/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-outpainting
+        - image-extension
+        - aspect-ratio
+        - canvas-expansion
+        - image-editing
+      capabilities:
+        - image.outpaint
+        - image.extend
+        - image.uncrop
+        - image.edit
+        - image.resize
+      representativeQueries:
+        - Extend this image to a wider aspect ratio
+        - Outpaint this photo to fill more canvas
+        - Change this square image to 16:9 landscape
+        - Uncrop this portrait to fill a wider frame
+        - Add canvas around this image while preserving content
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-outpainting/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: image-outpainting/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-outpainting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/image-outpainting/SKILL.md
+  sourceDigest: sha256:f1507fa330c210e9d821ec36a9045689ec5dd43d47a9a8bba59d34a0f52b74c4
+  fetchedAt: 2026-06-25T13:49:20.131Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.796Z

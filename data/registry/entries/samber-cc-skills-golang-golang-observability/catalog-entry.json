@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-observability",
+  "displayName": "golang-observability",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-observability/SKILL.md",
+  "description": "Golang everyday observability — the always-on signals in production. Covers structured logging with slog, Prometheus metrics, OpenTelemetry distributed tracing, continuous profiling with pprof/Pyroscope, server-side RUM event tracking, alerting, and Grafana dashboards. Apply when instrumenting Go services for production monitoring, setting up metrics or alerting, adding OpenTelemetry tracing, correlating logs with traces, migrating legacy loggers (zap/logrus/zerolog) to slog, adding observability to new features, or implementing GDPR/CCPA-compliant tracking with Customer Data Platforms (CDP). Not for temporary deep-dive performance investigation (→ See `samber/cc-skills-golang@golang-benchmark` and `samber/cc-skills-golang@golang-performance` skills).",
+  "tags": [
+    "golang",
+    "observability",
+    "monitoring",
+    "logging",
+    "metrics",
+    "tracing"
+  ],
+  "capabilities": [
+    "logging.instrument",
+    "metrics.instrument",
+    "tracing.instrument",
+    "profiling.instrument",
+    "monitoring.setup",
+    "observability.audit"
+  ],
+  "representativeQueries": [
+    "Add structured logging with slog to Go service",
+    "Set up Prometheus metrics for Go microservice",
+    "Implement OpenTelemetry distributed tracing",
+    "Configure Grafana dashboards and alerting",
+    "Audit production observability coverage"
+  ],
+  "updatedAt": "2026-06-25T13:56:39.946Z"
+}

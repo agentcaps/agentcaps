@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:lllllllama:rigorpilot-skills:skill:ai-research-explore",
+  "displayName": "ai-research-explore",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/lllllllama/rigorpilot-skills/56bc41c40beabc42f5628f06bb2634a5196071f5/skills/ai-research-explore/SKILL.md",
+  "description": "Rigor Explore compatible skill slug for meaningful and potentially novel deep learning research candidates. Use when the researcher has chosen the task family, dataset, benchmark, evaluation method, provided SOTA references, and wants candidate-only exploration on top of `current_research` with auditable repo understanding, idea gating, fair comparison, and governed experiments written to `explore_outputs/`. Do not use for README-first trusted reproduction, open-ended direction finding, narrow code-only or run-only exploration, passive repo analysis, verified novelty claims, or implicit experimentation.",
+  "tags": [
+    "research",
+    "deep-learning",
+    "exploration",
+    "experiment-tracking",
+    "reproducibility",
+    "rigor"
+  ],
+  "capabilities": [
+    "research.explore",
+    "research.evaluate",
+    "experiment.track",
+    "model.benchmark",
+    "research.audit",
+    "research.compare"
+  ],
+  "representativeQueries": [
+    "Explore novel deep learning architectures for image classification",
+    "Run candidate experiments on this dataset with fair comparison",
+    "Evaluate multiple model variants against SOTA benchmarks",
+    "Track and compare experimental results systematically",
+    "Audit repository changes and experiment reproducibility"
+  ],
+  "updatedAt": "2026-06-25T13:59:14.323Z"
+}

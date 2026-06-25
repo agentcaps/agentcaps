@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:pricing",
+  "displayName": "pricing",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/pricing/SKILL.md",
+  "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers.",
+  "tags": [
+    "pricing",
+    "saas",
+    "monetization",
+    "pricing-strategy",
+    "value-metric",
+    "revenue-optimization"
+  ],
+  "capabilities": [
+    "pricing.design",
+    "pricing.optimize",
+    "monetization.structure",
+    "value-metrics.define",
+    "pricing.tier",
+    "revenue.model"
+  ],
+  "representativeQueries": [
+    "How should I price my SaaS product?",
+    "What's the right value metric for my pricing?",
+    "How do I create effective pricing tiers?",
+    "Should I charge per seat or per usage?",
+    "How can I optimize my pricing strategy?"
+  ],
+  "updatedAt": "2026-06-25T13:52:21.552Z"
+}

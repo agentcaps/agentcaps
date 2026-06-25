@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:vercel-labs:agent-skills:skill:deploy-to-vercel",
+  "displayName": "deploy-to-vercel",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/deploy-to-vercel/SKILL.md",
+  "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+  "tags": [
+    "deployment",
+    "vercel",
+    "ci-cd",
+    "git",
+    "preview",
+    "production"
+  ],
+  "capabilities": [
+    "deployment.deploy",
+    "deployment.preview",
+    "git.push-deploy",
+    "infrastructure.deploy",
+    "deployment.link"
+  ],
+  "representativeQueries": [
+    "Deploy my app to Vercel",
+    "Push this live to production",
+    "Create a preview deployment",
+    "Deploy and give me the link",
+    "Set up automatic deployments"
+  ],
+  "updatedAt": "2026-06-25T13:54:36.335Z"
+}

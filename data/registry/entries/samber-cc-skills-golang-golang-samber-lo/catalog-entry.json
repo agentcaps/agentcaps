@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-samber-lo",
+  "displayName": "golang-samber-lo",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-lo/SKILL.md",
+  "description": "Functional programming helpers for Golang using samber/lo — 500+ type-safe generic functions for slices, maps, channels, strings, math, tuples, and concurrency (Map, Filter, Reduce, GroupBy, Chunk, Flatten, Find, Uniq, etc.). Core immutable package (lo), concurrent variants (lo/parallel aka lop), in-place mutations (lo/mutable aka lom), lazy iterators (lo/it aka loi for Go 1.23+), and experimental SIMD (lo/exp/simd). Apply when using or adopting samber/lo, when the codebase imports github.com/samber/lo, or when implementing functional-style data transformations in Go. Not for streaming pipelines (→ See `samber/cc-skills-golang@golang-samber-ro` skill).",
+  "tags": [
+    "golang",
+    "functional",
+    "collections",
+    "generics",
+    "utilities",
+    "helpers"
+  ],
+  "capabilities": [
+    "collection.map",
+    "collection.filter",
+    "collection.reduce",
+    "collection.group",
+    "go.parallel",
+    "code.transform"
+  ],
+  "representativeQueries": [
+    "How do I map over a slice in Go?",
+    "Transform a slice using functional programming",
+    "Filter and group data with samber/lo functions",
+    "Replace manual loops with collection helpers",
+    "Use parallel processing for Go collections"
+  ],
+  "updatedAt": "2026-06-25T13:57:24.841Z"
+}

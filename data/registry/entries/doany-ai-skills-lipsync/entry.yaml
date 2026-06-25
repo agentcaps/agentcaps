@@ -1,0 +1,46 @@
+slug: doany-ai-skills-lipsync
+entryId: doany-ai-skills-lipsync
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-lipsync
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: lipsync/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - lipsync
+        - audio-sync
+        - avatar
+        - dubbing
+        - voice-sync
+      capabilities:
+        - video.lipsync
+        - avatar.generate
+        - audio.sync
+        - media.dub
+      representativeQueries:
+        - Lip sync this video to audio
+        - Make this face speak the audio
+        - Dub video with voiceover
+        - Sync lips to voice track
+        - Create lip-synced video from script
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/lipsync/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: lipsync/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/lipsync/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/lipsync/SKILL.md
+  sourceDigest: sha256:b5cf20f33476b4acd6f2d13f22efce53dc0b7dd19634911bad762d6707ad54e3
+  fetchedAt: 2026-06-25T13:50:15.338Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.800Z

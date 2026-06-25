@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-marketing-plan
+entryId: coreyhaines31-marketingskills-marketing-plan
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-marketing-plan
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/marketing-plan/SKILL.md
+  curation:
+    category: productivity
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - marketing-strategy
+        - growth-planning
+        - go-to-market
+        - aarrr-framework
+        - fractional-cmo
+        - business-strategy
+      capabilities:
+        - marketing.plan
+        - marketing.strategy
+        - growth.roadmap
+        - business.plan
+        - gtm.strategy
+        - marketing.audit
+      representativeQueries:
+        - I need a comprehensive marketing plan for my startup
+        - Create a 12-month GTM strategy for our SaaS product
+        - Generate a fractional CMO plan with AARRR framework
+        - Help me build a marketing roadmap for next year
+        - Build a growth strategy mapped to funding milestones
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/marketing-plan/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/marketing-plan/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/marketing-plan/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/marketing-plan/SKILL.md
+  sourceDigest: sha256:548e1bd8f31fdef3ffb8edf4f3218a8162b4ac2f04b639affe547bee6dd0cba0
+  fetchedAt: 2026-06-25T13:53:22.814Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.746Z

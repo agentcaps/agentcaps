@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:general-video",
+  "displayName": "general-video",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/general-video/SKILL.md",
+  "description": "The fallback workflow for authoring custom HyperFrames video compositions at any length or format — longer or multi-scene pieces, brand / sizzle reels, montages, title cards, static loops, and freeform compositions. Input- and length-agnostic. If a specialized workflow clearly fits the input — a marketed product, a website, a topic explainer, a GitHub PR, existing footage, a short motion graphic, or a Remotion port — prefer it (see /hyperframes); use this only as the general fallback when none fit.",
+  "tags": [
+    "video-composition",
+    "video-authoring",
+    "hyperframes",
+    "orchestrator",
+    "composition",
+    "freeform"
+  ],
+  "capabilities": [
+    "video.compose",
+    "video.author",
+    "media.orchestrate",
+    "composition.design"
+  ],
+  "representativeQueries": [
+    "Create a custom video composition for our brand",
+    "Make a multi-scene video with title cards and music",
+    "Author a video montage with custom transitions",
+    "Build a freeform video composition from scratch",
+    "Design a branded sizzle reel with multiple scenes"
+  ],
+  "updatedAt": "2026-06-25T13:57:51.413Z"
+}

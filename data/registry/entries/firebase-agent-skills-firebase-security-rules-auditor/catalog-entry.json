@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-security-rules-auditor",
+  "displayName": "firebase-security-rules-auditor",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-security-rules-auditor/SKILL.md",
+  "description": "A skill to evaluate how secure Firestore security rules are. Use this when Firestore security rules are updated to ensure that the generated rules are extremely secure and robust.",
+  "tags": [
+    "firebase",
+    "security",
+    "audit",
+    "firestore",
+    "penetration-testing",
+    "rules-validation"
+  ],
+  "capabilities": [
+    "security.audit",
+    "firestore.validate",
+    "vulnerability.assess",
+    "access-control.review",
+    "rules.audit"
+  ],
+  "representativeQueries": [
+    "Audit my Firestore security rules for vulnerabilities",
+    "Check if my Firebase rules allow privilege escalation",
+    "Validate that my Firestore rules are properly securing data",
+    "Test my Firebase security rules for data access bypasses",
+    "Review my Firestore rules for resource exhaustion risks"
+  ],
+  "updatedAt": "2026-06-25T13:58:32.817Z"
+}

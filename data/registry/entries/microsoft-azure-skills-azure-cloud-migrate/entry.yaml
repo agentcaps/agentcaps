@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-cloud-migrate
+entryId: microsoft-azure-skills-azure-cloud-migrate
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-cloud-migrate
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-cloud-migrate/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - cloud-migration
+        - cross-cloud
+        - infrastructure
+        - devops
+        - code-conversion
+      capabilities:
+        - infrastructure.migrate
+        - cloud.assess
+        - code.convert
+        - deployment.plan
+        - cloud.analyze
+      representativeQueries:
+        - Migrate Lambda to Azure Functions
+        - Assess Kubernetes workload for Azure
+        - Convert AWS Beanstalk to App Service
+        - Plan cross-cloud migration to Azure
+        - Migrate Heroku application to Azure
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cloud-migrate/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-cloud-migrate/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cloud-migrate/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-cloud-migrate/SKILL.md
+  sourceDigest: sha256:db31a871e00002b6895c5e32ade22244d3a92fbf3db88314474cef8c74b354ef
+  fetchedAt: 2026-06-25T13:45:53.047Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.886Z

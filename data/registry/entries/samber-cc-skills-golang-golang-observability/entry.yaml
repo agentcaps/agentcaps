@@ -1,0 +1,49 @@
+slug: samber-cc-skills-golang-golang-observability
+entryId: samber-cc-skills-golang-golang-observability
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-observability
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-observability/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - observability
+        - monitoring
+        - logging
+        - metrics
+        - tracing
+      capabilities:
+        - logging.instrument
+        - metrics.instrument
+        - tracing.instrument
+        - profiling.instrument
+        - monitoring.setup
+        - observability.audit
+      representativeQueries:
+        - Add structured logging with slog to Go service
+        - Set up Prometheus metrics for Go microservice
+        - Implement OpenTelemetry distributed tracing
+        - Configure Grafana dashboards and alerting
+        - Audit production observability coverage
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-observability/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-observability/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-observability/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-observability/SKILL.md
+  sourceDigest: sha256:df700dfead33d52da620816e2bfbb6f4d5002f1c88d3845868a192a2119d561b
+  fetchedAt: 2026-06-25T13:56:39.946Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.025Z

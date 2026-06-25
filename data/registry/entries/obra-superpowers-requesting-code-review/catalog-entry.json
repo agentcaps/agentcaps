@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:air:github.com:obra:superpowers:skill:requesting-code-review",
+  "displayName": "requesting-code-review",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/obra/superpowers/896224c4b1879920ab573417e68fd51d2ccc9072/skills/requesting-code-review/SKILL.md",
+  "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "tags": [
+    "code-review",
+    "quality-assurance",
+    "development",
+    "verification",
+    "peer-review"
+  ],
+  "capabilities": [
+    "code.review",
+    "code.verify",
+    "development.qa",
+    "task.validate"
+  ],
+  "representativeQueries": [
+    "Review my code before merging to main",
+    "Request a code review for this change",
+    "Check my implementation before proceeding",
+    "Get feedback on my recent changes",
+    "Verify this code meets requirements"
+  ],
+  "updatedAt": "2026-06-25T13:55:33.148Z"
+}

@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-storage
+entryId: microsoft-azure-skills-azure-storage
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-storage
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-storage/SKILL.md
+  curation:
+    category: data
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure-storage
+        - blob-storage
+        - file-shares
+        - cloud-storage
+        - data-lake
+        - access-tiers
+      capabilities:
+        - storage.list
+        - storage.upload
+        - storage.download
+        - storage.configure
+        - storage.manage
+      representativeQueries:
+        - Upload a file to Azure blob storage
+        - What is the difference between hot and cool storage tiers
+        - Download a blob from my storage account
+        - How do I set up lifecycle management for my blobs
+        - When should I use archive tier storage
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-storage/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-storage/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-storage/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-storage/SKILL.md
+  sourceDigest: sha256:0bb1208ef49ffcce3400d803139b682901b0df93a7c0b72518b01543da244fe6
+  fetchedAt: 2026-06-25T13:44:31.585Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.911Z

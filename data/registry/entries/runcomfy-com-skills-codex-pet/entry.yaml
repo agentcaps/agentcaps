@@ -1,0 +1,48 @@
+slug: runcomfy-com-skills-codex-pet
+entryId: runcomfy-com-skills-codex-pet
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: runcomfy-com-skills-codex-pet
+  type: git_repository
+  url: https://github.com/runcomfy-com/skills
+  path: codex-pet/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - codex
+        - desktop-pet
+        - spritesheet
+        - animation
+        - image-generation
+        - asset-creation
+      capabilities:
+        - image.edit
+        - image.generate
+        - animation.create
+        - asset.build
+        - sprite.generate
+      representativeQueries:
+        - Create a custom Codex Pet from this image
+        - Generate a Codex Pet spritesheet for my desktop
+        - Make an animated Codex Pet from a single image
+        - Build a custom Codex Pet spritesheet.webp file
+        - Hatch a new Codex Pet from a reference image
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/runcomfy-com/skills
+  sourceRepositoryUrl: https://github.com/runcomfy-com/skills
+  sourceWebUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/codex-pet/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: codex-pet/SKILL.md
+  pinnedArtifactUrl: https://github.com/runcomfy-com/skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/codex-pet/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/runcomfy-com/skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/codex-pet/SKILL.md
+  sourceDigest: sha256:00f9db8ad7bd89199be58eb589a16175d44a98eaa40038933106bfa4a9f8dd75
+  fetchedAt: 2026-06-25T13:48:12.933Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.962Z

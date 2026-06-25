@@ -8,12 +8,28 @@ source:
   url: https://github.com/anthropics/skills
   path: skills/theme-factory/SKILL.md
   curation:
-    category: productivity
-    reason: Official public repository containing multiple Agent Skills.
-    seoKeywords:
-      - anthropic skills
-      - agent skills collection
-      - claude skills
+    category: presentation
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - styling
+        - design
+        - themes
+        - presentation
+        - branding
+        - color-palette
+      capabilities:
+        - design.apply
+        - design.create
+        - presentation.style
+        - artifact.style
+        - color.palette
+      representativeQueries:
+        - Apply a professional theme to my slides
+        - Show me available design themes for this deck
+        - Create a custom color scheme for my presentation
+        - I need to style my landing page professionally
+        - What themes work best for business documents
 snapshot:
   sourceType: git_repository
   sourceUrl: https://github.com/anthropics/skills
@@ -25,8 +41,8 @@ snapshot:
   pinnedArtifactUrl: https://github.com/anthropics/skills/blob/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/theme-factory/SKILL.md
   rawArtifactUrl: https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/theme-factory/SKILL.md
   sourceDigest: sha256:c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552
-  fetchedAt: 2026-06-24T08:07:15.035Z
+  fetchedAt: 2026-06-25T13:55:10.535Z
 publication:
   publishedBy: agentcaps.dev-curator
   publicationNote: public-curated-registry
-  publishedAt: 2026-06-24T08:08:29.332Z
+  publishedAt: 2026-06-25T13:59:33.686Z

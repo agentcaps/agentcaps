@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-emails
+entryId: coreyhaines31-marketingskills-emails
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-emails
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/emails/SKILL.md
+  curation:
+    category: communication
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - email-marketing
+        - automation
+        - drip-campaigns
+        - nurture
+        - lifecycle
+        - email-sequences
+      capabilities:
+        - email.sequence
+        - email.automate
+        - email.campaign
+        - marketing.nurture
+        - communication.automate
+      representativeQueries:
+        - Create an email sequence for new customers
+        - How should I structure a drip campaign?
+        - Design a welcome email series for onboarding
+        - Set up an automated email workflow for retention
+        - What's the best email cadence for nurturing?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/emails/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/emails/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/emails/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/emails/SKILL.md
+  sourceDigest: sha256:1fbd54df4c59f48408057e7db0dfb1a53c033e6a4ca5cd1927a47c51ec28d8f1
+  fetchedAt: 2026-06-25T13:52:29.155Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.734Z

@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:heygen-com:hyperframes:skill:graphic-overlays",
+  "displayName": "graphic-overlays",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/graphic-overlays/SKILL.md",
+  "description": "Package an existing talking-head / interview / podcast video by layering timed, designed GRAPHIC OVERLAY cards onto the playing video — titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture — synced to the transcript. The source video plays in full; the agent designs and writes each card's HTML in conversation, then renders to MP4 via hyperframes. Use when the user asks for graphic overlays, on-screen graphics / lower-thirds / data callouts / kinetic titles on a video, \"package / dress up my video\", \"add overlay cards / graphic cards\", or AI-composed graphic packaging of an existing video. NOT for plain subtitles (→ embedded-captions) or building a video from scratch (→ the creation workflows); when unsure overlays-vs-captions, see /hyperframes.",
+  "tags": [
+    "video-overlays",
+    "graphic-design",
+    "lower-thirds",
+    "transcript-sync",
+    "kinetic-graphics"
+  ],
+  "capabilities": [
+    "video.overlay",
+    "graphics.design",
+    "video.render",
+    "transcript.sync",
+    "composition.assemble"
+  ],
+  "representativeQueries": [
+    "Add graphic overlays to my video",
+    "Package my podcast with lower-thirds",
+    "Design data callouts for my interview video",
+    "Add animated titles and graphics to my video",
+    "Create graphic cards synced to my transcript"
+  ],
+  "updatedAt": "2026-06-25T13:52:28.091Z"
+}

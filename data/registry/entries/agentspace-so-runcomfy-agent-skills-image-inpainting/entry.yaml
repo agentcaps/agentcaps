@@ -1,0 +1,48 @@
+slug: agentspace-so-runcomfy-agent-skills-image-inpainting
+entryId: agentspace-so-runcomfy-agent-skills-image-inpainting
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-image-inpainting
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: image-inpainting/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-inpainting
+        - mask-driven
+        - object-removal
+        - watermark-removal
+        - region-editing
+        - runcomfy
+      capabilities:
+        - image.inpaint
+        - image.remove-object
+        - image.remove-watermark
+        - image.edit-region
+        - image.fill
+      representativeQueries:
+        - Remove this object from the image
+        - Inpaint the masked area with a new object
+        - Fill the masked region in my photo
+        - Remove the watermark from this image
+        - Edit the selected area of my picture
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-inpainting/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: image-inpainting/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-inpainting/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/image-inpainting/SKILL.md
+  sourceDigest: sha256:ac0654910addb44b1ceaeda38d8e2f0d66c337d0f2bfb6acd15ce74b39cba0b3
+  fetchedAt: 2026-06-25T13:47:39.524Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.638Z

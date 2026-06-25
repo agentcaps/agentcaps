@@ -1,0 +1,47 @@
+slug: heygen-com-hyperframes-hyperframes-animation
+entryId: heygen-com-hyperframes-hyperframes-animation
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: heygen-com-hyperframes-hyperframes-animation
+  type: git_repository
+  url: https://github.com/heygen-com/hyperframes
+  path: skills/hyperframes-animation/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - animation
+        - motion-design
+        - gsap
+        - web-animation
+        - choreography
+      capabilities:
+        - animation.compose
+        - animation.blueprint
+        - animation.transition
+        - motion.design
+        - animation.adapt
+      representativeQueries:
+        - Create a smooth fade-in animation
+        - Design a multi-phase scene choreography
+        - How do I animate scene transitions
+        - What motion design technique should I use
+        - Compose multiple animation rules together
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/heygen-com/hyperframes
+  sourceRepositoryUrl: https://github.com/heygen-com/hyperframes
+  sourceWebUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-animation/SKILL.md
+  sourceCommit: 64eaad7d69b3c11b9e95b912f2c0b5070994078b
+  trackingRef: HEAD
+  artifactPath: skills/hyperframes-animation/SKILL.md
+  pinnedArtifactUrl: https://github.com/heygen-com/hyperframes/blob/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-animation/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/heygen-com/hyperframes/64eaad7d69b3c11b9e95b912f2c0b5070994078b/skills/hyperframes-animation/SKILL.md
+  sourceDigest: sha256:aba5c44ac02efdaca35fc9378491373f62da1d375c35f16768ef60057f3533b1
+  fetchedAt: 2026-06-25T13:51:26.515Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.839Z

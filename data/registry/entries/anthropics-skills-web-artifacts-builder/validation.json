@@ -1,23 +1,7 @@
 {
-  "score": 60,
+  "score": 95,
   "errors": [],
-  "warnings": [
-    {
-      "code": "representative-queries",
-      "message": "Missing representative queries.",
-      "severity": "warning"
-    },
-    {
-      "code": "capabilities",
-      "message": "Missing capability labels.",
-      "severity": "warning"
-    },
-    {
-      "code": "tags",
-      "message": "Missing tags.",
-      "severity": "warning"
-    }
-  ],
+  "warnings": [],
   "info": [
     {
       "code": "trust-manifest",
@@ -25,5 +9,5 @@
       "severity": "info"
     }
   ],
-  "summary": "Validation score measures ARD metadata completeness, not safety, trust, or publisher verification. Score: 60/100."
+  "summary": "Validation score measures ARD metadata completeness, not safety, trust, or publisher verification. Score: 95/100."
 }

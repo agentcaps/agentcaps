@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:coreyhaines31:marketingskills:skill:marketing-psychology",
+  "displayName": "marketing-psychology",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/marketing-psychology/SKILL.md",
+  "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting.",
+  "tags": [
+    "marketing-psychology",
+    "behavioral-science",
+    "mental-models",
+    "consumer-behavior",
+    "persuasion",
+    "cognitive-bias"
+  ],
+  "capabilities": [
+    "marketing.apply-psychology",
+    "psychology.analyze-behavior",
+    "marketing.influence-behavior",
+    "psychology.apply-mental-models"
+  ],
+  "representativeQueries": [
+    "How can I use psychology to improve my marketing campaigns?",
+    "What mental models help understand customer decision-making?",
+    "How does cognitive bias affect my marketing effectiveness?",
+    "What psychological principles can increase conversion rates?",
+    "How can I ethically apply persuasion to marketing?"
+  ],
+  "updatedAt": "2026-06-25T13:50:38.999Z"
+}

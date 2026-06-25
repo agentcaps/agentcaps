@@ -1,0 +1,47 @@
+slug: agentspace-so-runcomfy-agent-skills-nano-banana-edit
+entryId: agentspace-so-runcomfy-agent-skills-nano-banana-edit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: agentspace-so-runcomfy-agent-skills-nano-banana-edit
+  type: git_repository
+  url: https://github.com/agentspace-so/runcomfy-agent-skills
+  path: nano-banana-edit/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-edit
+        - nano-banana
+        - runcomfy
+        - batch-edit
+        - image-to-image
+        - gemini
+      capabilities:
+        - image.edit
+        - image.batch-edit
+        - image.background-swap
+        - image.preserve-subject
+      representativeQueries:
+        - edit this image with nano banana
+        - swap the background using nano banana edit
+        - batch edit 20 images consistently
+        - edit image while preserving subject identity
+        - nano banana localized edit for spatial areas
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceRepositoryUrl: https://github.com/agentspace-so/runcomfy-agent-skills
+  sourceWebUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/nano-banana-edit/SKILL.md
+  sourceCommit: fca19ae084c2ae4667f5c8affbb99da5103d5832
+  trackingRef: HEAD
+  artifactPath: nano-banana-edit/SKILL.md
+  pinnedArtifactUrl: https://github.com/agentspace-so/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/nano-banana-edit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/agentspace-so/runcomfy-agent-skills/fca19ae084c2ae4667f5c8affbb99da5103d5832/nano-banana-edit/SKILL.md
+  sourceDigest: sha256:288b68d636f05f603cb84341e9cfcdc37c9ead143ea55c130667591028586d0c
+  fetchedAt: 2026-06-25T13:46:51.850Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.649Z

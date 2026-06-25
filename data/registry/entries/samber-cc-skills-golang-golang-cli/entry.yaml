@@ -1,0 +1,48 @@
+slug: samber-cc-skills-golang-golang-cli
+entryId: samber-cc-skills-golang-golang-cli
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-cli
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-cli/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - cli
+        - cobra
+        - viper
+        - development
+        - command-line
+      capabilities:
+        - cli.build
+        - cli.extend
+        - cli.review
+        - cli.configure
+        - development.golang
+      representativeQueries:
+        - Build a new Go CLI application
+        - Add subcommands to my existing CLI
+        - Review my CLI tool for best practices
+        - Set up configuration and flags handling
+        - How do I implement shell completion?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-cli/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-cli/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-cli/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-cli/SKILL.md
+  sourceDigest: sha256:518891186ce2d2416e97030fcb5381e81ecadf58d641ef7484aa33d2cacf2c75
+  fetchedAt: 2026-06-25T13:56:48.390Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.999Z

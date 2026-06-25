@@ -1,0 +1,49 @@
+slug: microsoft-azure-skills-entra-agent-id
+entryId: microsoft-azure-skills-entra-agent-id
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-entra-agent-id
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/entra-agent-id/SKILL.md
+  curation:
+    category: security
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - entra-identity
+        - oauth-2.0
+        - agent-provisioning
+        - microsoft-graph
+        - identity-management
+        - token-exchange
+      capabilities:
+        - identity.provision
+        - oauth.configure
+        - blueprint.manage
+        - credential.configure
+        - permission.grant
+        - token.exchange
+      representativeQueries:
+        - Create an agent identity blueprint in Microsoft Entra
+        - Configure OAuth 2.0 token exchange for my AI agent
+        - Provision per-instance Agent Identities under a Blueprint
+        - Set up Workload Identity Federation for autonomous agents
+        - Deploy Agent Identity with fmi_path token exchange
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/entra-agent-id/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/entra-agent-id/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/entra-agent-id/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/entra-agent-id/SKILL.md
+  sourceDigest: sha256:a21b4ddbcaea5c2655ea1ba7593fe3268d07ab9f6a0ca98209f07282f3636cb7
+  fetchedAt: 2026-06-25T13:46:31.042Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.914Z

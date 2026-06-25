@@ -1,0 +1,47 @@
+slug: samber-cc-skills-golang-golang-google-wire
+entryId: samber-cc-skills-golang-golang-google-wire
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: samber-cc-skills-golang-golang-google-wire
+  type: git_repository
+  url: https://github.com/samber/cc-skills-golang
+  path: skills/golang-google-wire/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - golang
+        - dependency-injection
+        - compile-time
+        - code-generation
+        - wire
+      capabilities:
+        - go.wire
+        - code.inject
+        - code.generate
+        - architecture.compose
+        - dependency.resolve
+      representativeQueries:
+        - Set up compile-time dependency injection in Go
+        - Configure google wire for my Go application
+        - How do I use wire.Build and wire.Bind?
+        - Debug wire dependency graph issues
+        - Generate and configure wire_gen.go files
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/samber/cc-skills-golang
+  sourceRepositoryUrl: https://github.com/samber/cc-skills-golang
+  sourceWebUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-google-wire/SKILL.md
+  sourceCommit: 466ea6dfd4aecb5c19caf29e7595e752c66c1a5d
+  trackingRef: HEAD
+  artifactPath: skills/golang-google-wire/SKILL.md
+  pinnedArtifactUrl: https://github.com/samber/cc-skills-golang/blob/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-google-wire/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-google-wire/SKILL.md
+  sourceDigest: sha256:8298c582b147ea1f59de5f443d9e7544f55fcfc578ec4bbe83a8df178cda25da
+  fetchedAt: 2026-06-25T13:58:05.566Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.014Z

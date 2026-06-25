@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:github:awesome-copilot:skill:postgresql-optimization",
+  "displayName": "postgresql-optimization",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/github/awesome-copilot/e9c8e3704181fa38245d101308a8527d12af6a4d/skills/postgresql-optimization/SKILL.md",
+  "description": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem.",
+  "tags": [
+    "postgresql",
+    "database",
+    "sql",
+    "optimization",
+    "performance",
+    "tuning"
+  ],
+  "capabilities": [
+    "database.optimize",
+    "database.query",
+    "database.analyze",
+    "performance.tune",
+    "data.search"
+  ],
+  "representativeQueries": [
+    "How can I optimize my PostgreSQL queries?",
+    "Show me JSONB operations and examples",
+    "Explain window functions for data analytics",
+    "How do I implement full-text search in PostgreSQL?",
+    "What are PostgreSQL performance tuning best practices?"
+  ],
+  "updatedAt": "2026-06-25T14:02:04.151Z"
+}

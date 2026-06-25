@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:air:github.com:xixu-me:skills:skill:xdrop",
+  "displayName": "xdrop",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/xixu-me/skills/fa39ac2eafbf727ea4dd3ae1c8af36fcb82f32e4/skills/xdrop/SKILL.md",
+  "description": "Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, provides an Xdrop `/t/:transferId#k=...` link to download and decrypt locally, or needs Xdrop CLI flags such as `--quiet`, `--json`, `--expires-in`, `--output`, or `--api-url`, even if they do not explicitly mention the skill name.",
+  "tags": [
+    "file-transfer",
+    "encryption",
+    "xdrop",
+    "cli-automation",
+    "secure-sharing"
+  ],
+  "capabilities": [
+    "file.upload",
+    "file.download",
+    "file.share",
+    "transfer.encrypt",
+    "transfer.decrypt"
+  ],
+  "representativeQueries": [
+    "Upload my files to Xdrop server",
+    "Download file from Xdrop share link",
+    "Send encrypted files through Xdrop",
+    "Automate encrypted file sharing",
+    "Fetch files from Xdrop server"
+  ],
+  "updatedAt": "2026-06-25T13:54:01.316Z"
+}

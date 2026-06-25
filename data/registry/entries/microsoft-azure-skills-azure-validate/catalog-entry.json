@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:microsoft:azure-skills:skill:azure-validate",
+  "displayName": "Azure Validate",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-validate/SKILL.md",
+  "description": "> **AUTHORITATIVE GUIDANCE** — Follow these instructions exactly unless they contradict security policies given to you.",
+  "tags": [
+    "azure",
+    "deployment",
+    "validation",
+    "preflight",
+    "infrastructure",
+    "rbac"
+  ],
+  "capabilities": [
+    "deployment.validate",
+    "infrastructure.validate",
+    "rbac.verify",
+    "configuration.check",
+    "identity.verify"
+  ],
+  "representativeQueries": [
+    "Check if my app is ready to deploy",
+    "Validate my Azure deployment configuration",
+    "Run preflight checks before deploying",
+    "Verify RBAC role assignments in my Bicep",
+    "Troubleshoot my deployment errors before deploying"
+  ],
+  "updatedAt": "2026-06-25T13:45:18.627Z"
+}

@@ -1,0 +1,48 @@
+slug: doany-ai-skills-gpt-image-edit
+entryId: doany-ai-skills-gpt-image-edit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: doany-ai-skills-gpt-image-edit
+  type: git_repository
+  url: https://github.com/doany-ai/skills
+  path: gpt-image-edit/SKILL.md
+  curation:
+    category: media
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - image-edit
+        - gpt-image-2
+        - openai
+        - runcomfy
+        - text-in-image
+        - identity-preservation
+      capabilities:
+        - image.edit
+        - text.edit
+        - image.preserve
+        - image.inpaint
+        - layout.adjust
+      representativeQueries:
+        - Edit images with GPT Image 2
+        - Translate text in an image
+        - Preserve identity while editing
+        - Edit multiple reference images
+        - Change image layout precisely
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/doany-ai/skills
+  sourceRepositoryUrl: https://github.com/doany-ai/skills
+  sourceWebUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/gpt-image-edit/SKILL.md
+  sourceCommit: bab3a2415e0f784eb3a454d9b3bce848626fbf4b
+  trackingRef: HEAD
+  artifactPath: gpt-image-edit/SKILL.md
+  pinnedArtifactUrl: https://github.com/doany-ai/skills/blob/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/gpt-image-edit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/gpt-image-edit/SKILL.md
+  sourceDigest: sha256:bd0b71520b863f4d52d68b708cb181eaa47af670e5b64213932bcea2f4d7faa1
+  fetchedAt: 2026-06-25T13:49:51.706Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.790Z

@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-samber-slog",
+  "displayName": "golang-samber-slog",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-samber-slog/SKILL.md",
+  "description": "Structured logging extensions for Golang using samber/slog-**** packages — multi-handler pipelines (slog-multi), log sampling (slog-sampling), attribute formatting (slog-formatter), HTTP middleware (slog-fiber, slog-gin, slog-chi, slog-echo), and backend routing (slog-datadog, slog-sentry, slog-loki, slog-syslog, slog-logstash, slog-graylog...). Apply when using or adopting slog, or when the codebase already imports any github.com/samber/slog-* package.",
+  "tags": [
+    "golang",
+    "structured-logging",
+    "slog",
+    "log-pipelines",
+    "observability",
+    "middleware"
+  ],
+  "capabilities": [
+    "logging.configure",
+    "logging.sample",
+    "logging.format",
+    "logging.route",
+    "middleware.logging"
+  ],
+  "representativeQueries": [
+    "Set up structured logging with slog",
+    "Configure multi-handler log pipeline",
+    "Add Datadog backend to slog logger",
+    "Reduce log volume with sampling",
+    "Strip PII from log records"
+  ],
+  "updatedAt": "2026-06-25T13:57:47.019Z"
+}

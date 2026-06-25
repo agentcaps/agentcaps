@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:doany-ai:skills:skill:gpt-image-edit",
+  "displayName": "gpt-image-edit",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/doany-ai/skills/bab3a2415e0f784eb3a454d9b3bce848626fbf4b/gpt-image-edit/SKILL.md",
+  "description": "Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on \"gpt image edit\", \"gpt-image-edit\", \"chatgpt image edit\", \"edit with gpt image 2\", or any explicit ask to edit with this model.",
+  "tags": [
+    "image-edit",
+    "gpt-image-2",
+    "openai",
+    "runcomfy",
+    "text-in-image",
+    "identity-preservation"
+  ],
+  "capabilities": [
+    "image.edit",
+    "text.edit",
+    "image.preserve",
+    "image.inpaint",
+    "layout.adjust"
+  ],
+  "representativeQueries": [
+    "Edit images with GPT Image 2",
+    "Translate text in an image",
+    "Preserve identity while editing",
+    "Edit multiple reference images",
+    "Change image layout precisely"
+  ],
+  "updatedAt": "2026-06-25T13:49:51.706Z"
+}

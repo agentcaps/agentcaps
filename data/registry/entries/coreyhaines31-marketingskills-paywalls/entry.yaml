@@ -1,0 +1,48 @@
+slug: coreyhaines31-marketingskills-paywalls
+entryId: coreyhaines31-marketingskills-paywalls
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-paywalls
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/paywalls/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - paywall
+        - in-app-conversion
+        - upgrade-flows
+        - freemium
+        - monetization
+        - feature-gates
+      capabilities:
+        - paywall.design
+        - paywall.optimize
+        - monetization.convert
+        - upsell.create
+        - upgrade.screen
+      representativeQueries:
+        - How do I design a paywall for my app?
+        - Create an upgrade screen for my free tier users
+        - Optimize my trial expiration flow for conversions
+        - Design an in-app upsell modal that converts
+        - How do I get free users to upgrade to paid?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/paywalls/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/paywalls/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/paywalls/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/paywalls/SKILL.md
+  sourceDigest: sha256:d062c03f6b99e76ffaa367a1494ba80098b2033d4d74609b895373a024a8eac1
+  fetchedAt: 2026-06-25T13:53:14.533Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.751Z

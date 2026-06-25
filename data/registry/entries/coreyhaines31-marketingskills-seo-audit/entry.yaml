@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-seo-audit
+entryId: coreyhaines31-marketingskills-seo-audit
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-seo-audit
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/seo-audit/SKILL.md
+  curation:
+    category: analysis
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - seo
+        - audit
+        - technical-seo
+        - ranking
+        - optimization
+        - web
+      capabilities:
+        - seo.audit
+        - seo.diagnose
+        - search.optimize
+        - web.crawlability
+        - site.indexing
+        - content.optimization
+      representativeQueries:
+        - Audit my website for SEO issues
+        - Why am I not ranking in Google
+        - Check my core web vitals
+        - Fix my crawl errors
+        - Improve my search rankings
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/seo-audit/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/seo-audit/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/seo-audit/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/seo-audit/SKILL.md
+  sourceDigest: sha256:3b03a2e07578e9964acac0b6907ae343a904c6547bfefe779ba326db5eedd1cb
+  fetchedAt: 2026-06-25T13:50:46.613Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.764Z

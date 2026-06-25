@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:air:github.com:firebase:agent-skills:skill:firebase-basics",
+  "displayName": "firebase-basics",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/firebase/agent-skills/538130c39402a40d9c2586ede87def5914641a33/skills/firebase-basics/SKILL.md",
+  "description": "Provides foundational setup, authentication, and project management workflows for Firebase using the Firebase CLI. Use when checking Firebase CLI version (must use 'npx -y firebase-tools@latest --version'), initializing a Firebase environment, authenticating, setting active projects, or setting up `google-services.json` or `GoogleService-Info.plist` files.",
+  "tags": [
+    "firebase",
+    "cli",
+    "authentication",
+    "setup",
+    "project-management",
+    "infrastructure"
+  ],
+  "capabilities": [
+    "firebase.authenticate",
+    "firebase.initialize",
+    "firebase.configure",
+    "project.setup",
+    "environment.setup"
+  ],
+  "representativeQueries": [
+    "Set up Firebase authentication",
+    "Initialize a Firebase project",
+    "Configure Firebase for development",
+    "Check Firebase CLI version",
+    "Set active Firebase project"
+  ],
+  "updatedAt": "2026-06-25T13:58:22.545Z"
+}

@@ -4,5 +4,27 @@
   "type": "application/ai-skill",
   "url": "https://raw.githubusercontent.com/anthropics/skills/57546260929473d4e0d1c1bb75297be2fdfa1949/skills/algorithmic-art/SKILL.md",
   "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
-  "updatedAt": "2026-06-24T08:07:15.033Z"
+  "tags": [
+    "generative-art",
+    "p5js",
+    "algorithmic",
+    "interactive",
+    "creative-coding",
+    "parametric"
+  ],
+  "capabilities": [
+    "art.generate",
+    "code.create",
+    "visualization.generate",
+    "animation.interactive",
+    "design.explore"
+  ],
+  "representativeQueries": [
+    "Create an algorithmic art piece with flow fields and particles",
+    "Generate interactive generative art with p5.js",
+    "Design a computational aesthetic using seeded randomness",
+    "Make artistic visualizations with emergent behavior",
+    "Create parametric interactive art with visualization"
+  ],
+  "updatedAt": "2026-06-25T13:54:59.871Z"
 }

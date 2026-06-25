@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:air:github.com:samber:cc-skills-golang:skill:golang-error-handling",
+  "displayName": "golang-error-handling",
+  "type": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/samber/cc-skills-golang/466ea6dfd4aecb5c19caf29e7595e752c66c1a5d/skills/golang-error-handling/SKILL.md",
+  "description": "Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging with slog, HTTP request logging middleware, and samber/oops for production errors. Built to make logs usable at scale with log aggregation 3rd-party tools. Apply when creating, wrapping, inspecting, or logging errors in Go code. For samber/oops specifics → See `samber/cc-skills-golang@golang-samber-oops` skill; for slog handler ecosystem → See `samber/cc-skills-golang@golang-samber-slog` skill.",
+  "tags": [
+    "golang",
+    "error-handling",
+    "logging",
+    "reliability",
+    "code-review",
+    "debugging"
+  ],
+  "capabilities": [
+    "error.create",
+    "error.wrap",
+    "error.inspect",
+    "error.handle",
+    "logging.structure",
+    "code.review"
+  ],
+  "representativeQueries": [
+    "How do I wrap errors with context in Go?",
+    "Review my error handling in this PR",
+    "Audit error handling across my codebase",
+    "Implement structured error logging",
+    "Set up error handling best practices"
+  ],
+  "updatedAt": "2026-06-25T13:55:37.750Z"
+}

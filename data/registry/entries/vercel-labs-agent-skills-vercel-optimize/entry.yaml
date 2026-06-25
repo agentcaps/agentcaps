@@ -1,0 +1,48 @@
+slug: vercel-labs-agent-skills-vercel-optimize
+entryId: vercel-labs-agent-skills-vercel-optimize
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: vercel-labs-agent-skills-vercel-optimize
+  type: git_repository
+  url: https://github.com/vercel-labs/agent-skills
+  path: skills/vercel-optimize/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - vercel-optimization
+        - performance-tuning
+        - cost-reduction
+        - observability
+        - infrastructure
+        - metrics-analysis
+      capabilities:
+        - infrastructure.optimize
+        - performance.analyze
+        - cost.analyze
+        - deployment.audit
+        - caching.optimize
+      representativeQueries:
+        - How can I reduce my Vercel bill this month?
+        - What's making my Next.js app slow to deploy?
+        - Optimize Core Web Vitals scores for my site
+        - Find expensive routes in my Vercel project
+        - How can I improve caching on my deployment?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/vercel-labs/agent-skills
+  sourceRepositoryUrl: https://github.com/vercel-labs/agent-skills
+  sourceWebUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/vercel-optimize/SKILL.md
+  sourceCommit: f8a72b9603728bb92a217a879b7e62e43ad76c81
+  trackingRef: HEAD
+  artifactPath: skills/vercel-optimize/SKILL.md
+  pinnedArtifactUrl: https://github.com/vercel-labs/agent-skills/blob/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/vercel-optimize/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/vercel-labs/agent-skills/f8a72b9603728bb92a217a879b7e62e43ad76c81/skills/vercel-optimize/SKILL.md
+  sourceDigest: sha256:95ae2683b30d892d165af92a350c5628b68106f395a59b448857b654e306ed91
+  fetchedAt: 2026-06-25T13:54:42.737Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:34.060Z

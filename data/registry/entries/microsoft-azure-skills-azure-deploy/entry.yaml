@@ -1,0 +1,48 @@
+slug: microsoft-azure-skills-azure-deploy
+entryId: microsoft-azure-skills-azure-deploy
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-deploy
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-deploy/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure-deployment
+        - cloud-deployment
+        - infrastructure
+        - production
+        - azd
+        - terraform
+      capabilities:
+        - cloud.deploy
+        - infrastructure.apply
+        - azure.deploy
+        - deployment.execute
+        - cloud.provision
+      representativeQueries:
+        - Run azd up to deploy my application
+        - Push my app to production on Azure
+        - Execute the deployment plan now
+        - Apply terraform to Azure infrastructure
+        - Deploy changes to the cloud
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-deploy/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-deploy/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-deploy/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-deploy/SKILL.md
+  sourceDigest: sha256:c3e877d874cac1834753e7b3b35a8a33e1257b3b5f3c429dcab238bd19c28601
+  fetchedAt: 2026-06-25T13:44:47.656Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.892Z

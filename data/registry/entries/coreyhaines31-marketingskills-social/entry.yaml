@@ -1,0 +1,49 @@
+slug: coreyhaines31-marketingskills-social
+entryId: coreyhaines31-marketingskills-social
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-social
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/social/SKILL.md
+  curation:
+    category: social
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - social-media
+        - content-creation
+        - scheduling
+        - video-scripting
+        - engagement
+        - social-listening
+      capabilities:
+        - social.create
+        - social.schedule
+        - social.optimize
+        - social.listen
+        - video.script
+        - content.repurpose
+      representativeQueries:
+        - Help me create a LinkedIn carousel post about my new product launch
+        - Write a Twitter thread about emerging trends in my industry
+        - How can I improve engagement on my Instagram Reels and Stories
+        - Create a content calendar for my TikTok channel posting strategy
+        - Find trending topics in my industry for social listening opportunities
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/social/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/social/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/social/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/social/SKILL.md
+  sourceDigest: sha256:ace479ef3d3af94807a93c69dfa0c61b96a83b01062b9469e1d14515c6fdbcbd
+  fetchedAt: 2026-06-25T13:52:06.401Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.769Z

@@ -1,0 +1,46 @@
+slug: microsoft-azure-skills-azure-reliability
+entryId: microsoft-azure-skills-azure-reliability
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: microsoft-azure-skills-azure-reliability
+  type: git_repository
+  url: https://github.com/microsoft/azure-skills
+  path: skills/azure-reliability/SKILL.md
+  curation:
+    category: development
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - azure
+        - reliability
+        - zone-redundancy
+        - multi-region
+        - failover
+        - disaster-recovery
+      capabilities:
+        - reliability.assess
+        - reliability.improve
+        - infrastructure.configure
+      representativeQueries:
+        - Assess my Function app's reliability
+        - Make my app zone redundant
+        - Set up multi-region failover for my app
+        - Check disaster recovery readiness
+        - Find single points of failure
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/microsoft/azure-skills
+  sourceRepositoryUrl: https://github.com/microsoft/azure-skills
+  sourceWebUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-reliability/SKILL.md
+  sourceCommit: 2cd48ca625cddcc1d377d2861fbddd54417c70cc
+  trackingRef: HEAD
+  artifactPath: skills/azure-reliability/SKILL.md
+  pinnedArtifactUrl: https://github.com/microsoft/azure-skills/blob/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-reliability/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/microsoft/azure-skills/2cd48ca625cddcc1d377d2861fbddd54417c70cc/skills/azure-reliability/SKILL.md
+  sourceDigest: sha256:001ca1733d1db5e950d7fc603eac7c28309458e54ab0ca54896002e08fe3285c
+  fetchedAt: 2026-06-25T13:46:42.398Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.907Z

@@ -1,0 +1,45 @@
+slug: coreyhaines31-marketingskills-content-strategy
+entryId: coreyhaines31-marketingskills-content-strategy
+publicationStatus: published
+driftStatus: clean
+source:
+  slug: coreyhaines31-marketingskills-content-strategy
+  type: git_repository
+  url: https://github.com/coreyhaines31/marketingskills
+  path: skills/content-strategy/SKILL.md
+  curation:
+    category: writing
+    reason: skills.sh top-1000, ARD-enriched
+    catalogEntry:
+      tags:
+        - content-strategy
+        - content-planning
+        - content-marketing
+        - topic-research
+        - editorial-planning
+      capabilities:
+        - content.plan
+        - content.strategy
+        - marketing.research
+        - content.ideate
+      representativeQueries:
+        - Help me plan a content strategy for my blog
+        - What topics should I write about in my niche?
+        - How should I structure my content marketing plan?
+        - What content ideas would drive more traffic?
+snapshot:
+  sourceType: git_repository
+  sourceUrl: https://github.com/coreyhaines31/marketingskills
+  sourceRepositoryUrl: https://github.com/coreyhaines31/marketingskills
+  sourceWebUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/content-strategy/SKILL.md
+  sourceCommit: 8bfcdffb655f16e713940cd04fb08891899c47db
+  trackingRef: HEAD
+  artifactPath: skills/content-strategy/SKILL.md
+  pinnedArtifactUrl: https://github.com/coreyhaines31/marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/skills/content-strategy/SKILL.md
+  rawArtifactUrl: https://raw.githubusercontent.com/coreyhaines31/marketingskills/8bfcdffb655f16e713940cd04fb08891899c47db/skills/content-strategy/SKILL.md
+  sourceDigest: sha256:0611532b2a0dce8d0d5b783c99bba10d13a6d5fd7eecd829974012f74ea33258
+  fetchedAt: 2026-06-25T13:50:42.878Z
+publication:
+  publishedBy: agentcaps.dev-curator
+  publicationNote: public-curated-registry
+  publishedAt: 2026-06-25T13:59:33.719Z
