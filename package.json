@@ -15,7 +15,7 @@
     "registry:sync-public": "node scripts/sync-public-registry.mjs"
   },
   "dependencies": {
-    "@agentcaps/registry": "^0.1.3",
+    "@agentcaps/registry": "^0.2.1",
     "@agentcaps/ui": "link:../ui",
     "@astrojs/cloudflare": "^12.6.8",
     "@astrojs/preact": "^4.1.0",
