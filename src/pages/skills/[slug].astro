@@ -1,5 +1,7 @@
 ---
-import '../../styles/global.css';
+import Base from '../../layouts/Base.astro';
+import { Button, KV, Notice, Score, Tag, ValidationFinding } from '@agentcaps/ui';
+import type { KVItem } from '@agentcaps/ui';
 import { getListings, hostedCatalogPath } from '../../lib/registry';
 
 export function getStaticPaths() {
@@ -9,80 +11,138 @@ export function getStaticPaths() {
 const { listing } = Astro.props;
 const entry = listing.catalogEntry;
 const catalogJson = JSON.stringify(entry, null, 2);
-const findings = [...listing.validation.errors, ...listing.validation.warnings, ...listing.validation.info];
 const hostedCatalog = hostedCatalogPath(listing.source.url);
+const v = listing.validation;
+const findings = [
+  ...v.errors.map((f) => ({ ...f, severity: 'error' as const })),
+  ...v.warnings.map((f) => ({ ...f, severity: 'warning' as const })),
+  ...v.info.map((f) => ({ ...f, severity: 'info' as const }))
+];
+const queries = entry.representativeQueries ?? [];
+const capabilities = entry.capabilities ?? [];
+const tags = entry.tags ?? [];
+const snapshotItems: KVItem[] = [
+  { label: 'path', value: listing.snapshot.artifactPath },
+  { label: 'commit', value: (listing.snapshot.sourceCommit ?? '—').slice(0, 12) },
+  { label: 'indexed', value: listing.snapshot.fetchedAt.slice(0, 10) }
+];
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{entry.displayName} - AgentCaps</title>
-  </head>
-  <body>
-    <header>
-      <a class="logo" href="/">AgentCaps</a>
-      <nav>
-        <a href="/explore">Explore</a>
-        <a href="/.well-known/ai-catalog.json">Download ai-catalog.json</a>
-        <a href="https://github.com/agentcaps/agentcaps/issues/new?template=catalog-entry-feedback.yml">Mapping feedback</a>
-      </nav>
-    </header>
-    <main>
-      <section style="padding: 42px 0;">
-        <div class="eyebrow">Indexed from public GitHub</div>
-        <h1>{entry.displayName}</h1>
-        <p class="lede">{entry.description}</p>
-        <div class="actions">
-          <button class="button primary" id="copy">Copy CatalogEntry</button>
-          <a class="button" href={listing.source.url}>Open GitHub</a>
-          {hostedCatalog && <a class="button" href={hostedCatalog}>Hosted ai-catalog.json</a>}
-          <a class="button" href="/.well-known/ai-catalog.json">Download ai-catalog.json</a>
+<Base title={`${entry.displayName} — AgentCaps`} description={entry.description}>
+  <section class="section section--flush">
+    <a class="back" href="/explore">← Explore</a>
+    <span class="cap-cat detail-cat">{listing.source.curation?.category ?? 'capability'} · indexed from GitHub</span>
+    <h1>{entry.displayName}</h1>
+    <p class="prose lede">{entry.description}</p>
+    <div class="btn-row detail-actions">
+      <Button variant="primary" class="js-copy">Copy CatalogEntry</Button>
+      <Button href={listing.source.url} rel="noreferrer">Open GitHub</Button>
+      {hostedCatalog && <Button href={hostedCatalog}>Hosted ai-catalog.json</Button>}
+    </div>
+    <Notice label="Note">Not publisher verified. The validation score measures ARD metadata quality, not safety or trust.</Notice>
+  </section>
+
+  <section class="section detail-grid">
+    <div class="detail-main">
+      {queries.length > 0 && (
+        <div class="block">
+          <h2>What you'd ask for</h2>
+          <ul class="query-list">{queries.map((q) => <li>{q}</li>)}</ul>
         </div>
-        <p class="notice">Not publisher verified. Validation score is metadata quality, not a safety or trust score.</p>
-      </section>
-      <section class="two-col">
-        <div>
-          <h2>CatalogEntry</h2>
+      )}
+
+      {capabilities.length > 0 && (
+        <div class="block">
+          <h2>Capabilities</h2>
+          <div class="tagrow tagrow--lg">{capabilities.map((c) => <Tag mono>{c}</Tag>)}</div>
+        </div>
+      )}
+
+      <div class="block">
+        <h2>Validation report</h2>
+        <p class="block-sub">{v.summary}</p>
+        <ul class="findings">
+          {findings.map((f) => <ValidationFinding severity={f.severity} code={f.code} message={f.message} />)}
+        </ul>
+      </div>
+
+      <div class="block">
+        <details class="json">
+          <summary><span>CatalogEntry JSON</span><span class="mono json-hint">standard ARD fields only</span></summary>
           <pre id="catalog-json"><code>{catalogJson}</code></pre>
-          <h2>Validation Report</h2>
-          <div class="list">
-            {findings.map((finding) => (
-              <article class="card">
-                <strong>{finding.severity}: {finding.code}</strong>
-                <p>{finding.message}</p>
-              </article>
-            ))}
-          </div>
+        </details>
+      </div>
+    </div>
+
+    <aside class="detail-side">
+      <div class="score-card">
+        <Score value={v.score} variant="big" />
+        <p>ARD metadata completeness &amp; search readiness.</p>
+      </div>
+
+      {tags.length > 0 && (
+        <div class="side-block">
+          <h3 class="label">Tags</h3>
+          <div class="tagrow">{tags.map((t) => <Tag>{t}</Tag>)}</div>
         </div>
-        <aside class="panel">
-          <div class="score">{listing.validation.score}/100</div>
-          <p>Validation score measures ARD metadata completeness, not safety, trust, or publisher verification.</p>
-          <h3>Tags</h3>
-          <div class="tags">{(entry.tags ?? []).map((tag) => <span class="tag">{tag}</span>)}</div>
-          <h3 style="margin-top: 22px;">Capabilities</h3>
-          <div class="tags">{(entry.capabilities ?? []).map((capability) => <span class="tag">{capability}</span>)}</div>
-          <h3 style="margin-top: 22px;">Representative Queries</h3>
-          <ul>{(entry.representativeQueries ?? []).map((query) => <li>{query}</li>)}</ul>
-          <details>
-            <summary>Technical source snapshot</summary>
-            <div class="kv" style="margin-top: 14px;">
-              <div><span>Path</span><code>{listing.snapshot.artifactPath}</code></div>
-              <div><span>Commit</span><code>{listing.snapshot.sourceCommit}</code></div>
-              <div><span>Digest</span><code>{listing.snapshot.sourceDigest}</code></div>
-              <div><span>Indexed</span><code>{listing.snapshot.fetchedAt}</code></div>
-            </div>
-            <p><a href={listing.snapshot.sourceWebUrl}>Pinned source</a></p>
-            <p><a href={listing.snapshot.rawArtifactUrl}>Raw artifact</a></p>
-          </details>
-        </aside>
-      </section>
-    </main>
-    <footer>Source digest is shown for reproducibility only.</footer>
-    <script define:vars={{ catalogJson }}>
-      document.querySelector('#copy')?.addEventListener('click', async () => {
+      )}
+
+      <div class="side-block">
+        <h3 class="label">Source snapshot</h3>
+        <KV items={snapshotItems} />
+        <div class="btn-row" style="margin-top: 12px;">
+          {listing.snapshot.sourceWebUrl && <Button variant="ghost" href={listing.snapshot.sourceWebUrl} rel="noreferrer">Pinned source →</Button>}
+          <Button variant="ghost" href={listing.snapshot.rawArtifactUrl} rel="noreferrer">Raw artifact →</Button>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <script define:vars={{ catalogJson }}>
+    const btn = document.querySelector('.js-copy');
+    btn?.addEventListener('click', async () => {
+      try {
         await navigator.clipboard.writeText(catalogJson);
-        document.querySelector('#copy').textContent = 'Copied';
-      });
-    </script>
-  </body>
-</html>
+        const original = btn.textContent;
+        btn.textContent = 'Copied ✓';
+        setTimeout(() => { btn.textContent = original; }, 1600);
+      } catch {
+        btn.textContent = 'Copy failed';
+      }
+    });
+  </script>
+
+  <style>
+    .back { font: 600 0.8125rem/1 var(--font-sans); color: var(--ink-2); }
+    .detail-cat { display: block; margin: 22px 0 12px; }
+    .detail-actions { margin-top: 24px; }
+    .lede { font-size: clamp(1.0625rem, 1rem + 0.5vw, 1.375rem); margin-top: 12px; }
+    .notice { margin-top: 18px; max-width: 70ch; }
+
+    .detail-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 40px; align-items: start; }
+    .detail-main { display: grid; gap: 36px; }
+    .block h2 { margin-bottom: 14px; }
+    .block-sub { color: var(--muted); font-size: 0.875rem; margin-bottom: 14px; max-width: 68ch; }
+
+    .query-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+    .query-list li { padding: 12px 16px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: 0.9375rem; }
+    .query-list li:first-child { border-top: 0; }
+    .query-list li::before { content: '“'; color: var(--accent-ink); margin-right: 2px; }
+    .query-list li::after { content: '”'; color: var(--accent-ink); }
+
+    .json summary { cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 4px; font-weight: 600; font-size: 0.9375rem; }
+    .json[open] summary { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+    .json summary::-webkit-details-marker { display: none; }
+    .json-hint { color: var(--muted); font-weight: 400; font-size: 0.75rem; }
+    .json pre { border-top: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
+
+    .detail-side { display: grid; gap: 24px; position: sticky; top: 84px; }
+    .score-card { border: 1px solid var(--line); border-radius: 4px; padding: 20px; background: var(--surface); }
+    .score-card p { margin-top: 10px; font-size: 0.8125rem; color: var(--muted); }
+    .side-block h3.label { margin-bottom: 10px; }
+
+    @media (max-width: 900px) {
+      .detail-grid { grid-template-columns: 1fr; gap: 32px; }
+      .detail-side { position: static; }
+    }
+  </style>
+</Base>

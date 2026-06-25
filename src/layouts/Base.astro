@@ -1,0 +1,53 @@
+---
+import '@agentcaps/ui/styles.css';
+import { SiteHeader, SiteFooter } from '@agentcaps/ui';
+import type { NavItem } from '@agentcaps/ui';
+
+interface Props {
+  title: string;
+  description?: string;
+  active?: 'explore' | 'catalog' | 'none';
+}
+
+const { title, description, active = 'none' } = Astro.props;
+
+const navItems: NavItem[] = [
+  { key: 'explore', label: 'Explore', href: '/explore' },
+  { key: 'catalog', label: 'Catalog JSON', href: '/.well-known/ai-catalog.json' },
+  { key: 'submit', label: 'Submit SKILL.md', href: 'https://github.com/agentcaps/agentcaps/issues/new?template=submit-skill.yml', external: true },
+  { key: 'github', label: 'GitHub', href: 'https://github.com/agentcaps/agentcaps', external: true }
+];
+
+const footerItems: NavItem[] = [
+  { label: 'Explore registry', href: '/explore' },
+  { label: 'ai-catalog.json', href: '/.well-known/ai-catalog.json' },
+  { label: 'Registry engine', href: 'https://github.com/agentcaps/registry', external: true },
+  { label: 'Source on GitHub', href: 'https://github.com/agentcaps/agentcaps', external: true }
+];
+
+const footerNote =
+  'Public reference deployment of AgentCaps Registry. Not publisher verified. Validation score measures ARD metadata quality, not safety or trust.';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <SiteHeader active={active} items={navItems} />
+    <main id="main">
+      <slot />
+    </main>
+    <SiteFooter items={footerItems} note={footerNote} />
+  </body>
+</html>

@@ -1,98 +1,95 @@
 ---
-import '../styles/global.css';
+import Base from '../layouts/Base.astro';
+import { Button, Step, Steps } from '@agentcaps/ui';
+import SearchField from '../components/SearchField.tsx';
+import CapabilityResults from '../components/CapabilityResults.tsx';
+import type { CapItem } from '../components/CapabilityResults.tsx';
 import { getListings, getCatalog, hostedCatalogPath } from '../lib/registry';
+
 const listings = getListings();
 const catalog = getCatalog();
 const tagCount = new Set(listings.flatMap((l) => l.catalogEntry.tags ?? [])).size;
-const featured = listings.slice(0, 9);
+const sourceCount = new Set(listings.map((l) => l.source.url)).size;
+
+const items: CapItem[] = listings.map((listing) => {
+  const entry = listing.catalogEntry;
+  return {
+    slug: listing.slug,
+    name: entry.displayName,
+    href: `/skills/${listing.slug}`,
+    description: entry.description,
+    category: listing.source.curation?.category ?? 'capability',
+    score: listing.validation.score,
+    tags: entry.tags ?? [],
+    hostedHref: hostedCatalogPath(listing.source.url),
+    haystack: [
+      entry.displayName,
+      entry.description,
+      ...(entry.tags ?? []),
+      ...(entry.capabilities ?? []),
+      ...(entry.representativeQueries ?? [])
+    ].join(' ').toLowerCase()
+  };
+});
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AgentCaps - Search agent capabilities</title>
-    <meta name="description" content="Search hosted ARD metadata for GitHub SKILL.md projects, powered by AgentCaps Registry." />
-  </head>
-  <body>
-    <header>
-      <a class="logo" href="/">AgentCaps</a>
-      <nav>
-        <a href="/explore">Explore</a>
-        <a href="/.well-known/ai-catalog.json">ai-catalog.json</a>
-        <a href="https://github.com/agentcaps/agentcaps">Public Registry</a>
-        <a href="https://github.com/agentcaps/agentcaps/issues/new?template=submit-skill.yml">Submit SKILL.md</a>
-      </nav>
-    </header>
-    <main>
-      <section class="hero search-hero">
-        <div>
-          <div class="eyebrow">Search-first ARD registry</div>
-          <h1>Find agent skills by what they can do.</h1>
-          <p class="lede">AgentCaps hosts searchable ARD CatalogEntries for curated GitHub <code>SKILL.md</code> projects, including single-skill repos and collection repos such as <code>anthropics/skills</code>.</p>
-          <input id="home-search" class="search-box hero-search" placeholder="Try: pdf, browser automation, frontend design, slides" autofocus />
-          <div class="actions">
-            <a class="button primary" href="/explore">Browse all capabilities</a>
-            <a class="button" href="https://github.com/agentcaps/agentcaps/issues/new?template=submit-skill.yml">Generate / host my ARD</a>
-          </div>
-        </div>
-        <div class="panel">
-          <div class="eyebrow">Hosted catalogs</div>
-          <h2>{catalog.entries.length} entries</h2>
-          <p>{tagCount} tags across curated GitHub sources. Producers get stable catalog URLs such as:</p>
-          <pre><code>{`https://agentcaps.dev/@anthropics/skills/ai-catalog.json
-https://agentcaps.dev/@zarazhangrui/frontend-slides/ai-catalog.json
-POST /search`}</code></pre>
-        </div>
-      </section>
+<Base
+  title="AgentCaps — Search agent capabilities by what they do"
+  description="A searchable index of ARD CatalogEntries generated from curated GitHub SKILL.md projects, powered by AgentCaps Registry."
+>
+  <section class="section section--flush hero">
+    <div class="hero-copy">
+      <h1 class="rise">Find agent skills by what they can do.</h1>
+      <p class="prose lede rise rise-2">
+        A searchable index of ARD <code>CatalogEntries</code> generated from curated GitHub
+        <code>SKILL.md</code> projects, including single-skill repos and collections like
+        <code>anthropics/skills</code>.
+      </p>
+      <SearchField
+        client:load
+        class="hero-search rise rise-3"
+        autofocus
+        placeholder="pdf, browser automation, frontend design, slides…"
+      />
+      <div class="stat-strip rise rise-3">
+        <span><b>{catalog.entries.length}</b> capabilities</span>
+        <span><b>{sourceCount}</b> GitHub sources</span>
+        <span><b>{tagCount}</b> tags</span>
+      </div>
+    </div>
+  </section>
 
-      <section>
-        <div class="section-heading">
-          <div>
-            <div class="eyebrow">Live index</div>
-            <h2>Featured capabilities</h2>
-          </div>
-          <a class="button" href="/explore">Open full search</a>
-        </div>
-        <div class="grid result-grid" id="home-results">
-          {featured.map((listing) => {
-            const entry = listing.catalogEntry;
-            const hosted = hostedCatalogPath(listing.source.url);
-            const haystack = [entry.displayName, entry.description, ...(entry.tags ?? []), ...(entry.capabilities ?? []), ...(entry.representativeQueries ?? [])].join(' ').toLowerCase();
-            return (
-              <article class="card" data-search={haystack}>
-                <div class="eyebrow">{listing.source.curation?.category ?? 'capability'}</div>
-                <h3><a href={`/skills/${listing.slug}`}>{entry.displayName}</a></h3>
-                <p>{entry.description}</p>
-                <div class="tags">{(entry.tags ?? []).slice(0, 5).map((tag) => <span class="tag">{tag}</span>)}</div>
-                <div class="mini-actions">
-                  <a href={`/skills/${listing.slug}`}>View</a>
-                  {hosted && <a href={hosted}>Hosted ARD</a>}
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </section>
+  <section class="section">
+    <CapabilityResults client:load items={items} layout="grid" heading="Live index" />
+  </section>
 
-      <section>
-        <h2>Producer flow</h2>
-        <div class="grid">
-          <article class="card"><h3>1. Point to SKILL.md</h3><p>Use a single GitHub repo, a direct SKILL.md URL, or a collection pattern like <code>skills/*/SKILL.md</code>.</p></article>
-          <article class="card"><h3>2. Generate ARD</h3><p>AgentCaps Registry converts each source into a standard CatalogEntry and validation report.</p></article>
-          <article class="card"><h3>3. Host for discovery</h3><p>The public registry exposes both the global catalog and repo-scoped URLs under <code>/@owner/repo/ai-catalog.json</code>.</p></article>
-        </div>
-      </section>
-    </main>
-    <footer>AgentCaps is a public reference deployment. Not publisher verified. Validation score is metadata quality, not safety.</footer>
-    <script>
-      const input = document.querySelector('#home-search');
-      const cards = [...document.querySelectorAll('[data-search]')];
-      input?.addEventListener('input', () => {
-        const query = input.value.toLowerCase().trim();
-        for (const card of cards) {
-          card.style.display = !query || card.dataset.search.includes(query) ? '' : 'none';
-        }
-      });
-    </script>
-  </body>
-</html>
+  <section class="section">
+    <div class="section-head"><h2>Host your own SKILL.md</h2></div>
+    <Steps>
+      <Step n={1} title="Point to SKILL.md">
+        A single GitHub repo, a direct <code>SKILL.md</code> URL, or a collection pattern like <code>skills/*/SKILL.md</code>.
+      </Step>
+      <Step n={2} title="Generate ARD">
+        AgentCaps Registry converts each source into a standard <code>CatalogEntry</code> plus a validation report.
+      </Step>
+      <Step n={3} title="Host for discovery">
+        The registry exposes the global catalog and repo-scoped URLs at <code>/@owner/repo/ai-catalog.json</code>.
+      </Step>
+    </Steps>
+    <div class="btn-row" style="margin-top: 22px;">
+      <Button variant="primary" href="https://github.com/agentcaps/agentcaps/issues/new?template=submit-skill.yml" rel="noreferrer">Submit a SKILL.md</Button>
+      <Button href="https://github.com/agentcaps/registry" rel="noreferrer">Run the registry engine</Button>
+    </div>
+  </section>
+
+  <style>
+    .hero { padding-top: clamp(48px, 7vw, 96px); padding-bottom: clamp(32px, 5vw, 64px); }
+    .hero-copy { max-width: 880px; }
+    .lede { font-size: clamp(1.0625rem, 1rem + 0.5vw, 1.375rem); color: var(--ink-2); margin-top: 22px; }
+    .hero-search { margin-top: 30px; max-width: 640px; }
+    .stat-strip {
+      display: flex; flex-wrap: wrap; gap: 26px; margin-top: 22px;
+      font-family: var(--font-mono); font-size: 0.8125rem; color: var(--muted);
+    }
+    .stat-strip b { color: var(--ink); font-weight: 600; font-size: 1rem; }
+  </style>
+</Base>
