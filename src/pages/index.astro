@@ -38,7 +38,10 @@ const items: CapItem[] = listings.map((listing) => {
 >
   <section class="section section--flush hero">
     <div class="hero-copy">
-      <h1 class="rise">Find agent skills by what they can do.</h1>
+      <a class="ard-badge rise" href="https://github.com/agentcaps/registry#readme" rel="noreferrer">
+        <span class="ard-dot"></span>ARD Compatible
+      </a>
+      <h1 class="rise rise-1">Find agent skills by what they can do.</h1>
       <p class="prose lede rise rise-2">
         A searchable index of ARD <code>CatalogEntries</code> generated from curated GitHub
         <code>SKILL.md</code> projects, including single-skill repos and collections like
@@ -84,6 +87,19 @@ const items: CapItem[] = listings.map((listing) => {
   <style>
     .hero { padding-top: clamp(48px, 7vw, 96px); padding-bottom: clamp(32px, 5vw, 64px); }
     .hero-copy { max-width: 880px; }
+    .ard-badge {
+      display: inline-flex; align-items: center; gap: 7px;
+      font: 500 0.8125rem/1 var(--font-mono); letter-spacing: 0.01em;
+      color: var(--accent-ink); text-decoration: none;
+      border: 1px solid var(--accent); border-radius: 999px;
+      padding: 5px 12px 5px 9px; margin-bottom: 20px;
+      transition: background 0.15s var(--ease), color 0.15s var(--ease);
+    }
+    .ard-badge:hover { background: var(--accent-bg); }
+    .ard-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--accent); flex-shrink: 0;
+    }
     .lede { font-size: clamp(1.0625rem, 1rem + 0.5vw, 1.375rem); color: var(--ink-2); margin-top: 22px; }
     .hero-search { margin-top: 30px; max-width: 640px; }
     .stat-strip {
